@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Common Data References-Schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" targetNamespace="http://www.xbrl.org/uk/all/ref/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo />
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <element id="uk-cd-ref_linkPart_Description" name="Description" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>General reference description, where appropriate</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_ISOName" name="ISOName" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Reference to specific publication, excluding document number</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_Code" name="Code" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Code used in publication to represent data</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_AlternativeCode" name="AlternativeCode" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Alternative code used in publication to represent data</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_Date" name="Date" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Date on which item added into taxonomy, for versioning purposes.</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_MarketIdentificationCode" name="MarketIdentificationCode" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Code identifying specific exchange</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_ExchangeAcronym" name="ExchangeAcronym" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Common acronym of exchange</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_HomeCountry" name="HomeCountry" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Country where exchange is based</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_HomeCountryCode" name="HomeCountryCode" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>ISO code for country where exchange is based</documentation>
+    </annotation>
+  </element>
+  <element id="uk-cd-ref_linkPart_HomeCity" name="HomeCity" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>City where exchange is based</documentation>
+    </annotation>
+  </element>
+</schema>

@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Currencies-Reference linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/cd/currencies/2009-09-01 uk-currencies-2009-09-01.xsd http://www.xbrl.org/uk/all/ref/2009-09-01 ../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Afghani" xlink:label="uk-curr_Afghani" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Afghani" xlink:to="uk-curr_Afghani_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Afghani_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AFN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>971</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>AFGHANISTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AlgerianDinar" xlink:label="uk-curr_AlgerianDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_AlgerianDinar" xlink:to="uk-curr_AlgerianDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_AlgerianDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DZD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>12</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ALGERIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArgentinePeso" xlink:label="uk-curr_ArgentinePeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ArgentinePeso" xlink:to="uk-curr_ArgentinePeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ArgentinePeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ARS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>32</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ARGENTINA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArmenianDram" xlink:label="uk-curr_ArmenianDram" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ArmenianDram" xlink:to="uk-curr_ArmenianDram_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ArmenianDram_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AMD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>51</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ARMENIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArubanGuilder" xlink:label="uk-curr_ArubanGuilder" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ArubanGuilder" xlink:to="uk-curr_ArubanGuilder_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ArubanGuilder_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AWG</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>533</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ARUBA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AustralianDollar" xlink:label="uk-curr_AustralianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_AustralianDollar" xlink:to="uk-curr_AustralianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_AustralianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AUD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>36</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>AUSTRALIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AzerbaijanianManat" xlink:label="uk-curr_AzerbaijanianManat" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_AzerbaijanianManat" xlink:to="uk-curr_AzerbaijanianManat_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_AzerbaijanianManat_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AZM</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>31</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>AZERBAIJAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahamianDollar" xlink:label="uk-curr_BahamianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BahamianDollar" xlink:to="uk-curr_BahamianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BahamianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BSD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>44</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BAHAMAS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahrainiDinar" xlink:label="uk-curr_BahrainiDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BahrainiDinar" xlink:to="uk-curr_BahrainiDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BahrainiDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BHD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>48</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BAHRAIN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Baht" xlink:label="uk-curr_Baht" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Baht" xlink:to="uk-curr_Baht_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Baht_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>THB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>764</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>THAILAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Balboa" xlink:label="uk-curr_Balboa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Balboa" xlink:to="uk-curr_Balboa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Balboa_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PAB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>590</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PANAMA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BarbadosDollar" xlink:label="uk-curr_BarbadosDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BarbadosDollar" xlink:to="uk-curr_BarbadosDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BarbadosDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BBD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>52</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BARBADOS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelarussianRuble" xlink:label="uk-curr_BelarussianRuble" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BelarussianRuble" xlink:to="uk-curr_BelarussianRuble_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BelarussianRuble_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BYR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>974</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BELARUS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelizeDollar" xlink:label="uk-curr_BelizeDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BelizeDollar" xlink:to="uk-curr_BelizeDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BelizeDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BZD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>84</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BELIZE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BermudianDollar" xlink:label="uk-curr_BermudianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BermudianDollar" xlink:to="uk-curr_BermudianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BermudianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BMD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>60</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BERMUDA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Bolivar" xlink:label="uk-curr_Bolivar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Bolivar" xlink:to="uk-curr_Bolivar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Bolivar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VEB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>862</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>VENEZUELA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Boliviano" xlink:label="uk-curr_Boliviano" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Boliviano" xlink:to="uk-curr_Boliviano_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Boliviano_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BOB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>68</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BOLIVIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" xlink:label="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" xlink:to="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XBA</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>955</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BrazilianReal" xlink:label="uk-curr_BrazilianReal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BrazilianReal" xlink:to="uk-curr_BrazilianReal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BrazilianReal_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BRL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>986</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BRAZIL</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BruneiDollar" xlink:label="uk-curr_BruneiDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BruneiDollar" xlink:to="uk-curr_BruneiDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BruneiDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BND</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>96</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BRUNEI DARUSSALAM</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BulgarianLev" xlink:label="uk-curr_BulgarianLev" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BulgarianLev" xlink:to="uk-curr_BulgarianLev_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BulgarianLev_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BGN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>975</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BULGARIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BurundiFranc" xlink:label="uk-curr_BurundiFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_BurundiFranc" xlink:to="uk-curr_BurundiFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_BurundiFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BIF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>108</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BURUNDI</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBCEAO" xlink:label="uk-curr_CFAFrancBCEAO" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CFAFrancBCEAO" xlink:to="uk-curr_CFAFrancBCEAO_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CFAFrancBCEAO_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XOF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>952</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBEAC" xlink:label="uk-curr_CFAFrancBEAC" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CFAFrancBEAC" xlink:to="uk-curr_CFAFrancBEAC_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CFAFrancBEAC_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XAF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>950</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFPFranc" xlink:label="uk-curr_CFPFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CFPFranc" xlink:to="uk-curr_CFPFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CFPFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XPF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>953</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CanadianDollar" xlink:label="uk-curr_CanadianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CanadianDollar" xlink:to="uk-curr_CanadianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CanadianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CAD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>124</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CapeVerdeEscudo" xlink:label="uk-curr_CapeVerdeEscudo" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CapeVerdeEscudo" xlink:to="uk-curr_CapeVerdeEscudo_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CapeVerdeEscudo_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CVE</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>132</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CAPE VERDE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CaymanIslandsDollar" xlink:label="uk-curr_CaymanIslandsDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CaymanIslandsDollar" xlink:to="uk-curr_CaymanIslandsDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CaymanIslandsDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KYD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>136</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CAYMAN ISLANDS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Cedi" xlink:label="uk-curr_Cedi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Cedi" xlink:to="uk-curr_Cedi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Cedi_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GHC</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>288</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GHANA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ChileanPeso" xlink:label="uk-curr_ChileanPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ChileanPeso" xlink:to="uk-curr_ChileanPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ChileanPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CLP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>152</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CHILE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ColombianPeso" xlink:label="uk-curr_ColombianPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ColombianPeso" xlink:to="uk-curr_ColombianPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ColombianPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>COP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>170</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>COLOMBIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ComoroFranc" xlink:label="uk-curr_ComoroFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ComoroFranc" xlink:to="uk-curr_ComoroFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ComoroFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KMF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>174</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>COMOROS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ConvertibleMarks" xlink:label="uk-curr_ConvertibleMarks" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ConvertibleMarks" xlink:to="uk-curr_ConvertibleMarks_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ConvertibleMarks_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BAM</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>977</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BOSNIA &amp; HERZEGOVINA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CordobaOro" xlink:label="uk-curr_CordobaOro" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CordobaOro" xlink:to="uk-curr_CordobaOro_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CordobaOro_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NIO</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>558</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NICARAGUA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CostaRicanColon" xlink:label="uk-curr_CostaRicanColon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CostaRicanColon" xlink:to="uk-curr_CostaRicanColon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CostaRicanColon_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CRC</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>188</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>COSTA RICA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CroatianKuna" xlink:label="uk-curr_CroatianKuna" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CroatianKuna" xlink:to="uk-curr_CroatianKuna_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CroatianKuna_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HRK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>191</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CROATIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CubanPeso" xlink:label="uk-curr_CubanPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CubanPeso" xlink:to="uk-curr_CubanPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CubanPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CUP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>192</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CUBA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CyprusPound" xlink:label="uk-curr_CyprusPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CyprusPound" xlink:to="uk-curr_CyprusPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CyprusPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CYP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>196</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CYPRUS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CzechKoruna" xlink:label="uk-curr_CzechKoruna" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_CzechKoruna" xlink:to="uk-curr_CzechKoruna_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_CzechKoruna_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CZK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>203</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CZECH REPUBLIC</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dalasi" xlink:label="uk-curr_Dalasi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Dalasi" xlink:to="uk-curr_Dalasi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Dalasi_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GMD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>270</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GAMBIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DanishKrone" xlink:label="uk-curr_DanishKrone" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_DanishKrone" xlink:to="uk-curr_DanishKrone_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_DanishKrone_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DKK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>208</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>DENMARK</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Denar" xlink:label="uk-curr_Denar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Denar" xlink:to="uk-curr_Denar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Denar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MKD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>807</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DjiboutiFranc" xlink:label="uk-curr_DjiboutiFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_DjiboutiFranc" xlink:to="uk-curr_DjiboutiFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_DjiboutiFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DJF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>262</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>DJIBOUTI</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dobra" xlink:label="uk-curr_Dobra" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Dobra" xlink:to="uk-curr_Dobra_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Dobra_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>STD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>678</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SÃO TOME AND PRINCIPE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DominicanPeso" xlink:label="uk-curr_DominicanPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_DominicanPeso" xlink:to="uk-curr_DominicanPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_DominicanPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DOP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>214</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>DOMINICAN REPUBLIC</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dong" xlink:label="uk-curr_Dong" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Dong" xlink:to="uk-curr_Dong_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Dong_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VND</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>704</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>VIETNAM</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EastCaribbeanDollar" xlink:label="uk-curr_EastCaribbeanDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EastCaribbeanDollar" xlink:to="uk-curr_EastCaribbeanDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EastCaribbeanDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XCD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>951</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EgyptianPound" xlink:label="uk-curr_EgyptianPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EgyptianPound" xlink:to="uk-curr_EgyptianPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EgyptianPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EGP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>818</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>EGYPT</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ElSalvadorColon" xlink:label="uk-curr_ElSalvadorColon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ElSalvadorColon" xlink:to="uk-curr_ElSalvadorColon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ElSalvadorColon_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SVC</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>222</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>EL SALVADOR</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EthiopianBirr" xlink:label="uk-curr_EthiopianBirr" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EthiopianBirr" xlink:to="uk-curr_EthiopianBirr_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EthiopianBirr_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ETB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>230</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ETHIOPIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Euro" xlink:label="uk-curr_Euro" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Euro" xlink:to="uk-curr_Euro_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Euro_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EUR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>978</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanMonetaryUnitE.M.U.-6" xlink:label="uk-curr_EuropeanMonetaryUnitE.M.U.-6" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EuropeanMonetaryUnitE.M.U.-6" xlink:to="uk-curr_EuropeanMonetaryUnitE.M.U.-6_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EuropeanMonetaryUnitE.M.U.-6_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XBB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>956</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount17E.U.A.-17" xlink:label="uk-curr_EuropeanUnitAccount17E.U.A.-17" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EuropeanUnitAccount17E.U.A.-17" xlink:to="uk-curr_EuropeanUnitAccount17E.U.A.-17_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EuropeanUnitAccount17E.U.A.-17_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XBD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>958</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount9E.U.A.-9" xlink:label="uk-curr_EuropeanUnitAccount9E.U.A.-9" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_EuropeanUnitAccount9E.U.A.-9" xlink:to="uk-curr_EuropeanUnitAccount9E.U.A.-9_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_EuropeanUnitAccount9E.U.A.-9_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XBC</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>957</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FalklandIslandsPound" xlink:label="uk-curr_FalklandIslandsPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_FalklandIslandsPound" xlink:to="uk-curr_FalklandIslandsPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_FalklandIslandsPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FKP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>238</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>FALKLAND ISLANDS (MALVINAS)</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FijiDollar" xlink:label="uk-curr_FijiDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_FijiDollar" xlink:to="uk-curr_FijiDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_FijiDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FJD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>242</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>FIJI</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Forint" xlink:label="uk-curr_Forint" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Forint" xlink:to="uk-curr_Forint_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Forint_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HUF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>348</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>HUNGARY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FrancCongolais" xlink:label="uk-curr_FrancCongolais" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_FrancCongolais" xlink:to="uk-curr_FrancCongolais_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_FrancCongolais_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CDF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>976</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CONGO, THE DEMOCRATIC REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GibraltarPound" xlink:label="uk-curr_GibraltarPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_GibraltarPound" xlink:to="uk-curr_GibraltarPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_GibraltarPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GIP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>292</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GIBRALTAR</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold-Franc" xlink:label="uk-curr_Gold-Franc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Gold-Franc" xlink:to="uk-curr_Gold-Franc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Gold-Franc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XFO</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>Nil</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold" xlink:label="uk-curr_Gold" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Gold" xlink:to="uk-curr_Gold_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Gold_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XAU</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>959</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gourde" xlink:label="uk-curr_Gourde" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Gourde" xlink:to="uk-curr_Gourde_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Gourde_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HTG</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>332</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>HAITI</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guarani" xlink:label="uk-curr_Guarani" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Guarani" xlink:to="uk-curr_Guarani_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Guarani_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PYG</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>600</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PARAGUAY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guinea-BissauPeso" xlink:label="uk-curr_Guinea-BissauPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Guinea-BissauPeso" xlink:to="uk-curr_Guinea-BissauPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Guinea-BissauPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GNF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>324</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GUINEA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuineaFranc" xlink:label="uk-curr_GuineaFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_GuineaFranc" xlink:to="uk-curr_GuineaFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_GuineaFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GWP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>624</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GUINEA-BISSAU</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuyanaDollar" xlink:label="uk-curr_GuyanaDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_GuyanaDollar" xlink:to="uk-curr_GuyanaDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_GuyanaDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GYD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>328</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GUYANA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_HongKongDollar" xlink:label="uk-curr_HongKongDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_HongKongDollar" xlink:to="uk-curr_HongKongDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_HongKongDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HKD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>344</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>HONG KONG</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Hryvnia" xlink:label="uk-curr_Hryvnia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Hryvnia" xlink:to="uk-curr_Hryvnia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Hryvnia_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UAH</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>980</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UKRAINE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IcelandKrona" xlink:label="uk-curr_IcelandKrona" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_IcelandKrona" xlink:to="uk-curr_IcelandKrona_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_IcelandKrona_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ISK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>352</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ICELAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IndianRupee" xlink:label="uk-curr_IndianRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_IndianRupee" xlink:to="uk-curr_IndianRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_IndianRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>INR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>356</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IranianRial" xlink:label="uk-curr_IranianRial" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_IranianRial" xlink:to="uk-curr_IranianRial_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_IranianRial_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IRR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>364</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>IRAN (ISLAMIC REPUBLIC OF)</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IraqiDinar" xlink:label="uk-curr_IraqiDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_IraqiDinar" xlink:to="uk-curr_IraqiDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_IraqiDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IQD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>368</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>IRAQ</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JamaicanDollar" xlink:label="uk-curr_JamaicanDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_JamaicanDollar" xlink:to="uk-curr_JamaicanDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_JamaicanDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JMD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>388</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>JAMAICA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JordanianDinar" xlink:label="uk-curr_JordanianDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_JordanianDinar" xlink:to="uk-curr_JordanianDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_JordanianDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JOD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>400</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>JORDAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KenyanShilling" xlink:label="uk-curr_KenyanShilling" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_KenyanShilling" xlink:to="uk-curr_KenyanShilling_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_KenyanShilling_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KES</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>404</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KENYA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kina" xlink:label="uk-curr_Kina" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Kina" xlink:to="uk-curr_Kina_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Kina_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PGK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>598</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PAPUA NEW GUINEA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kip" xlink:label="uk-curr_Kip" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Kip" xlink:to="uk-curr_Kip_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Kip_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LAK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>418</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LAO PEOPLE'S DEMOCRATIC REPUBLIC</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kroon" xlink:label="uk-curr_Kroon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Kroon" xlink:to="uk-curr_Kroon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Kroon_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EEK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>233</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ESTONIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KuwaitiDinar" xlink:label="uk-curr_KuwaitiDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_KuwaitiDinar" xlink:to="uk-curr_KuwaitiDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_KuwaitiDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KWD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>414</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KUWAIT</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kwacha" xlink:label="uk-curr_Kwacha" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Kwacha" xlink:to="uk-curr_Kwacha_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Kwacha_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MWK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>454</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kyat" xlink:label="uk-curr_Kyat" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Kyat" xlink:to="uk-curr_Kyat_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Kyat_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MMK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>104</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MYANMAR</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lari" xlink:label="uk-curr_Lari" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Lari" xlink:to="uk-curr_Lari_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Lari_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GEL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>981</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GEORGIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LatvianLats" xlink:label="uk-curr_LatvianLats" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_LatvianLats" xlink:to="uk-curr_LatvianLats_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_LatvianLats_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LVL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>428</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LATVIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LebanesePound" xlink:label="uk-curr_LebanesePound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_LebanesePound" xlink:to="uk-curr_LebanesePound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_LebanesePound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LBP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>422</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LEBANON</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lek" xlink:label="uk-curr_Lek" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Lek" xlink:to="uk-curr_Lek_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Lek_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ALL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>8</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ALBANIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lempira" xlink:label="uk-curr_Lempira" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Lempira" xlink:to="uk-curr_Lempira_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Lempira_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HNL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>340</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>HONDURAS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Leone" xlink:label="uk-curr_Leone" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Leone" xlink:to="uk-curr_Leone_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Leone_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SLL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>694</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SIERRA LEONE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LiberianDollar" xlink:label="uk-curr_LiberianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_LiberianDollar" xlink:to="uk-curr_LiberianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_LiberianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LRD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>430</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LIBERIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LibyanDinar" xlink:label="uk-curr_LibyanDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_LibyanDinar" xlink:to="uk-curr_LibyanDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_LibyanDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LYD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>434</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LIBYAN ARAB JAMAHIRIYA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lilangeni" xlink:label="uk-curr_Lilangeni" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Lilangeni" xlink:to="uk-curr_Lilangeni_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Lilangeni_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SZL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>748</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SWAZILAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LithuanianLitas" xlink:label="uk-curr_LithuanianLitas" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_LithuanianLitas" xlink:to="uk-curr_LithuanianLitas_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_LithuanianLitas_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LTL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>440</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LITHUANIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Loti" xlink:label="uk-curr_Loti" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Loti" xlink:to="uk-curr_Loti_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Loti_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LSL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>426</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>LESOTHO</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalagasyAriary" xlink:label="uk-curr_MalagasyAriary" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MalagasyAriary" xlink:to="uk-curr_MalagasyAriary_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MalagasyAriary_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MGA</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>969</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MADAGASCAR</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalaysianRinggit" xlink:label="uk-curr_MalaysianRinggit" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MalaysianRinggit" xlink:to="uk-curr_MalaysianRinggit_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MalaysianRinggit_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MYR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>458</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MALAYSIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalteseLira" xlink:label="uk-curr_MalteseLira" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MalteseLira" xlink:to="uk-curr_MalteseLira_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MalteseLira_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MTL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>470</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MALTA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Manat" xlink:label="uk-curr_Manat" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Manat" xlink:to="uk-curr_Manat_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Manat_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TMM</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>795</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TURKMENISTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MauritiusRupee" xlink:label="uk-curr_MauritiusRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MauritiusRupee" xlink:to="uk-curr_MauritiusRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MauritiusRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MUR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>480</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MAURITIUS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Merical" xlink:label="uk-curr_Merical" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Merical" xlink:to="uk-curr_Merical_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Merical_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MZM</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>508</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MOZAMBIQUE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanPeso" xlink:label="uk-curr_MexicanPeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MexicanPeso" xlink:to="uk-curr_MexicanPeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MexicanPeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MXN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>484</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MEXICO </uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanUnidadDeInversionUID" xlink:label="uk-curr_MexicanUnidadDeInversionUID" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MexicanUnidadDeInversionUID" xlink:to="uk-curr_MexicanUnidadDeInversionUID_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MexicanUnidadDeInversionUID_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MXV</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>979</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MEXICO </uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoldovanLeu" xlink:label="uk-curr_MoldovanLeu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MoldovanLeu" xlink:to="uk-curr_MoldovanLeu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MoldovanLeu_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MDL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>498</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MOLDOVA, REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoroccanDirham" xlink:label="uk-curr_MoroccanDirham" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_MoroccanDirham" xlink:to="uk-curr_MoroccanDirham_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_MoroccanDirham_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MAD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>504</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MOROCCO</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Mvdol" xlink:label="uk-curr_Mvdol" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Mvdol" xlink:to="uk-curr_Mvdol_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Mvdol_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BOV</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>984</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BOLIVIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Naira" xlink:label="uk-curr_Naira" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Naira" xlink:to="uk-curr_Naira_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Naira_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NGN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>566</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NIGERIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Nakfa" xlink:label="uk-curr_Nakfa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Nakfa" xlink:to="uk-curr_Nakfa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Nakfa_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ERN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>232</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ERITREA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NamibianDollar" xlink:label="uk-curr_NamibianDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NamibianDollar" xlink:to="uk-curr_NamibianDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NamibianDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NAD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>516</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NAMIBIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NepaleseRupee" xlink:label="uk-curr_NepaleseRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NepaleseRupee" xlink:to="uk-curr_NepaleseRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NepaleseRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NPR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>524</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NEPAL</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NetherlandsAntillianGuilder" xlink:label="uk-curr_NetherlandsAntillianGuilder" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NetherlandsAntillianGuilder" xlink:to="uk-curr_NetherlandsAntillianGuilder_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NetherlandsAntillianGuilder_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ANG</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>532</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NETHERLANDS ANTILLES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewIsraeliSheqel" xlink:label="uk-curr_NewIsraeliSheqel" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NewIsraeliSheqel" xlink:to="uk-curr_NewIsraeliSheqel_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NewIsraeliSheqel_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ILS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>376</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ISRAEL</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewLeu" xlink:label="uk-curr_NewLeu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NewLeu" xlink:to="uk-curr_NewLeu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NewLeu_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RON</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>946</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ROMANIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTaiwanDollar" xlink:label="uk-curr_NewTaiwanDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NewTaiwanDollar" xlink:to="uk-curr_NewTaiwanDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NewTaiwanDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TWD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>901</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TAIWAN, PROVINCE OF CHINA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTurkishLira" xlink:label="uk-curr_NewTurkishLira" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NewTurkishLira" xlink:to="uk-curr_NewTurkishLira_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NewTurkishLira_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TRY</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>949</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TURKEY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewZealandDollar" xlink:label="uk-curr_NewZealandDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NewZealandDollar" xlink:to="uk-curr_NewZealandDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NewZealandDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NZD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>554</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NEW ZEALAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ngultrum" xlink:label="uk-curr_Ngultrum" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Ngultrum" xlink:to="uk-curr_Ngultrum_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Ngultrum_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BTN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>64</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BHUTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorthKoreanWon" xlink:label="uk-curr_NorthKoreanWon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NorthKoreanWon" xlink:to="uk-curr_NorthKoreanWon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NorthKoreanWon_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KPW</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>408</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorwegianKrone" xlink:label="uk-curr_NorwegianKrone" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NorwegianKrone" xlink:to="uk-curr_NorwegianKrone_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NorwegianKrone_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NOK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>578</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>NORWAY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NuevoSol" xlink:label="uk-curr_NuevoSol" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_NuevoSol" xlink:to="uk-curr_NuevoSol_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_NuevoSol_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PEN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>604</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PERU</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldLeu" xlink:label="uk-curr_OldLeu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_OldLeu" xlink:to="uk-curr_OldLeu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_OldLeu_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ROL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>642</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ROMANIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldTurkishLira" xlink:label="uk-curr_OldTurkishLira" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_OldTurkishLira" xlink:to="uk-curr_OldTurkishLira_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_OldTurkishLira_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TRL</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>792</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TURKEY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ouguiya" xlink:label="uk-curr_Ouguiya" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Ouguiya" xlink:to="uk-curr_Ouguiya_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Ouguiya_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MRO</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>478</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MAURITANIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Paanga" xlink:label="uk-curr_Paanga" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Paanga" xlink:to="uk-curr_Paanga_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Paanga_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TOP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>776</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TONGA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PakistanRupee" xlink:label="uk-curr_PakistanRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_PakistanRupee" xlink:to="uk-curr_PakistanRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_PakistanRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PKR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>586</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PAKISTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Palladium" xlink:label="uk-curr_Palladium" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Palladium" xlink:to="uk-curr_Palladium_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Palladium_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XPD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>964</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pataca" xlink:label="uk-curr_Pataca" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Pataca" xlink:to="uk-curr_Pataca_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Pataca_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MOP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>446</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MACAO</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PesoUruguayo" xlink:label="uk-curr_PesoUruguayo" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_PesoUruguayo" xlink:to="uk-curr_PesoUruguayo_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_PesoUruguayo_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UYU</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>858</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>URUGUAY</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PhilippinePeso" xlink:label="uk-curr_PhilippinePeso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_PhilippinePeso" xlink:to="uk-curr_PhilippinePeso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_PhilippinePeso_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PHP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>608</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>PHILIPPINES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Platinum" xlink:label="uk-curr_Platinum" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Platinum" xlink:to="uk-curr_Platinum_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Platinum_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XPT</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>962</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PoundSterling" xlink:label="uk-curr_PoundSterling" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_PoundSterling" xlink:to="uk-curr_PoundSterling_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_PoundSterling_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GBP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>826</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UNITED KINGDOM</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pula" xlink:label="uk-curr_Pula" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Pula" xlink:to="uk-curr_Pula_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Pula_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BWP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>72</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BOTSWANA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_QatariRial" xlink:label="uk-curr_QatariRial" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_QatariRial" xlink:to="uk-curr_QatariRial_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_QatariRial_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>QAR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>634</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>QATAR</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Quetzal" xlink:label="uk-curr_Quetzal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Quetzal" xlink:to="uk-curr_Quetzal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Quetzal_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GTQ</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>320</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>GUATEMALA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rand" xlink:label="uk-curr_Rand" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Rand" xlink:to="uk-curr_Rand_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Rand_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ZAR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>710</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SOUTH AFRICA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RialOmani" xlink:label="uk-curr_RialOmani" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_RialOmani" xlink:to="uk-curr_RialOmani_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_RialOmani_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>OMR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>512</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>OMAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Riel" xlink:label="uk-curr_Riel" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Riel" xlink:to="uk-curr_Riel_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Riel_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KHR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>116</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CAMBODIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rufiyaa" xlink:label="uk-curr_Rufiyaa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Rufiyaa" xlink:to="uk-curr_Rufiyaa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Rufiyaa_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MVR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>462</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MALDIVES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rupiah" xlink:label="uk-curr_Rupiah" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Rupiah" xlink:to="uk-curr_Rupiah_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Rupiah_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IDR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>360</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>INDONESIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RussianRuble" xlink:label="uk-curr_RussianRuble" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_RussianRuble" xlink:to="uk-curr_RussianRuble_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_RussianRuble_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RUB</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>643</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>RUSSIAN FEDERATION</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RwandaFranc" xlink:label="uk-curr_RwandaFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_RwandaFranc" xlink:to="uk-curr_RwandaFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_RwandaFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RWF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>646</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>RWANDA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SDR" xlink:label="uk-curr_SDR" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SDR" xlink:to="uk-curr_SDR_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SDR_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XDR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>960</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>INTERNATIONAL MONETARY FUND (I.M.F) </uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaintHelenaPound" xlink:label="uk-curr_SaintHelenaPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SaintHelenaPound" xlink:to="uk-curr_SaintHelenaPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SaintHelenaPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SHP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>654</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SAINT HELENA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaudiRiyal" xlink:label="uk-curr_SaudiRiyal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SaudiRiyal" xlink:to="uk-curr_SaudiRiyal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SaudiRiyal_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SAR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>682</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SAUDI ARABIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SerbianDinar" xlink:label="uk-curr_SerbianDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SerbianDinar" xlink:to="uk-curr_SerbianDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SerbianDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CSD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>891</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SERBIA AND MONTENEGRO *</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SeychellesRupee" xlink:label="uk-curr_SeychellesRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SeychellesRupee" xlink:to="uk-curr_SeychellesRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SeychellesRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SCR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>690</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SEYCHELLES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Silver" xlink:label="uk-curr_Silver" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Silver" xlink:to="uk-curr_Silver_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Silver_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XAG</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>961</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SingaporeDollar" xlink:label="uk-curr_SingaporeDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SingaporeDollar" xlink:to="uk-curr_SingaporeDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SingaporeDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SGD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>702</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SINGAPORE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SlovakKoruna" xlink:label="uk-curr_SlovakKoruna" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SlovakKoruna" xlink:to="uk-curr_SlovakKoruna_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SlovakKoruna_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SKK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>703</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SLOVAKIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SolomonIslandsDollar" xlink:label="uk-curr_SolomonIslandsDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SolomonIslandsDollar" xlink:to="uk-curr_SolomonIslandsDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SolomonIslandsDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SBD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>90</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SOLOMON ISLANDS</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Som" xlink:label="uk-curr_Som" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Som" xlink:to="uk-curr_Som_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Som_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KGS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>417</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KYRGYZSTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SomaliShilling" xlink:label="uk-curr_SomaliShilling" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SomaliShilling" xlink:to="uk-curr_SomaliShilling_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SomaliShilling_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SOS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>706</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SOMALIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Somoni" xlink:label="uk-curr_Somoni" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Somoni" xlink:to="uk-curr_Somoni_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Somoni_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TJS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>972</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TAJIKISTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SriLankaRupee" xlink:label="uk-curr_SriLankaRupee" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SriLankaRupee" xlink:to="uk-curr_SriLankaRupee_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SriLankaRupee_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LKR</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>144</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SRI LANKA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SudaneseDinar" xlink:label="uk-curr_SudaneseDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SudaneseDinar" xlink:to="uk-curr_SudaneseDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SudaneseDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SDD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>736</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SUDAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SurinamDollar" xlink:label="uk-curr_SurinamDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SurinamDollar" xlink:to="uk-curr_SurinamDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SurinamDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SRD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>968</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SURINAME</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwedishKrona" xlink:label="uk-curr_SwedishKrona" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SwedishKrona" xlink:to="uk-curr_SwedishKrona_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SwedishKrona_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SEK</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>752</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SWEDEN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwissFranc" xlink:label="uk-curr_SwissFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SwissFranc" xlink:to="uk-curr_SwissFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SwissFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CHF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>756</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SWITZERLAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SyrianPound" xlink:label="uk-curr_SyrianPound" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_SyrianPound" xlink:to="uk-curr_SyrianPound_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_SyrianPound_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SYP</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>760</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SYRIAN ARAB REPUBLIC</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Taka" xlink:label="uk-curr_Taka" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Taka" xlink:to="uk-curr_Taka_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Taka_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BDT</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>50</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>BANGLADESH</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tala" xlink:label="uk-curr_Tala" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Tala" xlink:to="uk-curr_Tala_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Tala_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>WST</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>882</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SAMOA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TanzanianShilling" xlink:label="uk-curr_TanzanianShilling" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_TanzanianShilling" xlink:to="uk-curr_TanzanianShilling_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_TanzanianShilling_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TZS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>834</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TANZANIA, UNITED REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tenge" xlink:label="uk-curr_Tenge" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Tenge" xlink:to="uk-curr_Tenge_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Tenge_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KZT</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>398</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KAZAKHSTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tolar" xlink:label="uk-curr_Tolar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Tolar" xlink:to="uk-curr_Tolar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Tolar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SIT</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>705</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SLOVENIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TrinidadTobagoDollar" xlink:label="uk-curr_TrinidadTobagoDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_TrinidadTobagoDollar" xlink:to="uk-curr_TrinidadTobagoDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_TrinidadTobagoDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TTD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>780</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TRINIDAD AND TOBAGO</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tugrik" xlink:label="uk-curr_Tugrik" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Tugrik" xlink:to="uk-curr_Tugrik_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Tugrik_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MNT</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>496</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>MONGOLIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TunisianDinar" xlink:label="uk-curr_TunisianDinar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_TunisianDinar" xlink:to="uk-curr_TunisianDinar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_TunisianDinar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TND</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>788</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>TUNISIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UAEDirham" xlink:label="uk-curr_UAEDirham" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UAEDirham" xlink:to="uk-curr_UAEDirham_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UAEDirham_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AED</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>784</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UNITED ARAB EMIRATES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UIC-Franc" xlink:label="uk-curr_UIC-Franc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UIC-Franc" xlink:to="uk-curr_UIC-Franc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UIC-Franc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>XFU</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>Nil</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarNextDay" xlink:label="uk-curr_USDollarNextDay" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_USDollarNextDay" xlink:to="uk-curr_USDollarNextDay_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_USDollarNextDay_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>USN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>997</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarSameDay" xlink:label="uk-curr_USDollarSameDay" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_USDollarSameDay" xlink:to="uk-curr_USDollarSameDay_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_USDollarSameDay_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>USS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>998</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollar" xlink:label="uk-curr_USDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_USDollar" xlink:to="uk-curr_USDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_USDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>USD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>840</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UgandaShilling" xlink:label="uk-curr_UgandaShilling" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UgandaShilling" xlink:to="uk-curr_UgandaShilling_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UgandaShilling_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UGX</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>800</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UGANDA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadDeValorReal" xlink:label="uk-curr_UnidadDeValorReal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UnidadDeValorReal" xlink:to="uk-curr_UnidadDeValorReal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UnidadDeValorReal_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>COU</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>970</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>COLOMBIA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadesDeFormento" xlink:label="uk-curr_UnidadesDeFormento" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UnidadesDeFormento" xlink:to="uk-curr_UnidadesDeFormento_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UnidadesDeFormento_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CLF</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>990</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CHILE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UzbekistanSum" xlink:label="uk-curr_UzbekistanSum" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_UzbekistanSum" xlink:to="uk-curr_UzbekistanSum_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_UzbekistanSum_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UZS</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>860</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>UZBEKISTAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Vatu" xlink:label="uk-curr_Vatu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Vatu" xlink:to="uk-curr_Vatu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Vatu_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VUV</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>548</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>VANUATU</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIREuro" xlink:label="uk-curr_WIREuro" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_WIREuro" xlink:to="uk-curr_WIREuro_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_WIREuro_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CHE</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>947</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SWITZERLAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIRFranc" xlink:label="uk-curr_WIRFranc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_WIRFranc" xlink:to="uk-curr_WIRFranc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_WIRFranc_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CHW</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>948</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>SWITZERLAND</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Won" xlink:label="uk-curr_Won" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Won" xlink:to="uk-curr_Won_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Won_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KRW</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>410</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>KOREA, REPUBLIC OF</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YemeniRial" xlink:label="uk-curr_YemeniRial" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_YemeniRial" xlink:to="uk-curr_YemeniRial_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_YemeniRial_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>YER</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>886</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>YEMEN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Yen" xlink:label="uk-curr_Yen" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Yen" xlink:to="uk-curr_Yen_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Yen_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JPY</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>392</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YuanRenminbi" xlink:label="uk-curr_YuanRenminbi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_YuanRenminbi" xlink:to="uk-curr_YuanRenminbi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_YuanRenminbi_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CNY</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>156</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>CHINA</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ZimbabweDollar" xlink:label="uk-curr_ZimbabweDollar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_ZimbabweDollar" xlink:to="uk-curr_ZimbabweDollar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_ZimbabweDollar_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ZWD</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>716</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>ZIMBABWE</uk-cd-ref:HomeCountry>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Zloty" xlink:label="uk-curr_Zloty" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-curr_Zloty" xlink:to="uk-curr_Zloty_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-curr_Zloty_ref">
+      <uk-cd-ref:ISOName>ISO 4217</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PLN</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>985</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+      <uk-cd-ref:HomeCountry>POLAND</uk-cd-ref:HomeCountry>
+    </reference>
+  </referenceLink>
+</linkbase>

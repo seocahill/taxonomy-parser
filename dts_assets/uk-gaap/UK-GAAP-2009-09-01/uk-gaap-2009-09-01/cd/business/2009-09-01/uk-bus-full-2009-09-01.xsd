@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-BusinessData-Full entry schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-bus-full="http://www.xbrl.org/uk/cd/bus-full/2009-09-01" targetNamespace="http://www.xbrl.org/uk/cd/bus-full/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+       <link:linkbaseRef xlink:type="simple"
+                         xlink:href="uk-bus-2009-09-01-presentation.xml"
+                         xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+                         xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        <link:linkbaseRef xlink:type="simple"
+                         xlink:href="../../countries-regions/2009-09-01/uk-countries-2009-09-01-presentation.xml"
+                         xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+                         xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        <link:linkbaseRef xlink:type="simple"
+                         xlink:href="../../currencies/2009-09-01/uk-currencies-2009-09-01-presentation.xml"
+                         xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+                         xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        <link:linkbaseRef xlink:type="simple"
+                         xlink:href="../../exchanges/2009-09-01/uk-exchanges-2009-09-01-presentation.xml"
+                         xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+                         xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+        <link:linkbaseRef xlink:type="simple"
+                         xlink:href="../../languages/2009-09-01/uk-languages-2009-09-01-presentation.xml"
+                         xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+                         xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/cd/business/2009-09-01" schemaLocation="uk-bus-2009-09-01.xsd" />
+</schema>

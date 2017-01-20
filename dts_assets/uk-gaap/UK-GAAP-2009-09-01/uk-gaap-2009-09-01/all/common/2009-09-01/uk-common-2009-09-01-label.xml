@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Common-Label linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-common-2009-09-01.xsd#uk-common_NotApplicable" xlink:label="uk-common_NotApplicable" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-common_NotApplicable" xlink:to="uk-common_NotApplicable_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-common_NotApplicable_lbl" xml:lang="en">Indicates dimensional breakdown is not applicable</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-common_NotApplicable_lbl" xml:lang="en">Not applicable [default]</label>
+  </labelLink>
+</linkbase>

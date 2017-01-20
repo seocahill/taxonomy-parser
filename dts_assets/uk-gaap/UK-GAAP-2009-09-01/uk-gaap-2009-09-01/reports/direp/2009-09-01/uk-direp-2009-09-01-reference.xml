@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-DirectorsReport-Reference linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-direp="http://www.xbrl.org/uk/reports/direp/2009-09-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:uk-gaap-ref="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/reports/direp/2009-09-01 uk-direp-2009-09-01.xsd http://www.xbrl.org/uk/reports/direp/2009-09-01 uk-direp-2009-09-01.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd http://www.xbrl.org/uk/all/gaap-ref/2009-09-01 ../../../all/gaap-ref/2009-09-01/uk-gaap-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_NameEntityOfficer" xlink:label="uk-bus_NameEntityOfficer" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-bus_NameEntityOfficer" xlink:to="uk-bus_NameEntityOfficer_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-bus_NameEntityOfficer_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies" xlink:label="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies" xlink:to="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies_ref" />
+    <reference id="id_500999" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies" xlink:label="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies" xlink:to="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>445</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors" xlink:label="uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors" xlink:to="uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors" xlink:label="uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors" xlink:to="uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AdvancesCreditsDirectors" xlink:label="uk-direp_AdvancesCreditsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AdvancesCreditsDirectors" xlink:to="uk-direp_AdvancesCreditsDirectors_ref" />
+    <reference id="id_13acf10" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AdvancesCreditsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AdvancesCreditsMadeInPeriodDirectors" xlink:label="uk-direp_AdvancesCreditsMadeInPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AdvancesCreditsMadeInPeriodDirectors" xlink:to="uk-direp_AdvancesCreditsMadeInPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AdvancesCreditsMadeInPeriodDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AdvancesCreditsRepaidInPeriodDirectors" xlink:label="uk-direp_AdvancesCreditsRepaidInPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AdvancesCreditsRepaidInPeriodDirectors" xlink:to="uk-direp_AdvancesCreditsRepaidInPeriodDirectors_ref" />
+    <reference id="id_19c53a2" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AdvancesCreditsRepaidInPeriodDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AgeDirector" xlink:label="uk-direp_AgeDirector" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AgeDirector" xlink:to="uk-direp_AgeDirector_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AgeDirector_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountDonationToEUPoliticalOrganisation" xlink:label="uk-direp_AmountDonationToEUPoliticalOrganisation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountDonationToEUPoliticalOrganisation" xlink:to="uk-direp_AmountDonationToEUPoliticalOrganisation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountDonationToEUPoliticalOrganisation_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Paragraph>3</ref:Paragraph>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors" xlink:label="uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors" xlink:to="uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors_ref" />
+    <reference id="id_1de4652" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>4</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" xlink:label="uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" xlink:to="uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors_ref" />
+    <reference id="id_a00cd4" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>4</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountSpecificAdvanceOrCreditDirectors" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountSpecificAdvanceOrCreditDirectors" xlink:to="uk-direp_AmountSpecificAdvanceOrCreditDirectors_ref" />
+    <reference id="id_1f61ea9" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" xlink:to="uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors_ref" />
+    <reference id="id_1d893f3" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" xlink:to="uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors_ref" />
+    <reference id="id_4e3443" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_AmountSpecificCharitableDonation" xlink:label="uk-direp_AmountSpecificCharitableDonation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_AmountSpecificCharitableDonation" xlink:to="uk-direp_AmountSpecificCharitableDonation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_AmountSpecificCharitableDonation_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>5</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_BenefitsInKindDirectors" xlink:label="uk-direp_BenefitsInKindDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_BenefitsInKindDirectors" xlink:to="uk-direp_BenefitsInKindDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_BenefitsInKindDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors" xlink:label="uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors" xlink:to="uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_BonusesDirectors" xlink:label="uk-direp_BonusesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_BonusesDirectors" xlink:to="uk-direp_BonusesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_BonusesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CashReceivableUnderLong-termIncentiveSchemes" xlink:label="uk-direp_CashReceivableUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CashReceivableUnderLong-termIncentiveSchemes" xlink:to="uk-direp_CashReceivableUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_156ff32" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CashReceivableUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CharitableDonations" xlink:label="uk-direp_CharitableDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CharitableDonations" xlink:to="uk-direp_CharitableDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CharitableDonations_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>5</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors" xlink:label="uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors" xlink:to="uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors" xlink:label="uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors" xlink:to="uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CompanyHasActedAsAnAgentDuringPeriod" xlink:label="uk-direp_CompanyHasActedAsAnAgentDuringPeriod" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CompanyHasActedAsAnAgentDuringPeriod" xlink:to="uk-direp_CompanyHasActedAsAnAgentDuringPeriod_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CompanyHasActedAsAnAgentDuringPeriod_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_CompensationForLossOfficeDirectors" xlink:label="uk-direp_CompensationForLossOfficeDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_CompensationForLossOfficeDirectors" xlink:to="uk-direp_CompensationForLossOfficeDirectors_ref" />
+    <reference id="id" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_CompensationForLossOfficeDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateAssumedPosition" xlink:label="uk-direp_DateAssumedPosition" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateAssumedPosition" xlink:to="uk-direp_DateAssumedPosition_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateAssumedPosition_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateAwardInterestInInLong-termIncentiveScheme" xlink:label="uk-direp_DateAwardInterestInInLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateAwardInterestInInLong-termIncentiveScheme" xlink:to="uk-direp_DateAwardInterestInInLong-termIncentiveScheme_ref" />
+    <reference id="id_1c910b" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateAwardInterestInInLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateGrantOption" xlink:label="uk-direp_DateGrantOption" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateGrantOption" xlink:to="uk-direp_DateGrantOption_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateGrantOption_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>20</ref:Number>
+      <ref:Paragraph>47</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateNextReappointment" xlink:label="uk-direp_DateNextReappointment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateNextReappointment" xlink:to="uk-direp_DateNextReappointment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateNextReappointment_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateResignation" xlink:label="uk-direp_DateResignation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateResignation" xlink:to="uk-direp_DateResignation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateResignation_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DateSigningDirectorsReport" xlink:label="uk-direp_DateSigningDirectorsReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DateSigningDirectorsReport" xlink:to="uk-direp_DateSigningDirectorsReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DateSigningDirectorsReport_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors" xlink:label="uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors" xlink:to="uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant" xlink:label="uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant" xlink:to="uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant_ref" />
+    <reference id="id_922e62" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionAnyNon-cashBenefitsDirectors" xlink:label="uk-direp_DescriptionAnyNon-cashBenefitsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionAnyNon-cashBenefitsDirectors" xlink:to="uk-direp_DescriptionAnyNon-cashBenefitsDirectors_ref" />
+    <reference id="id_1c893fc" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionAnyNon-cashBenefitsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors" xlink:label="uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors" xlink:to="uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation" xlink:label="uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation" xlink:to="uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>11</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" xlink:label="uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" xlink:to="uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Paragraph>2</ref:Paragraph>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors" xlink:label="uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors" xlink:to="uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2B</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionLong-termInvestmentScheme" xlink:label="uk-direp_DescriptionLong-termInvestmentScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionLong-termInvestmentScheme" xlink:to="uk-direp_DescriptionLong-termInvestmentScheme_ref" />
+    <reference id="id_d93809" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionLong-termInvestmentScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice" xlink:label="uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice" xlink:to="uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice_ref" />
+    <reference id="id_1788398" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors" xlink:label="uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors" xlink:to="uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>9</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" xlink:label="uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" xlink:to="uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>7</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionOptionType" xlink:label="uk-direp_DescriptionOptionType" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionOptionType" xlink:to="uk-direp_DescriptionOptionType_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionOptionType_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>20</ref:Number>
+      <ref:Paragraph>47</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionPurposeSpecificCharitableDonation" xlink:label="uk-direp_DescriptionPurposeSpecificCharitableDonation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionPurposeSpecificCharitableDonation" xlink:to="uk-direp_DescriptionPurposeSpecificCharitableDonation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionPurposeSpecificCharitableDonation_ref">
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>5</ref:Paragraph>
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" xlink:label="uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" xlink:to="uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme_ref" />
+    <reference id="id_23c826" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" xlink:label="uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" xlink:to="uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme_ref" />
+    <reference id="id_619cda" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionReasonsForPurchaseOwnShares" xlink:label="uk-direp_DescriptionReasonsForPurchaseOwnShares" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionReasonsForPurchaseOwnShares" xlink:to="uk-direp_DescriptionReasonsForPurchaseOwnShares_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionReasonsForPurchaseOwnShares_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" xlink:label="uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" xlink:to="uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>7, 8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" xlink:label="uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" xlink:to="uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors" xlink:label="uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors" xlink:to="uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors_ref" />
+    <reference id="id_194941c" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>4</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes" xlink:label="uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes" xlink:to="uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes_ref" />
+    <reference id="id_6a042e" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments" xlink:label="uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments" xlink:to="uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments_ref" />
+    <reference id="id_1009458" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping" xlink:label="uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping" xlink:to="uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading" xlink:label="uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading" xlink:to="uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DetailsSpecificOptionsDirectorsGrouping" xlink:label="uk-direp_DetailsSpecificOptionsDirectorsGrouping" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DetailsSpecificOptionsDirectorsGrouping" xlink:to="uk-direp_DetailsSpecificOptionsDirectorsGrouping_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DetailsSpecificOptionsDirectorsGrouping_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading" xlink:label="uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading" xlink:to="uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties" xlink:label="uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties" xlink:to="uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties_ref" />
+    <reference id="id_931da1" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties" xlink:label="uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties" xlink:to="uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorRemuneration" xlink:label="uk-direp_DirectorRemuneration" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorRemuneration" xlink:to="uk-direp_DirectorRemuneration_ref" />
+    <reference id="id_d14a91" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorRemuneration_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorSigningReport" xlink:label="uk-direp_DirectorSigningReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorSigningReport" xlink:to="uk-direp_DirectorSigningReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorSigningReport_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>234A</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct" xlink:label="uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct" xlink:to="uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment" xlink:label="uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment" xlink:to="uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsAdvancesCreditGuaranteesHeading" xlink:label="uk-direp_DirectorsAdvancesCreditGuaranteesHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsAdvancesCreditGuaranteesHeading" xlink:to="uk-direp_DirectorsAdvancesCreditGuaranteesHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsAdvancesCreditGuaranteesHeading_ref">
+      <ref:Section>413</ref:Section>
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping" xlink:label="uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping" xlink:to="uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2B</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading" xlink:label="uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading" xlink:to="uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment" xlink:label="uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment" xlink:to="uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment_ref" />
+    <reference id="id_1d88e0a" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsRemunerationFree-textComment" xlink:label="uk-direp_DirectorsRemunerationFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsRemunerationFree-textComment" xlink:to="uk-direp_DirectorsRemunerationFree-textComment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsRemunerationFree-textComment_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsRemunerationHeading" xlink:label="uk-direp_DirectorsRemunerationHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsRemunerationHeading" xlink:to="uk-direp_DirectorsRemunerationHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsRemunerationHeading_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DirectorsReport" xlink:label="uk-direp_DirectorsReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DirectorsReport" xlink:to="uk-direp_DirectorsReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DirectorsReport_ref">
+      <ref:Name>Main statement</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_DividendRecommendedByDirectors" xlink:label="uk-direp_DividendRecommendedByDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_DividendRecommendedByDirectors" xlink:to="uk-direp_DividendRecommendedByDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_DividendRecommendedByDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Year>2006</uk-gaap-ref:Year>
+      <ref:Section>416</ref:Section>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_EUPoliticalDonations" xlink:label="uk-direp_EUPoliticalDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_EUPoliticalDonations" xlink:to="uk-direp_EUPoliticalDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_EUPoliticalDonations_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Paragraph>3</ref:Paragraph>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_EarliestDateExerciseOpton" xlink:label="uk-direp_EarliestDateExerciseOpton" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_EarliestDateExerciseOpton" xlink:to="uk-direp_EarliestDateExerciseOpton_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_EarliestDateExerciseOpton_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_EmploymentDisabledPersonsPolicy" xlink:label="uk-direp_EmploymentDisabledPersonsPolicy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_EmploymentDisabledPersonsPolicy" xlink:to="uk-direp_EmploymentDisabledPersonsPolicy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_EmploymentDisabledPersonsPolicy_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>9, 10</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors" xlink:label="uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors" xlink:to="uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors_ref" />
+    <reference id="id_7c0106" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors_ref">
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ExerciseDate" xlink:label="uk-direp_ExerciseDate" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ExerciseDate" xlink:to="uk-direp_ExerciseDate_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ExerciseDate_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ExercisePriceOption" xlink:label="uk-direp_ExercisePriceOption" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ExercisePriceOption" xlink:to="uk-direp_ExercisePriceOption_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ExercisePriceOption_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>20</ref:Number>
+      <ref:Paragraph>47</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ExpenseAllowancesDirectors" xlink:label="uk-direp_ExpenseAllowancesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ExpenseAllowancesDirectors" xlink:to="uk-direp_ExpenseAllowancesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ExpenseAllowancesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ExpiryDate" xlink:label="uk-direp_ExpiryDate" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ExpiryDate" xlink:to="uk-direp_ExpiryDate_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ExpiryDate_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_FeesDirectors" xlink:label="uk-direp_FeesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_FeesDirectors" xlink:to="uk-direp_FeesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_FeesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_GainLossOnExerciseShareOptionsDirectors" xlink:label="uk-direp_GainLossOnExerciseShareOptionsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_GainLossOnExerciseShareOptionsDirectors" xlink:to="uk-direp_GainLossOnExerciseShareOptionsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_GainLossOnExerciseShareOptionsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors" xlink:label="uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors" xlink:to="uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_GainLossOnExerciseSpecificOptionsDirectors" xlink:label="uk-direp_GainLossOnExerciseSpecificOptionsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_GainLossOnExerciseSpecificOptionsDirectors" xlink:to="uk-direp_GainLossOnExerciseSpecificOptionsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_GainLossOnExerciseSpecificOptionsDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes" xlink:label="uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes" xlink:to="uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_bc8598" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors" xlink:label="uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors" xlink:to="uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_IncreaseDecreasePensionsTransferValueDirectors" xlink:label="uk-direp_IncreaseDecreasePensionsTransferValueDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_IncreaseDecreasePensionsTransferValueDirectors" xlink:to="uk-direp_IncreaseDecreasePensionsTransferValueDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_IncreaseDecreasePensionsTransferValueDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_ListDirectorsHeading" xlink:label="uk-direp_ListDirectorsHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_ListDirectorsHeading" xlink:to="uk-direp_ListDirectorsHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_ListDirectorsHeading_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>234</ref:Section>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MarketPriceExerciseDate" xlink:label="uk-direp_MarketPriceExerciseDate" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MarketPriceExerciseDate" xlink:to="uk-direp_MarketPriceExerciseDate_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MarketPriceExerciseDate_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" xlink:label="uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" xlink:to="uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme_ref" />
+    <reference id="id_13dafe1" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" xlink:label="uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" xlink:to="uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme_ref" />
+    <reference id="id_33858c" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" xlink:label="uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" xlink:to="uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes_ref" />
+    <reference id="id_1485476" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MaximumLiabilityUnderGuaranteesDirectors" xlink:label="uk-direp_MaximumLiabilityUnderGuaranteesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MaximumLiabilityUnderGuaranteesDirectors" xlink:to="uk-direp_MaximumLiabilityUnderGuaranteesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MaximumLiabilityUnderGuaranteesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>4</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors" xlink:label="uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors" xlink:to="uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors_ref" />
+    <reference id="id_1796ae6" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>413</ref:Section>
+      <ref:Paragraph>4</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod" xlink:label="uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod" xlink:to="uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod_ref" />
+    <reference id="id_17a4b98" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod" xlink:label="uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod" xlink:to="uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod_ref" />
+    <reference id="id_17a083d" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NameOrDescriptionRecipientOrganisation" xlink:label="uk-direp_NameOrDescriptionRecipientOrganisation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NameOrDescriptionRecipientOrganisation" xlink:to="uk-direp_NameOrDescriptionRecipientOrganisation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NameOrDescriptionRecipientOrganisation_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NetConsiderationPaidForOwnShares" xlink:label="uk-direp_NetConsiderationPaidForOwnShares" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NetConsiderationPaidForOwnShares" xlink:to="uk-direp_NetConsiderationPaidForOwnShares_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NetConsiderationPaidForOwnShares_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" xlink:label="uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" xlink:to="uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NetValueSpecificOptionsEndPeriodDirectors" xlink:label="uk-direp_NetValueSpecificOptionsEndPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NetValueSpecificOptionsEndPeriodDirectors" xlink:to="uk-direp_NetValueSpecificOptionsEndPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NetValueSpecificOptionsEndPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NominalValueOwnSharesPurchased" xlink:label="uk-direp_NominalValueOwnSharesPurchased" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NominalValueOwnSharesPurchased" xlink:to="uk-direp_NominalValueOwnSharesPurchased_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NominalValueOwnSharesPurchased_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NominalValueOwnSharesSold" xlink:label="uk-direp_NominalValueOwnSharesSold" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NominalValueOwnSharesSold" xlink:to="uk-direp_NominalValueOwnSharesSold_ref" />
+    <reference id="id_ad5742" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NominalValueOwnSharesSold_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_Non-EUPoliticalDonations" xlink:label="uk-direp_Non-EUPoliticalDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_Non-EUPoliticalDonations" xlink:to="uk-direp_Non-EUPoliticalDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_Non-EUPoliticalDonations_ref">
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>4</ref:Paragraph>
+      <ref:Name>CA</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors" xlink:label="uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors" xlink:to="uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme" xlink:label="uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme" xlink:to="uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme" xlink:label="uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme" xlink:to="uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberDirectorsAccruingRetirementBenefits" xlink:label="uk-direp_NumberDirectorsAccruingRetirementBenefits" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberDirectorsAccruingRetirementBenefits" xlink:to="uk-direp_NumberDirectorsAccruingRetirementBenefits_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberDirectorsAccruingRetirementBenefits_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberDirectorsWhoExercisedShareOptions" xlink:label="uk-direp_NumberDirectorsWhoExercisedShareOptions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberDirectorsWhoExercisedShareOptions" xlink:to="uk-direp_NumberDirectorsWhoExercisedShareOptions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberDirectorsWhoExercisedShareOptions_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes" xlink:label="uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes" xlink:to="uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors" xlink:label="uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors" xlink:to="uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberOptionsExercisedDateDirectors" xlink:label="uk-direp_NumberOptionsExercisedDateDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberOptionsExercisedDateDirectors" xlink:to="uk-direp_NumberOptionsExercisedDateDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberOptionsExercisedDateDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberOwnSharesPurchased" xlink:label="uk-direp_NumberOwnSharesPurchased" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberOwnSharesPurchased" xlink:to="uk-direp_NumberOwnSharesPurchased_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberOwnSharesPurchased_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberOwnSharesSold" xlink:label="uk-direp_NumberOwnSharesSold" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberOwnSharesSold" xlink:to="uk-direp_NumberOwnSharesSold_ref" />
+    <reference id="id_faac3f" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberOwnSharesSold_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" xlink:label="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" xlink:to="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme_ref" />
+    <reference id="id_12a7889" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" xlink:label="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" xlink:to="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_1539c21" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesGrantedDirectors" xlink:label="uk-direp_NumberSharesGrantedDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesGrantedDirectors" xlink:to="uk-direp_NumberSharesGrantedDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesGrantedDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2B</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes" xlink:label="uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes" xlink:to="uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_142b225" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme" xlink:label="uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme" xlink:to="uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme_ref" />
+    <reference id="id_134b2a3" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors" xlink:label="uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors" xlink:to="uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" xlink:label="uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" xlink:to="uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme_ref" />
+    <reference id="id_14539e4" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" xlink:label="uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" xlink:to="uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme_ref" />
+    <reference id="id_eb6c2c" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSpecificOptionsDirectors" xlink:label="uk-direp_NumberSpecificOptionsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSpecificOptionsDirectors" xlink:to="uk-direp_NumberSpecificOptionsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSpecificOptionsDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors" xlink:label="uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors" xlink:to="uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors" xlink:label="uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors" xlink:to="uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors" xlink:label="uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors" xlink:to="uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_OptionsDirectorsHeading" xlink:label="uk-direp_OptionsDirectorsHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_OptionsDirectorsHeading" xlink:to="uk-direp_OptionsDirectorsHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_OptionsDirectorsHeading_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes" xlink:label="uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes" xlink:to="uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_19e25dc" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping" xlink:label="uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping" xlink:to="uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>7, 8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PaymentCreditorsPolicyPractice" xlink:label="uk-direp_PaymentCreditorsPolicyPractice" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PaymentCreditorsPolicyPractice" xlink:to="uk-direp_PaymentCreditorsPolicyPractice_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PaymentCreditorsPolicyPractice_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>12</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors" xlink:label="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors" xlink:to="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>9</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors" xlink:label="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors" xlink:to="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Subparagraph>9</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PaymentsToThirdPartiesForDirectorServices" xlink:label="uk-direp_PaymentsToThirdPartiesForDirectorServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PaymentsToThirdPartiesForDirectorServices" xlink:to="uk-direp_PaymentsToThirdPartiesForDirectorServices_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PaymentsToThirdPartiesForDirectorServices_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+      <ref:Subparagraph>3</ref:Subparagraph>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PaymentsToThirdPartiesForDirectorServices_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>9</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod" xlink:label="uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod" xlink:to="uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PoliticalCharitableDonationsFree-textComment" xlink:label="uk-direp_PoliticalCharitableDonationsFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PoliticalCharitableDonationsFree-textComment" xlink:to="uk-direp_PoliticalCharitableDonationsFree-textComment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PoliticalCharitableDonationsFree-textComment_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PoliticalCharitableDonations" xlink:label="uk-direp_PoliticalCharitableDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PoliticalCharitableDonations" xlink:to="uk-direp_PoliticalCharitableDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PoliticalCharitableDonations_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>5</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PoliticalDonations" xlink:label="uk-direp_PoliticalDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PoliticalDonations" xlink:to="uk-direp_PoliticalDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PoliticalDonations_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PurchaseOwnSharesFree-textComment" xlink:label="uk-direp_PurchaseOwnSharesFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PurchaseOwnSharesFree-textComment" xlink:to="uk-direp_PurchaseOwnSharesFree-textComment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PurchaseOwnSharesFree-textComment_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Paragraph>8</ref:Paragraph>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PurchaseOwnSharesHeading" xlink:label="uk-direp_PurchaseOwnSharesHeading" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PurchaseOwnSharesHeading" xlink:to="uk-direp_PurchaseOwnSharesHeading_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PurchaseOwnSharesHeading_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_PurchaseOwnShares" xlink:label="uk-direp_PurchaseOwnShares" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_PurchaseOwnShares" xlink:to="uk-direp_PurchaseOwnShares_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PurchaseOwnShares_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>21</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_PurchaseOwnShares_ref">
+      <ref:Name>UITF</ref:Name>
+      <uk-gaap-ref:Abstract>37</uk-gaap-ref:Abstract>
+      <ref:Paragraph>7</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" xlink:label="uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" xlink:to="uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>7</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_SalariesDirectors" xlink:label="uk-direp_SalariesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_SalariesDirectors" xlink:to="uk-direp_SalariesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_SalariesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_SalariesFeesDirectors" xlink:label="uk-direp_SalariesFeesDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_SalariesFeesDirectors" xlink:to="uk-direp_SalariesFeesDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_SalariesFeesDirectors_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_SaleOwnShares" xlink:label="uk-direp_SaleOwnShares" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_SaleOwnShares" xlink:to="uk-direp_SaleOwnShares_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_SaleOwnShares_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>1</ref:Number>
+      <ref:Paragraph>20</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_SaleOwnShares_ref">
+      <ref:Name>UITF</ref:Name>
+      <uk-gaap-ref:Abstract>37</uk-gaap-ref:Abstract>
+      <ref:Paragraph>7</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_SpecificEUPoliticalDonationGrouping" xlink:label="uk-direp_SpecificEUPoliticalDonationGrouping" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_SpecificEUPoliticalDonationGrouping" xlink:to="uk-direp_SpecificEUPoliticalDonationGrouping_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_SpecificEUPoliticalDonationGrouping_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>3</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings" xlink:label="uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings" xlink:to="uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>7</uk-gaap-ref:Schedule>
+      <ref:Paragraph>2A</ref:Paragraph>
+      <ref:Subparagraph>1</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions" xlink:label="uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions" xlink:to="uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>236</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors" xlink:label="uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors" xlink:to="uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>418</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_StatementsInDirectorsReport" xlink:label="uk-direp_StatementsInDirectorsReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_StatementsInDirectorsReport" xlink:to="uk-direp_StatementsInDirectorsReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_StatementsInDirectorsReport_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" xlink:label="uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" xlink:to="uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes_ref" />
+    <reference id="id_189f270" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Schedule>6</uk-gaap-ref:Schedule>
+      <ref:Paragraph>1</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_TotalNetValueOptionsEndPeriodDirectors" xlink:label="uk-direp_TotalNetValueOptionsEndPeriodDirectors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_TotalNetValueOptionsEndPeriodDirectors" xlink:to="uk-direp_TotalNetValueOptionsEndPeriodDirectors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_TotalNetValueOptionsEndPeriodDirectors_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-direp-2009-09-01.xsd#uk-direp_YearsServiceDirector" xlink:label="uk-direp_YearsServiceDirector" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-direp_YearsServiceDirector" xlink:to="uk-direp_YearsServiceDirector_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-direp_YearsServiceDirector_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+  </referenceLink>
+</linkbase>

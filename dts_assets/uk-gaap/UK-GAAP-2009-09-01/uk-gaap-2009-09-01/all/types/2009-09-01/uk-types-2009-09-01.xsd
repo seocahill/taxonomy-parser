@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Datatypes-Schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" targetNamespace="http://www.xbrl.org/uk/all/types/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo />
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <complexType name="entityAccountsTypeItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <enumeration value="Group consolidated accounts" />
+        <enumeration value="Company accounts" />
+        <enumeration value="Group consolidated and company accounts" />
+        <enumeration value="Other accounts type" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="percentItemType">
+    <simpleContent>
+      <restriction base="xbrli:pureItemType" />
+    </simpleContent>
+  </complexType>
+  <complexType name="reportPeriodItemType">
+    <simpleContent>
+      <restriction base="xbrli:tokenItemType">
+        <enumeration value="FY" />
+        <enumeration value="Q1" />
+        <enumeration value="Q2" />
+        <enumeration value="Q3" />
+        <enumeration value="Q4" />
+        <enumeration value="H1" />
+        <enumeration value="H2" />
+        <enumeration value="CY" />
+        <enumeration value="Other" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="entityFormItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <enumeration value="Public Limited Company" />
+        <enumeration value="Private Limited Company" />
+        <enumeration value="Limited Liability Partnership" />
+        <enumeration value="Other" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="fixedItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <length fixed="true" value="0" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="domainItemType">
+    <simpleContent>
+      <restriction base="xbrli:stringItemType">
+        <length fixed="true" value="0" />
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="perShareItemType">
+    <simpleContent>
+      <restriction base="xbrli:decimalItemType" />
+    </simpleContent>
+  </complexType>
+</schema>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Currencies-Basic schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" targetNamespace="http://www.xbrl.org/uk/cd/currencies/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/Currencies" id="Currencies">
+        <link:definition>96 - Currencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/Dimension-Currencies" id="Dimension-Currencies">
+        <link:definition>521 - Dimension - Currencies</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-currencies-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-currencies-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-currencies-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/ref/2009-09-01" schemaLocation="../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/common/2009-09-01" schemaLocation="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <element id="uk-curr_Afghani" name="Afghani" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_AlgerianDinar" name="AlgerianDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_AllCurrencies" name="AllCurrencies" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ArgentinePeso" name="ArgentinePeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ArmenianDram" name="ArmenianDram" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ArubanGuilder" name="ArubanGuilder" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_AustralianDollar" name="AustralianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_AzerbaijanianManat" name="AzerbaijanianManat" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BahamianDollar" name="BahamianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BahrainiDinar" name="BahrainiDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Baht" name="Baht" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Balboa" name="Balboa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BarbadosDollar" name="BarbadosDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BelarussianRuble" name="BelarussianRuble" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BelizeDollar" name="BelizeDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BermudianDollar" name="BermudianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Bolivar" name="Bolivar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Boliviano" name="Boliviano" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" name="BondMarketsUnitsEuropeanCompositeUnitEURCO" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BrazilianReal" name="BrazilianReal" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BruneiDollar" name="BruneiDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BulgarianLev" name="BulgarianLev" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_BurundiFranc" name="BurundiFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CFAFrancBCEAO" name="CFAFrancBCEAO" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CFAFrancBEAC" name="CFAFrancBEAC" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CFPFranc" name="CFPFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CanadianDollar" name="CanadianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CapeVerdeEscudo" name="CapeVerdeEscudo" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CaymanIslandsDollar" name="CaymanIslandsDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Cedi" name="Cedi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ChileanPeso" name="ChileanPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ColombianPeso" name="ColombianPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ComoroFranc" name="ComoroFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ConvertibleMarks" name="ConvertibleMarks" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CordobaOro" name="CordobaOro" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CostaRicanColon" name="CostaRicanColon" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CroatianKuna" name="CroatianKuna" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CubanPeso" name="CubanPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CurrenciesDimension" name="CurrenciesDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CyprusPound" name="CyprusPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_CzechKoruna" name="CzechKoruna" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Dalasi" name="Dalasi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_DanishKrone" name="DanishKrone" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Denar" name="Denar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_DimensionMembersRepresentingCurrenciesHeading" name="DimensionMembersRepresentingCurrenciesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_DjiboutiFranc" name="DjiboutiFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Dobra" name="Dobra" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_DominicanPeso" name="DominicanPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Dong" name="Dong" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EastCaribbeanDollar" name="EastCaribbeanDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EgyptianPound" name="EgyptianPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ElSalvadorColon" name="ElSalvadorColon" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EthiopianBirr" name="EthiopianBirr" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Euro" name="Euro" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EuropeanMonetaryUnitE.M.U.-6" name="EuropeanMonetaryUnitE.M.U.-6" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EuropeanUnitAccount17E.U.A.-17" name="EuropeanUnitAccount17E.U.A.-17" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_EuropeanUnitAccount9E.U.A.-9" name="EuropeanUnitAccount9E.U.A.-9" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_FalklandIslandsPound" name="FalklandIslandsPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_FijiDollar" name="FijiDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Forint" name="Forint" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_FrancCongolais" name="FrancCongolais" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_FullCurrenciesListHeading" name="FullCurrenciesListHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_GibraltarPound" name="GibraltarPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Gold" name="Gold" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Gold-Franc" name="Gold-Franc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Gourde" name="Gourde" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Guarani" name="Guarani" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Guinea-BissauPeso" name="Guinea-BissauPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_GuineaFranc" name="GuineaFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_GuyanaDollar" name="GuyanaDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_HongKongDollar" name="HongKongDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Hryvnia" name="Hryvnia" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_IcelandKrona" name="IcelandKrona" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_IndianRupee" name="IndianRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_IranianRial" name="IranianRial" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_IraqiDinar" name="IraqiDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_JamaicanDollar" name="JamaicanDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_JordanianDinar" name="JordanianDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_KenyanShilling" name="KenyanShilling" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Kina" name="Kina" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Kip" name="Kip" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Kroon" name="Kroon" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_KuwaitiDinar" name="KuwaitiDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Kwacha" name="Kwacha" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Kyat" name="Kyat" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Lari" name="Lari" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_LatvianLats" name="LatvianLats" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_LebanesePound" name="LebanesePound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Lek" name="Lek" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Lempira" name="Lempira" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Leone" name="Leone" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_LiberianDollar" name="LiberianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_LibyanDinar" name="LibyanDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Lilangeni" name="Lilangeni" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_LithuanianLitas" name="LithuanianLitas" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Loti" name="Loti" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MainCurrenciesHeading" name="MainCurrenciesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MalagasyAriary" name="MalagasyAriary" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MalaysianRinggit" name="MalaysianRinggit" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MalteseLira" name="MalteseLira" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Manat" name="Manat" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MauritiusRupee" name="MauritiusRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Merical" name="Merical" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MexicanPeso" name="MexicanPeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MexicanUnidadDeInversionUID" name="MexicanUnidadDeInversionUID" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MoldovanLeu" name="MoldovanLeu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_MoroccanDirham" name="MoroccanDirham" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Mvdol" name="Mvdol" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Naira" name="Naira" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Nakfa" name="Nakfa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NamibianDollar" name="NamibianDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NepaleseRupee" name="NepaleseRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NetherlandsAntillianGuilder" name="NetherlandsAntillianGuilder" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NewIsraeliSheqel" name="NewIsraeliSheqel" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NewLeu" name="NewLeu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NewTaiwanDollar" name="NewTaiwanDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NewTurkishLira" name="NewTurkishLira" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NewZealandDollar" name="NewZealandDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Ngultrum" name="Ngultrum" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NorthKoreanWon" name="NorthKoreanWon" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NorwegianKrone" name="NorwegianKrone" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_NuevoSol" name="NuevoSol" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_OldLeu" name="OldLeu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_OldTurkishLira" name="OldTurkishLira" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Ouguiya" name="Ouguiya" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Paanga" name="Paanga" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_PakistanRupee" name="PakistanRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Palladium" name="Palladium" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Pataca" name="Pataca" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_PesoUruguayo" name="PesoUruguayo" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_PhilippinePeso" name="PhilippinePeso" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Platinum" name="Platinum" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_PoundSterling" name="PoundSterling" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Pula" name="Pula" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_QatariRial" name="QatariRial" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Quetzal" name="Quetzal" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Rand" name="Rand" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_RialOmani" name="RialOmani" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Riel" name="Riel" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Rufiyaa" name="Rufiyaa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Rupiah" name="Rupiah" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_RussianRuble" name="RussianRuble" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_RwandaFranc" name="RwandaFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SDR" name="SDR" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SaintHelenaPound" name="SaintHelenaPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SaudiRiyal" name="SaudiRiyal" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SerbianDinar" name="SerbianDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SeychellesRupee" name="SeychellesRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Silver" name="Silver" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SingaporeDollar" name="SingaporeDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SlovakKoruna" name="SlovakKoruna" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SolomonIslandsDollar" name="SolomonIslandsDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Som" name="Som" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SomaliShilling" name="SomaliShilling" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Somoni" name="Somoni" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SriLankaRupee" name="SriLankaRupee" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SudaneseDinar" name="SudaneseDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SurinamDollar" name="SurinamDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SwedishKrona" name="SwedishKrona" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SwissFranc" name="SwissFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_SyrianPound" name="SyrianPound" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Taka" name="Taka" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Tala" name="Tala" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_TanzanianShilling" name="TanzanianShilling" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Tenge" name="Tenge" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Tolar" name="Tolar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_TrinidadTobagoDollar" name="TrinidadTobagoDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Tugrik" name="Tugrik" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_TunisianDinar" name="TunisianDinar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UAEDirham" name="UAEDirham" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UIC-Franc" name="UIC-Franc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_USDollar" name="USDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_USDollarNextDay" name="USDollarNextDay" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_USDollarSameDay" name="USDollarSameDay" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UgandaShilling" name="UgandaShilling" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UnidadDeValorReal" name="UnidadDeValorReal" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UnidadesDeFormento" name="UnidadesDeFormento" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_UzbekistanSum" name="UzbekistanSum" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Vatu" name="Vatu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_WIREuro" name="WIREuro" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_WIRFranc" name="WIRFranc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Won" name="Won" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_YemeniRial" name="YemeniRial" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Yen" name="Yen" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_YuanRenminbi" name="YuanRenminbi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_ZimbabweDollar" name="ZimbabweDollar" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-curr_Zloty" name="Zloty" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+</schema>

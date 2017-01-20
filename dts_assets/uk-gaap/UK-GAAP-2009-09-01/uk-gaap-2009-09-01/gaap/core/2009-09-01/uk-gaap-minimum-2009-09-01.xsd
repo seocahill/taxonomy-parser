@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+UK-GAAP-MINIMUM TAGGING entry schema
+2009-09-01 VERSION 1.1
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema targetNamespace="http://www.xbrl.org/uk/gaap/core-min/2009-09-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:uk-gaap-min="http://www.xbrl.org/uk/gaap/core-min/2009-09-01" xmlns:uk-gaap="http://www.xbrl.org/uk/gaap/core/2009-09-01" xmlns:uk-aurep="http://www.xbrl.org/uk/reports/aurep/2009-09-01" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-common="http://www.xbrl.org/uk/all/common/2009-09-01" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:uk-bus="http://www.xbrl.org/uk/cd/business/2009-09-01" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-direp="http://www.xbrl.org/uk/reports/direp/2009-09-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uk-gaap-ref="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01">
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-gaap-2009-09-01-presentation-minimum.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../cd/countries-regions/2009-09-01/uk-countries-2009-09-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../cd/currencies/2009-09-01/uk-currencies-2009-09-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../cd/exchanges/2009-09-01/uk-exchanges-2009-09-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../cd/languages/2009-09-01/uk-languages-2009-09-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../reports/aurep/2009-09-01/uk-aurep-2009-09-01-presentation-minimum.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="../../../reports/direp/2009-09-01/uk-direp-2009-09-01-presentation-minimum.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <import namespace="http://www.xbrl.org/uk/gaap/core/2009-09-01" schemaLocation="uk-gaap-2009-09-01.xsd"/>
+</schema>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-StockExchanges-Label linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Albania-TiranaStockExchange" xlink:label="uk-exch_Albania-TiranaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Albania-TiranaStockExchange" xlink:to="uk-exch_Albania-TiranaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Albania-TiranaStockExchange_lbl" xml:lang="en">Albania - Tirana Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Algeria-AlgiersStockExchange" xlink:label="uk-exch_Algeria-AlgiersStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Algeria-AlgiersStockExchange" xlink:to="uk-exch_Algeria-AlgiersStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Algeria-AlgiersStockExchange_lbl" xml:lang="en">Algeria - Algiers Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-BuenosAiresStockExchange" xlink:label="uk-exch_Argentina-BuenosAiresStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Argentina-BuenosAiresStockExchange" xlink:to="uk-exch_Argentina-BuenosAiresStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Argentina-BuenosAiresStockExchange_lbl" xml:lang="en">Argentina - Buenos Aires Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-RosarioBolsaDeComercio" xlink:label="uk-exch_Argentina-RosarioBolsaDeComercio" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Argentina-RosarioBolsaDeComercio" xlink:to="uk-exch_Argentina-RosarioBolsaDeComercio_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Argentina-RosarioBolsaDeComercio_lbl" xml:lang="en">Argentina - Rosario, Bolsa de Comercio</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Armenia-ArmenianStockExchange" xlink:label="uk-exch_Armenia-ArmenianStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Armenia-ArmenianStockExchange" xlink:to="uk-exch_Armenia-ArmenianStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Armenia-ArmenianStockExchange_lbl" xml:lang="en">Armenia - Armenian Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-ASX" xlink:label="uk-exch_Australia-ASX" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Australia-ASX" xlink:to="uk-exch_Australia-ASX_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Australia-ASX_lbl" xml:lang="en">Australia - ASX</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-NewcastleStockExchange" xlink:label="uk-exch_Australia-NewcastleStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Australia-NewcastleStockExchange" xlink:to="uk-exch_Australia-NewcastleStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Australia-NewcastleStockExchange_lbl" xml:lang="en">Australia - Newcastle Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Austria-ViennaStockExchangeWienerBoerse" xlink:label="uk-exch_Austria-ViennaStockExchangeWienerBoerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Austria-ViennaStockExchangeWienerBoerse" xlink:to="uk-exch_Austria-ViennaStockExchangeWienerBoerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Austria-ViennaStockExchangeWienerBoerse_lbl" xml:lang="en">Austria - Vienna Stock Exchange, Wiener Boerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahamas-InternationalSecuritiesExchange" xlink:label="uk-exch_Bahamas-InternationalSecuritiesExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bahamas-InternationalSecuritiesExchange" xlink:to="uk-exch_Bahamas-InternationalSecuritiesExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bahamas-InternationalSecuritiesExchange_lbl" xml:lang="en">Bahamas - International Securities Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahrain-StockExchange" xlink:label="uk-exch_Bahrain-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bahrain-StockExchange" xlink:to="uk-exch_Bahrain-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bahrain-StockExchange_lbl" xml:lang="en">Bahrain - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-ChittagongStockExchange" xlink:label="uk-exch_Bangladesh-ChittagongStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bangladesh-ChittagongStockExchange" xlink:to="uk-exch_Bangladesh-ChittagongStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bangladesh-ChittagongStockExchange_lbl" xml:lang="en">Bangladesh - Chittagong Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-DhakaStockExchange" xlink:label="uk-exch_Bangladesh-DhakaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bangladesh-DhakaStockExchange" xlink:to="uk-exch_Bangladesh-DhakaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bangladesh-DhakaStockExchange_lbl" xml:lang="en">Bangladesh - Dhaka Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Barbados-StockExchange" xlink:label="uk-exch_Barbados-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Barbados-StockExchange" xlink:to="uk-exch_Barbados-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Barbados-StockExchange_lbl" xml:lang="en">Barbados - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Belgium-EuronextBrussels" xlink:label="uk-exch_Belgium-EuronextBrussels" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Belgium-EuronextBrussels" xlink:to="uk-exch_Belgium-EuronextBrussels_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Belgium-EuronextBrussels_lbl" xml:lang="en">Belgium - Euronext,  Brussels</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bermuda-StockExchange" xlink:label="uk-exch_Bermuda-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bermuda-StockExchange" xlink:to="uk-exch_Bermuda-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bermuda-StockExchange_lbl" xml:lang="en">Bermuda - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bosnia-BanjaLukaStockExchange" xlink:label="uk-exch_Bosnia-BanjaLukaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bosnia-BanjaLukaStockExchange" xlink:to="uk-exch_Bosnia-BanjaLukaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bosnia-BanjaLukaStockExchange_lbl" xml:lang="en">Bosnia - Banja Luka Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Botswana-StockExchange" xlink:label="uk-exch_Botswana-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Botswana-StockExchange" xlink:to="uk-exch_Botswana-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Botswana-StockExchange_lbl" xml:lang="en">Botswana - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-ParanaBolsaDeValores" xlink:label="uk-exch_Brazil-ParanaBolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Brazil-ParanaBolsaDeValores" xlink:to="uk-exch_Brazil-ParanaBolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Brazil-ParanaBolsaDeValores_lbl" xml:lang="en">Brazil - Parana, Bolsa de Valores </label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-RioDeJaneiroBolsaDeValores" xlink:label="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" xlink:to="uk-exch_Brazil-RioDeJaneiroBolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Brazil-RioDeJaneiroBolsaDeValores_lbl" xml:lang="en">Brazil - Rio de Janeiro, Bolsa de Valores </label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-SaoPauloBolsaDeValores" xlink:label="uk-exch_Brazil-SaoPauloBolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Brazil-SaoPauloBolsaDeValores" xlink:to="uk-exch_Brazil-SaoPauloBolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Brazil-SaoPauloBolsaDeValores_lbl" xml:lang="en">Brazil - Sao Paulo, Bolsa de Valores </label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bulgaria-StockExchange" xlink:label="uk-exch_Bulgaria-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Bulgaria-StockExchange" xlink:to="uk-exch_Bulgaria-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Bulgaria-StockExchange_lbl" xml:lang="en">Bulgaria - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-MontrealExchange" xlink:label="uk-exch_Canada-MontrealExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Canada-MontrealExchange" xlink:to="uk-exch_Canada-MontrealExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Canada-MontrealExchange_lbl" xml:lang="en">Canada - Montreal Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" xlink:label="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" xlink:to="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc_lbl" xml:lang="en">Canada - New Stock Exchange, Canadian Trading and Quoting System Inc</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange-NEX" xlink:label="uk-exch_Canada-TSXVentureExchange-NEX" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Canada-TSXVentureExchange-NEX" xlink:to="uk-exch_Canada-TSXVentureExchange-NEX_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Canada-TSXVentureExchange-NEX_lbl" xml:lang="en">Canada - TSX Venture Exchange - NEX</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange" xlink:label="uk-exch_Canada-TSXVentureExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Canada-TSXVentureExchange" xlink:to="uk-exch_Canada-TSXVentureExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Canada-TSXVentureExchange_lbl" xml:lang="en">Canada - TSX Venture Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TorontoStockExchange" xlink:label="uk-exch_Canada-TorontoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Canada-TorontoStockExchange" xlink:to="uk-exch_Canada-TorontoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Canada-TorontoStockExchange_lbl" xml:lang="en">Canada - Toronto Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CaymanIslands-StockExchange" xlink:label="uk-exch_CaymanIslands-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_CaymanIslands-StockExchange" xlink:to="uk-exch_CaymanIslands-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_CaymanIslands-StockExchange_lbl" xml:lang="en">Cayman Islands - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-LaBolsaElectronica" xlink:label="uk-exch_Chile-LaBolsaElectronica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Chile-LaBolsaElectronica" xlink:to="uk-exch_Chile-LaBolsaElectronica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Chile-LaBolsaElectronica_lbl" xml:lang="en">Chile - La Bolsa Electronica</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-SantiagoStockExchange" xlink:label="uk-exch_Chile-SantiagoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Chile-SantiagoStockExchange" xlink:to="uk-exch_Chile-SantiagoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Chile-SantiagoStockExchange_lbl" xml:lang="en">Chile - Santiago Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-HongKongStockExchange" xlink:label="uk-exch_China-HongKongStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_China-HongKongStockExchange" xlink:to="uk-exch_China-HongKongStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_China-HongKongStockExchange_lbl" xml:lang="en">China - Hong Kong Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShanghaiStockExchange" xlink:label="uk-exch_China-ShanghaiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_China-ShanghaiStockExchange" xlink:to="uk-exch_China-ShanghaiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_China-ShanghaiStockExchange_lbl" xml:lang="en">China - Shanghai Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShenzhenStockExchange" xlink:label="uk-exch_China-ShenzhenStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_China-ShenzhenStockExchange" xlink:to="uk-exch_China-ShenzhenStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_China-ShenzhenStockExchange_lbl" xml:lang="en">China - Shenzhen Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Colombia-BolsaDeValores" xlink:label="uk-exch_Colombia-BolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Colombia-BolsaDeValores" xlink:to="uk-exch_Colombia-BolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Colombia-BolsaDeValores_lbl" xml:lang="en">Colombia - Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CostaRica-BolsaNacionalDeValores" xlink:label="uk-exch_CostaRica-BolsaNacionalDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_CostaRica-BolsaNacionalDeValores" xlink:to="uk-exch_CostaRica-BolsaNacionalDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_CostaRica-BolsaNacionalDeValores_lbl" xml:lang="en">Costa Rica - Bolsa Nacional de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Croatia-ZagrebStockExchange" xlink:label="uk-exch_Croatia-ZagrebStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Croatia-ZagrebStockExchange" xlink:to="uk-exch_Croatia-ZagrebStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Croatia-ZagrebStockExchange_lbl" xml:lang="en">Croatia - Zagreb Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Cyprus-StockExchange" xlink:label="uk-exch_Cyprus-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Cyprus-StockExchange" xlink:to="uk-exch_Cyprus-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Cyprus-StockExchange_lbl" xml:lang="en">Cyprus - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CzechRepublic-PragueStockExchange" xlink:label="uk-exch_CzechRepublic-PragueStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_CzechRepublic-PragueStockExchange" xlink:to="uk-exch_CzechRepublic-PragueStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_CzechRepublic-PragueStockExchange_lbl" xml:lang="en">Czech Republic - Prague Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Denmark-CopenhagenStockExchange" xlink:label="uk-exch_Denmark-CopenhagenStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Denmark-CopenhagenStockExchange" xlink:to="uk-exch_Denmark-CopenhagenStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Denmark-CopenhagenStockExchange_lbl" xml:lang="en">Denmark - Copenhagen Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:label="uk-exch_DimensionMembersRepresentingStockExchangesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_DimensionMembersRepresentingStockExchangesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_DimensionMembersRepresentingStockExchangesHeading_lbl" xml:lang="en">Dimension members representing stock exchanges [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_DominicanRepublic-BolsaDeValores" xlink:label="uk-exch_DominicanRepublic-BolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_DominicanRepublic-BolsaDeValores" xlink:to="uk-exch_DominicanRepublic-BolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_DominicanRepublic-BolsaDeValores_lbl" xml:lang="en">Dominican Republic - Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-GuayaquilStockExchange" xlink:label="uk-exch_Ecuador-GuayaquilStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Ecuador-GuayaquilStockExchange" xlink:to="uk-exch_Ecuador-GuayaquilStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Ecuador-GuayaquilStockExchange_lbl" xml:lang="en">Ecuador - Guayaquil Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-QuitoStockExchange" xlink:label="uk-exch_Ecuador-QuitoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Ecuador-QuitoStockExchange" xlink:to="uk-exch_Ecuador-QuitoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Ecuador-QuitoStockExchange_lbl" xml:lang="en">Ecuador - Quito Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Egypt-CairoAlexandriaStockExchange" xlink:label="uk-exch_Egypt-CairoAlexandriaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Egypt-CairoAlexandriaStockExchange" xlink:to="uk-exch_Egypt-CairoAlexandriaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Egypt-CairoAlexandriaStockExchange_lbl" xml:lang="en">Egypt - Cairo and Alexandria Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_ElSalvador-StockExchange" xlink:label="uk-exch_ElSalvador-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_ElSalvador-StockExchange" xlink:to="uk-exch_ElSalvador-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_ElSalvador-StockExchange_lbl" xml:lang="en">El Salvador - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Estonia-TallinnStockExchange" xlink:label="uk-exch_Estonia-TallinnStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Estonia-TallinnStockExchange" xlink:to="uk-exch_Estonia-TallinnStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Estonia-TallinnStockExchange_lbl" xml:lang="en">Estonia - Tallinn Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_ExchangesDimension" xlink:label="uk-exch_ExchangesDimension" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_ExchangesDimension" xlink:to="uk-exch_ExchangesDimension_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_ExchangesDimension_lbl" xml:lang="en">Exchanges [Dimension]</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Fiji-SouthPacificStockExchange" xlink:label="uk-exch_Fiji-SouthPacificStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Fiji-SouthPacificStockExchange" xlink:to="uk-exch_Fiji-SouthPacificStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Fiji-SouthPacificStockExchange_lbl" xml:lang="en">Fiji - South Pacific Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Finland-HelsinkiStockExchange" xlink:label="uk-exch_Finland-HelsinkiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Finland-HelsinkiStockExchange" xlink:to="uk-exch_Finland-HelsinkiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Finland-HelsinkiStockExchange_lbl" xml:lang="en">Finland - Helsinki Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_France-EuronextParis" xlink:label="uk-exch_France-EuronextParis" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_France-EuronextParis" xlink:to="uk-exch_France-EuronextParis_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_France-EuronextParis_lbl" xml:lang="en">France - Euronext, Paris</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_FullStockExchangeListHeading" xlink:label="uk-exch_FullStockExchangeListHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_FullStockExchangeListHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-exch_FullStockExchangeListHeading_lbl" xml:lang="en">Groups list of exchanges based on International Standards Organisation (ISO) 10383.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_FullStockExchangeListHeading_lbl" xml:lang="en">Full stock exchange list [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Georgia-StockExchange" xlink:label="uk-exch_Georgia-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Georgia-StockExchange" xlink:to="uk-exch_Georgia-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Georgia-StockExchange_lbl" xml:lang="en">Georgia - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BayerischeBoerse" xlink:label="uk-exch_Germany-BayerischeBoerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-BayerischeBoerse" xlink:to="uk-exch_Germany-BayerischeBoerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-BayerischeBoerse_lbl" xml:lang="en">Germany - Bayerische Boerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BerlinerWertpapierboerse" xlink:label="uk-exch_Germany-BerlinerWertpapierboerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-BerlinerWertpapierboerse" xlink:to="uk-exch_Germany-BerlinerWertpapierboerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-BerlinerWertpapierboerse_lbl" xml:lang="en">Germany - Berliner Wertpapierboerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BremerWertpapierboerse" xlink:label="uk-exch_Germany-BremerWertpapierboerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-BremerWertpapierboerse" xlink:to="uk-exch_Germany-BremerWertpapierboerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-BremerWertpapierboerse_lbl" xml:lang="en">Germany - Bremer Wertpapierboerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DeutscheBoerse" xlink:label="uk-exch_Germany-DeutscheBoerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-DeutscheBoerse" xlink:to="uk-exch_Germany-DeutscheBoerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-DeutscheBoerse_lbl" xml:lang="en">Germany - Deutsche Boerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" xlink:label="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" xlink:to="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse_lbl" xml:lang="en">Germany - Duesseldorf, Rheinishe-Westfaelische Boerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HamburgHanseatischeWertpapierboerse" xlink:label="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" xlink:to="uk-exch_Germany-HamburgHanseatischeWertpapierboerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-HamburgHanseatischeWertpapierboerse_lbl" xml:lang="en">Germany - Hamburg, Hanseatische Wertpapierboerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HannoverNiedersaechsischeBoerse" xlink:label="uk-exch_Germany-HannoverNiedersaechsischeBoerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-HannoverNiedersaechsischeBoerse" xlink:to="uk-exch_Germany-HannoverNiedersaechsischeBoerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-HannoverNiedersaechsischeBoerse_lbl" xml:lang="en">Germany - Hannover, Niedersaechsische Boerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" xlink:label="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" xlink:to="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse_lbl" xml:lang="en">Germany - Stuttgart, Baden-Wuerttembergische Wertpapierboerse</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ghana-StockExchange" xlink:label="uk-exch_Ghana-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Ghana-StockExchange" xlink:to="uk-exch_Ghana-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Ghana-StockExchange_lbl" xml:lang="en">Ghana - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Greece-AthensStockExchange" xlink:label="uk-exch_Greece-AthensStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Greece-AthensStockExchange" xlink:to="uk-exch_Greece-AthensStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Greece-AthensStockExchange_lbl" xml:lang="en">Greece - Athens Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Guatemala-BolsaDeValoresNacional" xlink:label="uk-exch_Guatemala-BolsaDeValoresNacional" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Guatemala-BolsaDeValoresNacional" xlink:to="uk-exch_Guatemala-BolsaDeValoresNacional_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Guatemala-BolsaDeValoresNacional_lbl" xml:lang="en">Guatemala - Bolsa de Valores Nacional</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Honduras-StockExchange" xlink:label="uk-exch_Honduras-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Honduras-StockExchange" xlink:to="uk-exch_Honduras-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Honduras-StockExchange_lbl" xml:lang="en">Honduras - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Hungary-BudapestStockExchange" xlink:label="uk-exch_Hungary-BudapestStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Hungary-BudapestStockExchange" xlink:to="uk-exch_Hungary-BudapestStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Hungary-BudapestStockExchange_lbl" xml:lang="en">Hungary - Budapest Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iceland-StockExchange" xlink:label="uk-exch_Iceland-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Iceland-StockExchange" xlink:to="uk-exch_Iceland-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Iceland-StockExchange_lbl" xml:lang="en">Iceland - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-BangaloreStockExchange" xlink:label="uk-exch_India-BangaloreStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-BangaloreStockExchange" xlink:to="uk-exch_India-BangaloreStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-BangaloreStockExchange_lbl" xml:lang="en">India - Bangalore Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-CalcuttaStockExchange" xlink:label="uk-exch_India-CalcuttaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-CalcuttaStockExchange" xlink:to="uk-exch_India-CalcuttaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-CalcuttaStockExchange_lbl" xml:lang="en">India - Calcutta Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-DelhiStockExchange" xlink:label="uk-exch_India-DelhiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-DelhiStockExchange" xlink:to="uk-exch_India-DelhiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-DelhiStockExchange_lbl" xml:lang="en">India - Delhi Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MadrasStockExchange" xlink:label="uk-exch_India-MadrasStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-MadrasStockExchange" xlink:to="uk-exch_India-MadrasStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-MadrasStockExchange_lbl" xml:lang="en">India - Madras Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MumbaiStockExchange" xlink:label="uk-exch_India-MumbaiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-MumbaiStockExchange" xlink:to="uk-exch_India-MumbaiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-MumbaiStockExchange_lbl" xml:lang="en">India - Mumbai Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-NationalStockExchange" xlink:label="uk-exch_India-NationalStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_India-NationalStockExchange" xlink:to="uk-exch_India-NationalStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_India-NationalStockExchange_lbl" xml:lang="en">India - National Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-JakartaStockExchange" xlink:label="uk-exch_Indonesia-JakartaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Indonesia-JakartaStockExchange" xlink:to="uk-exch_Indonesia-JakartaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Indonesia-JakartaStockExchange_lbl" xml:lang="en">Indonesia - Jakarta Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-SurabayaStockExchange" xlink:label="uk-exch_Indonesia-SurabayaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Indonesia-SurabayaStockExchange" xlink:to="uk-exch_Indonesia-SurabayaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Indonesia-SurabayaStockExchange_lbl" xml:lang="en">Indonesia - Surabaya Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iran-TeheranStockExchange" xlink:label="uk-exch_Iran-TeheranStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Iran-TeheranStockExchange" xlink:to="uk-exch_Iran-TeheranStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Iran-TeheranStockExchange_lbl" xml:lang="en">Iran - Teheran Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ireland-IrishStockExchange" xlink:label="uk-exch_Ireland-IrishStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Ireland-IrishStockExchange" xlink:to="uk-exch_Ireland-IrishStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Ireland-IrishStockExchange_lbl" xml:lang="en">Ireland - Irish Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Israel-TelAvivStockExchange" xlink:label="uk-exch_Israel-TelAvivStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Israel-TelAvivStockExchange" xlink:to="uk-exch_Israel-TelAvivStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Israel-TelAvivStockExchange_lbl" xml:lang="en">Israel - Tel Aviv Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Italy-BorsaItaliana" xlink:label="uk-exch_Italy-BorsaItaliana" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Italy-BorsaItaliana" xlink:to="uk-exch_Italy-BorsaItaliana_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Italy-BorsaItaliana_lbl" xml:lang="en">Italy - Borsa Italiana</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" xlink:label="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" xlink:to="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres_lbl" xml:lang="en">Ivory Coast - Abidjan, Bourse Regionale de Valeurs Mobilieres</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jamaica-StockExchange" xlink:label="uk-exch_Jamaica-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Jamaica-StockExchange" xlink:to="uk-exch_Jamaica-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Jamaica-StockExchange_lbl" xml:lang="en">Jamaica - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-FukuokaStockExchange" xlink:label="uk-exch_Japan-FukuokaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Japan-FukuokaStockExchange" xlink:to="uk-exch_Japan-FukuokaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Japan-FukuokaStockExchange_lbl" xml:lang="en">Japan - Fukuoka Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-JASDAQSecuritiesExchange" xlink:label="uk-exch_Japan-JASDAQSecuritiesExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Japan-JASDAQSecuritiesExchange" xlink:to="uk-exch_Japan-JASDAQSecuritiesExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Japan-JASDAQSecuritiesExchange_lbl" xml:lang="en">Japan - JASDAQ Securities Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-NagoyaStockExchange" xlink:label="uk-exch_Japan-NagoyaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Japan-NagoyaStockExchange" xlink:to="uk-exch_Japan-NagoyaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Japan-NagoyaStockExchange_lbl" xml:lang="en">Japan - Nagoya Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-OsakaSecuritiesExchange" xlink:label="uk-exch_Japan-OsakaSecuritiesExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Japan-OsakaSecuritiesExchange" xlink:to="uk-exch_Japan-OsakaSecuritiesExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Japan-OsakaSecuritiesExchange_lbl" xml:lang="en">Japan - Osaka Securities Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-TokyoStockExchange" xlink:label="uk-exch_Japan-TokyoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Japan-TokyoStockExchange" xlink:to="uk-exch_Japan-TokyoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Japan-TokyoStockExchange_lbl" xml:lang="en">Japan - Tokyo Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jordan-AmmanStockExchange" xlink:label="uk-exch_Jordan-AmmanStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Jordan-AmmanStockExchange" xlink:to="uk-exch_Jordan-AmmanStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Jordan-AmmanStockExchange_lbl" xml:lang="en">Jordan - Amman Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kazakhstan-StockExchange" xlink:label="uk-exch_Kazakhstan-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Kazakhstan-StockExchange" xlink:to="uk-exch_Kazakhstan-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Kazakhstan-StockExchange_lbl" xml:lang="en">Kazakhstan - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kenya-NairobiStockExchange" xlink:label="uk-exch_Kenya-NairobiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Kenya-NairobiStockExchange" xlink:to="uk-exch_Kenya-NairobiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Kenya-NairobiStockExchange_lbl" xml:lang="en">Kenya - Nairobi Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-KOSDAQStockExchange" xlink:label="uk-exch_Korea-KOSDAQStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Korea-KOSDAQStockExchange" xlink:to="uk-exch_Korea-KOSDAQStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Korea-KOSDAQStockExchange_lbl" xml:lang="en">Korea - KOSDAQ Stock Exchange </label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-StockExchange" xlink:label="uk-exch_Korea-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Korea-StockExchange" xlink:to="uk-exch_Korea-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Korea-StockExchange_lbl" xml:lang="en">Korea - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kuwait-StockExchange" xlink:label="uk-exch_Kuwait-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Kuwait-StockExchange" xlink:to="uk-exch_Kuwait-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Kuwait-StockExchange_lbl" xml:lang="en">Kuwait - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kyrgyzstan-KyrgyzStockExchange" xlink:label="uk-exch_Kyrgyzstan-KyrgyzStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Kyrgyzstan-KyrgyzStockExchange" xlink:to="uk-exch_Kyrgyzstan-KyrgyzStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Kyrgyzstan-KyrgyzStockExchange_lbl" xml:lang="en">Kyrgyzstan - Kyrgyz Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Latvia-RigaStockExchange" xlink:label="uk-exch_Latvia-RigaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Latvia-RigaStockExchange" xlink:to="uk-exch_Latvia-RigaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Latvia-RigaStockExchange_lbl" xml:lang="en">Latvia - Riga Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lebanon-BeirutStockExchange" xlink:label="uk-exch_Lebanon-BeirutStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Lebanon-BeirutStockExchange" xlink:to="uk-exch_Lebanon-BeirutStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Lebanon-BeirutStockExchange_lbl" xml:lang="en">Lebanon - Beirut Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lithuania-NationalStockExchange" xlink:label="uk-exch_Lithuania-NationalStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Lithuania-NationalStockExchange" xlink:to="uk-exch_Lithuania-NationalStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Lithuania-NationalStockExchange_lbl" xml:lang="en">Lithuania - National Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Luxembourg-StockExchange" xlink:label="uk-exch_Luxembourg-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Luxembourg-StockExchange" xlink:to="uk-exch_Luxembourg-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Luxembourg-StockExchange_lbl" xml:lang="en">Luxembourg - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Macedonia-StockExchange" xlink:label="uk-exch_Macedonia-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Macedonia-StockExchange" xlink:to="uk-exch_Macedonia-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Macedonia-StockExchange_lbl" xml:lang="en">Macedonia - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malawi-StockExchange" xlink:label="uk-exch_Malawi-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Malawi-StockExchange" xlink:to="uk-exch_Malawi-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Malawi-StockExchange_lbl" xml:lang="en">Malawi - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malaysia-Bursa" xlink:label="uk-exch_Malaysia-Bursa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Malaysia-Bursa" xlink:to="uk-exch_Malaysia-Bursa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Malaysia-Bursa_lbl" xml:lang="en">Malaysia - Bursa</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malta-StockExchange" xlink:label="uk-exch_Malta-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Malta-StockExchange" xlink:to="uk-exch_Malta-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Malta-StockExchange_lbl" xml:lang="en">Malta - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mauritius-StockExchange" xlink:label="uk-exch_Mauritius-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Mauritius-StockExchange" xlink:to="uk-exch_Mauritius-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Mauritius-StockExchange_lbl" xml:lang="en">Mauritius - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mexico-MexicanStockExchange" xlink:label="uk-exch_Mexico-MexicanStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Mexico-MexicanStockExchange" xlink:to="uk-exch_Mexico-MexicanStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Mexico-MexicanStockExchange_lbl" xml:lang="en">Mexico - Mexican Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Moldova-StockExchange" xlink:label="uk-exch_Moldova-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Moldova-StockExchange" xlink:to="uk-exch_Moldova-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Moldova-StockExchange_lbl" xml:lang="en">Moldova - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mongolia-StockExchange" xlink:label="uk-exch_Mongolia-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Mongolia-StockExchange" xlink:to="uk-exch_Mongolia-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Mongolia-StockExchange_lbl" xml:lang="en">Mongolia - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Morocco-CasablancaStockExchange" xlink:label="uk-exch_Morocco-CasablancaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Morocco-CasablancaStockExchange" xlink:to="uk-exch_Morocco-CasablancaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Morocco-CasablancaStockExchange_lbl" xml:lang="en">Morocco - Casablanca Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mozambique-MaputoStockExchange" xlink:label="uk-exch_Mozambique-MaputoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Mozambique-MaputoStockExchange" xlink:to="uk-exch_Mozambique-MaputoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Mozambique-MaputoStockExchange_lbl" xml:lang="en">Mozambique - Maputo Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Namibia-StockExchange" xlink:label="uk-exch_Namibia-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Namibia-StockExchange" xlink:to="uk-exch_Namibia-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Namibia-StockExchange_lbl" xml:lang="en">Namibia  - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nepal-StockExchange" xlink:label="uk-exch_Nepal-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Nepal-StockExchange" xlink:to="uk-exch_Nepal-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Nepal-StockExchange_lbl" xml:lang="en">Nepal  - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Netherlands-EuronextAmsterdam" xlink:label="uk-exch_Netherlands-EuronextAmsterdam" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Netherlands-EuronextAmsterdam" xlink:to="uk-exch_Netherlands-EuronextAmsterdam_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Netherlands-EuronextAmsterdam_lbl" xml:lang="en">Netherlands - Euronext, Amsterdam</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_NewZealand-StockExchange" xlink:label="uk-exch_NewZealand-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_NewZealand-StockExchange" xlink:to="uk-exch_NewZealand-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_NewZealand-StockExchange_lbl" xml:lang="en">New Zealand - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nicaragua-BolsaDeValores" xlink:label="uk-exch_Nicaragua-BolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Nicaragua-BolsaDeValores" xlink:to="uk-exch_Nicaragua-BolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Nicaragua-BolsaDeValores_lbl" xml:lang="en">Nicaragua - Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nigeria-StockExchange" xlink:label="uk-exch_Nigeria-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Nigeria-StockExchange" xlink:to="uk-exch_Nigeria-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Nigeria-StockExchange_lbl" xml:lang="en">Nigeria - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Norway-OsloBors" xlink:label="uk-exch_Norway-OsloBors" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Norway-OsloBors" xlink:to="uk-exch_Norway-OsloBors_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Norway-OsloBors_lbl" xml:lang="en">Norway - Oslo Bors</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Oman-MuscatSecuritiesMarket" xlink:label="uk-exch_Oman-MuscatSecuritiesMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Oman-MuscatSecuritiesMarket" xlink:to="uk-exch_Oman-MuscatSecuritiesMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Oman-MuscatSecuritiesMarket_lbl" xml:lang="en">Oman - Muscat Securities Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_OtherMainExchangesHeading" xlink:label="uk-exch_OtherMainExchangesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_OtherMainExchangesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_OtherMainExchangesHeading_lbl" xml:lang="en">Other main exchanges [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-IslamabadStockExchange" xlink:label="uk-exch_Pakistan-IslamabadStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Pakistan-IslamabadStockExchange" xlink:to="uk-exch_Pakistan-IslamabadStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Pakistan-IslamabadStockExchange_lbl" xml:lang="en">Pakistan - Islamabad Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-KarachiStockExchange" xlink:label="uk-exch_Pakistan-KarachiStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Pakistan-KarachiStockExchange" xlink:to="uk-exch_Pakistan-KarachiStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Pakistan-KarachiStockExchange_lbl" xml:lang="en">Pakistan - Karachi Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-LahoreStockExchange" xlink:label="uk-exch_Pakistan-LahoreStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Pakistan-LahoreStockExchange" xlink:to="uk-exch_Pakistan-LahoreStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Pakistan-LahoreStockExchange_lbl" xml:lang="en">Pakistan - Lahore Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Palestine-StockExchange" xlink:label="uk-exch_Palestine-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Palestine-StockExchange" xlink:to="uk-exch_Palestine-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Palestine-StockExchange_lbl" xml:lang="en">Palestine - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Panama-BolsaDeValores" xlink:label="uk-exch_Panama-BolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Panama-BolsaDeValores" xlink:to="uk-exch_Panama-BolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Panama-BolsaDeValores_lbl" xml:lang="en">Panama - Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" xlink:label="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" xlink:to="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange_lbl" xml:lang="en">Papua New Guinea - Port Moresby Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" xlink:label="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" xlink:to="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos_lbl" xml:lang="en">Paraguay - Asuncion,  Bolsa de Valores y Productos</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Peru-LimaBolsaDeValores" xlink:label="uk-exch_Peru-LimaBolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Peru-LimaBolsaDeValores" xlink:to="uk-exch_Peru-LimaBolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Peru-LimaBolsaDeValores_lbl" xml:lang="en">Peru - Lima, Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Philippines-StockExchange" xlink:label="uk-exch_Philippines-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Philippines-StockExchange" xlink:to="uk-exch_Philippines-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Philippines-StockExchange_lbl" xml:lang="en">Philippines - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Poland-WarsawStockExchange" xlink:label="uk-exch_Poland-WarsawStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Poland-WarsawStockExchange" xlink:to="uk-exch_Poland-WarsawStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Poland-WarsawStockExchange_lbl" xml:lang="en">Poland - Warsaw Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Portugal-Euronext-Lisbon" xlink:label="uk-exch_Portugal-Euronext-Lisbon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Portugal-Euronext-Lisbon" xlink:to="uk-exch_Portugal-Euronext-Lisbon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Portugal-Euronext-Lisbon_lbl" xml:lang="en">Portugal - Euronext - Lisbon</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Qatar-DohaSecuritiesMarket" xlink:label="uk-exch_Qatar-DohaSecuritiesMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Qatar-DohaSecuritiesMarket" xlink:to="uk-exch_Qatar-DohaSecuritiesMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Qatar-DohaSecuritiesMarket_lbl" xml:lang="en">Qatar - Doha Securities Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-BucharestStockExchange" xlink:label="uk-exch_Romania-BucharestStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Romania-BucharestStockExchange" xlink:to="uk-exch_Romania-BucharestStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Romania-BucharestStockExchange_lbl" xml:lang="en">Romania - Bucharest Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-RASDAQ" xlink:label="uk-exch_Romania-RASDAQ" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Romania-RASDAQ" xlink:to="uk-exch_Romania-RASDAQ_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Romania-RASDAQ_lbl" xml:lang="en">Romania - RASDAQ</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-MoscowCentralStockExchange" xlink:label="uk-exch_Russia-MoscowCentralStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Russia-MoscowCentralStockExchange" xlink:to="uk-exch_Russia-MoscowCentralStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Russia-MoscowCentralStockExchange_lbl" xml:lang="en">Russia - Moscow Central Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-RTSStockExchange" xlink:label="uk-exch_Russia-RTSStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Russia-RTSStockExchange" xlink:to="uk-exch_Russia-RTSStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Russia-RTSStockExchange_lbl" xml:lang="en">Russia - RTS Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-SiberianStockExchange" xlink:label="uk-exch_Russia-SiberianStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Russia-SiberianStockExchange" xlink:to="uk-exch_Russia-SiberianStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Russia-SiberianStockExchange_lbl" xml:lang="en">Russia - Siberian Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-StPetersburgStockExchange" xlink:label="uk-exch_Russia-StPetersburgStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Russia-StPetersburgStockExchange" xlink:to="uk-exch_Russia-StPetersburgStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Russia-StPetersburgStockExchange_lbl" xml:lang="en">Russia - St Petersburg Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-VladivostokStockExchange" xlink:label="uk-exch_Russia-VladivostokStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Russia-VladivostokStockExchange" xlink:to="uk-exch_Russia-VladivostokStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Russia-VladivostokStockExchange_lbl" xml:lang="en">Russia - Vladivostok Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SaudiArabia-StockExchange" xlink:label="uk-exch_SaudiArabia-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_SaudiArabia-StockExchange" xlink:to="uk-exch_SaudiArabia-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_SaudiArabia-StockExchange_lbl" xml:lang="en">Saudi Arabia - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Serbia-BelgradeStockExchange" xlink:label="uk-exch_Serbia-BelgradeStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Serbia-BelgradeStockExchange" xlink:to="uk-exch_Serbia-BelgradeStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Serbia-BelgradeStockExchange_lbl" xml:lang="en">Serbia - Belgrade Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Singapore-SGX" xlink:label="uk-exch_Singapore-SGX" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Singapore-SGX" xlink:to="uk-exch_Singapore-SGX_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Singapore-SGX_lbl" xml:lang="en">Singapore - SGX</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-BratislavaStockExchange" xlink:label="uk-exch_Slovakia-BratislavaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Slovakia-BratislavaStockExchange" xlink:to="uk-exch_Slovakia-BratislavaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Slovakia-BratislavaStockExchange_lbl" xml:lang="en">Slovakia - Bratislava Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-SlovakStockExchange-SKRM-S" xlink:label="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" xlink:to="uk-exch_Slovakia-SlovakStockExchange-SKRM-S_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Slovakia-SlovakStockExchange-SKRM-S_lbl" xml:lang="en">Slovakia - Slovak Stock Exchange - SK RM-S</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovenia-LjubljanaStockExchange" xlink:label="uk-exch_Slovenia-LjubljanaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Slovenia-LjubljanaStockExchange" xlink:to="uk-exch_Slovenia-LjubljanaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Slovenia-LjubljanaStockExchange_lbl" xml:lang="en">Slovenia - Ljubljana Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SouthAfrica-JSE" xlink:label="uk-exch_SouthAfrica-JSE" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_SouthAfrica-JSE" xlink:to="uk-exch_SouthAfrica-JSE_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_SouthAfrica-JSE_lbl" xml:lang="en">South Africa - JSE</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-BarcelonaStockExchange" xlink:label="uk-exch_Spain-BarcelonaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Spain-BarcelonaStockExchange" xlink:to="uk-exch_Spain-BarcelonaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Spain-BarcelonaStockExchange_lbl" xml:lang="en">Spain - Barcelona Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MadridBolsa" xlink:label="uk-exch_Spain-MadridBolsa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Spain-MadridBolsa" xlink:to="uk-exch_Spain-MadridBolsa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Spain-MadridBolsa_lbl" xml:lang="en">Spain - Madrid, Bolsa</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MercadoContinuo" xlink:label="uk-exch_Spain-MercadoContinuo" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Spain-MercadoContinuo" xlink:to="uk-exch_Spain-MercadoContinuo_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Spain-MercadoContinuo_lbl" xml:lang="en">Spain - Mercado Continuo</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-ValenciaBolsa" xlink:label="uk-exch_Spain-ValenciaBolsa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Spain-ValenciaBolsa" xlink:to="uk-exch_Spain-ValenciaBolsa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Spain-ValenciaBolsa_lbl" xml:lang="en">Spain - Valencia, Bolsa</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SriLanka-ColomboStockExchange" xlink:label="uk-exch_SriLanka-ColomboStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_SriLanka-ColomboStockExchange" xlink:to="uk-exch_SriLanka-ColomboStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_SriLanka-ColomboStockExchange_lbl" xml:lang="en">Sri Lanka - Colombo Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sudan-KhartoumStockExchange" xlink:label="uk-exch_Sudan-KhartoumStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Sudan-KhartoumStockExchange" xlink:to="uk-exch_Sudan-KhartoumStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Sudan-KhartoumStockExchange_lbl" xml:lang="en">Sudan - Khartoum Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Swaziland-StockExchange" xlink:label="uk-exch_Swaziland-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Swaziland-StockExchange" xlink:to="uk-exch_Swaziland-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Swaziland-StockExchange_lbl" xml:lang="en">Swaziland - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-NordicGrowthMarket" xlink:label="uk-exch_Sweden-NordicGrowthMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Sweden-NordicGrowthMarket" xlink:to="uk-exch_Sweden-NordicGrowthMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Sweden-NordicGrowthMarket_lbl" xml:lang="en">Sweden - Nordic Growth Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-OMStockholmExchange" xlink:label="uk-exch_Sweden-OMStockholmExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Sweden-OMStockholmExchange" xlink:to="uk-exch_Sweden-OMStockholmExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Sweden-OMStockholmExchange_lbl" xml:lang="en">Sweden - OM Stockholm Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-BerneStockExchange" xlink:label="uk-exch_Switzerland-BerneStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Switzerland-BerneStockExchange" xlink:to="uk-exch_Switzerland-BerneStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Switzerland-BerneStockExchange_lbl" xml:lang="en">Switzerland - Berne Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-SwissExchange" xlink:label="uk-exch_Switzerland-SwissExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Switzerland-SwissExchange" xlink:to="uk-exch_Switzerland-SwissExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Switzerland-SwissExchange_lbl" xml:lang="en">Switzerland - Swiss Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Taiwan-StockExchange" xlink:label="uk-exch_Taiwan-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Taiwan-StockExchange" xlink:to="uk-exch_Taiwan-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Taiwan-StockExchange_lbl" xml:lang="en">Taiwan - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tanzania-DarEsSalaamStockExchange" xlink:label="uk-exch_Tanzania-DarEsSalaamStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Tanzania-DarEsSalaamStockExchange" xlink:to="uk-exch_Tanzania-DarEsSalaamStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Tanzania-DarEsSalaamStockExchange_lbl" xml:lang="en">Tanzania - Dar es Salaam Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchangeForeignBoard" xlink:label="uk-exch_Thailand-StockExchangeForeignBoard" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Thailand-StockExchangeForeignBoard" xlink:to="uk-exch_Thailand-StockExchangeForeignBoard_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Thailand-StockExchangeForeignBoard_lbl" xml:lang="en">Thailand - Stock Exchange, Foreign Board</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchange" xlink:label="uk-exch_Thailand-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Thailand-StockExchange" xlink:to="uk-exch_Thailand-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Thailand-StockExchange_lbl" xml:lang="en">Thailand - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_TrinidadTobago-StockExchange" xlink:label="uk-exch_TrinidadTobago-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_TrinidadTobago-StockExchange" xlink:to="uk-exch_TrinidadTobago-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_TrinidadTobago-StockExchange_lbl" xml:lang="en">Trinidad and Tobago - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tunisia-BourseDesValeursMobilieres" xlink:label="uk-exch_Tunisia-BourseDesValeursMobilieres" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Tunisia-BourseDesValeursMobilieres" xlink:to="uk-exch_Tunisia-BourseDesValeursMobilieres_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Tunisia-BourseDesValeursMobilieres_lbl" xml:lang="en">Tunisia - Bourse des Valeurs Mobilieres</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Turkey-IstanbulStockExchange" xlink:label="uk-exch_Turkey-IstanbulStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Turkey-IstanbulStockExchange" xlink:to="uk-exch_Turkey-IstanbulStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Turkey-IstanbulStockExchange_lbl" xml:lang="en">Turkey - Istanbul Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-AbuDhabiSecuritiesMarket" xlink:label="uk-exch_UAE-AbuDhabiSecuritiesMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UAE-AbuDhabiSecuritiesMarket" xlink:to="uk-exch_UAE-AbuDhabiSecuritiesMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UAE-AbuDhabiSecuritiesMarket_lbl" xml:lang="en">UAE - Abu Dhabi Securities Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiFinancialMarket" xlink:label="uk-exch_UAE-DubaiFinancialMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UAE-DubaiFinancialMarket" xlink:to="uk-exch_UAE-DubaiFinancialMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UAE-DubaiFinancialMarket_lbl" xml:lang="en">UAE - Dubai Financial Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiInternationalFinancialExchange" xlink:label="uk-exch_UAE-DubaiInternationalFinancialExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UAE-DubaiInternationalFinancialExchange" xlink:to="uk-exch_UAE-DubaiInternationalFinancialExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UAE-DubaiInternationalFinancialExchange_lbl" xml:lang="en">UAE - Dubai International Financial Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-AlternateInvestmentMarket" xlink:label="uk-exch_UK-AlternateInvestmentMarket" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UK-AlternateInvestmentMarket" xlink:to="uk-exch_UK-AlternateInvestmentMarket_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UK-AlternateInvestmentMarket_lbl" xml:lang="en">UK - Alternate Investment Market</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-ChannelIslandsStockExchange" xlink:label="uk-exch_UK-ChannelIslandsStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UK-ChannelIslandsStockExchange" xlink:to="uk-exch_UK-ChannelIslandsStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UK-ChannelIslandsStockExchange_lbl" xml:lang="en">UK - Channel Islands Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-LondonStockExchange" xlink:label="uk-exch_UK-LondonStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_UK-LondonStockExchange" xlink:to="uk-exch_UK-LondonStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_UK-LondonStockExchange_lbl" xml:lang="en">UK - London Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-AmericanStockExchange" xlink:label="uk-exch_US-AmericanStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-AmericanStockExchange" xlink:to="uk-exch_US-AmericanStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-AmericanStockExchange_lbl" xml:lang="en">US - American Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ArizonaStockExchange" xlink:label="uk-exch_US-ArizonaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-ArizonaStockExchange" xlink:to="uk-exch_US-ArizonaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-ArizonaStockExchange_lbl" xml:lang="en">US - Arizona Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-BostonStockExchange" xlink:label="uk-exch_US-BostonStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-BostonStockExchange" xlink:to="uk-exch_US-BostonStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-BostonStockExchange_lbl" xml:lang="en">US - Boston Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ChicagoStockExchange" xlink:label="uk-exch_US-ChicagoStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-ChicagoStockExchange" xlink:to="uk-exch_US-ChicagoStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-ChicagoStockExchange_lbl" xml:lang="en">US - Chicago Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NASDAQStockExchange" xlink:label="uk-exch_US-NASDAQStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-NASDAQStockExchange" xlink:to="uk-exch_US-NASDAQStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-NASDAQStockExchange_lbl" xml:lang="en">US - NASDAQ Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NationalStockExchange" xlink:label="uk-exch_US-NationalStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-NationalStockExchange" xlink:to="uk-exch_US-NationalStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-NationalStockExchange_lbl" xml:lang="en">US - National Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NewYorkStockExchange" xlink:label="uk-exch_US-NewYorkStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-NewYorkStockExchange" xlink:to="uk-exch_US-NewYorkStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-NewYorkStockExchange_lbl" xml:lang="en">US - New York Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PacificExchange" xlink:label="uk-exch_US-PacificExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-PacificExchange" xlink:to="uk-exch_US-PacificExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-PacificExchange_lbl" xml:lang="en">US - Pacific Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PhiladelphiaStockExchange" xlink:label="uk-exch_US-PhiladelphiaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_US-PhiladelphiaStockExchange" xlink:to="uk-exch_US-PhiladelphiaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_US-PhiladelphiaStockExchange_lbl" xml:lang="en">US - Philadelphia Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uganda-SecuritiesExchange" xlink:label="uk-exch_Uganda-SecuritiesExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Uganda-SecuritiesExchange" xlink:to="uk-exch_Uganda-SecuritiesExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Uganda-SecuritiesExchange_lbl" xml:lang="en">Uganda - Securities Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ukraine-KievUniversalExchange" xlink:label="uk-exch_Ukraine-KievUniversalExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Ukraine-KievUniversalExchange" xlink:to="uk-exch_Ukraine-KievUniversalExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Ukraine-KievUniversalExchange_lbl" xml:lang="en">Ukraine - Kiev Universal Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uruguay-MontevideoBolsaDeValores" xlink:label="uk-exch_Uruguay-MontevideoBolsaDeValores" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Uruguay-MontevideoBolsaDeValores" xlink:to="uk-exch_Uruguay-MontevideoBolsaDeValores_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Uruguay-MontevideoBolsaDeValores_lbl" xml:lang="en">Uruguay - Montevideo, Bolsa de Valores</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uzbekistan-StockExchange" xlink:label="uk-exch_Uzbekistan-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Uzbekistan-StockExchange" xlink:to="uk-exch_Uzbekistan-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Uzbekistan-StockExchange_lbl" xml:lang="en">Uzbekistan - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Venezuela-CaracasStockExchange" xlink:label="uk-exch_Venezuela-CaracasStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Venezuela-CaracasStockExchange" xlink:to="uk-exch_Venezuela-CaracasStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Venezuela-CaracasStockExchange_lbl" xml:lang="en">Venezuela - Caracas Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_VietNam-StockExchange" xlink:label="uk-exch_VietNam-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_VietNam-StockExchange" xlink:to="uk-exch_VietNam-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_VietNam-StockExchange_lbl" xml:lang="en">Viet nam - Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zambia-LusakaStockExchange" xlink:label="uk-exch_Zambia-LusakaStockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Zambia-LusakaStockExchange" xlink:to="uk-exch_Zambia-LusakaStockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Zambia-LusakaStockExchange_lbl" xml:lang="en">Zambia - Lusaka Stock Exchange</label>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zimbabwe-StockExchange" xlink:label="uk-exch_Zimbabwe-StockExchange" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-exch_Zimbabwe-StockExchange" xlink:to="uk-exch_Zimbabwe-StockExchange_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-exch_Zimbabwe-StockExchange_lbl" xml:lang="en">Zimbabwe - Stock Exchange</label>
+  </labelLink>
+</linkbase>

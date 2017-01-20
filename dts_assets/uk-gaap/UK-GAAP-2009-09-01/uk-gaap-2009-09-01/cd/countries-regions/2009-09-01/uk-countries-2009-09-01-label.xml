@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Countries-Regions-Label linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Afghanistan" xlink:label="uk-countries_Afghanistan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Afghanistan" xlink:to="uk-countries_Afghanistan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Afghanistan_lbl" xml:lang="en">Afghanistan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Africa" xlink:label="uk-countries_Africa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Africa" xlink:to="uk-countries_Africa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Africa_lbl" xml:lang="en">Africa</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AlandIslands" xlink:label="uk-countries_AlandIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_AlandIslands" xlink:to="uk-countries_AlandIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_AlandIslands_lbl" xml:lang="en">Åland Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Albania" xlink:label="uk-countries_Albania" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Albania" xlink:to="uk-countries_Albania_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Albania_lbl" xml:lang="en">Albania</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Algeria" xlink:label="uk-countries_Algeria" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Algeria" xlink:to="uk-countries_Algeria_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Algeria_lbl" xml:lang="en">Algeria</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AllCountries" xlink:label="uk-countries_AllCountries" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_AllCountries" xlink:to="uk-countries_AllCountries_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-countries_AllCountries_lbl" xml:lang="en">Aggregator for all countries</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_AllCountries_lbl" xml:lang="en">All countries</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AmericanSamoa" xlink:label="uk-countries_AmericanSamoa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_AmericanSamoa" xlink:to="uk-countries_AmericanSamoa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_AmericanSamoa_lbl" xml:lang="en">American Samoa</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Americas" xlink:label="uk-countries_Americas" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Americas" xlink:to="uk-countries_Americas_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Americas_lbl" xml:lang="en">Americas</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Andorra" xlink:label="uk-countries_Andorra" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Andorra" xlink:to="uk-countries_Andorra_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Andorra_lbl" xml:lang="en">Andorra</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Angola" xlink:label="uk-countries_Angola" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Angola" xlink:to="uk-countries_Angola_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Angola_lbl" xml:lang="en">Angola</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Anguilla" xlink:label="uk-countries_Anguilla" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Anguilla" xlink:to="uk-countries_Anguilla_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Anguilla_lbl" xml:lang="en">Anguilla</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Antarctica" xlink:label="uk-countries_Antarctica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Antarctica" xlink:to="uk-countries_Antarctica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Antarctica_lbl" xml:lang="en">Antarctica</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AntiguaBarbuda" xlink:label="uk-countries_AntiguaBarbuda" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_AntiguaBarbuda" xlink:to="uk-countries_AntiguaBarbuda_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_AntiguaBarbuda_lbl" xml:lang="en">Antigua and Barbuda</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Argentina" xlink:label="uk-countries_Argentina" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Argentina" xlink:to="uk-countries_Argentina_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Argentina_lbl" xml:lang="en">Argentina</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Armenia" xlink:label="uk-countries_Armenia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Armenia" xlink:to="uk-countries_Armenia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Armenia_lbl" xml:lang="en">Armenia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Aruba" xlink:label="uk-countries_Aruba" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Aruba" xlink:to="uk-countries_Aruba_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Aruba_lbl" xml:lang="en">Aruba</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Asia" xlink:label="uk-countries_Asia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Asia" xlink:to="uk-countries_Asia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Asia_lbl" xml:lang="en">Asia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Australasia" xlink:label="uk-countries_Australasia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Australasia" xlink:to="uk-countries_Australasia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Australasia_lbl" xml:lang="en">Australasia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Australia" xlink:label="uk-countries_Australia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Australia" xlink:to="uk-countries_Australia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Australia_lbl" xml:lang="en">Australia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Austria" xlink:label="uk-countries_Austria" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Austria" xlink:to="uk-countries_Austria_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Austria_lbl" xml:lang="en">Austria</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Azerbaijan" xlink:label="uk-countries_Azerbaijan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Azerbaijan" xlink:to="uk-countries_Azerbaijan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Azerbaijan_lbl" xml:lang="en">Azerbaijan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bahamas" xlink:label="uk-countries_Bahamas" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bahamas" xlink:to="uk-countries_Bahamas_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bahamas_lbl" xml:lang="en">Bahamas</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bahrain" xlink:label="uk-countries_Bahrain" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bahrain" xlink:to="uk-countries_Bahrain_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bahrain_lbl" xml:lang="en">Bahrain</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bangladesh" xlink:label="uk-countries_Bangladesh" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bangladesh" xlink:to="uk-countries_Bangladesh_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bangladesh_lbl" xml:lang="en">Bangladesh</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Barbados" xlink:label="uk-countries_Barbados" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Barbados" xlink:to="uk-countries_Barbados_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Barbados_lbl" xml:lang="en">Barbados</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belarus" xlink:label="uk-countries_Belarus" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Belarus" xlink:to="uk-countries_Belarus_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Belarus_lbl" xml:lang="en">Belarus</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belgium" xlink:label="uk-countries_Belgium" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Belgium" xlink:to="uk-countries_Belgium_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Belgium_lbl" xml:lang="en">Belgium</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belize" xlink:label="uk-countries_Belize" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Belize" xlink:to="uk-countries_Belize_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Belize_lbl" xml:lang="en">Belize</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Benin" xlink:label="uk-countries_Benin" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Benin" xlink:to="uk-countries_Benin_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Benin_lbl" xml:lang="en">Benin</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bermuda" xlink:label="uk-countries_Bermuda" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bermuda" xlink:to="uk-countries_Bermuda_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bermuda_lbl" xml:lang="en">Bermuda</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bhutan" xlink:label="uk-countries_Bhutan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bhutan" xlink:to="uk-countries_Bhutan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bhutan_lbl" xml:lang="en">Bhutan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bolivia" xlink:label="uk-countries_Bolivia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bolivia" xlink:to="uk-countries_Bolivia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bolivia_lbl" xml:lang="en">Bolivia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BosniaHerzegovina" xlink:label="uk-countries_BosniaHerzegovina" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_BosniaHerzegovina" xlink:to="uk-countries_BosniaHerzegovina_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_BosniaHerzegovina_lbl" xml:lang="en">Bosnia and Herzegovina</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Botswana" xlink:label="uk-countries_Botswana" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Botswana" xlink:to="uk-countries_Botswana_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Botswana_lbl" xml:lang="en">Botswana</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BouvetIsland" xlink:label="uk-countries_BouvetIsland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_BouvetIsland" xlink:to="uk-countries_BouvetIsland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_BouvetIsland_lbl" xml:lang="en">Bouvet Island</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Brazil" xlink:label="uk-countries_Brazil" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Brazil" xlink:to="uk-countries_Brazil_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Brazil_lbl" xml:lang="en">Brazil</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BritishIndianOceanTerritory" xlink:label="uk-countries_BritishIndianOceanTerritory" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_BritishIndianOceanTerritory" xlink:to="uk-countries_BritishIndianOceanTerritory_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_BritishIndianOceanTerritory_lbl" xml:lang="en">British Indian Ocean Territory</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BruneiDarussalam" xlink:label="uk-countries_BruneiDarussalam" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_BruneiDarussalam" xlink:to="uk-countries_BruneiDarussalam_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_BruneiDarussalam_lbl" xml:lang="en">Brunei Darussalam</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bulgaria" xlink:label="uk-countries_Bulgaria" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Bulgaria" xlink:to="uk-countries_Bulgaria_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Bulgaria_lbl" xml:lang="en">Bulgaria</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BurkinaFaso" xlink:label="uk-countries_BurkinaFaso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_BurkinaFaso" xlink:to="uk-countries_BurkinaFaso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_BurkinaFaso_lbl" xml:lang="en">Burkina Faso</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Burundi" xlink:label="uk-countries_Burundi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Burundi" xlink:to="uk-countries_Burundi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Burundi_lbl" xml:lang="en">Burundi</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cambodia" xlink:label="uk-countries_Cambodia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Cambodia" xlink:to="uk-countries_Cambodia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Cambodia_lbl" xml:lang="en">Cambodia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cameroon" xlink:label="uk-countries_Cameroon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Cameroon" xlink:to="uk-countries_Cameroon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Cameroon_lbl" xml:lang="en">Cameroon</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Canada" xlink:label="uk-countries_Canada" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Canada" xlink:to="uk-countries_Canada_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Canada_lbl" xml:lang="en">Canada</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CapeVerde" xlink:label="uk-countries_CapeVerde" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CapeVerde" xlink:to="uk-countries_CapeVerde_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CapeVerde_lbl" xml:lang="en">Cape Verde</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Caribbean" xlink:label="uk-countries_Caribbean" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Caribbean" xlink:to="uk-countries_Caribbean_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Caribbean_lbl" xml:lang="en">Caribbean</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CaymanIslands" xlink:label="uk-countries_CaymanIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CaymanIslands" xlink:to="uk-countries_CaymanIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CaymanIslands_lbl" xml:lang="en">Cayman Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CentralAfricanRepublic" xlink:label="uk-countries_CentralAfricanRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CentralAfricanRepublic" xlink:to="uk-countries_CentralAfricanRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CentralAfricanRepublic_lbl" xml:lang="en">Central African Republic</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CentralAmerica" xlink:label="uk-countries_CentralAmerica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CentralAmerica" xlink:to="uk-countries_CentralAmerica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CentralAmerica_lbl" xml:lang="en">Central America</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Chad" xlink:label="uk-countries_Chad" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Chad" xlink:to="uk-countries_Chad_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Chad_lbl" xml:lang="en">Chad</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Chile" xlink:label="uk-countries_Chile" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Chile" xlink:to="uk-countries_Chile_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Chile_lbl" xml:lang="en">Chile</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_China" xlink:label="uk-countries_China" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_China" xlink:to="uk-countries_China_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_China_lbl" xml:lang="en">China</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_ChristmasIsland" xlink:label="uk-countries_ChristmasIsland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_ChristmasIsland" xlink:to="uk-countries_ChristmasIsland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_ChristmasIsland_lbl" xml:lang="en">Christmas Island</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CocosKeelingIslands" xlink:label="uk-countries_CocosKeelingIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CocosKeelingIslands" xlink:to="uk-countries_CocosKeelingIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CocosKeelingIslands_lbl" xml:lang="en">Cocos (Keeling) Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Colombia" xlink:label="uk-countries_Colombia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Colombia" xlink:to="uk-countries_Colombia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Colombia_lbl" xml:lang="en">Colombia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Comoros" xlink:label="uk-countries_Comoros" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Comoros" xlink:to="uk-countries_Comoros_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Comoros_lbl" xml:lang="en">Comoros</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CongoDemocraticRepublic" xlink:label="uk-countries_CongoDemocraticRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CongoDemocraticRepublic" xlink:to="uk-countries_CongoDemocraticRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CongoDemocraticRepublic_lbl" xml:lang="en">Congo, The Democratic Republic of the</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Congo" xlink:label="uk-countries_Congo" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Congo" xlink:to="uk-countries_Congo_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Congo_lbl" xml:lang="en">Congo</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CookIslands" xlink:label="uk-countries_CookIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CookIslands" xlink:to="uk-countries_CookIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CookIslands_lbl" xml:lang="en">Cook Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CostaRica" xlink:label="uk-countries_CostaRica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CostaRica" xlink:to="uk-countries_CostaRica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CostaRica_lbl" xml:lang="en">Costa Rica</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CoteDIvoire" xlink:label="uk-countries_CoteDIvoire" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CoteDIvoire" xlink:to="uk-countries_CoteDIvoire_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CoteDIvoire_lbl" xml:lang="en">Cote d'Ivoire</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CountriesDimension" xlink:label="uk-countries_CountriesDimension" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_CountriesDimension_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CountriesDimension_lbl" xml:lang="en">Countries [Dimension]</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CountryListHeading" xlink:label="uk-countries_CountryListHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CountryListHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-countries_CountryListHeading_lbl" xml:lang="en">Groups list of countries based on International Standards Organisation (ISO) 3166-1.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CountryListHeading_lbl" xml:lang="en">Country list [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Croatia" xlink:label="uk-countries_Croatia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Croatia" xlink:to="uk-countries_Croatia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Croatia_lbl" xml:lang="en">Croatia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cuba" xlink:label="uk-countries_Cuba" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Cuba" xlink:to="uk-countries_Cuba_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Cuba_lbl" xml:lang="en">Cuba</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cyprus" xlink:label="uk-countries_Cyprus" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Cyprus" xlink:to="uk-countries_Cyprus_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Cyprus_lbl" xml:lang="en">Cyprus</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CzechRepublic" xlink:label="uk-countries_CzechRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_CzechRepublic" xlink:to="uk-countries_CzechRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_CzechRepublic_lbl" xml:lang="en">Czech Republic</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Denmark" xlink:label="uk-countries_Denmark" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Denmark" xlink:to="uk-countries_Denmark_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Denmark_lbl" xml:lang="en">Denmark</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:label="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:to="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading_lbl" xml:lang="en">Dimension members representing countries and regions [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Djibouti" xlink:label="uk-countries_Djibouti" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Djibouti" xlink:to="uk-countries_Djibouti_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Djibouti_lbl" xml:lang="en">Djibouti</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_DominicanRepublic" xlink:label="uk-countries_DominicanRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_DominicanRepublic" xlink:to="uk-countries_DominicanRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_DominicanRepublic_lbl" xml:lang="en">Dominican Republic</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Dominica" xlink:label="uk-countries_Dominica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Dominica" xlink:to="uk-countries_Dominica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Dominica_lbl" xml:lang="en">Dominica</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ecuador" xlink:label="uk-countries_Ecuador" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Ecuador" xlink:to="uk-countries_Ecuador_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Ecuador_lbl" xml:lang="en">Ecuador</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Egypt" xlink:label="uk-countries_Egypt" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Egypt" xlink:to="uk-countries_Egypt_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Egypt_lbl" xml:lang="en">Egypt</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_ElSalvador" xlink:label="uk-countries_ElSalvador" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_ElSalvador" xlink:to="uk-countries_ElSalvador_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_ElSalvador_lbl" xml:lang="en">El Salvador</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_England" xlink:label="uk-countries_England" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_England" xlink:to="uk-countries_England_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_England_lbl" xml:lang="en">England</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_EquatorialGuinea" xlink:label="uk-countries_EquatorialGuinea" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_EquatorialGuinea" xlink:to="uk-countries_EquatorialGuinea_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_EquatorialGuinea_lbl" xml:lang="en">Equatorial Guinea</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Eritrea" xlink:label="uk-countries_Eritrea" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Eritrea" xlink:to="uk-countries_Eritrea_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Eritrea_lbl" xml:lang="en">Eritrea</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Estonia" xlink:label="uk-countries_Estonia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Estonia" xlink:to="uk-countries_Estonia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Estonia_lbl" xml:lang="en">Estonia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ethiopia" xlink:label="uk-countries_Ethiopia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Ethiopia" xlink:to="uk-countries_Ethiopia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Ethiopia_lbl" xml:lang="en">Ethiopia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_EuropeanCommunity" xlink:label="uk-countries_EuropeanCommunity" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_EuropeanCommunity" xlink:to="uk-countries_EuropeanCommunity_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_EuropeanCommunity_lbl" xml:lang="en">European Community</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Europe" xlink:label="uk-countries_Europe" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Europe" xlink:to="uk-countries_Europe_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Europe_lbl" xml:lang="en">Europe</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FalklandIslandsMalvinas" xlink:label="uk-countries_FalklandIslandsMalvinas" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_FalklandIslandsMalvinas" xlink:to="uk-countries_FalklandIslandsMalvinas_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_FalklandIslandsMalvinas_lbl" xml:lang="en">Falkland Islands (Malvinas)</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FaroeIslands" xlink:label="uk-countries_FaroeIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_FaroeIslands" xlink:to="uk-countries_FaroeIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_FaroeIslands_lbl" xml:lang="en">Faroe Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Fiji" xlink:label="uk-countries_Fiji" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Fiji" xlink:to="uk-countries_Fiji_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Fiji_lbl" xml:lang="en">Fiji</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Finland" xlink:label="uk-countries_Finland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Finland" xlink:to="uk-countries_Finland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Finland_lbl" xml:lang="en">Finland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_France" xlink:label="uk-countries_France" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_France" xlink:to="uk-countries_France_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_France_lbl" xml:lang="en">France</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchGuiana" xlink:label="uk-countries_FrenchGuiana" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_FrenchGuiana" xlink:to="uk-countries_FrenchGuiana_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_FrenchGuiana_lbl" xml:lang="en">French Guiana</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchPolynesia" xlink:label="uk-countries_FrenchPolynesia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_FrenchPolynesia" xlink:to="uk-countries_FrenchPolynesia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_FrenchPolynesia_lbl" xml:lang="en">French Polynesia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchSouthernTerritories" xlink:label="uk-countries_FrenchSouthernTerritories" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_FrenchSouthernTerritories" xlink:to="uk-countries_FrenchSouthernTerritories_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_FrenchSouthernTerritories_lbl" xml:lang="en">French Southern Territories</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gabon" xlink:label="uk-countries_Gabon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Gabon" xlink:to="uk-countries_Gabon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Gabon_lbl" xml:lang="en">Gabon</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gambia" xlink:label="uk-countries_Gambia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Gambia" xlink:to="uk-countries_Gambia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Gambia_lbl" xml:lang="en">Gambia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Georgia" xlink:label="uk-countries_Georgia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Georgia" xlink:to="uk-countries_Georgia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Georgia_lbl" xml:lang="en">Georgia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Germany" xlink:label="uk-countries_Germany" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Germany" xlink:to="uk-countries_Germany_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Germany_lbl" xml:lang="en">Germany</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ghana" xlink:label="uk-countries_Ghana" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Ghana" xlink:to="uk-countries_Ghana_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Ghana_lbl" xml:lang="en">Ghana</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gibraltar" xlink:label="uk-countries_Gibraltar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Gibraltar" xlink:to="uk-countries_Gibraltar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Gibraltar_lbl" xml:lang="en">Gibraltar</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_GreatBritain" xlink:label="uk-countries_GreatBritain" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_GreatBritain" xlink:to="uk-countries_GreatBritain_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_GreatBritain_lbl" xml:lang="en">Great Britain</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Greece" xlink:label="uk-countries_Greece" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Greece" xlink:to="uk-countries_Greece_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Greece_lbl" xml:lang="en">Greece</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Greenland" xlink:label="uk-countries_Greenland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Greenland" xlink:to="uk-countries_Greenland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Greenland_lbl" xml:lang="en">Greenland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Grenada" xlink:label="uk-countries_Grenada" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Grenada" xlink:to="uk-countries_Grenada_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Grenada_lbl" xml:lang="en">Grenada</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guadeloupe" xlink:label="uk-countries_Guadeloupe" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guadeloupe" xlink:to="uk-countries_Guadeloupe_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guadeloupe_lbl" xml:lang="en">Guadeloupe</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guam" xlink:label="uk-countries_Guam" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guam" xlink:to="uk-countries_Guam_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guam_lbl" xml:lang="en">Guam</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guatemala" xlink:label="uk-countries_Guatemala" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guatemala" xlink:to="uk-countries_Guatemala_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guatemala_lbl" xml:lang="en">Guatemala</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guernsey" xlink:label="uk-countries_Guernsey" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guernsey" xlink:to="uk-countries_Guernsey_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guernsey_lbl" xml:lang="en">Guernsey</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guinea-Bissau" xlink:label="uk-countries_Guinea-Bissau" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guinea-Bissau" xlink:to="uk-countries_Guinea-Bissau_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guinea-Bissau_lbl" xml:lang="en">Guinea-Bissau</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guinea" xlink:label="uk-countries_Guinea" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guinea" xlink:to="uk-countries_Guinea_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guinea_lbl" xml:lang="en">Guinea</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guyana" xlink:label="uk-countries_Guyana" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Guyana" xlink:to="uk-countries_Guyana_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Guyana_lbl" xml:lang="en">Guyana</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Haiti" xlink:label="uk-countries_Haiti" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Haiti" xlink:to="uk-countries_Haiti_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Haiti_lbl" xml:lang="en">Haiti</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HeardIslandMcDonaldIslands" xlink:label="uk-countries_HeardIslandMcDonaldIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_HeardIslandMcDonaldIslands" xlink:to="uk-countries_HeardIslandMcDonaldIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_HeardIslandMcDonaldIslands_lbl" xml:lang="en">Heard Island and McDonald Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HolySeeVaticanCityState" xlink:label="uk-countries_HolySeeVaticanCityState" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_HolySeeVaticanCityState" xlink:to="uk-countries_HolySeeVaticanCityState_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_HolySeeVaticanCityState_lbl" xml:lang="en">Holy See (Vatican City State) </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HomeCountriesHeading" xlink:label="uk-countries_HomeCountriesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_HomeCountriesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_HomeCountriesHeading_lbl" xml:lang="en">Home countries [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Honduras" xlink:label="uk-countries_Honduras" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Honduras" xlink:to="uk-countries_Honduras_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Honduras_lbl" xml:lang="en">Honduras</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HongKong" xlink:label="uk-countries_HongKong" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_HongKong" xlink:to="uk-countries_HongKong_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_HongKong_lbl" xml:lang="en">Hong Kong</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Hungary" xlink:label="uk-countries_Hungary" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Hungary" xlink:to="uk-countries_Hungary_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Hungary_lbl" xml:lang="en">Hungary</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Iceland" xlink:label="uk-countries_Iceland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Iceland" xlink:to="uk-countries_Iceland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Iceland_lbl" xml:lang="en">Iceland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_India" xlink:label="uk-countries_India" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_India" xlink:to="uk-countries_India_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_India_lbl" xml:lang="en">India</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Indonesia" xlink:label="uk-countries_Indonesia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Indonesia" xlink:to="uk-countries_Indonesia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Indonesia_lbl" xml:lang="en">Indonesia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_IranIslamicRepublic" xlink:label="uk-countries_IranIslamicRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_IranIslamicRepublic" xlink:to="uk-countries_IranIslamicRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_IranIslamicRepublic_lbl" xml:lang="en">Iran, Islamic Republic of </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Iraq" xlink:label="uk-countries_Iraq" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Iraq" xlink:to="uk-countries_Iraq_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Iraq_lbl" xml:lang="en">Iraq</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ireland" xlink:label="uk-countries_Ireland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Ireland" xlink:to="uk-countries_Ireland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Ireland_lbl" xml:lang="en">Ireland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_IsleMan" xlink:label="uk-countries_IsleMan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_IsleMan" xlink:to="uk-countries_IsleMan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_IsleMan_lbl" xml:lang="en">Isle of Man</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Israel" xlink:label="uk-countries_Israel" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Israel" xlink:to="uk-countries_Israel_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Israel_lbl" xml:lang="en">Israel</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Italy" xlink:label="uk-countries_Italy" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Italy" xlink:to="uk-countries_Italy_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Italy_lbl" xml:lang="en">Italy</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jamaica" xlink:label="uk-countries_Jamaica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Jamaica" xlink:to="uk-countries_Jamaica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Jamaica_lbl" xml:lang="en">Jamaica</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Japan" xlink:label="uk-countries_Japan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Japan" xlink:to="uk-countries_Japan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Japan_lbl" xml:lang="en">Japan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jersey" xlink:label="uk-countries_Jersey" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Jersey" xlink:to="uk-countries_Jersey_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Jersey_lbl" xml:lang="en">Jersey</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jordan" xlink:label="uk-countries_Jordan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Jordan" xlink:to="uk-countries_Jordan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Jordan_lbl" xml:lang="en">Jordan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kazakhstan" xlink:label="uk-countries_Kazakhstan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Kazakhstan" xlink:to="uk-countries_Kazakhstan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Kazakhstan_lbl" xml:lang="en">Kazakhstan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kenya" xlink:label="uk-countries_Kenya" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Kenya" xlink:to="uk-countries_Kenya_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Kenya_lbl" xml:lang="en">Kenya</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kiribati" xlink:label="uk-countries_Kiribati" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Kiribati" xlink:to="uk-countries_Kiribati_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Kiribati_lbl" xml:lang="en">Kiribati</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_KoreaDemocraticPeoplesRepublic" xlink:label="uk-countries_KoreaDemocraticPeoplesRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_KoreaDemocraticPeoplesRepublic" xlink:to="uk-countries_KoreaDemocraticPeoplesRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_KoreaDemocraticPeoplesRepublic_lbl" xml:lang="en">Korea, Democratic People's Republic of</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_KoreaRepublic" xlink:label="uk-countries_KoreaRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_KoreaRepublic" xlink:to="uk-countries_KoreaRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_KoreaRepublic_lbl" xml:lang="en">Korea, Republic of</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kuwait" xlink:label="uk-countries_Kuwait" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Kuwait" xlink:to="uk-countries_Kuwait_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Kuwait_lbl" xml:lang="en">Kuwait</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kyrgyzstan" xlink:label="uk-countries_Kyrgyzstan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Kyrgyzstan" xlink:to="uk-countries_Kyrgyzstan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Kyrgyzstan_lbl" xml:lang="en">Kyrgyzstan </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LaoPeoplesDemocraticRepublic" xlink:label="uk-countries_LaoPeoplesDemocraticRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_LaoPeoplesDemocraticRepublic" xlink:to="uk-countries_LaoPeoplesDemocraticRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_LaoPeoplesDemocraticRepublic_lbl" xml:lang="en">Lao People's Democratic Republic </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LatinAmericaCaribbean" xlink:label="uk-countries_LatinAmericaCaribbean" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_LatinAmericaCaribbean" xlink:to="uk-countries_LatinAmericaCaribbean_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_LatinAmericaCaribbean_lbl" xml:lang="en">Latin America and Caribbean</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LatinAmerica" xlink:label="uk-countries_LatinAmerica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_LatinAmerica" xlink:to="uk-countries_LatinAmerica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_LatinAmerica_lbl" xml:lang="en">Latin America</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Latvia" xlink:label="uk-countries_Latvia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Latvia" xlink:to="uk-countries_Latvia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Latvia_lbl" xml:lang="en">Latvia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lebanon" xlink:label="uk-countries_Lebanon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Lebanon" xlink:to="uk-countries_Lebanon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Lebanon_lbl" xml:lang="en">Lebanon</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lesotho" xlink:label="uk-countries_Lesotho" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Lesotho" xlink:to="uk-countries_Lesotho_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Lesotho_lbl" xml:lang="en">Lesotho</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Liberia" xlink:label="uk-countries_Liberia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Liberia" xlink:to="uk-countries_Liberia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Liberia_lbl" xml:lang="en">Liberia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LibyanArabJamahiriya" xlink:label="uk-countries_LibyanArabJamahiriya" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_LibyanArabJamahiriya" xlink:to="uk-countries_LibyanArabJamahiriya_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_LibyanArabJamahiriya_lbl" xml:lang="en">Libyan Arab Jamahiriya </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Liechtenstein" xlink:label="uk-countries_Liechtenstein" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Liechtenstein" xlink:to="uk-countries_Liechtenstein_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Liechtenstein_lbl" xml:lang="en">Liechtenstein</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lithuania" xlink:label="uk-countries_Lithuania" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Lithuania" xlink:to="uk-countries_Lithuania_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Lithuania_lbl" xml:lang="en">Lithuania</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Luxembourg" xlink:label="uk-countries_Luxembourg" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Luxembourg" xlink:to="uk-countries_Luxembourg_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Luxembourg_lbl" xml:lang="en">Luxembourg</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Macao" xlink:label="uk-countries_Macao" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Macao" xlink:to="uk-countries_Macao_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Macao_lbl" xml:lang="en">Macao</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MacedoniaFormerYugoslavRepublic" xlink:label="uk-countries_MacedoniaFormerYugoslavRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MacedoniaFormerYugoslavRepublic" xlink:to="uk-countries_MacedoniaFormerYugoslavRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MacedoniaFormerYugoslavRepublic_lbl" xml:lang="en">Macedonia, the former Yugoslav Republic of </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Madagascar" xlink:label="uk-countries_Madagascar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Madagascar" xlink:to="uk-countries_Madagascar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Madagascar_lbl" xml:lang="en">Madagascar</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MainRegionsHeading" xlink:label="uk-countries_MainRegionsHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_MainRegionsHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MainRegionsHeading_lbl" xml:lang="en">Main regions [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malawi" xlink:label="uk-countries_Malawi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Malawi" xlink:to="uk-countries_Malawi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Malawi_lbl" xml:lang="en">Malawi</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malaysia" xlink:label="uk-countries_Malaysia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Malaysia" xlink:to="uk-countries_Malaysia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Malaysia_lbl" xml:lang="en">Malaysia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Maldives" xlink:label="uk-countries_Maldives" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Maldives" xlink:to="uk-countries_Maldives_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Maldives_lbl" xml:lang="en">Maldives</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mali" xlink:label="uk-countries_Mali" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mali" xlink:to="uk-countries_Mali_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mali_lbl" xml:lang="en">Mali</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malta" xlink:label="uk-countries_Malta" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Malta" xlink:to="uk-countries_Malta_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Malta_lbl" xml:lang="en">Malta</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MarshallIslands" xlink:label="uk-countries_MarshallIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MarshallIslands" xlink:to="uk-countries_MarshallIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MarshallIslands_lbl" xml:lang="en">Marshall Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Martinique" xlink:label="uk-countries_Martinique" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Martinique" xlink:to="uk-countries_Martinique_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Martinique_lbl" xml:lang="en">Martinique</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mauritania" xlink:label="uk-countries_Mauritania" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mauritania" xlink:to="uk-countries_Mauritania_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mauritania_lbl" xml:lang="en">Mauritania</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mauritius" xlink:label="uk-countries_Mauritius" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mauritius" xlink:to="uk-countries_Mauritius_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mauritius_lbl" xml:lang="en">Mauritius</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mayotte" xlink:label="uk-countries_Mayotte" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mayotte" xlink:to="uk-countries_Mayotte_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mayotte_lbl" xml:lang="en">Mayotte</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mexico" xlink:label="uk-countries_Mexico" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mexico" xlink:to="uk-countries_Mexico_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mexico_lbl" xml:lang="en">Mexico</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MicronesiaFederatedStates" xlink:label="uk-countries_MicronesiaFederatedStates" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MicronesiaFederatedStates" xlink:to="uk-countries_MicronesiaFederatedStates_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MicronesiaFederatedStates_lbl" xml:lang="en">Micronesia, Federated States of </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MiddleEast" xlink:label="uk-countries_MiddleEast" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MiddleEast" xlink:to="uk-countries_MiddleEast_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MiddleEast_lbl" xml:lang="en">Middle East</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MoldovaRepublic" xlink:label="uk-countries_MoldovaRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_MoldovaRepublic" xlink:to="uk-countries_MoldovaRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_MoldovaRepublic_lbl" xml:lang="en">Moldova, Republic of</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Monaco" xlink:label="uk-countries_Monaco" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Monaco" xlink:to="uk-countries_Monaco_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Monaco_lbl" xml:lang="en">Monaco</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mongolia" xlink:label="uk-countries_Mongolia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mongolia" xlink:to="uk-countries_Mongolia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mongolia_lbl" xml:lang="en">Mongolia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Montserrat" xlink:label="uk-countries_Montserrat" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Montserrat" xlink:to="uk-countries_Montserrat_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Montserrat_lbl" xml:lang="en">Montserrat</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Morocco" xlink:label="uk-countries_Morocco" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Morocco" xlink:to="uk-countries_Morocco_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Morocco_lbl" xml:lang="en">Morocco</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mozambique" xlink:label="uk-countries_Mozambique" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Mozambique" xlink:to="uk-countries_Mozambique_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Mozambique_lbl" xml:lang="en">Mozambique</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Myanmar" xlink:label="uk-countries_Myanmar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Myanmar" xlink:to="uk-countries_Myanmar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Myanmar_lbl" xml:lang="en">Myanmar</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Namibia" xlink:label="uk-countries_Namibia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Namibia" xlink:to="uk-countries_Namibia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Namibia_lbl" xml:lang="en">Namibia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nauru" xlink:label="uk-countries_Nauru" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Nauru" xlink:to="uk-countries_Nauru_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Nauru_lbl" xml:lang="en">Nauru</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nepal" xlink:label="uk-countries_Nepal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Nepal" xlink:to="uk-countries_Nepal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Nepal_lbl" xml:lang="en">Nepal</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NetherlandsAntilles" xlink:label="uk-countries_NetherlandsAntilles" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NetherlandsAntilles" xlink:to="uk-countries_NetherlandsAntilles_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NetherlandsAntilles_lbl" xml:lang="en">Netherlands Antilles</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Netherlands" xlink:label="uk-countries_Netherlands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Netherlands" xlink:to="uk-countries_Netherlands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Netherlands_lbl" xml:lang="en">Netherlands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NewCaledonia" xlink:label="uk-countries_NewCaledonia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NewCaledonia" xlink:to="uk-countries_NewCaledonia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NewCaledonia_lbl" xml:lang="en">New Caledonia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NewZealand" xlink:label="uk-countries_NewZealand" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NewZealand" xlink:to="uk-countries_NewZealand_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NewZealand_lbl" xml:lang="en">New Zealand</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nicaragua" xlink:label="uk-countries_Nicaragua" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Nicaragua" xlink:to="uk-countries_Nicaragua_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Nicaragua_lbl" xml:lang="en">Nicaragua</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nigeria" xlink:label="uk-countries_Nigeria" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Nigeria" xlink:to="uk-countries_Nigeria_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Nigeria_lbl" xml:lang="en">Nigeria</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Niger" xlink:label="uk-countries_Niger" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Niger" xlink:to="uk-countries_Niger_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Niger_lbl" xml:lang="en">Niger</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Niue" xlink:label="uk-countries_Niue" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Niue" xlink:to="uk-countries_Niue_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Niue_lbl" xml:lang="en">Niue</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorfolkIsland" xlink:label="uk-countries_NorfolkIsland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NorfolkIsland" xlink:to="uk-countries_NorfolkIsland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NorfolkIsland_lbl" xml:lang="en">Norfolk Island</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthAmerica" xlink:label="uk-countries_NorthAmerica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NorthAmerica" xlink:to="uk-countries_NorthAmerica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NorthAmerica_lbl" xml:lang="en">North America</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthernIreland" xlink:label="uk-countries_NorthernIreland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NorthernIreland" xlink:to="uk-countries_NorthernIreland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NorthernIreland_lbl" xml:lang="en">Northern Ireland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthernMarianaIslands" xlink:label="uk-countries_NorthernMarianaIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_NorthernMarianaIslands" xlink:to="uk-countries_NorthernMarianaIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_NorthernMarianaIslands_lbl" xml:lang="en">Northern Mariana Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Norway" xlink:label="uk-countries_Norway" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Norway" xlink:to="uk-countries_Norway_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Norway_lbl" xml:lang="en">Norway</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Oman" xlink:label="uk-countries_Oman" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Oman" xlink:to="uk-countries_Oman_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Oman_lbl" xml:lang="en">Oman</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_OtherCountriesRegions" xlink:label="uk-countries_OtherCountriesRegions" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_OtherCountriesRegions" xlink:to="uk-countries_OtherCountriesRegions_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_OtherCountriesRegions_lbl" xml:lang="en">Other countries and regions</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Pakistan" xlink:label="uk-countries_Pakistan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Pakistan" xlink:to="uk-countries_Pakistan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Pakistan_lbl" xml:lang="en">Pakistan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Palau" xlink:label="uk-countries_Palau" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Palau" xlink:to="uk-countries_Palau_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Palau_lbl" xml:lang="en">Palau</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PalestinianTerritoryOccupied" xlink:label="uk-countries_PalestinianTerritoryOccupied" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_PalestinianTerritoryOccupied" xlink:to="uk-countries_PalestinianTerritoryOccupied_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_PalestinianTerritoryOccupied_lbl" xml:lang="en">Palestinian Territory, Occupied </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Panama" xlink:label="uk-countries_Panama" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Panama" xlink:to="uk-countries_Panama_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Panama_lbl" xml:lang="en">Panama</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PapuaNewGuinea" xlink:label="uk-countries_PapuaNewGuinea" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_PapuaNewGuinea" xlink:to="uk-countries_PapuaNewGuinea_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_PapuaNewGuinea_lbl" xml:lang="en">Papua New Guinea</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Paraguay" xlink:label="uk-countries_Paraguay" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Paraguay" xlink:to="uk-countries_Paraguay_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Paraguay_lbl" xml:lang="en">Paraguay</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Peru" xlink:label="uk-countries_Peru" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Peru" xlink:to="uk-countries_Peru_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Peru_lbl" xml:lang="en">Peru</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Philippines" xlink:label="uk-countries_Philippines" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Philippines" xlink:to="uk-countries_Philippines_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Philippines_lbl" xml:lang="en">Philippines</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Pitcairn" xlink:label="uk-countries_Pitcairn" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Pitcairn" xlink:to="uk-countries_Pitcairn_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Pitcairn_lbl" xml:lang="en">Pitcairn</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Poland" xlink:label="uk-countries_Poland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Poland" xlink:to="uk-countries_Poland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Poland_lbl" xml:lang="en">Poland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Portugal" xlink:label="uk-countries_Portugal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Portugal" xlink:to="uk-countries_Portugal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Portugal_lbl" xml:lang="en">Portugal</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PuertoRico" xlink:label="uk-countries_PuertoRico" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_PuertoRico" xlink:to="uk-countries_PuertoRico_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_PuertoRico_lbl" xml:lang="en">Puerto Rico</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Qatar" xlink:label="uk-countries_Qatar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Qatar" xlink:to="uk-countries_Qatar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Qatar_lbl" xml:lang="en">Qatar</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_RestEuropeOutsideUK" xlink:label="uk-countries_RestEuropeOutsideUK" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_RestEuropeOutsideUK" xlink:to="uk-countries_RestEuropeOutsideUK_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_RestEuropeOutsideUK_lbl" xml:lang="en">Rest of Europe, outside UK</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_RestWorldOutsideUK" xlink:label="uk-countries_RestWorldOutsideUK" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_RestWorldOutsideUK" xlink:to="uk-countries_RestWorldOutsideUK_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_RestWorldOutsideUK_lbl" xml:lang="en">Rest of world, outside UK</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Reunion" xlink:label="uk-countries_Reunion" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Reunion" xlink:to="uk-countries_Reunion_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Reunion_lbl" xml:lang="en">Reunion</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Romania" xlink:label="uk-countries_Romania" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Romania" xlink:to="uk-countries_Romania_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Romania_lbl" xml:lang="en">Romania</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_RussianFederation" xlink:label="uk-countries_RussianFederation" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_RussianFederation" xlink:to="uk-countries_RussianFederation_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_RussianFederation_lbl" xml:lang="en">Russian Federation</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Rwanda" xlink:label="uk-countries_Rwanda" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Rwanda" xlink:to="uk-countries_Rwanda_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Rwanda_lbl" xml:lang="en">Rwanda</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintHelena" xlink:label="uk-countries_SaintHelena" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaintHelena" xlink:to="uk-countries_SaintHelena_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaintHelena_lbl" xml:lang="en">Saint Helena</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintLucia" xlink:label="uk-countries_SaintLucia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaintLucia" xlink:to="uk-countries_SaintLucia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaintLucia_lbl" xml:lang="en">Saint Lucia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintPierreMiquelon" xlink:label="uk-countries_SaintPierreMiquelon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaintPierreMiquelon" xlink:to="uk-countries_SaintPierreMiquelon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaintPierreMiquelon_lbl" xml:lang="en">Saint Pierre and Miquelon </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintVincentGrenadines" xlink:label="uk-countries_SaintVincentGrenadines" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaintVincentGrenadines" xlink:to="uk-countries_SaintVincentGrenadines_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaintVincentGrenadines_lbl" xml:lang="en">Saint Vincent and the Grenadines</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintsKittsNevis" xlink:label="uk-countries_SaintsKittsNevis" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaintsKittsNevis" xlink:to="uk-countries_SaintsKittsNevis_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaintsKittsNevis_lbl" xml:lang="en">Saints Kitts and Nevis</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Samoa" xlink:label="uk-countries_Samoa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Samoa" xlink:to="uk-countries_Samoa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Samoa_lbl" xml:lang="en">Samoa</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SanMarino" xlink:label="uk-countries_SanMarino" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SanMarino" xlink:to="uk-countries_SanMarino_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SanMarino_lbl" xml:lang="en">San Marino</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaoTomePrincipe" xlink:label="uk-countries_SaoTomePrincipe" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaoTomePrincipe" xlink:to="uk-countries_SaoTomePrincipe_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaoTomePrincipe_lbl" xml:lang="en">Sao Tome and Principe </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaudiArabia" xlink:label="uk-countries_SaudiArabia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SaudiArabia" xlink:to="uk-countries_SaudiArabia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SaudiArabia_lbl" xml:lang="en">Saudi Arabia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Scotland" xlink:label="uk-countries_Scotland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Scotland" xlink:to="uk-countries_Scotland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Scotland_lbl" xml:lang="en">Scotland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Senegal" xlink:label="uk-countries_Senegal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Senegal" xlink:to="uk-countries_Senegal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Senegal_lbl" xml:lang="en">Senegal</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SerbiaMontenegro" xlink:label="uk-countries_SerbiaMontenegro" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SerbiaMontenegro" xlink:to="uk-countries_SerbiaMontenegro_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SerbiaMontenegro_lbl" xml:lang="en">Serbia and Montenegro</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Seychelles" xlink:label="uk-countries_Seychelles" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Seychelles" xlink:to="uk-countries_Seychelles_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Seychelles_lbl" xml:lang="en">Seychelles</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SierraLeone" xlink:label="uk-countries_SierraLeone" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SierraLeone" xlink:to="uk-countries_SierraLeone_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SierraLeone_lbl" xml:lang="en">Sierra Leone</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Singapore" xlink:label="uk-countries_Singapore" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Singapore" xlink:to="uk-countries_Singapore_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Singapore_lbl" xml:lang="en">Singapore</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Slovakia" xlink:label="uk-countries_Slovakia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Slovakia" xlink:to="uk-countries_Slovakia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Slovakia_lbl" xml:lang="en">Slovakia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Slovenia" xlink:label="uk-countries_Slovenia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Slovenia" xlink:to="uk-countries_Slovenia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Slovenia_lbl" xml:lang="en">Slovenia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SolomonIslands" xlink:label="uk-countries_SolomonIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SolomonIslands" xlink:to="uk-countries_SolomonIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SolomonIslands_lbl" xml:lang="en">Solomon Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Somalia" xlink:label="uk-countries_Somalia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Somalia" xlink:to="uk-countries_Somalia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Somalia_lbl" xml:lang="en">Somalia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_South-eastAsia" xlink:label="uk-countries_South-eastAsia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_South-eastAsia" xlink:to="uk-countries_South-eastAsia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_South-eastAsia_lbl" xml:lang="en">South-east Asia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthAfrica" xlink:label="uk-countries_SouthAfrica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SouthAfrica" xlink:to="uk-countries_SouthAfrica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SouthAfrica_lbl" xml:lang="en">South Africa</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthAmerica" xlink:label="uk-countries_SouthAmerica" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SouthAmerica" xlink:to="uk-countries_SouthAmerica_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SouthAmerica_lbl" xml:lang="en">South America</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthGeorgiaSouthSandwichIslands" xlink:label="uk-countries_SouthGeorgiaSouthSandwichIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SouthGeorgiaSouthSandwichIslands" xlink:to="uk-countries_SouthGeorgiaSouthSandwichIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SouthGeorgiaSouthSandwichIslands_lbl" xml:lang="en">South Georgia and the South Sandwich Islands </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Spain" xlink:label="uk-countries_Spain" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Spain" xlink:to="uk-countries_Spain_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Spain_lbl" xml:lang="en">Spain</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SriLanka" xlink:label="uk-countries_SriLanka" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SriLanka" xlink:to="uk-countries_SriLanka_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SriLanka_lbl" xml:lang="en">Sri Lanka</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Sudan" xlink:label="uk-countries_Sudan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Sudan" xlink:to="uk-countries_Sudan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Sudan_lbl" xml:lang="en">Sudan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Suriname" xlink:label="uk-countries_Suriname" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Suriname" xlink:to="uk-countries_Suriname_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Suriname_lbl" xml:lang="en">Suriname</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SvalbardJanMayen" xlink:label="uk-countries_SvalbardJanMayen" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SvalbardJanMayen" xlink:to="uk-countries_SvalbardJanMayen_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SvalbardJanMayen_lbl" xml:lang="en">Svalbard and Jan Mayen </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Swaziland" xlink:label="uk-countries_Swaziland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Swaziland" xlink:to="uk-countries_Swaziland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Swaziland_lbl" xml:lang="en">Swaziland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Sweden" xlink:label="uk-countries_Sweden" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Sweden" xlink:to="uk-countries_Sweden_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Sweden_lbl" xml:lang="en">Sweden</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Switzerland" xlink:label="uk-countries_Switzerland" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Switzerland" xlink:to="uk-countries_Switzerland_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Switzerland_lbl" xml:lang="en">Switzerland</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SyrianArabRepublic" xlink:label="uk-countries_SyrianArabRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_SyrianArabRepublic" xlink:to="uk-countries_SyrianArabRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_SyrianArabRepublic_lbl" xml:lang="en">Syrian Arab Republic</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TaiwanProvinceChina" xlink:label="uk-countries_TaiwanProvinceChina" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_TaiwanProvinceChina" xlink:to="uk-countries_TaiwanProvinceChina_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_TaiwanProvinceChina_lbl" xml:lang="en">Taiwan, Province of China</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tajikistan" xlink:label="uk-countries_Tajikistan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Tajikistan" xlink:to="uk-countries_Tajikistan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Tajikistan_lbl" xml:lang="en">Tajikistan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TanzaniaUnitedRepublic" xlink:label="uk-countries_TanzaniaUnitedRepublic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_TanzaniaUnitedRepublic" xlink:to="uk-countries_TanzaniaUnitedRepublic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_TanzaniaUnitedRepublic_lbl" xml:lang="en">Tanzania, United Republic of </label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Thailand" xlink:label="uk-countries_Thailand" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Thailand" xlink:to="uk-countries_Thailand_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Thailand_lbl" xml:lang="en">Thailand</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Timor-Leste" xlink:label="uk-countries_Timor-Leste" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Timor-Leste" xlink:to="uk-countries_Timor-Leste_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Timor-Leste_lbl" xml:lang="en">Timor-Leste</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Togo" xlink:label="uk-countries_Togo" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Togo" xlink:to="uk-countries_Togo_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Togo_lbl" xml:lang="en">Togo</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tokelau" xlink:label="uk-countries_Tokelau" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Tokelau" xlink:to="uk-countries_Tokelau_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Tokelau_lbl" xml:lang="en">Tokelau</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tonga" xlink:label="uk-countries_Tonga" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Tonga" xlink:to="uk-countries_Tonga_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Tonga_lbl" xml:lang="en">Tonga</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TrinidadTobago" xlink:label="uk-countries_TrinidadTobago" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_TrinidadTobago" xlink:to="uk-countries_TrinidadTobago_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_TrinidadTobago_lbl" xml:lang="en">Trinidad and Tobago</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tunisia" xlink:label="uk-countries_Tunisia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Tunisia" xlink:to="uk-countries_Tunisia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Tunisia_lbl" xml:lang="en">Tunisia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Turkey" xlink:label="uk-countries_Turkey" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Turkey" xlink:to="uk-countries_Turkey_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Turkey_lbl" xml:lang="en">Turkey</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Turkmenistan" xlink:label="uk-countries_Turkmenistan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Turkmenistan" xlink:to="uk-countries_Turkmenistan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Turkmenistan_lbl" xml:lang="en">Turkmenistan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TurksCaicosIslands" xlink:label="uk-countries_TurksCaicosIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_TurksCaicosIslands" xlink:to="uk-countries_TurksCaicosIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_TurksCaicosIslands_lbl" xml:lang="en">Turks and Caicos Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tuvalu" xlink:label="uk-countries_Tuvalu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Tuvalu" xlink:to="uk-countries_Tuvalu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Tuvalu_lbl" xml:lang="en">Tuvalu</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uganda" xlink:label="uk-countries_Uganda" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Uganda" xlink:to="uk-countries_Uganda_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Uganda_lbl" xml:lang="en">Uganda</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ukraine" xlink:label="uk-countries_Ukraine" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Ukraine" xlink:to="uk-countries_Ukraine_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Ukraine_lbl" xml:lang="en">Ukraine</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedArabEmirates" xlink:label="uk-countries_UnitedArabEmirates" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_UnitedArabEmirates" xlink:to="uk-countries_UnitedArabEmirates_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_UnitedArabEmirates_lbl" xml:lang="en">United Arab Emirates</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedKingdom" xlink:label="uk-countries_UnitedKingdom" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_UnitedKingdom" xlink:to="uk-countries_UnitedKingdom_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_UnitedKingdom_lbl" xml:lang="en">United Kingdom</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedStatesMinorOutlyingIslands" xlink:label="uk-countries_UnitedStatesMinorOutlyingIslands" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_UnitedStatesMinorOutlyingIslands" xlink:to="uk-countries_UnitedStatesMinorOutlyingIslands_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_UnitedStatesMinorOutlyingIslands_lbl" xml:lang="en">United States Minor Outlying Islands</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedStates" xlink:label="uk-countries_UnitedStates" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_UnitedStates" xlink:to="uk-countries_UnitedStates_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_UnitedStates_lbl" xml:lang="en">United States</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uruguay" xlink:label="uk-countries_Uruguay" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Uruguay" xlink:to="uk-countries_Uruguay_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Uruguay_lbl" xml:lang="en">Uruguay</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uzbekistan" xlink:label="uk-countries_Uzbekistan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Uzbekistan" xlink:to="uk-countries_Uzbekistan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Uzbekistan_lbl" xml:lang="en">Uzbekistan</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Vanuatu" xlink:label="uk-countries_Vanuatu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Vanuatu" xlink:to="uk-countries_Vanuatu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Vanuatu_lbl" xml:lang="en">Vanuatu</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Venezuela" xlink:label="uk-countries_Venezuela" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Venezuela" xlink:to="uk-countries_Venezuela_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Venezuela_lbl" xml:lang="en">Venezuela</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VietNam" xlink:label="uk-countries_VietNam" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_VietNam" xlink:to="uk-countries_VietNam_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_VietNam_lbl" xml:lang="en">Viet Nam</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsBritish" xlink:label="uk-countries_VirginIslandsBritish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_VirginIslandsBritish" xlink:to="uk-countries_VirginIslandsBritish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_VirginIslandsBritish_lbl" xml:lang="en">Virgin Islands, British</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsU.S." xlink:label="uk-countries_VirginIslandsU.S." />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_VirginIslandsU.S." xlink:to="uk-countries_VirginIslandsU.S._lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_VirginIslandsU.S._lbl" xml:lang="en">Virgin Islands, U.S.</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Wales" xlink:label="uk-countries_Wales" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Wales" xlink:to="uk-countries_Wales_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Wales_lbl" xml:lang="en">Wales</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_WallisFutuna" xlink:label="uk-countries_WallisFutuna" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_WallisFutuna" xlink:to="uk-countries_WallisFutuna_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_WallisFutuna_lbl" xml:lang="en">Wallis and Futuna</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_WesternSahara" xlink:label="uk-countries_WesternSahara" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_WesternSahara" xlink:to="uk-countries_WesternSahara_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_WesternSahara_lbl" xml:lang="en">Western Sahara</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Yemen" xlink:label="uk-countries_Yemen" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Yemen" xlink:to="uk-countries_Yemen_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Yemen_lbl" xml:lang="en">Yemen</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Zambia" xlink:label="uk-countries_Zambia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Zambia" xlink:to="uk-countries_Zambia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Zambia_lbl" xml:lang="en">Zambia</label>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Zimbabwe" xlink:label="uk-countries_Zimbabwe" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-countries_Zimbabwe" xlink:to="uk-countries_Zimbabwe_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-countries_Zimbabwe_lbl" xml:lang="en">Zimbabwe</label>
+  </labelLink>
+</linkbase>

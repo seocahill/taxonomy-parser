@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Countries-Regions-Reference linkbase
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx 
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/cd/countries/2009-09-01 uk-countries-2009-09-01.xsd http://www.xbrl.org/uk/all/ref/2009-09-01 ../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Afghanistan" xlink:label="uk-countries_Afghanistan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Afghanistan" xlink:to="uk-countries_Afghanistan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Afghanistan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Africa" xlink:label="uk-countries_Africa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Africa" xlink:to="uk-countries_Africa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Africa_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AlandIslands" xlink:label="uk-countries_AlandIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_AlandIslands" xlink:to="uk-countries_AlandIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_AlandIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AX</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Albania" xlink:label="uk-countries_Albania" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Albania" xlink:to="uk-countries_Albania_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Albania_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Algeria" xlink:label="uk-countries_Algeria" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Algeria" xlink:to="uk-countries_Algeria_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Algeria_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AmericanSamoa" xlink:label="uk-countries_AmericanSamoa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_AmericanSamoa" xlink:to="uk-countries_AmericanSamoa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_AmericanSamoa_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Americas" xlink:label="uk-countries_Americas" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Americas" xlink:to="uk-countries_Americas_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Americas_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Andorra" xlink:label="uk-countries_Andorra" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Andorra" xlink:to="uk-countries_Andorra_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Andorra_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Angola" xlink:label="uk-countries_Angola" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Angola" xlink:to="uk-countries_Angola_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Angola_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Anguilla" xlink:label="uk-countries_Anguilla" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Anguilla" xlink:to="uk-countries_Anguilla_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Anguilla_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Antarctica" xlink:label="uk-countries_Antarctica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Antarctica" xlink:to="uk-countries_Antarctica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Antarctica_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AQ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_AntiguaBarbuda" xlink:label="uk-countries_AntiguaBarbuda" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_AntiguaBarbuda" xlink:to="uk-countries_AntiguaBarbuda_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_AntiguaBarbuda_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Argentina" xlink:label="uk-countries_Argentina" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Argentina" xlink:to="uk-countries_Argentina_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Argentina_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Armenia" xlink:label="uk-countries_Armenia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Armenia" xlink:to="uk-countries_Armenia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Armenia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Aruba" xlink:label="uk-countries_Aruba" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Aruba" xlink:to="uk-countries_Aruba_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Aruba_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Asia" xlink:label="uk-countries_Asia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Asia" xlink:to="uk-countries_Asia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Asia_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Australasia" xlink:label="uk-countries_Australasia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Australasia" xlink:to="uk-countries_Australasia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Australasia_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Australia" xlink:label="uk-countries_Australia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Australia" xlink:to="uk-countries_Australia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Australia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Austria" xlink:label="uk-countries_Austria" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Austria" xlink:to="uk-countries_Austria_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Austria_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Azerbaijan" xlink:label="uk-countries_Azerbaijan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Azerbaijan" xlink:to="uk-countries_Azerbaijan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Azerbaijan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bahamas" xlink:label="uk-countries_Bahamas" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bahamas" xlink:to="uk-countries_Bahamas_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bahamas_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bahrain" xlink:label="uk-countries_Bahrain" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bahrain" xlink:to="uk-countries_Bahrain_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bahrain_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bangladesh" xlink:label="uk-countries_Bangladesh" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bangladesh" xlink:to="uk-countries_Bangladesh_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bangladesh_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Barbados" xlink:label="uk-countries_Barbados" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Barbados" xlink:to="uk-countries_Barbados_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Barbados_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BB</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belarus" xlink:label="uk-countries_Belarus" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Belarus" xlink:to="uk-countries_Belarus_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Belarus_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belgium" xlink:label="uk-countries_Belgium" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Belgium" xlink:to="uk-countries_Belgium_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Belgium_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Belize" xlink:label="uk-countries_Belize" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Belize" xlink:to="uk-countries_Belize_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Belize_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Benin" xlink:label="uk-countries_Benin" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Benin" xlink:to="uk-countries_Benin_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Benin_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BJ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bermuda" xlink:label="uk-countries_Bermuda" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bermuda" xlink:to="uk-countries_Bermuda_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bermuda_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bhutan" xlink:label="uk-countries_Bhutan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bhutan" xlink:to="uk-countries_Bhutan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bhutan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bolivia" xlink:label="uk-countries_Bolivia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bolivia" xlink:to="uk-countries_Bolivia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bolivia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BosniaHerzegovina" xlink:label="uk-countries_BosniaHerzegovina" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_BosniaHerzegovina" xlink:to="uk-countries_BosniaHerzegovina_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_BosniaHerzegovina_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Botswana" xlink:label="uk-countries_Botswana" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Botswana" xlink:to="uk-countries_Botswana_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Botswana_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BouvetIsland" xlink:label="uk-countries_BouvetIsland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_BouvetIsland" xlink:to="uk-countries_BouvetIsland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_BouvetIsland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Brazil" xlink:label="uk-countries_Brazil" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Brazil" xlink:to="uk-countries_Brazil_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Brazil_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BritishIndianOceanTerritory" xlink:label="uk-countries_BritishIndianOceanTerritory" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_BritishIndianOceanTerritory" xlink:to="uk-countries_BritishIndianOceanTerritory_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_BritishIndianOceanTerritory_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BruneiDarussalam" xlink:label="uk-countries_BruneiDarussalam" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_BruneiDarussalam" xlink:to="uk-countries_BruneiDarussalam_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_BruneiDarussalam_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Bulgaria" xlink:label="uk-countries_Bulgaria" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Bulgaria" xlink:to="uk-countries_Bulgaria_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Bulgaria_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_BurkinaFaso" xlink:label="uk-countries_BurkinaFaso" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_BurkinaFaso" xlink:to="uk-countries_BurkinaFaso_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_BurkinaFaso_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Burundi" xlink:label="uk-countries_Burundi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Burundi" xlink:to="uk-countries_Burundi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Burundi_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>BI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cambodia" xlink:label="uk-countries_Cambodia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Cambodia" xlink:to="uk-countries_Cambodia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Cambodia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cameroon" xlink:label="uk-countries_Cameroon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Cameroon" xlink:to="uk-countries_Cameroon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Cameroon_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Canada" xlink:label="uk-countries_Canada" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Canada" xlink:to="uk-countries_Canada_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Canada_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CapeVerde" xlink:label="uk-countries_CapeVerde" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CapeVerde" xlink:to="uk-countries_CapeVerde_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CapeVerde_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Caribbean" xlink:label="uk-countries_Caribbean" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Caribbean" xlink:to="uk-countries_Caribbean_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Caribbean_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CaymanIslands" xlink:label="uk-countries_CaymanIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CaymanIslands" xlink:to="uk-countries_CaymanIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CaymanIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CentralAfricanRepublic" xlink:label="uk-countries_CentralAfricanRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CentralAfricanRepublic" xlink:to="uk-countries_CentralAfricanRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CentralAfricanRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Chad" xlink:label="uk-countries_Chad" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Chad" xlink:to="uk-countries_Chad_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Chad_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Chile" xlink:label="uk-countries_Chile" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Chile" xlink:to="uk-countries_Chile_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Chile_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_China" xlink:label="uk-countries_China" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_China" xlink:to="uk-countries_China_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_China_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_ChristmasIsland" xlink:label="uk-countries_ChristmasIsland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_ChristmasIsland" xlink:to="uk-countries_ChristmasIsland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_ChristmasIsland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CX</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CocosKeelingIslands" xlink:label="uk-countries_CocosKeelingIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CocosKeelingIslands" xlink:to="uk-countries_CocosKeelingIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CocosKeelingIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Colombia" xlink:label="uk-countries_Colombia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Colombia" xlink:to="uk-countries_Colombia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Colombia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Comoros" xlink:label="uk-countries_Comoros" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Comoros" xlink:to="uk-countries_Comoros_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Comoros_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CongoDemocraticRepublic" xlink:label="uk-countries_CongoDemocraticRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CongoDemocraticRepublic" xlink:to="uk-countries_CongoDemocraticRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CongoDemocraticRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Congo" xlink:label="uk-countries_Congo" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Congo" xlink:to="uk-countries_Congo_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Congo_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CookIslands" xlink:label="uk-countries_CookIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CookIslands" xlink:to="uk-countries_CookIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CookIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CostaRica" xlink:label="uk-countries_CostaRica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CostaRica" xlink:to="uk-countries_CostaRica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CostaRica_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CoteDIvoire" xlink:label="uk-countries_CoteDIvoire" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CoteDIvoire" xlink:to="uk-countries_CoteDIvoire_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CoteDIvoire_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Croatia" xlink:label="uk-countries_Croatia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Croatia" xlink:to="uk-countries_Croatia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Croatia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cuba" xlink:label="uk-countries_Cuba" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Cuba" xlink:to="uk-countries_Cuba_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Cuba_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Cyprus" xlink:label="uk-countries_Cyprus" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Cyprus" xlink:to="uk-countries_Cyprus_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Cyprus_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_CzechRepublic" xlink:label="uk-countries_CzechRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_CzechRepublic" xlink:to="uk-countries_CzechRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_CzechRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Denmark" xlink:label="uk-countries_Denmark" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Denmark" xlink:to="uk-countries_Denmark_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Denmark_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Djibouti" xlink:label="uk-countries_Djibouti" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Djibouti" xlink:to="uk-countries_Djibouti_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Djibouti_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DJ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Dominica" xlink:label="uk-countries_Dominica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Dominica" xlink:to="uk-countries_Dominica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Dominica_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_DominicanRepublic" xlink:label="uk-countries_DominicanRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_DominicanRepublic" xlink:to="uk-countries_DominicanRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_DominicanRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ecuador" xlink:label="uk-countries_Ecuador" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Ecuador" xlink:to="uk-countries_Ecuador_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Ecuador_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Egypt" xlink:label="uk-countries_Egypt" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Egypt" xlink:to="uk-countries_Egypt_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Egypt_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_ElSalvador" xlink:label="uk-countries_ElSalvador" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_ElSalvador" xlink:to="uk-countries_ElSalvador_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_ElSalvador_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_England" xlink:label="uk-countries_England" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_England" xlink:to="uk-countries_England_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_England_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_EquatorialGuinea" xlink:label="uk-countries_EquatorialGuinea" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_EquatorialGuinea" xlink:to="uk-countries_EquatorialGuinea_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_EquatorialGuinea_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GQ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Eritrea" xlink:label="uk-countries_Eritrea" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Eritrea" xlink:to="uk-countries_Eritrea_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Eritrea_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ER</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Estonia" xlink:label="uk-countries_Estonia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Estonia" xlink:to="uk-countries_Estonia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Estonia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ethiopia" xlink:label="uk-countries_Ethiopia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Ethiopia" xlink:to="uk-countries_Ethiopia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Ethiopia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ET</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Europe" xlink:label="uk-countries_Europe" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Europe" xlink:to="uk-countries_Europe_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Europe_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_EuropeanCommunity" xlink:label="uk-countries_EuropeanCommunity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_EuropeanCommunity" xlink:to="uk-countries_EuropeanCommunity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_EuropeanCommunity_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FalklandIslandsMalvinas" xlink:label="uk-countries_FalklandIslandsMalvinas" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_FalklandIslandsMalvinas" xlink:to="uk-countries_FalklandIslandsMalvinas_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_FalklandIslandsMalvinas_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FaroeIslands" xlink:label="uk-countries_FaroeIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_FaroeIslands" xlink:to="uk-countries_FaroeIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_FaroeIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Fiji" xlink:label="uk-countries_Fiji" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Fiji" xlink:to="uk-countries_Fiji_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Fiji_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FJ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Finland" xlink:label="uk-countries_Finland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Finland" xlink:to="uk-countries_Finland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Finland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_France" xlink:label="uk-countries_France" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_France" xlink:to="uk-countries_France_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_France_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchGuiana" xlink:label="uk-countries_FrenchGuiana" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_FrenchGuiana" xlink:to="uk-countries_FrenchGuiana_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_FrenchGuiana_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchPolynesia" xlink:label="uk-countries_FrenchPolynesia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_FrenchPolynesia" xlink:to="uk-countries_FrenchPolynesia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_FrenchPolynesia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_FrenchSouthernTerritories" xlink:label="uk-countries_FrenchSouthernTerritories" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_FrenchSouthernTerritories" xlink:to="uk-countries_FrenchSouthernTerritories_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_FrenchSouthernTerritories_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gabon" xlink:label="uk-countries_Gabon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Gabon" xlink:to="uk-countries_Gabon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Gabon_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gambia" xlink:label="uk-countries_Gambia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Gambia" xlink:to="uk-countries_Gambia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Gambia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Georgia" xlink:label="uk-countries_Georgia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Georgia" xlink:to="uk-countries_Georgia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Georgia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Germany" xlink:label="uk-countries_Germany" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Germany" xlink:to="uk-countries_Germany_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Germany_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>DE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ghana" xlink:label="uk-countries_Ghana" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Ghana" xlink:to="uk-countries_Ghana_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Ghana_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Gibraltar" xlink:label="uk-countries_Gibraltar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Gibraltar" xlink:to="uk-countries_Gibraltar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Gibraltar_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_GreatBritain" xlink:label="uk-countries_GreatBritain" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_GreatBritain" xlink:to="uk-countries_GreatBritain_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_GreatBritain_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Greece" xlink:label="uk-countries_Greece" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Greece" xlink:to="uk-countries_Greece_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Greece_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Greenland" xlink:label="uk-countries_Greenland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Greenland" xlink:to="uk-countries_Greenland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Greenland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Grenada" xlink:label="uk-countries_Grenada" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Grenada" xlink:to="uk-countries_Grenada_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Grenada_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guadeloupe" xlink:label="uk-countries_Guadeloupe" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guadeloupe" xlink:to="uk-countries_Guadeloupe_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guadeloupe_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GP</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guam" xlink:label="uk-countries_Guam" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guam" xlink:to="uk-countries_Guam_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guam_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guatemala" xlink:label="uk-countries_Guatemala" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guatemala" xlink:to="uk-countries_Guatemala_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guatemala_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guernsey" xlink:label="uk-countries_Guernsey" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guernsey" xlink:to="uk-countries_Guernsey_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guernsey_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guinea-Bissau" xlink:label="uk-countries_Guinea-Bissau" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guinea-Bissau" xlink:to="uk-countries_Guinea-Bissau_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guinea-Bissau_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guinea" xlink:label="uk-countries_Guinea" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guinea" xlink:to="uk-countries_Guinea_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guinea_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Guyana" xlink:label="uk-countries_Guyana" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Guyana" xlink:to="uk-countries_Guyana_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Guyana_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Haiti" xlink:label="uk-countries_Haiti" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Haiti" xlink:to="uk-countries_Haiti_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Haiti_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HeardIslandMcDonaldIslands" xlink:label="uk-countries_HeardIslandMcDonaldIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_HeardIslandMcDonaldIslands" xlink:to="uk-countries_HeardIslandMcDonaldIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_HeardIslandMcDonaldIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HolySeeVaticanCityState" xlink:label="uk-countries_HolySeeVaticanCityState" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_HolySeeVaticanCityState" xlink:to="uk-countries_HolySeeVaticanCityState_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_HolySeeVaticanCityState_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Honduras" xlink:label="uk-countries_Honduras" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Honduras" xlink:to="uk-countries_Honduras_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Honduras_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_HongKong" xlink:label="uk-countries_HongKong" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_HongKong" xlink:to="uk-countries_HongKong_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_HongKong_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Hungary" xlink:label="uk-countries_Hungary" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Hungary" xlink:to="uk-countries_Hungary_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Hungary_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>HU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Iceland" xlink:label="uk-countries_Iceland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Iceland" xlink:to="uk-countries_Iceland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Iceland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_India" xlink:label="uk-countries_India" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_India" xlink:to="uk-countries_India_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_India_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Indonesia" xlink:label="uk-countries_Indonesia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Indonesia" xlink:to="uk-countries_Indonesia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Indonesia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ID</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_IranIslamicRepublic" xlink:label="uk-countries_IranIslamicRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_IranIslamicRepublic" xlink:to="uk-countries_IranIslamicRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_IranIslamicRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Iraq" xlink:label="uk-countries_Iraq" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Iraq" xlink:to="uk-countries_Iraq_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Iraq_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IQ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ireland" xlink:label="uk-countries_Ireland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Ireland" xlink:to="uk-countries_Ireland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Ireland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_IsleMan" xlink:label="uk-countries_IsleMan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_IsleMan" xlink:to="uk-countries_IsleMan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_IsleMan_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Israel" xlink:label="uk-countries_Israel" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Israel" xlink:to="uk-countries_Israel_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Israel_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Italy" xlink:label="uk-countries_Italy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Italy" xlink:to="uk-countries_Italy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Italy_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>IT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jamaica" xlink:label="uk-countries_Jamaica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Jamaica" xlink:to="uk-countries_Jamaica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Jamaica_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Japan" xlink:label="uk-countries_Japan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Japan" xlink:to="uk-countries_Japan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Japan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JP</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jersey" xlink:label="uk-countries_Jersey" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Jersey" xlink:to="uk-countries_Jersey_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Jersey_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Jordan" xlink:label="uk-countries_Jordan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Jordan" xlink:to="uk-countries_Jordan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Jordan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>JO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kazakhstan" xlink:label="uk-countries_Kazakhstan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Kazakhstan" xlink:to="uk-countries_Kazakhstan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Kazakhstan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kenya" xlink:label="uk-countries_Kenya" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Kenya" xlink:to="uk-countries_Kenya_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Kenya_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kiribati" xlink:label="uk-countries_Kiribati" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Kiribati" xlink:to="uk-countries_Kiribati_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Kiribati_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_KoreaDemocraticPeoplesRepublic" xlink:label="uk-countries_KoreaDemocraticPeoplesRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_KoreaDemocraticPeoplesRepublic" xlink:to="uk-countries_KoreaDemocraticPeoplesRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_KoreaDemocraticPeoplesRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KP</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_KoreaRepublic" xlink:label="uk-countries_KoreaRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_KoreaRepublic" xlink:to="uk-countries_KoreaRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_KoreaRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kuwait" xlink:label="uk-countries_Kuwait" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Kuwait" xlink:to="uk-countries_Kuwait_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Kuwait_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Kyrgyzstan" xlink:label="uk-countries_Kyrgyzstan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Kyrgyzstan" xlink:to="uk-countries_Kyrgyzstan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Kyrgyzstan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LaoPeoplesDemocraticRepublic" xlink:label="uk-countries_LaoPeoplesDemocraticRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_LaoPeoplesDemocraticRepublic" xlink:to="uk-countries_LaoPeoplesDemocraticRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_LaoPeoplesDemocraticRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LatinAmericaCaribbean" xlink:label="uk-countries_LatinAmericaCaribbean" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_LatinAmericaCaribbean" xlink:to="uk-countries_LatinAmericaCaribbean_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_LatinAmericaCaribbean_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LatinAmerica" xlink:label="uk-countries_LatinAmerica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_LatinAmerica" xlink:to="uk-countries_LatinAmerica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_LatinAmerica_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Latvia" xlink:label="uk-countries_Latvia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Latvia" xlink:to="uk-countries_Latvia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Latvia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lebanon" xlink:label="uk-countries_Lebanon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Lebanon" xlink:to="uk-countries_Lebanon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Lebanon_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LB</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lesotho" xlink:label="uk-countries_Lesotho" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Lesotho" xlink:to="uk-countries_Lesotho_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Lesotho_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Liberia" xlink:label="uk-countries_Liberia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Liberia" xlink:to="uk-countries_Liberia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Liberia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_LibyanArabJamahiriya" xlink:label="uk-countries_LibyanArabJamahiriya" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_LibyanArabJamahiriya" xlink:to="uk-countries_LibyanArabJamahiriya_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_LibyanArabJamahiriya_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Liechtenstein" xlink:label="uk-countries_Liechtenstein" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Liechtenstein" xlink:to="uk-countries_Liechtenstein_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Liechtenstein_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Lithuania" xlink:label="uk-countries_Lithuania" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Lithuania" xlink:to="uk-countries_Lithuania_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Lithuania_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Luxembourg" xlink:label="uk-countries_Luxembourg" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Luxembourg" xlink:to="uk-countries_Luxembourg_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Luxembourg_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Macao" xlink:label="uk-countries_Macao" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Macao" xlink:to="uk-countries_Macao_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Macao_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MacedoniaFormerYugoslavRepublic" xlink:label="uk-countries_MacedoniaFormerYugoslavRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_MacedoniaFormerYugoslavRepublic" xlink:to="uk-countries_MacedoniaFormerYugoslavRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_MacedoniaFormerYugoslavRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Madagascar" xlink:label="uk-countries_Madagascar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Madagascar" xlink:to="uk-countries_Madagascar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Madagascar_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malawi" xlink:label="uk-countries_Malawi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Malawi" xlink:to="uk-countries_Malawi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Malawi_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malaysia" xlink:label="uk-countries_Malaysia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Malaysia" xlink:to="uk-countries_Malaysia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Malaysia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Maldives" xlink:label="uk-countries_Maldives" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Maldives" xlink:to="uk-countries_Maldives_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Maldives_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mali" xlink:label="uk-countries_Mali" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mali" xlink:to="uk-countries_Mali_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mali_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ML</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Malta" xlink:label="uk-countries_Malta" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Malta" xlink:to="uk-countries_Malta_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Malta_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MarshallIslands" xlink:label="uk-countries_MarshallIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_MarshallIslands" xlink:to="uk-countries_MarshallIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_MarshallIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Martinique" xlink:label="uk-countries_Martinique" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Martinique" xlink:to="uk-countries_Martinique_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Martinique_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MQ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mauritania" xlink:label="uk-countries_Mauritania" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mauritania" xlink:to="uk-countries_Mauritania_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mauritania_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mauritius" xlink:label="uk-countries_Mauritius" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mauritius" xlink:to="uk-countries_Mauritius_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mauritius_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mayotte" xlink:label="uk-countries_Mayotte" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mayotte" xlink:to="uk-countries_Mayotte_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mayotte_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>YT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mexico" xlink:label="uk-countries_Mexico" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mexico" xlink:to="uk-countries_Mexico_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mexico_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MX</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MicronesiaFederatedStates" xlink:label="uk-countries_MicronesiaFederatedStates" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_MicronesiaFederatedStates" xlink:to="uk-countries_MicronesiaFederatedStates_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_MicronesiaFederatedStates_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>FM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MiddleEast" xlink:label="uk-countries_MiddleEast" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_MiddleEast" xlink:to="uk-countries_MiddleEast_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_MiddleEast_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_MoldovaRepublic" xlink:label="uk-countries_MoldovaRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_MoldovaRepublic" xlink:to="uk-countries_MoldovaRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_MoldovaRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Monaco" xlink:label="uk-countries_Monaco" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Monaco" xlink:to="uk-countries_Monaco_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Monaco_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mongolia" xlink:label="uk-countries_Mongolia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mongolia" xlink:to="uk-countries_Mongolia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mongolia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Montserrat" xlink:label="uk-countries_Montserrat" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Montserrat" xlink:to="uk-countries_Montserrat_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Montserrat_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Morocco" xlink:label="uk-countries_Morocco" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Morocco" xlink:to="uk-countries_Morocco_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Morocco_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Mozambique" xlink:label="uk-countries_Mozambique" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Mozambique" xlink:to="uk-countries_Mozambique_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Mozambique_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Myanmar" xlink:label="uk-countries_Myanmar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Myanmar" xlink:to="uk-countries_Myanmar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Myanmar_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Namibia" xlink:label="uk-countries_Namibia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Namibia" xlink:to="uk-countries_Namibia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Namibia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nauru" xlink:label="uk-countries_Nauru" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Nauru" xlink:to="uk-countries_Nauru_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Nauru_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nepal" xlink:label="uk-countries_Nepal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Nepal" xlink:to="uk-countries_Nepal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Nepal_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NP</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NetherlandsAntilles" xlink:label="uk-countries_NetherlandsAntilles" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NetherlandsAntilles" xlink:to="uk-countries_NetherlandsAntilles_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NetherlandsAntilles_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Netherlands" xlink:label="uk-countries_Netherlands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Netherlands" xlink:to="uk-countries_Netherlands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Netherlands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NewCaledonia" xlink:label="uk-countries_NewCaledonia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NewCaledonia" xlink:to="uk-countries_NewCaledonia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NewCaledonia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NewZealand" xlink:label="uk-countries_NewZealand" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NewZealand" xlink:to="uk-countries_NewZealand_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NewZealand_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nicaragua" xlink:label="uk-countries_Nicaragua" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Nicaragua" xlink:to="uk-countries_Nicaragua_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Nicaragua_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Niger" xlink:label="uk-countries_Niger" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Niger" xlink:to="uk-countries_Niger_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Niger_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Nigeria" xlink:label="uk-countries_Nigeria" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Nigeria" xlink:to="uk-countries_Nigeria_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Nigeria_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Niue" xlink:label="uk-countries_Niue" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Niue" xlink:to="uk-countries_Niue_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Niue_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorfolkIsland" xlink:label="uk-countries_NorfolkIsland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NorfolkIsland" xlink:to="uk-countries_NorfolkIsland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NorfolkIsland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthAmerica" xlink:label="uk-countries_NorthAmerica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NorthAmerica" xlink:to="uk-countries_NorthAmerica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NorthAmerica_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthernIreland" xlink:label="uk-countries_NorthernIreland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NorthernIreland" xlink:to="uk-countries_NorthernIreland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NorthernIreland_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_NorthernMarianaIslands" xlink:label="uk-countries_NorthernMarianaIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_NorthernMarianaIslands" xlink:to="uk-countries_NorthernMarianaIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_NorthernMarianaIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>MP</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Norway" xlink:label="uk-countries_Norway" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Norway" xlink:to="uk-countries_Norway_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Norway_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>NO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Oman" xlink:label="uk-countries_Oman" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Oman" xlink:to="uk-countries_Oman_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Oman_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>OM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Pakistan" xlink:label="uk-countries_Pakistan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Pakistan" xlink:to="uk-countries_Pakistan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Pakistan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Palau" xlink:label="uk-countries_Palau" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Palau" xlink:to="uk-countries_Palau_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Palau_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PalestinianTerritoryOccupied" xlink:label="uk-countries_PalestinianTerritoryOccupied" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_PalestinianTerritoryOccupied" xlink:to="uk-countries_PalestinianTerritoryOccupied_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_PalestinianTerritoryOccupied_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Panama" xlink:label="uk-countries_Panama" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Panama" xlink:to="uk-countries_Panama_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Panama_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PapuaNewGuinea" xlink:label="uk-countries_PapuaNewGuinea" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_PapuaNewGuinea" xlink:to="uk-countries_PapuaNewGuinea_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_PapuaNewGuinea_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Paraguay" xlink:label="uk-countries_Paraguay" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Paraguay" xlink:to="uk-countries_Paraguay_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Paraguay_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Peru" xlink:label="uk-countries_Peru" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Peru" xlink:to="uk-countries_Peru_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Peru_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Philippines" xlink:label="uk-countries_Philippines" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Philippines" xlink:to="uk-countries_Philippines_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Philippines_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Pitcairn" xlink:label="uk-countries_Pitcairn" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Pitcairn" xlink:to="uk-countries_Pitcairn_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Pitcairn_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Poland" xlink:label="uk-countries_Poland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Poland" xlink:to="uk-countries_Poland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Poland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Portugal" xlink:label="uk-countries_Portugal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Portugal" xlink:to="uk-countries_Portugal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Portugal_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_PuertoRico" xlink:label="uk-countries_PuertoRico" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_PuertoRico" xlink:to="uk-countries_PuertoRico_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_PuertoRico_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Qatar" xlink:label="uk-countries_Qatar" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Qatar" xlink:to="uk-countries_Qatar_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Qatar_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>QA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Reunion" xlink:label="uk-countries_Reunion" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Reunion" xlink:to="uk-countries_Reunion_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Reunion_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Romania" xlink:label="uk-countries_Romania" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Romania" xlink:to="uk-countries_Romania_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Romania_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_RussianFederation" xlink:label="uk-countries_RussianFederation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_RussianFederation" xlink:to="uk-countries_RussianFederation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_RussianFederation_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Rwanda" xlink:label="uk-countries_Rwanda" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Rwanda" xlink:to="uk-countries_Rwanda_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Rwanda_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>RW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintHelena" xlink:label="uk-countries_SaintHelena" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaintHelena" xlink:to="uk-countries_SaintHelena_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaintHelena_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintLucia" xlink:label="uk-countries_SaintLucia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaintLucia" xlink:to="uk-countries_SaintLucia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaintLucia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintPierreMiquelon" xlink:label="uk-countries_SaintPierreMiquelon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaintPierreMiquelon" xlink:to="uk-countries_SaintPierreMiquelon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaintPierreMiquelon_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>PM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintVincentGrenadines" xlink:label="uk-countries_SaintVincentGrenadines" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaintVincentGrenadines" xlink:to="uk-countries_SaintVincentGrenadines_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaintVincentGrenadines_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaintsKittsNevis" xlink:label="uk-countries_SaintsKittsNevis" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaintsKittsNevis" xlink:to="uk-countries_SaintsKittsNevis_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaintsKittsNevis_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>KN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Samoa" xlink:label="uk-countries_Samoa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Samoa" xlink:to="uk-countries_Samoa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Samoa_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>WS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SanMarino" xlink:label="uk-countries_SanMarino" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SanMarino" xlink:to="uk-countries_SanMarino_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SanMarino_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaoTomePrincipe" xlink:label="uk-countries_SaoTomePrincipe" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaoTomePrincipe" xlink:to="uk-countries_SaoTomePrincipe_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaoTomePrincipe_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ST</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SaudiArabia" xlink:label="uk-countries_SaudiArabia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SaudiArabia" xlink:to="uk-countries_SaudiArabia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SaudiArabia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Scotland" xlink:label="uk-countries_Scotland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Scotland" xlink:to="uk-countries_Scotland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Scotland_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Senegal" xlink:label="uk-countries_Senegal" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Senegal" xlink:to="uk-countries_Senegal_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Senegal_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SerbiaMontenegro" xlink:label="uk-countries_SerbiaMontenegro" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SerbiaMontenegro" xlink:to="uk-countries_SerbiaMontenegro_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SerbiaMontenegro_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Seychelles" xlink:label="uk-countries_Seychelles" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Seychelles" xlink:to="uk-countries_Seychelles_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Seychelles_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SierraLeone" xlink:label="uk-countries_SierraLeone" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SierraLeone" xlink:to="uk-countries_SierraLeone_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SierraLeone_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Singapore" xlink:label="uk-countries_Singapore" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Singapore" xlink:to="uk-countries_Singapore_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Singapore_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Slovakia" xlink:label="uk-countries_Slovakia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Slovakia" xlink:to="uk-countries_Slovakia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Slovakia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Slovenia" xlink:label="uk-countries_Slovenia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Slovenia" xlink:to="uk-countries_Slovenia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Slovenia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SolomonIslands" xlink:label="uk-countries_SolomonIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SolomonIslands" xlink:to="uk-countries_SolomonIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SolomonIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SB</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Somalia" xlink:label="uk-countries_Somalia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Somalia" xlink:to="uk-countries_Somalia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Somalia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_South-eastAsia" xlink:label="uk-countries_South-eastAsia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_South-eastAsia" xlink:to="uk-countries_South-eastAsia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_South-eastAsia_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthAfrica" xlink:label="uk-countries_SouthAfrica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SouthAfrica" xlink:to="uk-countries_SouthAfrica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SouthAfrica_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ZA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthAmerica" xlink:label="uk-countries_SouthAmerica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SouthAmerica" xlink:to="uk-countries_SouthAmerica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SouthAmerica_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SouthGeorgiaSouthSandwichIslands" xlink:label="uk-countries_SouthGeorgiaSouthSandwichIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SouthGeorgiaSouthSandwichIslands" xlink:to="uk-countries_SouthGeorgiaSouthSandwichIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SouthGeorgiaSouthSandwichIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GS</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Spain" xlink:label="uk-countries_Spain" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Spain" xlink:to="uk-countries_Spain_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Spain_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ES</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SriLanka" xlink:label="uk-countries_SriLanka" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SriLanka" xlink:to="uk-countries_SriLanka_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SriLanka_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>LK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Sudan" xlink:label="uk-countries_Sudan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Sudan" xlink:to="uk-countries_Sudan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Sudan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SD</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Suriname" xlink:label="uk-countries_Suriname" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Suriname" xlink:to="uk-countries_Suriname_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Suriname_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SvalbardJanMayen" xlink:label="uk-countries_SvalbardJanMayen" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SvalbardJanMayen" xlink:to="uk-countries_SvalbardJanMayen_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SvalbardJanMayen_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SJ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Swaziland" xlink:label="uk-countries_Swaziland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Swaziland" xlink:to="uk-countries_Swaziland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Swaziland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Sweden" xlink:label="uk-countries_Sweden" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Sweden" xlink:to="uk-countries_Sweden_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Sweden_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Switzerland" xlink:label="uk-countries_Switzerland" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Switzerland" xlink:to="uk-countries_Switzerland_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Switzerland_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>CH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_SyrianArabRepublic" xlink:label="uk-countries_SyrianArabRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_SyrianArabRepublic" xlink:to="uk-countries_SyrianArabRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_SyrianArabRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>SY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TaiwanProvinceChina" xlink:label="uk-countries_TaiwanProvinceChina" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_TaiwanProvinceChina" xlink:to="uk-countries_TaiwanProvinceChina_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_TaiwanProvinceChina_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tajikistan" xlink:label="uk-countries_Tajikistan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Tajikistan" xlink:to="uk-countries_Tajikistan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Tajikistan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TJ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TanzaniaUnitedRepublic" xlink:label="uk-countries_TanzaniaUnitedRepublic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_TanzaniaUnitedRepublic" xlink:to="uk-countries_TanzaniaUnitedRepublic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_TanzaniaUnitedRepublic_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Thailand" xlink:label="uk-countries_Thailand" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Thailand" xlink:to="uk-countries_Thailand_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Thailand_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Timor-Leste" xlink:label="uk-countries_Timor-Leste" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Timor-Leste" xlink:to="uk-countries_Timor-Leste_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Timor-Leste_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TL</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Togo" xlink:label="uk-countries_Togo" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Togo" xlink:to="uk-countries_Togo_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Togo_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tokelau" xlink:label="uk-countries_Tokelau" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Tokelau" xlink:to="uk-countries_Tokelau_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Tokelau_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TK</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tonga" xlink:label="uk-countries_Tonga" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Tonga" xlink:to="uk-countries_Tonga_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Tonga_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TO</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TrinidadTobago" xlink:label="uk-countries_TrinidadTobago" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_TrinidadTobago" xlink:to="uk-countries_TrinidadTobago_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_TrinidadTobago_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TT</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tunisia" xlink:label="uk-countries_Tunisia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Tunisia" xlink:to="uk-countries_Tunisia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Tunisia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Turkey" xlink:label="uk-countries_Turkey" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Turkey" xlink:to="uk-countries_Turkey_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Turkey_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TR</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Turkmenistan" xlink:label="uk-countries_Turkmenistan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Turkmenistan" xlink:to="uk-countries_Turkmenistan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Turkmenistan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_TurksCaicosIslands" xlink:label="uk-countries_TurksCaicosIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_TurksCaicosIslands" xlink:to="uk-countries_TurksCaicosIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_TurksCaicosIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TC</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Tuvalu" xlink:label="uk-countries_Tuvalu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Tuvalu" xlink:to="uk-countries_Tuvalu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Tuvalu_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>TV</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uganda" xlink:label="uk-countries_Uganda" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Uganda" xlink:to="uk-countries_Uganda_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Uganda_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Ukraine" xlink:label="uk-countries_Ukraine" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Ukraine" xlink:to="uk-countries_Ukraine_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Ukraine_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UA</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedArabEmirates" xlink:label="uk-countries_UnitedArabEmirates" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_UnitedArabEmirates" xlink:to="uk-countries_UnitedArabEmirates_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_UnitedArabEmirates_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>AE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedKingdom" xlink:label="uk-countries_UnitedKingdom" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_UnitedKingdom" xlink:to="uk-countries_UnitedKingdom_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_UnitedKingdom_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>GB</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedStatesMinorOutlyingIslands" xlink:label="uk-countries_UnitedStatesMinorOutlyingIslands" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_UnitedStatesMinorOutlyingIslands" xlink:to="uk-countries_UnitedStatesMinorOutlyingIslands_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_UnitedStatesMinorOutlyingIslands_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_UnitedStates" xlink:label="uk-countries_UnitedStates" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_UnitedStates" xlink:to="uk-countries_UnitedStates_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_UnitedStates_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>US</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uruguay" xlink:label="uk-countries_Uruguay" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Uruguay" xlink:to="uk-countries_Uruguay_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Uruguay_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UY</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Uzbekistan" xlink:label="uk-countries_Uzbekistan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Uzbekistan" xlink:to="uk-countries_Uzbekistan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Uzbekistan_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>UZ</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Vanuatu" xlink:label="uk-countries_Vanuatu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Vanuatu" xlink:to="uk-countries_Vanuatu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Vanuatu_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VU</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Venezuela" xlink:label="uk-countries_Venezuela" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Venezuela" xlink:to="uk-countries_Venezuela_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Venezuela_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VietNam" xlink:label="uk-countries_VietNam" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_VietNam" xlink:to="uk-countries_VietNam_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_VietNam_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VN</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsBritish" xlink:label="uk-countries_VirginIslandsBritish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_VirginIslandsBritish" xlink:to="uk-countries_VirginIslandsBritish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_VirginIslandsBritish_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VG</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsU.S." xlink:label="uk-countries_VirginIslandsU.S." />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_VirginIslandsU.S." xlink:to="uk-countries_VirginIslandsU.S._ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_VirginIslandsU.S._ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>VI</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Wales" xlink:label="uk-countries_Wales" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Wales" xlink:to="uk-countries_Wales_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Wales_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_WallisFutuna" xlink:label="uk-countries_WallisFutuna" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_WallisFutuna" xlink:to="uk-countries_WallisFutuna_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_WallisFutuna_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>WF</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_WesternSahara" xlink:label="uk-countries_WesternSahara" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_WesternSahara" xlink:to="uk-countries_WesternSahara_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_WesternSahara_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>EH</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Yemen" xlink:label="uk-countries_Yemen" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Yemen" xlink:to="uk-countries_Yemen_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Yemen_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>YE</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Zambia" xlink:label="uk-countries_Zambia" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Zambia" xlink:to="uk-countries_Zambia_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Zambia_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ZM</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-countries-2009-09-01.xsd#uk-countries_Zimbabwe" xlink:label="uk-countries_Zimbabwe" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-countries_Zimbabwe" xlink:to="uk-countries_Zimbabwe_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-countries_Zimbabwe_ref">
+      <uk-cd-ref:ISOName>ISO 3166-1</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ZW</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+  </referenceLink>
+</linkbase>

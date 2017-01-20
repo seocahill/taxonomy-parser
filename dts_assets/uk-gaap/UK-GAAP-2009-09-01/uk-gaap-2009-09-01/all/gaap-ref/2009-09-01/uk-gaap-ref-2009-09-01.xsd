@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-GAAP-Reference-Schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-gaap-ref="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" targetNamespace="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo />
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <element id="uk-gaap-ref_linkPart_Year" name="Year" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Year in which reference material is published.  Format is CCYY.</documentation>
+    </annotation>
+  </element>
+  <element id="uk-gaap-ref_linkPart_Abstract" name="Abstract" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Used to represent rulings by organisations which release opinions in the form of Abstracts.  The main UK example of such an organisation is the UITF.</documentation>
+    </annotation>
+  </element>
+  <element id="uk-gaap-ref_linkPart_Schedule" name="Schedule" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Used to represent Schedules in legislation or other rulings.  Main UK example is the Schedules in the Companies Act.</documentation>
+    </annotation>
+  </element>
+  <element id="uk-gaap-ref_linkPart_Part" name="Part" type="string" substitutionGroup="link:part">
+    <annotation>
+      <documentation>Used to represent items broken into Parts as well as other sections.   A UK example is the Companies Act, whcih uses Schedule, Part, Paragraph, Sub-Paragraph as its main divisions.</documentation>
+    </annotation>
+  </element>
+</schema>

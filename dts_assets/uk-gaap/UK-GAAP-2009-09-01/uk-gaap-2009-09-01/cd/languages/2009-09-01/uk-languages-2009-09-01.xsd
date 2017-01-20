@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Languages-Basic schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" targetNamespace="http://www.xbrl.org/uk/cd/languages/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/Languages" id="Languages">
+        <link:definition>97 - Languages</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/Dimension-Languages" id="Dimension-Languages">
+        <link:definition>523 - Dimension - Languages</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-languages-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-languages-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-languages-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/ref/2009-09-01" schemaLocation="../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/common/2009-09-01" schemaLocation="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <element id="uk-lang_Abkhazian" name="Abkhazian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Afrikaans" name="Afrikaans" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Albanian" name="Albanian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_AllLanguages" name="AllLanguages" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Amharic" name="Amharic" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Arabic" name="Arabic" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Armenian" name="Armenian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Assamese" name="Assamese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Azerbaijani" name="Azerbaijani" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Basque" name="Basque" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Bengali" name="Bengali" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Bihari" name="Bihari" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Bulgarian" name="Bulgarian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Burmese" name="Burmese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Byelorussian" name="Byelorussian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Catalan" name="Catalan" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Chinese" name="Chinese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Croatian" name="Croatian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Czech" name="Czech" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Danish" name="Danish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_DimensionMembersRepresentingLanguagesHeading" name="DimensionMembersRepresentingLanguagesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Dutch" name="Dutch" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_English" name="English" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Esperanto" name="Esperanto" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Estonian" name="Estonian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Faroese" name="Faroese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Fijian" name="Fijian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Finnish" name="Finnish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_French" name="French" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Frisian" name="Frisian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Georgian" name="Georgian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_German" name="German" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_GreekModern" name="GreekModern" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Greenlandic" name="Greenlandic" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Gujarati" name="Gujarati" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Hebrew" name="Hebrew" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Hindi" name="Hindi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Icelandic" name="Icelandic" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Indonesian" name="Indonesian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Iranian" name="Iranian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Irish" name="Irish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Italian" name="Italian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Japanese" name="Japanese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Javanese" name="Javanese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Kashmiri" name="Kashmiri" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Kazakh" name="Kazakh" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Khmer" name="Khmer" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Kirghiz" name="Kirghiz" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Korean" name="Korean" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Kurdish" name="Kurdish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_LanguageListHeading" name="LanguageListHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_LanguagesDimension" name="LanguagesDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Lao" name="Lao" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Latin" name="Latin" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Latvian" name="Latvian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Letzeburgesch" name="Letzeburgesch" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Lithuanian" name="Lithuanian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Macedonian" name="Macedonian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Malagasy" name="Malagasy" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Malay" name="Malay" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Maltese" name="Maltese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Maori" name="Maori" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Marathi" name="Marathi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Moldavian" name="Moldavian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Mongolian" name="Mongolian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_NauruLanguage" name="NauruLanguage" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Nepali" name="Nepali" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Norwegian" name="Norwegian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Ossetic" name="Ossetic" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Panjabi" name="Panjabi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Persian" name="Persian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Polish" name="Polish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Portuguese" name="Portuguese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Pushto" name="Pushto" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Quechua" name="Quechua" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Rajasthani" name="Rajasthani" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Romanian" name="Romanian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Russian" name="Russian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Samoan" name="Samoan" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Serbian" name="Serbian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Serbo-Croatian" name="Serbo-Croatian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Singhalese" name="Singhalese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Slovak" name="Slovak" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Slovenian" name="Slovenian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Somali" name="Somali" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Spanish" name="Spanish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Sudanese" name="Sudanese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Swahili" name="Swahili" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Swazi" name="Swazi" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Swedish" name="Swedish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Syriac" name="Syriac" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Tagalog" name="Tagalog" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Tahitian" name="Tahitian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Tajik" name="Tajik" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Tamil" name="Tamil" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Thai" name="Thai" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Tibetan" name="Tibetan" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Turkish" name="Turkish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Turkmen" name="Turkmen" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Ukrainian" name="Ukrainian" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Urdu" name="Urdu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Uzbek" name="Uzbek" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Vietnamese" name="Vietnamese" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Welsh" name="Welsh" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Yiddish" name="Yiddish" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-lang_Zulu" name="Zulu" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+</schema>

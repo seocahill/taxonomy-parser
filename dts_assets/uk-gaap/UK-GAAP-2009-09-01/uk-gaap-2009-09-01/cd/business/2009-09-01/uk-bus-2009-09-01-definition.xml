@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-BusinessData-Definition linkbase
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-EntityOfficers" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficers" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-EntityOfficerType" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficerType" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-ShareClasses" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-ShareClasses" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-ShareTypes" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-ShareTypes" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-EntityContactType" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-EntityContactType" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-ThirdPartyAgents" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentType" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-ThirdPartyAgentStatus" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentStatus" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-FormOfContact" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-FormOfContact" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-AddressType" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-AddressType" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Dimension-PhoneNumberType" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-PhoneNumberType" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-EntityOfficers" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-EntityOfficers" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-Shares" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Shares" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-GeneralContactInfo" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-EntityContactInfo" />
+  <roleRef xlink:type="simple" xlink:href="../../countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#Dimension-CountriesAndRegions" roleURI="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions" />
+  <roleRef xlink:type="simple" xlink:href="../../languages/2009-09-01/uk-languages-2009-09-01.xsd#Dimension-Languages" roleURI="http://www.xbrl.org/uk/all/role/Dimension-Languages" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-ThirdPartyAgentContactInfo" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-ThirdPartyAgents" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-Countries" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Countries" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-Currencies" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Currencies" />
+  <roleRef xlink:type="simple" xlink:href="../../currencies/2009-09-01/uk-currencies-2009-09-01.xsd#Dimension-Currencies" roleURI="http://www.xbrl.org/uk/all/role/Dimension-Currencies" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-StockExchanges" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-StockExchanges" />
+  <roleRef xlink:type="simple" xlink:href="../../exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#Dimension-StockExchanges" roleURI="http://www.xbrl.org/uk/all/role/Dimension-StockExchanges" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-Languages" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Languages" />
+  <roleRef xlink:type="simple" xlink:href="uk-bus-2009-09-01.xsd#Hypercube-Empty" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Empty" />
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficers">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficersDimension" xlink:label="uk-bus_EntityOfficersDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllEntityOfficers" xlink:label="uk-bus_AllEntityOfficers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_EntityOfficersDimension" xlink:to="uk-bus_AllEntityOfficers" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Chairman" xlink:label="uk-bus_Chairman" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Chairman" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ChiefExecutive" xlink:label="uk-bus_ChiefExecutive" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_ChiefExecutive" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ChairmanChiefExecutive" xlink:label="uk-bus_ChairmanChiefExecutive" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_ChairmanChiefExecutive" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ChiefPartnerLimitedLiabilityPartnership" xlink:label="uk-bus_ChiefPartnerLimitedLiabilityPartnership" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_ChiefPartnerLimitedLiabilityPartnership" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CompanySecretary" xlink:label="uk-bus_CompanySecretary" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_CompanySecretary" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CompanySecretaryDirector" xlink:label="uk-bus_CompanySecretaryDirector" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_CompanySecretaryDirector" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_HighestPaidDirector" xlink:label="uk-bus_HighestPaidDirector" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_HighestPaidDirector" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director1" xlink:label="uk-bus_Director1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director1" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director2" xlink:label="uk-bus_Director2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director2" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director3" xlink:label="uk-bus_Director3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director3" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director4" xlink:label="uk-bus_Director4" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director4" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director5" xlink:label="uk-bus_Director5" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director5" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director6" xlink:label="uk-bus_Director6" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director6" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director7" xlink:label="uk-bus_Director7" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director7" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director8" xlink:label="uk-bus_Director8" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director8" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director9" xlink:label="uk-bus_Director9" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director9" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director10" xlink:label="uk-bus_Director10" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director10" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director11" xlink:label="uk-bus_Director11" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director11" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director12" xlink:label="uk-bus_Director12" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director12" order="19" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director13" xlink:label="uk-bus_Director13" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director13" order="20" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director14" xlink:label="uk-bus_Director14" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director14" order="21" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director15" xlink:label="uk-bus_Director15" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director15" order="22" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director16" xlink:label="uk-bus_Director16" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director16" order="23" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director17" xlink:label="uk-bus_Director17" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director17" order="24" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director18" xlink:label="uk-bus_Director18" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director18" order="25" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director19" xlink:label="uk-bus_Director19" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director19" order="26" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director20" xlink:label="uk-bus_Director20" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director20" order="27" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director21" xlink:label="uk-bus_Director21" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director21" order="28" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director22" xlink:label="uk-bus_Director22" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director22" order="29" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director23" xlink:label="uk-bus_Director23" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director23" order="30" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director24" xlink:label="uk-bus_Director24" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director24" order="31" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director25" xlink:label="uk-bus_Director25" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director25" order="32" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director26" xlink:label="uk-bus_Director26" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director26" order="33" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director27" xlink:label="uk-bus_Director27" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director27" order="34" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director28" xlink:label="uk-bus_Director28" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director28" order="35" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director29" xlink:label="uk-bus_Director29" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director29" order="36" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director30" xlink:label="uk-bus_Director30" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director30" order="37" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director31" xlink:label="uk-bus_Director31" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director31" order="38" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director32" xlink:label="uk-bus_Director32" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director32" order="39" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director33" xlink:label="uk-bus_Director33" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director33" order="40" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director34" xlink:label="uk-bus_Director34" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director34" order="41" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director35" xlink:label="uk-bus_Director35" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director35" order="42" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director36" xlink:label="uk-bus_Director36" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director36" order="43" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director37" xlink:label="uk-bus_Director37" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director37" order="44" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director38" xlink:label="uk-bus_Director38" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director38" order="45" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director39" xlink:label="uk-bus_Director39" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director39" order="46" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Director40" xlink:label="uk-bus_Director40" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_Director40" order="47" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:label="uk-bus_PartnersLimitedLiabilityPartnershipHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="uk-bus_PartnersLimitedLiabilityPartnershipHeading" order="48" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP1" xlink:label="uk-bus_PartnerLLP1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP1" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP2" xlink:label="uk-bus_PartnerLLP2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP2" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP3" xlink:label="uk-bus_PartnerLLP3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP3" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP4" xlink:label="uk-bus_PartnerLLP4" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP4" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP5" xlink:label="uk-bus_PartnerLLP5" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP5" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP6" xlink:label="uk-bus_PartnerLLP6" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP6" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP7" xlink:label="uk-bus_PartnerLLP7" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP7" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP8" xlink:label="uk-bus_PartnerLLP8" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP8" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP9" xlink:label="uk-bus_PartnerLLP9" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP9" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP10" xlink:label="uk-bus_PartnerLLP10" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP10" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP11" xlink:label="uk-bus_PartnerLLP11" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP11" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP12" xlink:label="uk-bus_PartnerLLP12" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP12" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP13" xlink:label="uk-bus_PartnerLLP13" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP13" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP14" xlink:label="uk-bus_PartnerLLP14" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP14" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP15" xlink:label="uk-bus_PartnerLLP15" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP15" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP16" xlink:label="uk-bus_PartnerLLP16" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP16" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP17" xlink:label="uk-bus_PartnerLLP17" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP17" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP18" xlink:label="uk-bus_PartnerLLP18" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP18" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP19" xlink:label="uk-bus_PartnerLLP19" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP19" order="19" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PartnerLLP20" xlink:label="uk-bus_PartnerLLP20" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PartnersLimitedLiabilityPartnershipHeading" xlink:to="uk-bus_PartnerLLP20" order="20" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficerType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficerTypeDimension" xlink:label="uk-bus_EntityOfficerTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllEntityOfficerTypesDefault" xlink:label="uk-bus_AllEntityOfficerTypesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_EntityOfficerTypeDimension" xlink:to="uk-bus_AllEntityOfficerTypesDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ExecutiveOfficers" xlink:label="uk-bus_ExecutiveOfficers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficerTypesDefault" xlink:to="uk-bus_ExecutiveOfficers" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Non-executiveOfficers" xlink:label="uk-bus_Non-executiveOfficers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficerTypesDefault" xlink:to="uk-bus_Non-executiveOfficers" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficerType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficerTypeDimension" xlink:label="uk-bus_EntityOfficerTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllEntityOfficerTypesDefault" xlink:label="uk-bus_AllEntityOfficerTypesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_EntityOfficerTypeDimension" xlink:to="uk-bus_AllEntityOfficerTypesDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ShareClasses">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareClassesDimension" xlink:label="uk-bus_ShareClassesDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllShareClassesDefault" xlink:label="uk-bus_AllShareClassesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_ShareClassesDimension" xlink:to="uk-bus_AllShareClassesDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllOrdinaryShares" xlink:label="uk-bus_AllOrdinaryShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllShareClassesDefault" xlink:to="uk-bus_AllOrdinaryShares" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OrdinaryShareClass1" xlink:label="uk-bus_OrdinaryShareClass1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllOrdinaryShares" xlink:to="uk-bus_OrdinaryShareClass1" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OrdinaryShareClass2" xlink:label="uk-bus_OrdinaryShareClass2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllOrdinaryShares" xlink:to="uk-bus_OrdinaryShareClass2" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OrdinaryShareClass3" xlink:label="uk-bus_OrdinaryShareClass3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllOrdinaryShares" xlink:to="uk-bus_OrdinaryShareClass3" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OrdinaryShareClass4" xlink:label="uk-bus_OrdinaryShareClass4" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllOrdinaryShares" xlink:to="uk-bus_OrdinaryShareClass4" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OrdinaryShareClass5" xlink:label="uk-bus_OrdinaryShareClass5" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllOrdinaryShares" xlink:to="uk-bus_OrdinaryShareClass5" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllPreferenceShares" xlink:label="uk-bus_AllPreferenceShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllShareClassesDefault" xlink:to="uk-bus_AllPreferenceShares" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PreferenceShareClass1" xlink:label="uk-bus_PreferenceShareClass1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllPreferenceShares" xlink:to="uk-bus_PreferenceShareClass1" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PreferenceShareClass2" xlink:label="uk-bus_PreferenceShareClass2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllPreferenceShares" xlink:to="uk-bus_PreferenceShareClass2" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PreferenceShareClass3" xlink:label="uk-bus_PreferenceShareClass3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllPreferenceShares" xlink:to="uk-bus_PreferenceShareClass3" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PreferenceShareClass4" xlink:label="uk-bus_PreferenceShareClass4" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllPreferenceShares" xlink:to="uk-bus_PreferenceShareClass4" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PreferenceShareClass5" xlink:label="uk-bus_PreferenceShareClass5" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllPreferenceShares" xlink:to="uk-bus_PreferenceShareClass5" order="5" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ShareClasses">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareClassesDimension" xlink:label="uk-bus_ShareClassesDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllShareClassesDefault" xlink:label="uk-bus_AllShareClassesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_ShareClassesDimension" xlink:to="uk-bus_AllShareClassesDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ShareTypes">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareTypesDimension" xlink:label="uk-bus_ShareTypesDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllShareTypesDefault" xlink:label="uk-bus_AllShareTypesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_ShareTypesDimension" xlink:to="uk-bus_AllShareTypesDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CumulativeShares" xlink:label="uk-bus_CumulativeShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllShareTypesDefault" xlink:to="uk-bus_CumulativeShares" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CumulativeRedeemableShares" xlink:label="uk-bus_CumulativeRedeemableShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_CumulativeShares" xlink:to="uk-bus_CumulativeRedeemableShares" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CumulativeNon-redeemableShares" xlink:label="uk-bus_CumulativeNon-redeemableShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_CumulativeShares" xlink:to="uk-bus_CumulativeNon-redeemableShares" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Non-cumulativeShares" xlink:label="uk-bus_Non-cumulativeShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllShareTypesDefault" xlink:to="uk-bus_Non-cumulativeShares" order="2" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_Non-cumulativeShares" xlink:to="uk-bus_CumulativeNon-redeemableShares" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Non-cumulativeNon-redeemableShares" xlink:label="uk-bus_Non-cumulativeNon-redeemableShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_Non-cumulativeShares" xlink:to="uk-bus_Non-cumulativeNon-redeemableShares" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OtherShareTypes" xlink:label="uk-bus_OtherShareTypes" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllShareTypesDefault" xlink:to="uk-bus_OtherShareTypes" order="3" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ShareTypes">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareTypesDimension" xlink:label="uk-bus_ShareTypesDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AllShareTypesDefault" xlink:label="uk-bus_AllShareTypesDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_ShareTypesDimension" xlink:to="uk-bus_AllShareTypesDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-EntityContactType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityContactTypeDimension" xlink:label="uk-bus_EntityContactTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:label="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_EntityContactTypeDimension" xlink:to="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_HeadOfficeDefault" xlink:label="uk-bus_HeadOfficeDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_HeadOfficeDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_RegisteredOffice" xlink:label="uk-bus_RegisteredOffice" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_RegisteredOffice" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_MainBusiness" xlink:label="uk-bus_MainBusiness" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_MainBusiness" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PublicRelations" xlink:label="uk-bus_PublicRelations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_PublicRelations" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_InvestorRelations" xlink:label="uk-bus_InvestorRelations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PublicRelations" xlink:to="uk-bus_InvestorRelations" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_MediaRelations" xlink:label="uk-bus_MediaRelations" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_PublicRelations" xlink:to="uk-bus_MediaRelations" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_SalesMarketing" xlink:label="uk-bus_SalesMarketing" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_SalesMarketing" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Sales" xlink:label="uk-bus_Sales" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_SalesMarketing" xlink:to="uk-bus_Sales" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Marketing" xlink:label="uk-bus_Marketing" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_SalesMarketing" xlink:to="uk-bus_Marketing" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ProductInformation" xlink:label="uk-bus_ProductInformation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_ProductInformation" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_TechnicalInformation" xlink:label="uk-bus_TechnicalInformation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_TechnicalInformation" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportContact" xlink:label="uk-bus_BusinessReportContact" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersWhichIdentifyEntityContactTypeOrPurposeHeading" xlink:to="uk-bus_BusinessReportContact" order="8" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_EntityContactTypeDimension" xlink:to="uk-bus_HeadOfficeDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentTypeDimension" xlink:label="uk-bus_ThirdPartyAgentTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:label="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_ThirdPartyAgentTypeDimension" xlink:to="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityAccountantsOrAuditors" xlink:label="uk-bus_EntityAccountantsOrAuditors" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityAccountantsOrAuditors" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityBankers" xlink:label="uk-bus_EntityBankers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityBankers" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityLawyersOrLegalAdvisers" xlink:label="uk-bus_EntityLawyersOrLegalAdvisers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityLawyersOrLegalAdvisers" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityPublicRelationsAdvisers" xlink:label="uk-bus_EntityPublicRelationsAdvisers" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityPublicRelationsAdvisers" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityRegistrationAgents" xlink:label="uk-bus_EntityRegistrationAgents" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityRegistrationAgents" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityUnderwriters" xlink:label="uk-bus_EntityUnderwriters" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_EntityUnderwriters" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AdministratorsForEntity" xlink:label="uk-bus_AdministratorsForEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_AdministratorsForEntity" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ReceiversForEntity" xlink:label="uk-bus_ReceiversForEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeThirdPartyAgentHeading" xlink:to="uk-bus_ReceiversForEntity" order="8" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentStatus">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentStatusDimension" xlink:label="uk-bus_ThirdPartyAgentStatusDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_TotalAgentsDefault" xlink:label="uk-bus_TotalAgentsDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_ThirdPartyAgentStatusDimension" xlink:to="uk-bus_TotalAgentsDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipalAgent" xlink:label="uk-bus_PrincipalAgent" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_TotalAgentsDefault" xlink:to="uk-bus_PrincipalAgent" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_JointAgent1" xlink:label="uk-bus_JointAgent1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_TotalAgentsDefault" xlink:to="uk-bus_JointAgent1" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_JointAgent2" xlink:label="uk-bus_JointAgent2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_TotalAgentsDefault" xlink:to="uk-bus_JointAgent2" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_JointAgent3" xlink:label="uk-bus_JointAgent3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_TotalAgentsDefault" xlink:to="uk-bus_JointAgent3" order="4" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentStatus">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentStatusDimension" xlink:label="uk-bus_ThirdPartyAgentStatusDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_TotalAgentsDefault" xlink:label="uk-bus_TotalAgentsDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_ThirdPartyAgentStatusDimension" xlink:to="uk-bus_TotalAgentsDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-FormOfContact">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_FormContactDimension" xlink:label="uk-bus_FormContactDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:label="uk-bus_DimensionMembersIdentifyingFormContactHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_FormContactDimension" xlink:to="uk-bus_DimensionMembersIdentifyingFormContactHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_MainFormContactDefault" xlink:label="uk-bus_MainFormContactDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_MainFormContactDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Direct" xlink:label="uk-bus_Direct" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Direct" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Switchboard" xlink:label="uk-bus_Switchboard" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Switchboard" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Office" xlink:label="uk-bus_Office" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Office" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Personal" xlink:label="uk-bus_Personal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Personal" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Home" xlink:label="uk-bus_Home" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Home" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Day" xlink:label="uk-bus_Day" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Day" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Night" xlink:label="uk-bus_Night" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Night" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Emergency" xlink:label="uk-bus_Emergency" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_Emergency" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AlternativeFormContact1" xlink:label="uk-bus_AlternativeFormContact1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_AlternativeFormContact1" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AlternativeFormContact2" xlink:label="uk-bus_AlternativeFormContact2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_AlternativeFormContact2" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AlternativeFormContact3" xlink:label="uk-bus_AlternativeFormContact3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingFormContactHeading" xlink:to="uk-bus_AlternativeFormContact3" order="12" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_FormContactDimension" xlink:to="uk-bus_MainFormContactDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-AddressType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressTypeDimension" xlink:label="uk-bus_AddressTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersIdentifyingTypeAddressHeading" xlink:label="uk-bus_DimensionMembersIdentifyingTypeAddressHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_AddressTypeDimension" xlink:to="uk-bus_DimensionMembersIdentifyingTypeAddressHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_MainAddressDefault" xlink:label="uk-bus_MainAddressDefault" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeAddressHeading" xlink:to="uk-bus_MainAddressDefault" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Postal" xlink:label="uk-bus_Postal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeAddressHeading" xlink:to="uk-bus_Postal" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Street" xlink:label="uk-bus_Street" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypeAddressHeading" xlink:to="uk-bus_Street" order="3" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_AddressTypeDimension" xlink:to="uk-bus_MainAddressDefault" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-PhoneNumberType">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PhoneNumberTypeDimension" xlink:label="uk-bus_PhoneNumberTypeDimension" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" xlink:label="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-bus_PhoneNumberTypeDimension" xlink:to="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Landline" xlink:label="uk-bus_Landline" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" xlink:to="uk-bus_Landline" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Mobile" xlink:label="uk-bus_Mobile" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" xlink:to="uk-bus_Mobile" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_Fax" xlink:label="uk-bus_Fax" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" xlink:to="uk-bus_Fax" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd#uk-common_NotApplicable" xlink:label="uk-common_NotApplicable" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionMembersIdentifyingTypePhoneNumberHeading" xlink:to="uk-common_NotApplicable" order="4" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-bus_PhoneNumberTypeDimension" xlink:to="uk-common_NotApplicable" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-EntityOfficers">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-EntityOfficers" xlink:label="uk-bus_DimensionsParent-EntityOfficers" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficersHypercube" xlink:label="uk-bus_EntityOfficersHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="uk-bus_EntityOfficersHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficersDimension" xlink:label="uk-bus_EntityOfficersDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityOfficersHypercube" xlink:to="uk-bus_EntityOfficersDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficers" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityOfficerTypeDimension" xlink:label="uk-bus_EntityOfficerTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityOfficersHypercube" xlink:to="uk-bus_EntityOfficerTypeDimension" order="2" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficerType" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameEntityOfficer" xlink:label="uk-bus_NameEntityOfficer" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="uk-bus_NameEntityOfficer" order="1" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Shares">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-Shares" xlink:label="uk-bus_DimensionsParent-Shares" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_SharesHypercube" xlink:label="uk-bus_SharesHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-Shares" xlink:to="uk-bus_SharesHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareClassesDimension" xlink:label="uk-bus_ShareClassesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_SharesHypercube" xlink:to="uk-bus_ShareClassesDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-ShareClasses" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ShareTypesDimension" xlink:label="uk-bus_ShareTypesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_SharesHypercube" xlink:to="uk-bus_ShareTypesDimension" order="2" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-ShareTypes" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionShareType" xlink:label="uk-bus_DescriptionShareType" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Shares" xlink:to="uk-bus_DescriptionShareType" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-EntityContactInfo">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-EntityContactInfo" xlink:label="uk-bus_DimensionsParent-EntityContactInfo" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityContactInfoHypercube" xlink:label="uk-bus_EntityContactInfoHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_EntityContactInfoHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityContactTypeDimension" xlink:label="uk-bus_EntityContactTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-bus_EntityContactTypeDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-EntityContactType" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_FormContactDimension" xlink:label="uk-bus_FormContactDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-bus_FormContactDimension" order="2" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-FormOfContact" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressTypeDimension" xlink:label="uk-bus_AddressTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-bus_AddressTypeDimension" order="3" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-AddressType" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PhoneNumberTypeDimension" xlink:label="uk-bus_PhoneNumberTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-bus_PhoneNumberTypeDimension" order="4" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-PhoneNumberType" />
+    <loc xlink:type="locator" xlink:href="../../countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CountriesDimension" xlink:label="uk-countries_CountriesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-countries_CountriesDimension" order="5" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions" />
+    <loc xlink:type="locator" xlink:href="../../languages/2009-09-01/uk-languages-2009-09-01.xsd#uk-lang_LanguagesDimension" xlink:label="uk-lang_LanguagesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_EntityContactInfoHypercube" xlink:to="uk-lang_LanguagesDimension" order="6" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-Languages" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine1" xlink:label="uk-bus_AddressLine1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_AddressLine1" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine2" xlink:label="uk-bus_AddressLine2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_AddressLine2" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine3" xlink:label="uk-bus_AddressLine3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_AddressLine3" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipalLocation-CityOrTown" xlink:label="uk-bus_PrincipalLocation-CityOrTown" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_PrincipalLocation-CityOrTown" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountyRegion" xlink:label="uk-bus_CountyRegion" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_CountyRegion" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PostalCodeZip" xlink:label="uk-bus_PostalCodeZip" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_PostalCodeZip" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_E-mailAddress" xlink:label="uk-bus_E-mailAddress" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_E-mailAddress" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountryCode" xlink:label="uk-bus_CountryCode" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_CountryCode" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AreaCode" xlink:label="uk-bus_AreaCode" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_AreaCode" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_LocalNumber" xlink:label="uk-bus_LocalNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_LocalNumber" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ExtensionNumber" xlink:label="uk-bus_ExtensionNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_ExtensionNumber" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameMainContactPerson" xlink:label="uk-bus_NameMainContactPerson" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_NameMainContactPerson" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_JobTitlePositionMainContactPerson" xlink:label="uk-bus_JobTitlePositionMainContactPerson" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_JobTitlePositionMainContactPerson" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OtherInformationOnContactPersons" xlink:label="uk-bus_OtherInformationOnContactPersons" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_OtherInformationOnContactPersons" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_WebsiteMainPageURL" xlink:label="uk-bus_WebsiteMainPageURL" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_WebsiteMainPageURL" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOrOtherInformationOnWebsite" xlink:label="uk-bus_DescriptionOrOtherInformationOnWebsite" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_DescriptionOrOtherInformationOnWebsite" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOrOtherInformationOnEntityContact" xlink:label="uk-bus_DescriptionOrOtherInformationOnEntityContact" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityContactInfo" xlink:to="uk-bus_DescriptionOrOtherInformationOnEntityContact" order="18" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-ThirdPartyAgents">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-ThirdPartyAgents" xlink:label="uk-bus_DimensionsParent-ThirdPartyAgents" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentsHypercube" xlink:label="uk-bus_ThirdPartyAgentsHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_ThirdPartyAgentsHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentTypeDimension" xlink:label="uk-bus_ThirdPartyAgentTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-bus_ThirdPartyAgentTypeDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentType" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ThirdPartyAgentStatusDimension" xlink:label="uk-bus_ThirdPartyAgentStatusDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-bus_ThirdPartyAgentStatusDimension" order="2" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-ThirdPartyAgentStatus" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_FormContactDimension" xlink:label="uk-bus_FormContactDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-bus_FormContactDimension" order="3" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-FormOfContact" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressTypeDimension" xlink:label="uk-bus_AddressTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-bus_AddressTypeDimension" order="4" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-AddressType" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PhoneNumberTypeDimension" xlink:label="uk-bus_PhoneNumberTypeDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-bus_PhoneNumberTypeDimension" order="5" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/cd/role/Dimension-PhoneNumberType" />
+    <loc xlink:type="locator" xlink:href="../../countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CountriesDimension" xlink:label="uk-countries_CountriesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-countries_CountriesDimension" order="6" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions" />
+    <loc xlink:type="locator" xlink:href="../../languages/2009-09-01/uk-languages-2009-09-01.xsd#uk-lang_LanguagesDimension" xlink:label="uk-lang_LanguagesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_ThirdPartyAgentsHypercube" xlink:to="uk-lang_LanguagesDimension" order="7" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-Languages" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameThirdPartyAgent" xlink:label="uk-bus_NameThirdPartyAgent" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_NameThirdPartyAgent" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOrOtherInformationOnThirdPartyAgent" xlink:label="uk-bus_DescriptionOrOtherInformationOnThirdPartyAgent" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_DescriptionOrOtherInformationOnThirdPartyAgent" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine1" xlink:label="uk-bus_AddressLine1" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_AddressLine1" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine2" xlink:label="uk-bus_AddressLine2" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_AddressLine2" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AddressLine3" xlink:label="uk-bus_AddressLine3" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_AddressLine3" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipalLocation-CityOrTown" xlink:label="uk-bus_PrincipalLocation-CityOrTown" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_PrincipalLocation-CityOrTown" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountyRegion" xlink:label="uk-bus_CountyRegion" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_CountyRegion" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PostalCodeZip" xlink:label="uk-bus_PostalCodeZip" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_PostalCodeZip" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_E-mailAddress" xlink:label="uk-bus_E-mailAddress" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_E-mailAddress" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountryCode" xlink:label="uk-bus_CountryCode" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_CountryCode" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_AreaCode" xlink:label="uk-bus_AreaCode" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_AreaCode" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_LocalNumber" xlink:label="uk-bus_LocalNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_LocalNumber" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_ExtensionNumber" xlink:label="uk-bus_ExtensionNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_ExtensionNumber" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameMainContactPerson" xlink:label="uk-bus_NameMainContactPerson" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_NameMainContactPerson" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_JobTitlePositionMainContactPerson" xlink:label="uk-bus_JobTitlePositionMainContactPerson" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_JobTitlePositionMainContactPerson" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OtherInformationOnContactPersons" xlink:label="uk-bus_OtherInformationOnContactPersons" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_OtherInformationOnContactPersons" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_WebsiteMainPageURL" xlink:label="uk-bus_WebsiteMainPageURL" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_WebsiteMainPageURL" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOrOtherInformationOnWebsite" xlink:label="uk-bus_DescriptionOrOtherInformationOnWebsite" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-bus_DescriptionOrOtherInformationOnWebsite" order="19" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Countries">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-Countries" xlink:label="uk-bus_DimensionsParent-Countries" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountriesHypercube" xlink:label="uk-bus_CountriesHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_CountriesHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="../../countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CountriesDimension" xlink:label="uk-countries_CountriesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_CountriesHypercube" xlink:to="uk-countries_CountriesDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionPrincipalActivities" xlink:label="uk-bus_DescriptionPrincipalActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_DescriptionPrincipalActivities" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionActivityCodeSystem" xlink:label="uk-bus_DescriptionActivityCodeSystem" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_DescriptionActivityCodeSystem" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CodeForActivity" xlink:label="uk-bus_CodeForActivity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_CodeForActivity" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOtherActivities" xlink:label="uk-bus_DescriptionOtherActivities" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_DescriptionOtherActivities" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CountryFormationOrIncorporation" xlink:label="uk-bus_CountryFormationOrIncorporation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_CountryFormationOrIncorporation" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityDormant" xlink:label="uk-bus_EntityDormant" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityDormant" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityTrading" xlink:label="uk-bus_EntityTrading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityTrading" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInAdministration" xlink:label="uk-bus_EntityInAdministration" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityInAdministration" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInReceivership" xlink:label="uk-bus_EntityInReceivership" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityInReceivership" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInLiquidation" xlink:label="uk-bus_EntityInLiquidation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityInLiquidation" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInCompulsoryLiquidation" xlink:label="uk-bus_EntityInCompulsoryLiquidation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_EntityInLiquidation" xlink:to="uk-bus_EntityInCompulsoryLiquidation" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInVoluntaryLiquidation" xlink:label="uk-bus_EntityInVoluntaryLiquidation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_EntityInLiquidation" xlink:to="uk-bus_EntityInVoluntaryLiquidation" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityInInsolventLiquidation" xlink:label="uk-bus_EntityInInsolventLiquidation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_EntityInLiquidation" xlink:to="uk-bus_EntityInInsolventLiquidation" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityUnderCompanyVoluntaryArrangement" xlink:label="uk-bus_EntityUnderCompanyVoluntaryArrangement" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Countries" xlink:to="uk-bus_EntityUnderCompanyVoluntaryArrangement" order="12" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Currencies">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-Currencies" xlink:label="uk-bus_DimensionsParent-Currencies" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CurrenciesHypercube" xlink:label="uk-bus_CurrenciesHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-Currencies" xlink:to="uk-bus_CurrenciesHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="../../currencies/2009-09-01/uk-currencies-2009-09-01.xsd#uk-curr_CurrenciesDimension" xlink:label="uk-curr_CurrenciesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_CurrenciesHypercube" xlink:to="uk-curr_CurrenciesDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-Currencies" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipalCurrencyUsedInBusinessReport" xlink:label="uk-bus_PrincipalCurrencyUsedInBusinessReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Currencies" xlink:to="uk-bus_PrincipalCurrencyUsedInBusinessReport" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_OtherCurrencyUsedInBusinessReport" xlink:label="uk-bus_OtherCurrencyUsedInBusinessReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Currencies" xlink:to="uk-bus_OtherCurrencyUsedInBusinessReport" order="3" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-StockExchanges">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-StockExchanges" xlink:label="uk-bus_DimensionsParent-StockExchanges" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_StockExchangesHypercube" xlink:label="uk-bus_StockExchangesHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_StockExchangesHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="../../exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_ExchangesDimension" xlink:label="uk-exch_ExchangesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_StockExchangesHypercube" xlink:to="uk-exch_ExchangesDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-StockExchanges" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipalStockExchange" xlink:label="uk-bus_PrincipalStockExchange" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_PrincipalStockExchange" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_SecondaryStockExchange" xlink:label="uk-bus_SecondaryStockExchange" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_SecondaryStockExchange" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_MainTradingSymbolOnExchange" xlink:label="uk-bus_MainTradingSymbolOnExchange" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_MainTradingSymbolOnExchange" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionSpecificSecurityEntity" xlink:label="uk-bus_DescriptionSpecificSecurityEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_DescriptionSpecificSecurityEntity" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_SymbolSpecificSecurityEntity" xlink:label="uk-bus_SymbolSpecificSecurityEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-StockExchanges" xlink:to="uk-bus_SymbolSpecificSecurityEntity" order="6" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Languages">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-Languages" xlink:label="uk-bus_DimensionsParent-Languages" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_LanguagesHypercube" xlink:label="uk-bus_LanguagesHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-Languages" xlink:to="uk-bus_LanguagesHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="../../languages/2009-09-01/uk-languages-2009-09-01.xsd#uk-lang_LanguagesDimension" xlink:label="uk-lang_LanguagesDimension" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="uk-bus_LanguagesHypercube" xlink:to="uk-lang_LanguagesDimension" order="1" use="optional" xbrldt:targetRole="http://www.xbrl.org/uk/all/role/Dimension-Languages" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportPrincipalLanguage" xlink:label="uk-bus_BusinessReportPrincipalLanguage" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Languages" xlink:to="uk-bus_BusinessReportPrincipalLanguage" order="2" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Empty">
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-NoDimensions" xlink:label="uk-bus_DimensionsParent-NoDimensions" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EmptyHypercube" xlink:label="uk-bus_EmptyHypercube" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_EmptyHypercube" order="1" use="optional" xbrldt:contextElement="segment" xbrldt:closed="true" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_CompaniesHouseDocumentAuthentication" xlink:label="uk-bus_CompaniesHouseDocumentAuthentication" xlink:title="definition: DimensionsParent-NoDimensions to CompaniesHouseDocumentAuthentication" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_CompaniesHouseDocumentAuthentication" xlink:title="definition: DimensionsParent-NoDimensions to CompaniesHouseDocumentAuthentication" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityCurrentLegalOrRegisteredName" xlink:label="uk-bus_EntityCurrentLegalOrRegisteredName" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_EntityCurrentLegalOrRegisteredName" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityTradingName" xlink:label="uk-bus_EntityTradingName" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_EntityTradingName" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EntityFormerLegalOrRegisteredName" xlink:label="uk-bus_EntityFormerLegalOrRegisteredName" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_EntityFormerLegalOrRegisteredName" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DateWhenCeasedToBeLegalOrRegisteredName" xlink:label="uk-bus_DateWhenCeasedToBeLegalOrRegisteredName" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DateWhenCeasedToBeLegalOrRegisteredName" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_UKCompaniesHouseRegisteredNumber" xlink:label="uk-bus_UKCompaniesHouseRegisteredNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_UKCompaniesHouseRegisteredNumber" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_UKVATRegistrationNumber" xlink:label="uk-bus_UKVATRegistrationNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_UKVATRegistrationNumber" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_LegalFormOfEntity" xlink:label="uk-bus_LegalFormOfEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_LegalFormOfEntity" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DateFormationOrIncorporation" xlink:label="uk-bus_DateFormationOrIncorporation" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DateFormationOrIncorporation" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportName" xlink:label="uk-bus_BusinessReportName" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_BusinessReportName" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionBusinessReport" xlink:label="uk-bus_DescriptionBusinessReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DescriptionBusinessReport" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BalanceSheetDate" xlink:label="uk-bus_BalanceSheetDate" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_BalanceSheetDate" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionPeriodCoveredByReport" xlink:label="uk-bus_DescriptionPeriodCoveredByReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DescriptionPeriodCoveredByReport" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_StartDateForPeriodCoveredByReport" xlink:label="uk-bus_StartDateForPeriodCoveredByReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_StartDateForPeriodCoveredByReport" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_EndDateForPeriodCoveredByReport" xlink:label="uk-bus_EndDateForPeriodCoveredByReport" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_EndDateForPeriodCoveredByReport" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportPublicationDate" xlink:label="uk-bus_BusinessReportPublicationDate" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_BusinessReportPublicationDate" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportCopyrightStatement" xlink:label="uk-bus_BusinessReportCopyrightStatement" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_BusinessReportCopyrightStatement" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_BusinessReportPublisherNameIfDifferentFromEntity" xlink:label="uk-bus_BusinessReportPublisherNameIfDifferentFromEntity" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_BusinessReportPublisherNameIfDifferentFromEntity" order="19" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_XBRLDocumentNameOrDescription" xlink:label="uk-bus_XBRLDocumentNameOrDescription" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_XBRLDocumentNameOrDescription" order="20" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_XBRLDocumentFilename" xlink:label="uk-bus_XBRLDocumentFilename" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_XBRLDocumentFilename" order="21" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_XBRLDocumentVersionNumber" xlink:label="uk-bus_XBRLDocumentVersionNumber" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_XBRLDocumentVersionNumber" order="22" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_XBRLDocumentLastEditDate" xlink:label="uk-bus_XBRLDocumentLastEditDate" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_XBRLDocumentLastEditDate" order="23" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_XBRLDocumentCreationDate" xlink:label="uk-bus_XBRLDocumentCreationDate" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_XBRLDocumentCreationDate" order="24" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameAuthor" xlink:label="uk-bus_NameAuthor" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_NameAuthor" order="25" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionOrTitleAuthor" xlink:label="uk-bus_DescriptionOrTitleAuthor" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DescriptionOrTitleAuthor" order="26" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_PrincipleDocumentAuthor" xlink:label="uk-bus_PrincipleDocumentAuthor" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_PrincipleDocumentAuthor" order="27" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DateRevision" xlink:label="uk-bus_DateRevision" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DateRevision" order="28" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_VersionNumberRevision" xlink:label="uk-bus_VersionNumberRevision" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_VersionNumberRevision" order="29" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_DescriptionRevision" xlink:label="uk-bus_DescriptionRevision" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_DescriptionRevision" order="30" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-bus-2009-09-01.xsd#uk-bus_NameRevisionAuthor" xlink:label="uk-bus_NameRevisionAuthor" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-NoDimensions" xlink:to="uk-bus_NameRevisionAuthor" order="31" use="optional" />
+  </definitionLink>
+</linkbase>

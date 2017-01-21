@@ -40,7 +40,7 @@ class TaxonomyParser
       add_label_info(h, pres_doc)
       results << h
     end
-    results
+    results.uniq! { |r| r["role"].value }
   end
 
   def add_label_info(h, pres_doc)

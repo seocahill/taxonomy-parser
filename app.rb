@@ -65,6 +65,7 @@ class TaxonomyParser
       to = loc.attributes["label"].value
       presentation_arc_to_links.include? to
     end
+    # binding.pry
     h["concepts"] = root_locs.map { |rl| rl.attributes["label"].value }
   end
 

@@ -32,7 +32,7 @@ class TaxonomyParser
     label_file = File.open(label_file_path)
     label_doc = Nokogiri::XML(label_file)
     pres_doc.remove_namespaces!
-    pres_doc.xpath('//presentationLink').first(1).each do |pl|
+    pres_doc.xpath('//presentationLink').first(5).each do |pl|
       h = {}
       pl.attributes.each do |k,v|
         h[k] = v
@@ -52,6 +52,20 @@ class TaxonomyParser
     app_info.elements.each do |el|
       h[el.name] = el.text
     end
+    add_concepts_to_tree(h, pres_doc)
+  end
+
+  def add_concepts_to_tree(h, pres_doc)
+    role = h["role"]
+    presentation_link = pres_doc.xpath("//*[@role='#{role}']")
+    locs = presentation_link.first.xpath('.//loc')
+    presentation_arcs = presentation_link.first.xpath('.//presentationArc')
+    presentation_arc_to_links = presentation_arcs.map { |pa| pa.attributes["to"].value }
+    root_locs = locs.reject do |loc|
+      to = loc.attributes["label"].value
+      presentation_arc_to_links.include? to
+    end
+    h["concepts"] = root_locs.map { |rl| rl.attributes["label"].value }
   end
 
   def schema_doc

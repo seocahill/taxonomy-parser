@@ -13,7 +13,6 @@ get '/' do
     lang: "en",
     locator: "uk-gaap-2009-09-01.xsd",
     tree: parsed_dts.tree,
-    appInfo: parsed_dts.app_info
   }
   JSON.pretty_generate(doc)
 end
@@ -34,32 +33,51 @@ class TaxonomyParser
     label_doc = Nokogiri::XML(label_file)
     pres_doc.remove_namespaces!
     pres_doc.xpath('//presentationLink').first(1).each do |pl|
-      results << pl.attributes['title']&.value || 'no title given'
+      h = {}
+      pl.attributes.each do |k,v|
+        h[k] = v
+      end
+      add_label_info(h, pres_doc)
+      results << h
     end
     results
   end
 
-  def app_info
-    results = []
+  def add_label_info(h, pres_doc)
+    roleURI = h['role'].value
+    link = pres_doc.xpath("//*[@roleURI='#{roleURI}']")
+    anchor = link.first.attributes["href"].value
+    id = anchor.split('#').last
+    app_info = schema_doc.xpath("//*[@id='#{id}']").first
+    app_info.elements.each do |el|
+      h[el.name] = el.text
+    end
+  end
+
+  def schema_doc
     file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd"
     file = File.open(file_path)
-    doc = Nokogiri::XML(file)
-    links = doc.xpath('//link:roleType')
-    # binding.pry
-    links.each do |link|
-      id = link.attributes['id'].value
-      definition = link.elements.find { |el| el.name == "definition" }
-      used_on = link.elements.find { |el| el.name == "usedOn" }.text
-      label = definition.children.first.text if definition
-      position = label.split(' ').first.to_i
-      results << {
-        id: id,
-        position: position,
-        definition: label,
-        used_on: used_on
-      }
-    end
-    results
+    Nokogiri::XML(file)
   end
+
+  # def app_info
+  #   results = []
+  #   links = schema_doc.xpath('//link:roleType')
+  #   # binding.pry
+  #   links.each do |link|
+  #     id = link.attributes['id'].value
+  #     definition = link.elements.find { |el| el.name == "definition" }
+  #     used_on = link.elements.find { |el| el.name == "usedOn" }.text
+  #     label = definition.children.first.text if definition
+  #     position = label.split(' ').first.to_i
+  #     results << {
+  #       id: id,
+  #       position: position,
+  #       definition: label,
+  #       used_on: used_on
+  #     }
+  #   end
+  #   results
+  # end
 
 end

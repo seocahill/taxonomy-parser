@@ -7,13 +7,7 @@ configure { set :server, :puma }
 
 get '/' do
   content_type :json
-  parsed_dts = TaxonomyParser.new
-  doc = {
-    network: "Presentation",
-    lang: "en",
-    tree: parsed_dts.tree,
-  }
-  JSON.pretty_generate(doc)
+  JSON.pretty_generate(TaxonomyParser.new.dts_as_json)
 end
 
 class TaxonomyParser
@@ -24,40 +18,48 @@ class TaxonomyParser
     @schema_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd")
     @label_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml")
     @reference_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml")
+    @pres_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-presentation.xml")
+    @network = "Presentation"
+    @language = "en"
   end
 
-  def tree
+  def dts_as_json
+    {
+      network: @network,
+      lang: @language,
+      concepts: concepts_as_json
+    }
+  end
+
+  def concepts_as_json
     results = []
-    pres_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-presentation.xml"
-    pres_file = File.open(pres_file_path)
-    pres_doc = Nokogiri::XML(pres_file)
-    pres_doc.remove_namespaces!
-    pres_doc.xpath('//presentationLink').first(5).each do |pl|
+    @pres_doc.remove_namespaces!
+    @pres_doc.xpath('//presentationLink').first(5).each do |pl|
       h = {}
       pl.attributes.each do |k,v|
         h[k] = v
       end
-      add_label_info(h, pres_doc)
+      add_label_info(h)
       results << h
     end
     results.uniq! { |r| r["role"].value }
   end
 
-  def add_label_info(h, pres_doc)
+  def add_label_info(h)
     roleURI = h['role'].value
-    link = pres_doc.xpath("//*[@roleURI='#{roleURI}']")
+    link = @pres_doc.xpath("//*[@roleURI='#{roleURI}']")
     anchor = link.first.attributes["href"].value
     id = anchor.split('#').last
     app_info = @schema_doc.xpath("//*[@id='#{id}']").first
     app_info.elements.each do |el|
       h[el.name] = el.text
     end
-    add_concepts_to_tree(h, pres_doc)
+    add_concepts_to_tree(h)
   end
 
-  def add_concepts_to_tree(h, pres_doc)
+  def add_concepts_to_tree(h)
     role = h["role"]
-    presentation_link = pres_doc.xpath("//*[@role='#{role}']")
+    presentation_link = @pres_doc.xpath("//*[@role='#{role}']")
     locs = presentation_link.first.xpath('.//loc')
     presentation_arcs = presentation_link.first.xpath('.//presentationArc')
     presentation_arc_to_links = presentation_arcs.map { |pa| pa.attributes["to"].value }
@@ -65,17 +67,21 @@ class TaxonomyParser
       to = loc.attributes["label"].value
       presentation_arc_to_links.include? to
     end
-    h["concepts"] = root_locs.map do |root_loc|
-      {
-        labels: labels_for_concept(root_loc),
-        references: references_for_concept(root_loc),
-        properties: properties_for_concept(root_loc)
-      }
+    h["children"] = root_locs.map do |root_loc|
+      add_children_to_node(root_loc)
     end
   end
 
+  def add_children_to_node(node)
+    {
+      labels: labels_for_concept(node),
+      references: references_for_concept(node),
+      properties: properties_for_concept(node),
+      children: []
+    }
+  end
+
   def labels_for_concept(concept)
-    # binding.pry
     link = @schema_filename + "#" + concept.attributes["label"].value
     loc = @label_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
     from = @label_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
@@ -90,7 +96,6 @@ class TaxonomyParser
   end
 
   def references_for_concept(concept)
-    # binding.pry
     link = @schema_filename + "#" + concept.attributes["label"].value
     loc = @reference_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
     from = @reference_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value

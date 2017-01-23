@@ -22,12 +22,19 @@ class TaxonomyParser
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
     @schema_filename = "uk-gaap-2009-09-01.xsd"
     @label_doc = parse_label_doc
+    @reference_doc = parse_reference_doc
   end
 
   def parse_label_doc
     label_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml"
     label_file = File.open(label_file_path)
     Nokogiri::XML(label_file)
+  end
+
+  def parse_reference_doc
+    file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml"
+    file = File.open(file_path)
+    Nokogiri::XML(file)
   end
 
   def tree
@@ -70,7 +77,11 @@ class TaxonomyParser
       presentation_arc_to_links.include? to
     end
     h["concepts"] = root_locs.map do |root_loc|
-      {labels: labels_for_concept(root_loc)}
+      {
+        labels: labels_for_concept(root_loc),
+        references: references_for_concept(root_loc),
+        properties: properties_for_concept(root_loc)
+      }
     end
   end
 
@@ -87,6 +98,24 @@ class TaxonomyParser
         label: label.text
       }
     end
+  end
+
+  def references_for_concept(concept)
+    # binding.pry
+    link = @schema_filename + "#" + concept.attributes["label"].value
+    loc = @reference_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
+    from = @reference_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
+    references = @reference_doc.xpath("//*[@xlink:label='#{from}']")
+    references.map do |ref|
+      {
+        type: ref.attributes["type"].value,
+        reference: ref.text
+      }
+    end
+  end
+
+  def properties_for_concept(concept)
+    {}
   end
 
   def schema_doc

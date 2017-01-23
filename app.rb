@@ -21,27 +21,9 @@ class TaxonomyParser
   def initialize
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
     @schema_filename = "uk-gaap-2009-09-01.xsd"
-    @label_doc = parse_label_doc
-    @reference_doc = parse_reference_doc
-    @schema_doc = schema_doc
-  end
-
-  def parse_label_doc
-    label_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml"
-    label_file = File.open(label_file_path)
-    Nokogiri::XML(label_file)
-  end
-
-  def parse_reference_doc
-    file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml"
-    file = File.open(file_path)
-    Nokogiri::XML(file)
-  end
-
-  def schema_doc
-    file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd"
-    file = File.open(file_path)
-    Nokogiri::XML(file)
+    @schema_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd")
+    @label_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml")
+    @reference_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml")
   end
 
   def tree
@@ -66,7 +48,7 @@ class TaxonomyParser
     link = pres_doc.xpath("//*[@roleURI='#{roleURI}']")
     anchor = link.first.attributes["href"].value
     id = anchor.split('#').last
-    app_info = schema_doc.xpath("//*[@id='#{id}']").first
+    app_info = @schema_doc.xpath("//*[@id='#{id}']").first
     app_info.elements.each do |el|
       h[el.name] = el.text
     end
@@ -131,24 +113,12 @@ class TaxonomyParser
     props
   end
 
-  # def app_info
-  #   results = []
-  #   links = schema_doc.xpath('//link:roleType')
-  #   # binding.pry
-  #   links.each do |link|
-  #     id = link.attributes['id'].value
-  #     definition = link.elements.find { |el| el.name == "definition" }
-  #     used_on = link.elements.find { |el| el.name == "usedOn" }.text
-  #     label = definition.children.first.text if definition
-  #     position = label.split(' ').first.to_i
-  #     results << {
-  #       id: id,
-  #       position: position,
-  #       definition: label,
-  #       used_on: used_on
-  #     }
-  #   end
-  #   results
-  # end
+private
+
+  def parse_doc(doc_path)
+    file_path = @path + doc_path
+    file = File.open(file_path)
+    Nokogiri::XML(file)
+  end
 
 end

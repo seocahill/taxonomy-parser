@@ -23,6 +23,7 @@ class TaxonomyParser
     @schema_filename = "uk-gaap-2009-09-01.xsd"
     @label_doc = parse_label_doc
     @reference_doc = parse_reference_doc
+    @schema_doc = schema_doc
   end
 
   def parse_label_doc
@@ -33,6 +34,12 @@ class TaxonomyParser
 
   def parse_reference_doc
     file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml"
+    file = File.open(file_path)
+    Nokogiri::XML(file)
+  end
+
+  def schema_doc
+    file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd"
     file = File.open(file_path)
     Nokogiri::XML(file)
   end
@@ -115,13 +122,13 @@ class TaxonomyParser
   end
 
   def properties_for_concept(concept)
-    {}
-  end
-
-  def schema_doc
-    file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd"
-    file = File.open(file_path)
-    Nokogiri::XML(file)
+    props = {}
+    link = concept.attributes["label"].value
+    concept_element = @schema_doc.xpath("//*[@id='#{link}']").first
+    concept_element.attributes.each do |k,v|
+      props[k] = v
+    end
+    props
   end
 
   # def app_info

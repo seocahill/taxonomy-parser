@@ -11,7 +11,6 @@ get '/' do
   doc = {
     network: "Presentation",
     lang: "en",
-    locator: "uk-gaap-2009-09-01.xsd",
     tree: parsed_dts.tree,
   }
   JSON.pretty_generate(doc)
@@ -21,6 +20,14 @@ class TaxonomyParser
 
   def initialize
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
+    @schema_filename = "uk-gaap-2009-09-01.xsd"
+    @label_doc = parse_label_doc
+  end
+
+  def parse_label_doc
+    label_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml"
+    label_file = File.open(label_file_path)
+    Nokogiri::XML(label_file)
   end
 
   def tree
@@ -28,9 +35,6 @@ class TaxonomyParser
     pres_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-presentation.xml"
     pres_file = File.open(pres_file_path)
     pres_doc = Nokogiri::XML(pres_file)
-    label_file_path = @path + "gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml"
-    label_file = File.open(label_file_path)
-    label_doc = Nokogiri::XML(label_file)
     pres_doc.remove_namespaces!
     pres_doc.xpath('//presentationLink').first(5).each do |pl|
       h = {}
@@ -65,8 +69,24 @@ class TaxonomyParser
       to = loc.attributes["label"].value
       presentation_arc_to_links.include? to
     end
+    h["concepts"] = root_locs.map do |root_loc|
+      {labels: labels_for_concept(root_loc)}
+    end
+  end
+
+  def labels_for_concept(concept)
     # binding.pry
-    h["concepts"] = root_locs.map { |rl| rl.attributes["label"].value }
+    link = @schema_filename + "#" + concept.attributes["label"].value
+    loc = @label_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
+    from = @label_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
+    labels = @label_doc.xpath("//*[@xlink:label='#{from}']")
+    labels.map do |label|
+      {
+        type: label.attributes["role"].value,
+        language: label.attributes["lang"],
+        label: label.text
+      }
+    end
   end
 
   def schema_doc

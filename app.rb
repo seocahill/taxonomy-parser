@@ -52,6 +52,17 @@ class TaxonomyParser
   end
 
   def add_dl_label_info(h)
+    roleURI = h['role']
+    link = @definition_doc.xpath("//*[@roleURI='#{roleURI}']")
+    anchor = link.first.attributes["href"].value
+    id = anchor.split('#').last
+    app_info = @schema_doc.xpath("//*[@id='#{id}']").first
+    if app_info
+      app_info.elements.each do |el|
+        h[el.name] = el.text
+      end
+      # add_concepts_to_tree(h)
+    end
     h
   end
 

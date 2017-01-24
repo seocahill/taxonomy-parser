@@ -28,23 +28,24 @@ class TaxonomyParser
     {
       network: @network,
       lang: @language,
-      presentation_tree: render_presentation_network_as_json,
-      all_tree: render_all_network_as_json
+      presentation_tree: render_presentation_tree_as_json,
+      definition_tree: render_definition_tree_as_json
     }
   end
 
-  def render_all_network_as_json
+  def render_definition_tree_as_json
 =begin
   what I need to do here is render all the definition nodes as with the presentation linkbase
   Then filter by the chosen network. In effect the presentation linkbase has a single network
   'parent-child' but it could have more. Hence I should be able to abstract and share the logic.
 =end
-
-    deflinks = @definition_doc.xpath("//*[@xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
-    deflinks.map do |dl|
+    @definition_doc.xpath('//xmlns:definitionLink')
+    .to_a
+    .uniq { |r| r.attributes["role"].value }
+    .map do |pl|
       h = {}
-      dl.attributes.each do |k,v|
-        h[k] = v
+      pl.attributes.each do |k,v|
+        h[k] = v.value
       end
       add_dl_label_info(h)
     end
@@ -54,10 +55,10 @@ class TaxonomyParser
     h
   end
 
-  def render_presentation_network_as_json
+  def render_presentation_tree_as_json
     @pres_doc.xpath('//xmlns:presentationLink')
     .to_a
-    .uniq { |r| r["role"] }
+    .uniq { |r| r.attributes["role"].value }
     .map do |pl|
       h = {}
       pl.attributes.each do |k,v|
@@ -85,7 +86,6 @@ class TaxonomyParser
   def add_concepts_to_tree(h)
     role = h["role"]
     presentation_link = @pres_doc.xpath("//*[@xlink:role='#{role}']")
-    # binding.pry
     locs = presentation_link.first.xpath('.//xmlns:loc')
     presentation_arcs = presentation_link.first.xpath('.//xmlns:presentationArc')
     presentation_arc_to_links = presentation_arcs.map { |pa| pa.attributes["to"].value }

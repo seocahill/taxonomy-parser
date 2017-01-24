@@ -18,6 +18,7 @@ class TaxonomyParser
     @schema_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd")
     @label_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-label.xml")
     @reference_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-reference.xml")
+    @definition_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-definition.xml")
     @pres_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-presentation.xml")
     @network = "Presentation"
     @language = "en"
@@ -27,22 +28,27 @@ class TaxonomyParser
     {
       network: @network,
       lang: @language,
-      concepts: concepts_as_json
+      # presentation_tree: render_presentation_network_as_json,
+      all_tree: render_all_network_as_json
     }
   end
 
-  def concepts_as_json
-    results = []
+  def render_all_network_as_json
+    deflinks = @definition_doc.xpath("//*[@xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
+    deflinks.map do |deflink|
+      deflink.attributes["from"].value
+    end
+  end
+
+  def render_presentation_network_as_json
     @pres_doc.remove_namespaces!
-    @pres_doc.xpath('//presentationLink').first(5).each do |pl|
+    @pres_doc.xpath('//presentationLink').map do |pl|
       h = {}
       pl.attributes.each do |k,v|
         h[k] = v
       end
       add_label_info(h)
-      results << h
-    end
-    results.uniq! { |r| r["role"].value }
+    end.uniq! { |r| r["role"].value }
   end
 
   def add_label_info(h)
@@ -51,10 +57,13 @@ class TaxonomyParser
     anchor = link.first.attributes["href"].value
     id = anchor.split('#').last
     app_info = @schema_doc.xpath("//*[@id='#{id}']").first
-    app_info.elements.each do |el|
-      h[el.name] = el.text
+    if app_info
+      app_info.elements.each do |el|
+        h[el.name] = el.text
+      end
+      add_concepts_to_tree(h)
     end
-    add_concepts_to_tree(h)
+    h
   end
 
   def add_concepts_to_tree(h)

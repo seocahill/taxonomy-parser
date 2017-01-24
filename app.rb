@@ -28,31 +28,47 @@ class TaxonomyParser
     {
       network: @network,
       lang: @language,
-      # presentation_tree: render_presentation_network_as_json,
+      presentation_tree: render_presentation_network_as_json,
       all_tree: render_all_network_as_json
     }
   end
 
   def render_all_network_as_json
+=begin
+  what I need to do here is render all the definition nodes as with the presentation linkbase
+  Then filter by the chosen network. In effect the presentation linkbase has a single network
+  'parent-child' but it could have more. Hence I should be able to abstract and share the logic.
+=end
+
     deflinks = @definition_doc.xpath("//*[@xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
-    deflinks.map do |deflink|
-      deflink.attributes["from"].value
+    deflinks.map do |dl|
+      h = {}
+      dl.attributes.each do |k,v|
+        h[k] = v
+      end
+      add_dl_label_info(h)
     end
   end
 
+  def add_dl_label_info(h)
+    h
+  end
+
   def render_presentation_network_as_json
-    @pres_doc.remove_namespaces!
-    @pres_doc.xpath('//presentationLink').map do |pl|
+    @pres_doc.xpath('//xmlns:presentationLink')
+    .to_a
+    .uniq { |r| r["role"] }
+    .map do |pl|
       h = {}
       pl.attributes.each do |k,v|
-        h[k] = v
+        h[k] = v.value
       end
       add_label_info(h)
-    end.uniq! { |r| r["role"].value }
+    end
   end
 
   def add_label_info(h)
-    roleURI = h['role'].value
+    roleURI = h['role']
     link = @pres_doc.xpath("//*[@roleURI='#{roleURI}']")
     anchor = link.first.attributes["href"].value
     id = anchor.split('#').last
@@ -68,9 +84,10 @@ class TaxonomyParser
 
   def add_concepts_to_tree(h)
     role = h["role"]
-    presentation_link = @pres_doc.xpath("//*[@role='#{role}']")
-    locs = presentation_link.first.xpath('.//loc')
-    presentation_arcs = presentation_link.first.xpath('.//presentationArc')
+    presentation_link = @pres_doc.xpath("//*[@xlink:role='#{role}']")
+    # binding.pry
+    locs = presentation_link.first.xpath('.//xmlns:loc')
+    presentation_arcs = presentation_link.first.xpath('.//xmlns:presentationArc')
     presentation_arc_to_links = presentation_arcs.map { |pa| pa.attributes["to"].value }
     root_locs = locs.reject do |loc|
       to = loc.attributes["label"].value

@@ -61,7 +61,7 @@ class TaxonomyParser
       app_info.elements.each do |el|
         h[el.name] = el.text
       end
-      # add_concepts_to_tree(h)
+      add_concepts_to_definition_tree(h)
     end
     h
   end
@@ -92,6 +92,21 @@ class TaxonomyParser
       add_concepts_to_tree(h)
     end
     h
+  end
+
+  def add_concepts_to_definition_tree(h)
+    role = h["role"]
+    definition_link = @definition_doc.xpath("//*[@xlink:role='#{role}']")
+    locs = definition_link.first.xpath('.//xmlns:loc')
+    definition_arcs = definition_link.first.xpath('.//xmlns:definitionArc')
+    definition_arc_to_links = definition_arcs.map { |da| da.attributes["to"].value }
+    root_locs = locs.reject do |loc|
+      to = loc.attributes["label"].value
+      definition_arc_to_links.include? to
+    end
+    h["children"] = root_locs.map do |root_loc|
+      add_children_to_node(root_loc)
+    end
   end
 
   def add_concepts_to_tree(h)
@@ -134,14 +149,17 @@ class TaxonomyParser
 
   def references_for_concept(concept)
     link = @schema_filename + "#" + concept.attributes["label"].value
-    loc = @reference_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
-    from = @reference_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
-    references = @reference_doc.xpath("//*[@xlink:label='#{from}']")
-    references.map do |ref|
-      {
-        type: ref.attributes["type"].value,
-        reference: ref.text
-      }
+    locs = @reference_doc.xpath("//*[@xlink:href='#{link}']")
+    if locs.any?
+      loc = locs.first.attributes["label"].value
+      from = @reference_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
+      references = @reference_doc.xpath("//*[@xlink:label='#{from}']")
+      references.map do |ref|
+        {
+          type: ref.attributes["type"].value,
+          reference: ref.text
+        }
+      end
     end
   end
 

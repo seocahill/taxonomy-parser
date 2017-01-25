@@ -7,12 +7,14 @@ configure { set :server, :puma }
 
 get '/' do
   content_type :json
-  JSON.pretty_generate(TaxonomyParser.new.dts_as_json)
+  TaxonomyParser.new.dts_as_json
 end
 
 class TaxonomyParser
 
-  # store all xsds using their locator as the key and then search by id
+# Todo
+# create full tree from all pres and def files that is filterable by arcrole
+# apply labels, references and properties
 
   def initialize
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
@@ -32,7 +34,7 @@ class TaxonomyParser
       lang: @language,
       presentation_tree: render_presentation_tree_as_json,
       definition_tree: render_definition_tree_as_json
-    }
+    }.to_json
   end
 
   def arcrole
@@ -124,8 +126,6 @@ class TaxonomyParser
       add_children_to_node(root_loc)
     end
   end
-
-  # get presentation arcs with a form matching node pa's to.
 
   def add_children_to_node(locator, network="presentation")
     {

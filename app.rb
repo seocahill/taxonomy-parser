@@ -10,6 +10,11 @@ get '/' do
   TaxonomyParser.new.dts_as_json
 end
 
+get '/tree' do
+  content_type :json
+  TaxonomyParser.new.tree_json
+end
+
 class TaxonomyParser
 
 # Todo
@@ -26,6 +31,21 @@ class TaxonomyParser
     @pres_doc = parse_doc("gaap/core/2009-09-01/uk-gaap-2009-09-01-presentation.xml")
     @network = "Presentation"
     @language = "en"
+  end
+
+  def tree_json
+    locs = {}
+    arcs = {}
+    Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition|presentation)/) do |file|
+      file = Nokogiri::XML(File.open(file))
+      file.xpath("//xmlns:loc").each do |loc|
+        locs[loc.attributes["label"].value] = { href: loc.attributes["href"].value }
+      end
+      file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
+        arcs[arc.attributes["from"].value] = {} #Hash.from_xml(arc.to_s)
+      end
+    end
+    {locs: locs, arcs: arcs}.to_json
   end
 
   def dts_as_json

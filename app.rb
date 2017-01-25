@@ -42,7 +42,7 @@ class TaxonomyParser
         locs[loc.attributes["label"].value] = { href: loc.attributes["href"].value }
       end
       file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
-        arcs[arc.attributes["from"].value] = {} #Hash.from_xml(arc.to_s)
+        arcs[arc.attributes["from"].value] = arc.attributes.each_with_object({}) { |(k, v), h| h[k] = v.value }
       end
     end
     {locs: locs, arcs: arcs}.to_json

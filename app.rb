@@ -20,6 +20,7 @@ class TaxonomyParser
 # Todo
 # create full tree from all pres and def files that is filterable by arcrole
 # apply labels, references and properties
+# locators labels are unique  scoped to the parent extended link role
 
   def initialize
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
@@ -34,18 +35,21 @@ class TaxonomyParser
   end
 
   def tree_json
-    locs = {}
-    arcs = {}
+    nodes = {}
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition|presentation)/) do |file|
-      file = Nokogiri::XML(File.open(file))
-      file.xpath("//xmlns:loc").each do |loc|
-        locs[loc.attributes["label"].value] = { href: loc.attributes["href"].value }
-      end
-      file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
-        arcs[arc.attributes["from"].value] = arc.attributes.each_with_object({}) { |(k, v), h| h[k] = v.value }
+      parsed_file = Nokogiri::XML(File.open(file))
+      parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]").each do |link|
+        link.xpath("./xmlns:loc").each do |loc|
+          locs = nodes[link.attributes["role"].value] ||= {}
+          locs[loc.attributes['label'].value] = {}
+        end
+        # parsed_file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
+        #   arcs[arc.attributes["from"].value] = arc.attributes.each_with_object({}) { |(k, v), h| h[k] = v.value }
+        # end
       end
     end
-    {locs: locs, arcs: arcs}.to_json
+    # root_nodes_keys = locs.keys - (arcs.values.map { |arc| arc["to"] })
+    nodes.to_json
   end
 
   def dts_as_json

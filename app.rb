@@ -12,6 +12,8 @@ end
 
 class TaxonomyParser
 
+  # store all xsds using their locator as the key and then search by id
+
   def initialize
     @path = "dts_assets/uk-gaap/UK-GAAP-2009-09-01/uk-gaap-2009-09-01/"
     @schema_filename = "uk-gaap-2009-09-01.xsd"
@@ -33,12 +35,11 @@ class TaxonomyParser
     }
   end
 
+  def arcrole
+    # filter nodes by arcrole
+  end
+
   def render_definition_tree_as_json
-=begin
-  what I need to do here is render all the definition nodes as with the presentation linkbase
-  Then filter by the chosen network. In effect the presentation linkbase has a single network
-  'parent-child' but it could have more. Hence I should be able to abstract and share the logic.
-=end
     @definition_doc.xpath('//xmlns:definitionLink')
     .to_a
     .uniq { |r| r.attributes["role"].value }
@@ -105,7 +106,7 @@ class TaxonomyParser
       definition_arc_to_links.include? to
     end
     h["children"] = root_locs.map do |root_loc|
-      add_children_to_node(root_loc)
+      add_children_to_node(root_loc, "definition")
     end
   end
 
@@ -124,13 +125,30 @@ class TaxonomyParser
     end
   end
 
-  def add_children_to_node(node)
+  # get presentation arcs with a form matching node pa's to.
+
+  def add_children_to_node(locator, network="presentation")
     {
-      labels: labels_for_concept(node),
-      references: references_for_concept(node),
-      properties: properties_for_concept(node),
-      children: []
+      labels: labels_for_concept(locator),
+      references: references_for_concept(locator),
+      properties: properties_for_concept(locator),
+      children: children_for_concept(locator, network)
     }
+  end
+
+  def children_for_concept(locator, network)
+    label = locator.attributes['label'].value
+    if network == "presentation"
+      arc = @pres_doc.xpath("//xmlns:presentationArc[@xlink:from='#{label}']").first
+      if arc
+        to = arc.attributes['to'].value
+        children = @pres_doc.xpath("//xmlns:loc[@xlink:label='#{to}']")
+        results = children.map do |loc|
+          add_children_to_node(loc)
+        end
+      end
+    end
+    results
   end
 
   def labels_for_concept(concept)

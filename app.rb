@@ -39,16 +39,16 @@ class TaxonomyParser
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition|presentation)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]").each do |link|
+        locs = nodes[link.attributes["role"].value] ||= {}
         link.xpath("./xmlns:loc").each do |loc|
-          locs = nodes[link.attributes["role"].value] ||= {}
-          locs[loc.attributes['label'].value] = {}
+          locs[loc.attributes['label'].value] = { href: loc.attributes['href'].value }
         end
-        # parsed_file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
-        #   arcs[arc.attributes["from"].value] = arc.attributes.each_with_object({}) { |(k, v), h| h[k] = v.value }
-        # end
+        parsed_file.xpath("//*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
+          loc = locs[arc.attributes["to"].value]
+          loc["parent"] = arc.attributes["from"]&.value if loc
+        end
       end
     end
-    # root_nodes_keys = locs.keys - (arcs.values.map { |arc| arc["to"] })
     nodes.to_json
   end
 

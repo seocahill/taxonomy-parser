@@ -35,7 +35,20 @@ class TaxonomyParser
   end
 
   def tree_json
-    extended_links = {}
+    linkbases = {}
+    role_types = {}
+
+    Dir.glob("dts_assets/uk-gaap//**/*.xsd").grep_v(/(full|main|minimum)/) do |file|
+      parsed_file = Nokogiri::XML(File.open(file))
+      parsed_role_types = parsed_file.xpath("//link:roleType")
+      parsed_role_types.each do |role_type|
+        role_URI = role_type.attributes["roleURI"].value
+        role_types[role_URI] = role_type.children.each_with_object({}) do |child, obj|
+          obj[child.name] = child.text
+        end
+      end
+    end
+
     Dir.glob("dts_assets/uk-gaap/**/direp/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
@@ -44,7 +57,10 @@ class TaxonomyParser
         role = link.attributes["role"].value
         locators = links[role] ||= {}
         link.xpath("./xmlns:loc").each do |loc|
-          locators[loc.attributes['label'].value] = { href: loc.attributes['href'].value }
+          locators[loc.attributes['label'].value] = {
+            href: loc.attributes['href'].value,
+            label: "Todo"
+          }
         end
       end
       parsed_links.each do |link|
@@ -59,10 +75,13 @@ class TaxonomyParser
         root_nodes = locators.reject do |k,v|
           v.has_key?(:parent)
         end
-        extended_links[role] = root_nodes
+        linkbases[role] = {
+          label: role_types[role]["definition"],
+          nodes: root_nodes
+        }
       end
     end
-    extended_links.to_json
+    linkbases.to_json
   end
 
   def dts_as_json

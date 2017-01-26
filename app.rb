@@ -92,11 +92,19 @@ class TaxonomyParser
           from_loc = locators[arc.attributes["from"].value]
           from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
           to_loc = locators[arc.attributes["to"].value]
-          to_loc[:parent] = arc.attributes["from"]&.value if to_loc
+          if to_loc
+            to_loc[:parent] = arc.attributes["from"]&.value
+            to_loc[:order] = arc.attributes["order"]&.value
+          end
         end
         root_nodes = locators.reject do |k,v|
           v.has_key?(:parent)
         end
+
+        root_nodes.each do |k,v|
+          v[:children] = children_for_node(locators, k)
+        end
+
         linkbases[role] = {
           label: role_types[role]["definition"],
           nodes: root_nodes
@@ -104,6 +112,13 @@ class TaxonomyParser
       end
     end
     linkbases.to_json
+  end
+
+  def children_for_node(locators, k)
+    children = locators.select { |a,b| b[:parent] == k }
+    children.each do |a,b|
+      b[:children] = children_for_node(locators, a)
+    end
   end
 
   def dts_as_json

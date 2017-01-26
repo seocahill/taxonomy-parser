@@ -37,7 +37,7 @@ class TaxonomyParser
   def tree_json
     linkbases = {}
     role_types = {}
-    labels = {}
+    label_locs = {}
     label_links = {}
     label_labels = {}
 
@@ -57,7 +57,7 @@ class TaxonomyParser
       parsed_file.search('loc', 'labelArc', 'label').each do |item|
         case item.name
         when "loc"
-          labels[item.attributes["href"].value] = hashify_xml(item)
+          label_locs[item.attributes["label"].value] = hashify_xml(item)
         when "labelArc"
           label_links[item.attributes["from"].value] = hashify_xml(item)
         when "label"
@@ -75,9 +75,13 @@ class TaxonomyParser
         role = link.attributes["role"].value
         locators = links[role] ||= {}
         link.xpath("./xmlns:loc").each do |loc|
+          href = loc.attributes['href'].value
+          loc_label = label_locs[href.split("#").last]["label"]
+          link_to = label_links[loc_label]["to"]
+          label = label_labels[link_to]["http://www.xbrl.org/2003/role/label"]
           locators[loc.attributes['label'].value] = {
-            href: loc.attributes['href'].value,
-            label: ""
+            href: href,
+            label: label
           }
         end
       end
@@ -99,7 +103,7 @@ class TaxonomyParser
         }
       end
     end
-    [labels, label_links, label_labels].to_json
+    linkbases.to_json
   end
 
   def dts_as_json

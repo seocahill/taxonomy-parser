@@ -38,18 +38,23 @@ class TaxonomyParser
     extended_links = {}
     Dir.glob("dts_assets/uk-gaap/**/direp/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
-      parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]").each do |link|
-        locators = {}
+      parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
+      links = {}
+      parsed_links.each do |link|
         role = link.attributes["role"].value
+        locators = links[role] ||= {}
         link.xpath("./xmlns:loc").each do |loc|
           locators[loc.attributes['label'].value] = { href: loc.attributes['href'].value }
         end
+      end
+      parsed_links.each do |link|
+        role = link.attributes["role"].value
+        locators = links[role]
         link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
-          loc = locators[arc.attributes["to"].value]
-          if loc
-            loc[:parent] = arc.attributes["from"]&.value
-            loc[:arcrole] = arc.attributes["arcrole"]&.value
-          end
+          from_loc = locators[arc.attributes["from"].value]
+          from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
+          to_loc = locators[arc.attributes["to"].value]
+          to_loc[:parent] = arc.attributes["from"]&.value if to_loc
         end
         root_nodes = locators.reject do |k,v|
           v.has_key?(:parent)

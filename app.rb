@@ -36,6 +36,7 @@ class TaxonomyParser
     references = {}
     reference_locs = {}
     reference_links = {}
+    network_locations = {}
 
     Dir.glob("dts_assets/uk-gaap/**/*.xsd").grep_v(/(full|main|minimum)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
@@ -124,6 +125,7 @@ class TaxonomyParser
           from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
           to_loc = locators[arc.attributes["to"].value]
           if to_loc
+            network_locations[arc.attributes["to"].value] ||= [] << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
             to_loc[:parent] = arc.attributes["from"]&.value
             to_loc[:order] = arc.attributes["order"]&.value
           end
@@ -133,6 +135,7 @@ class TaxonomyParser
         end
 
         root_nodes.each do |k,v|
+          v[:tree_locations] ||= [] << Hash[k, "root_node"]
           v[:children] = children_for_node(locators, k)
         end
 
@@ -140,6 +143,11 @@ class TaxonomyParser
           label: role_types[role]["definition"],
           nodes: root_nodes
         }
+      end
+    end
+    linkbases.each do |k,v|
+      v[:nodes].each do |a,b|
+        add_tree_locations_to_nodes(a, b, network_locations)
       end
     end
     linkbases.to_json
@@ -190,6 +198,13 @@ class TaxonomyParser
       props[k] = v
     end
     props
+  end
+
+  def add_tree_locations_to_nodes(key, value, network_locations)
+    value[:tree_locations] = network_locations[key] || Hash[value[:arcrole], "root_node"]
+    value[:children].each do |k,v|
+      add_tree_locations_to_nodes(k, v, network_locations)
+    end
   end
 
 private

@@ -2,6 +2,7 @@ require 'sinatra'
 require 'nokogiri'
 require 'json'
 require 'pry'
+require 'set'
 
 configure { set :server, :puma }
 
@@ -125,7 +126,8 @@ class TaxonomyParser
           from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
           to_loc = locators[arc.attributes["to"].value]
           if to_loc
-            network_locations[arc.attributes["to"].value] ||= [] << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
+            tree_locs = network_locations[arc.attributes["to"].value] ||= Set.new
+            tree_locs << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
             to_loc[:parent] = arc.attributes["from"]&.value
             to_loc[:order] = arc.attributes["order"]&.value
           end
@@ -135,7 +137,8 @@ class TaxonomyParser
         end
 
         root_nodes.each do |k,v|
-          v[:tree_locations] ||= [] << Hash[k, "root_node"]
+          network_locations[k] ||= Set.new
+          network_locations[k] << Hash[role, "root_node"]
           v[:children] = children_for_node(locators, k)
         end
 
@@ -201,7 +204,7 @@ class TaxonomyParser
   end
 
   def add_tree_locations_to_nodes(key, value, network_locations)
-    value[:tree_locations] = network_locations[key] || Hash[value[:arcrole], "root_node"]
+    value[:tree_locations] = network_locations[key]&.to_a #|| Hash[value[:arcrole], "root_node"]
     value[:children].each do |k,v|
       add_tree_locations_to_nodes(k, v, network_locations)
     end

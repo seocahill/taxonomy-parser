@@ -90,7 +90,7 @@ class TaxonomyParser
       end
     end
 
-    Dir.glob("dts_assets/uk-gaap/**/direp/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
+    Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
       links = {}

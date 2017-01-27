@@ -7,7 +7,7 @@ configure { set :server, :puma }
 
 get '/' do
   content_type :json
-  TaxonomyParser.new.dts_as_json
+  TaxonomyParser.new.tree_json
 end
 
 get '/tree' do
@@ -32,14 +32,28 @@ class TaxonomyParser
     label_locs = {}
     label_links = {}
     label_labels = {}
+    properties = {}
+    references = {}
+    reference_locs = {}
+    reference_links = {}
 
     Dir.glob("dts_assets/uk-gaap/**/*.xsd").grep_v(/(full|main|minimum)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
-      parsed_role_types = parsed_file.xpath("//link:roleType")
-      parsed_role_types.each do |role_type|
-        role_URI = role_type.attributes["roleURI"].value
-        role_types[role_URI] = role_type.children.each_with_object({}) do |child, obj|
-          obj[child.name] = child.text
+      parsed_nodes = parsed_file.search("link|roleType", "element")
+      current_tuple_id = nil
+      parsed_nodes.each do |node|
+        if node.name == "roleType"
+          role_URI = node.attributes["roleURI"].value
+          role_types[role_URI] = node.children.each_with_object({}) do |child, obj|
+            obj[child.name] = child.text
+          end
+        elsif node.name == "element" && node.attributes.has_key?("ref")
+          tuple = properties[current_tuple_id]
+          members = tuple["tuple_members"] ||= []
+          members << hashify_xml(node)
+        elsif node.name == "element"
+          properties[node.attributes["id"].value] = hashify_xml(node)
+          current_tuple_id = node.attributes["id"].value if node.attributes["substitutionGroup"].value == "xbrli:tuple"
         end
       end
     end
@@ -59,6 +73,22 @@ class TaxonomyParser
       end
     end
 
+    Dir.glob("dts_assets/uk-gaap/**/*.xml").grep(/reference/) do |file|
+      parsed_file = Nokogiri::XML(File.open(file))
+      parsed_file.search('loc', 'referenceArc', 'reference').each do |item|
+        case item.name
+        when "loc"
+          reference_locs[item.attributes["label"].value] = hashify_xml(item)
+        when "referenceArc"
+          reference_links[item.attributes["from"].value] = hashify_xml(item)
+        when "reference"
+          ref = references[item.attributes["label"].value] ||= {}
+          attrs = ref[item.attributes["role"].value] = {}
+          item.elements.each { |element| attrs[element.name] = element.text }
+        end
+      end
+    end
+
     Dir.glob("dts_assets/uk-gaap/**/direp/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
@@ -71,9 +101,18 @@ class TaxonomyParser
           loc_label = label_locs[href.split("#").last]["label"]
           link_to = label_links[loc_label]["to"]
           label = label_labels[link_to]["http://www.xbrl.org/2003/role/label"]
+          reference = "This concept does not have any references."
+          loc_ref = reference_locs.dig(href.split("#").last, "label")
+          if loc_ref
+            ref_link_to = reference_links[loc_ref]["to"]
+            reference = references[ref_link_to]
+          end
+          node_properties = properties[href.split("#").last]
           locators[loc.attributes['label'].value] = {
             href: href,
-            label: label
+            label: label,
+            reference: reference,
+            properties: node_properties
           }
         end
       end

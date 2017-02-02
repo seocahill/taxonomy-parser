@@ -8,12 +8,17 @@ configure { set :server, :puma }
 
 get '/presentation' do
   content_type :json
-  TaxonomyParser.new.presentation_tree
+  $app.graph
 end
 
-class TaxonomyParser # lang=en, dts=uk-gaap
+get '/menu' do
+  content_type :json
+  $app.menu
+end
 
-  def initialize
+class TaxonomyParser
+
+  def initialize # (lang=en, dts=uk-gaap)
     @networks = {}
     @network_locations = {}
     @concepts, @role_types = parse_dts_schemas
@@ -22,8 +27,12 @@ class TaxonomyParser # lang=en, dts=uk-gaap
     parse_definition_and_presentation_linkbases
   end
 
-  def presentation_tree
+  def graph
     @networks.to_json
+  end
+
+  def menu
+    @networks.map { |k,v| v[:label] }.sort_by { |i| i.split().first.to_i }.to_json
   end
 
   def parse_dts_schemas
@@ -182,7 +191,7 @@ class TaxonomyParser # lang=en, dts=uk-gaap
     end
   end
 
-private
+  private
 
   def parse_doc(doc_path)
     file_path = @path + doc_path
@@ -194,3 +203,5 @@ private
     xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
   end
 end
+
+$app ||= TaxonomyParser.new

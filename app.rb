@@ -6,18 +6,24 @@ require 'set'
 
 configure { set :server, :puma }
 
-get '/' do
+get '/presentation' do
   content_type :json
-  TaxonomyParser.new.tree_json
+  TaxonomyParser.new.presentation_tree
 end
 
 class TaxonomyParser # lang=en, dts=uk-gaap
 
   def initialize
+    @networks = {}
+    @network_locations = {}
     @concepts, @role_types = parse_dts_schemas
     @label_items = parse_label_linkbases
     @reference_items = parse_reference_linkbases
-    @network_locations = {}
+    parse_definition_and_presentation_linkbases
+  end
+
+  def presentation_tree
+    @networks.to_json
   end
 
   def parse_dts_schemas
@@ -43,7 +49,7 @@ class TaxonomyParser # lang=en, dts=uk-gaap
         end
       end
     end
-    [entires, role_types]
+    [entries, role_types]
   end
 
   def parse_label_linkbases
@@ -53,11 +59,11 @@ class TaxonomyParser # lang=en, dts=uk-gaap
       parsed_file.search('loc', 'labelArc', 'label').each do |item|
         case item.name
         when "loc"
-          entries[locs][item.attributes["label"].value] = hashify_xml(item)
+          entries[:locs][item.attributes["label"].value] = hashify_xml(item)
         when "labelArc"
-          entries[links][item.attributes["from"].value] = hashify_xml(item)
+          entries[:links][item.attributes["from"].value] = hashify_xml(item)
         when "label"
-          resource = entries[resources][item.attributes["label"].value] ||= {}
+          resource = entries[:resources][item.attributes["label"].value] ||= {}
           resource[item.attributes["role"].value] = item.text
         end
       end
@@ -72,11 +78,11 @@ class TaxonomyParser # lang=en, dts=uk-gaap
       parsed_file.search('loc', 'referenceArc', 'reference').each do |item|
         case item.name
         when "loc"
-          entries[locs][item.attributes["label"].value] = hashify_xml(item)
+          entries[:locs][item.attributes["label"].value] = hashify_xml(item)
         when "referenceArc"
-          entries[links][item.attributes["from"].value] = hashify_xml(item)
+          entries[:links][item.attributes["from"].value] = hashify_xml(item)
         when "reference"
-          resource = entries[resources][item.attributes["label"].value] ||= {}
+          resource = entries[:resources][item.attributes["label"].value] ||= {}
           attrs = resource[item.attributes["role"].value] = {}
           item.elements.each { |element| attrs[element.name] = element.text }
         end
@@ -85,7 +91,8 @@ class TaxonomyParser # lang=en, dts=uk-gaap
     entries
   end
 
-  def parse_presentation_linkbases
+  def parse_definition_and_presentation_linkbases
+    entries = { locs: {}, links: {}, resources: {} }
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
@@ -93,12 +100,12 @@ class TaxonomyParser # lang=en, dts=uk-gaap
       nodes = parse_nodes(parsed_links)
       construct_graph(parsed_links, nodes)
     end
-    @concepts.each do |k,v|
+    @networks.each do |k,v|
       v[:nodes].each do |a,b|
-        add_tree_locations_to_nodes(a, b, network_locations)
+        add_tree_locations_to_nodes(a, b)
       end
     end
-    @concepts.to_json
+    @networks.to_json
   end
 
   def parse_nodes(links)
@@ -108,7 +115,7 @@ class TaxonomyParser # lang=en, dts=uk-gaap
       locators = entries[role] ||= {}
       link.xpath("./xmlns:loc").each do |loc|
         href = loc.attributes['href'].value
-        loc_label = label_locs[href.split("#").last]["label"]
+        loc_label = @label_items[:locs][href.split("#").last]["label"]
         link_to = @label_items[:links][loc_label]["to"]
         label = @label_items[:resources][link_to]["http://www.xbrl.org/2003/role/label"]
         reference = "This concept does not have any references."
@@ -129,7 +136,7 @@ class TaxonomyParser # lang=en, dts=uk-gaap
     entries
   end
 
-  def build_graph(parsed_links, links)
+  def construct_graph(parsed_links, links)
     parsed_links.each do |link|
       role = link.attributes["role"].value
       locators = links[role]
@@ -154,7 +161,7 @@ class TaxonomyParser # lang=en, dts=uk-gaap
         v[:children] = children_for_node(locators, k)
       end
 
-      @concepts[role] = {
+      @networks[role] = {
         label: @role_types[role]["definition"],
         nodes: root_nodes
       }
@@ -168,10 +175,10 @@ class TaxonomyParser # lang=en, dts=uk-gaap
     end
   end
 
-  def add_tree_locations_to_nodes(key, value, network_locations)
-    value[:tree_locations] = network_locations[key]&.to_a #|| Hash[value[:arcrole], "root_node"]
+  def add_tree_locations_to_nodes(key, value)
+    value[:tree_locations] = @network_locations[key]&.to_a #|| Hash[value[:arcrole], "root_node"]
     value[:children].each do |k,v|
-      add_tree_locations_to_nodes(k, v, network_locations)
+      add_tree_locations_to_nodes(k, v)
     end
   end
 

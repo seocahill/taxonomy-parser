@@ -11,34 +11,18 @@ get '/' do
   TaxonomyParser.new.tree_json
 end
 
-get '/tree' do
-  content_type :json
-  TaxonomyParser.new.tree_json
-end
+class TaxonomyParser # lang=en, dts=uk-gaap
 
-class TaxonomyParser
+  def initialize
+    @concepts, @role_types = parse_dts_schemas
+    @label_items = parse_label_linkbases
+    @reference_items = parse_reference_linkbases
+    @network_locations = {}
+  end
 
-# Todo
-# create full tree from all pres and def files that is filterable by arcrole
-# apply labels, references and properties
-# locators labels are unique  scoped to the parent extended link role
-
-  # def initialize
-
-  # end
-
-  def tree_json
-    linkbases = {}
+  def parse_dts_schemas
+    entries = {}
     role_types = {}
-    label_locs = {}
-    label_links = {}
-    label_labels = {}
-    properties = {}
-    references = {}
-    reference_locs = {}
-    reference_links = {}
-    network_locations = {}
-
     Dir.glob("dts_assets/uk-gaap/**/*.xsd").grep_v(/(full|main|minimum)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_nodes = parsed_file.search("link|roleType", "element")
@@ -50,110 +34,131 @@ class TaxonomyParser
             obj[child.name] = child.text
           end
         elsif node.name == "element" && node.attributes.has_key?("ref")
-          tuple = properties[current_tuple_id]
+          tuple = entries[current_tuple_id]
           members = tuple["tuple_members"] ||= []
           members << hashify_xml(node)
         elsif node.name == "element"
-          properties[node.attributes["id"].value] = hashify_xml(node)
+          entries[node.attributes["id"].value] = hashify_xml(node)
           current_tuple_id = node.attributes["id"].value if node.attributes["substitutionGroup"].value == "xbrli:tuple"
         end
       end
     end
+    [entires, role_types]
+  end
 
+  def parse_label_linkbases
+    entries = { locs: {}, links: {}, resources: {} }
     Dir.glob("dts_assets/uk-gaap/**/*.xml").grep(/label/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('loc', 'labelArc', 'label').each do |item|
         case item.name
         when "loc"
-          label_locs[item.attributes["label"].value] = hashify_xml(item)
+          entries[locs][item.attributes["label"].value] = hashify_xml(item)
         when "labelArc"
-          label_links[item.attributes["from"].value] = hashify_xml(item)
+          entries[links][item.attributes["from"].value] = hashify_xml(item)
         when "label"
-          l = label_labels[item.attributes["label"].value] ||= {}
-          l[item.attributes["role"].value] = item.text
+          resource = entries[resources][item.attributes["label"].value] ||= {}
+          resource[item.attributes["role"].value] = item.text
         end
       end
     end
+    entries
+  end
 
+  def parse_reference_linkbases
+    entries = { locs: {}, links: {}, resources: {} }
     Dir.glob("dts_assets/uk-gaap/**/*.xml").grep(/reference/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('loc', 'referenceArc', 'reference').each do |item|
         case item.name
         when "loc"
-          reference_locs[item.attributes["label"].value] = hashify_xml(item)
+          entries[locs][item.attributes["label"].value] = hashify_xml(item)
         when "referenceArc"
-          reference_links[item.attributes["from"].value] = hashify_xml(item)
+          entries[links][item.attributes["from"].value] = hashify_xml(item)
         when "reference"
-          ref = references[item.attributes["label"].value] ||= {}
-          attrs = ref[item.attributes["role"].value] = {}
+          resource = entries[resources][item.attributes["label"].value] ||= {}
+          attrs = resource[item.attributes["role"].value] = {}
           item.elements.each { |element| attrs[element.name] = element.text }
         end
       end
     end
+    entries
+  end
 
+  def parse_presentation_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
       links = {}
-      parsed_links.each do |link|
-        role = link.attributes["role"].value
-        locators = links[role] ||= {}
-        link.xpath("./xmlns:loc").each do |loc|
-          href = loc.attributes['href'].value
-          loc_label = label_locs[href.split("#").last]["label"]
-          link_to = label_links[loc_label]["to"]
-          label = label_labels[link_to]["http://www.xbrl.org/2003/role/label"]
-          reference = "This concept does not have any references."
-          loc_ref = reference_locs.dig(href.split("#").last, "label")
-          if loc_ref
-            ref_link_to = reference_links[loc_ref]["to"]
-            reference = references[ref_link_to]
-          end
-          node_properties = properties[href.split("#").last]
-          locators[loc.attributes['label'].value] = {
-            href: href,
-            label: label,
-            reference: reference,
-            properties: node_properties
-          }
-        end
-      end
-      parsed_links.each do |link|
-        role = link.attributes["role"].value
-        locators = links[role]
-        link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
-          from_loc = locators[arc.attributes["from"].value]
-          from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
-          to_loc = locators[arc.attributes["to"].value]
-          if to_loc
-            tree_locs = network_locations[arc.attributes["to"].value] ||= Set.new
-            tree_locs << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
-            to_loc[:parent] = arc.attributes["from"]&.value
-            to_loc[:order] = arc.attributes["order"]&.value
-          end
-        end
-        root_nodes = locators.reject do |k,v|
-          v.has_key?(:parent)
-        end
-
-        root_nodes.each do |k,v|
-          network_locations[k] ||= Set.new
-          network_locations[k] << Hash[role, "root_node"]
-          v[:children] = children_for_node(locators, k)
-        end
-
-        linkbases[role] = {
-          label: role_types[role]["definition"],
-          nodes: root_nodes
-        }
-      end
+      nodes = parse_nodes(parsed_links)
+      construct_graph(parsed_links, nodes)
     end
-    linkbases.each do |k,v|
+    @concepts.each do |k,v|
       v[:nodes].each do |a,b|
         add_tree_locations_to_nodes(a, b, network_locations)
       end
     end
-    linkbases.to_json
+    @concepts.to_json
+  end
+
+  def parse_nodes(links)
+    entries = {}
+    links.each do |link|
+      role = link.attributes["role"].value
+      locators = entries[role] ||= {}
+      link.xpath("./xmlns:loc").each do |loc|
+        href = loc.attributes['href'].value
+        loc_label = label_locs[href.split("#").last]["label"]
+        link_to = @label_items[:links][loc_label]["to"]
+        label = @label_items[:resources][link_to]["http://www.xbrl.org/2003/role/label"]
+        reference = "This concept does not have any references."
+        loc_ref = @reference_items[:locs].dig(href.split("#").last, "label")
+        if loc_ref
+          ref_link_to = @reference_items[:links][loc_ref]["to"]
+          reference = @reference_items[:resources][ref_link_to]
+        end
+        node_properties = @concepts[href.split("#").last]
+        locators[loc.attributes['label'].value] = {
+          href: href,
+          label: label,
+          reference: reference,
+          properties: node_properties
+        }
+      end
+    end
+    entries
+  end
+
+  def build_graph(parsed_links, links)
+    parsed_links.each do |link|
+      role = link.attributes["role"].value
+      locators = links[role]
+      link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
+        from_loc = locators[arc.attributes["from"].value]
+        from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
+        to_loc = locators[arc.attributes["to"].value]
+        if to_loc
+          tree_locs = @network_locations[arc.attributes["to"].value] ||= Set.new
+          tree_locs << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
+          to_loc[:parent] = arc.attributes["from"]&.value
+          to_loc[:order] = arc.attributes["order"]&.value
+        end
+      end
+      root_nodes = locators.reject do |k,v|
+        v.has_key?(:parent)
+      end
+
+      root_nodes.each do |k,v|
+        @network_locations[k] ||= Set.new
+        @network_locations[k] << Hash[role, "root_node"]
+        v[:children] = children_for_node(locators, k)
+      end
+
+      @concepts[role] = {
+        label: @role_types[role]["definition"],
+        nodes: root_nodes
+      }
+    end
   end
 
   def children_for_node(locators, k)
@@ -161,46 +166,6 @@ class TaxonomyParser
     children.each do |a,b|
       b[:children] = children_for_node(locators, a)
     end
-  end
-
-  def labels_for_concept(concept)
-    link = @schema_filename + "#" + concept.attributes["label"].value
-    loc = @label_doc.xpath("//*[@xlink:href='#{link}']").first.attributes["label"].value
-    from = @label_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
-    labels = @label_doc.xpath("//*[@xlink:label='#{from}']")
-    labels.map do |label|
-      {
-        type: label.attributes["role"].value,
-        language: label.attributes["lang"],
-        label: label.text
-      }
-    end
-  end
-
-  def references_for_concept(concept)
-    link = @schema_filename + "#" + concept.attributes["label"].value
-    locs = @reference_doc.xpath("//*[@xlink:href='#{link}']")
-    if locs.any?
-      loc = locs.first.attributes["label"].value
-      from = @reference_doc.xpath("//*[@xlink:from='#{loc}']").first.attributes['to'].value
-      references = @reference_doc.xpath("//*[@xlink:label='#{from}']")
-      references.map do |ref|
-        {
-          type: ref.attributes["type"].value,
-          reference: ref.text
-        }
-      end
-    end
-  end
-
-  def properties_for_concept(concept)
-    props = {}
-    link = concept.attributes["label"].value
-    concept_element = @schema_doc.xpath("//*[@id='#{link}']").first
-    concept_element.attributes.each do |k,v|
-      props[k] = v
-    end
-    props
   end
 
   def add_tree_locations_to_nodes(key, value, network_locations)

@@ -15,6 +15,9 @@ module PresentationParser
     links.each do |link|
       role = link.attributes["role"].value
       locators = entries[role] ||= {}
+      check = @checksums[role] ||= {}
+      check[:locs] ||= { xml: 0 }
+      check[:locs][:xml] += link.xpath("./xmlns:loc").count
       link.xpath("./xmlns:loc").each do |loc|
         locs = @links[role][:locs] ||= {}
         locs[loc.attributes['href'].value] = hashify_xml(loc)
@@ -53,7 +56,9 @@ module PresentationParser
     parsed_links.each do |link|
       role = link.attributes["role"].value
       locators = nodes[role]
-
+      check = @checksums[role] ||= {}
+      check[:arcs] ||= { xml: 0 }
+      check[:arcs][:xml] += link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").count
       link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
         link_nodes(arc, locators)
         arcs = @links[role][:arcs] ||= {}

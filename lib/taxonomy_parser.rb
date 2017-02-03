@@ -14,6 +14,7 @@ module TaxonomyParser
       @networks = {}
       @network_locations = {}
       @links = Hash.new { |hash, key| hash[key] = {} }
+      @checksums = {}
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
@@ -31,6 +32,16 @@ module TaxonomyParser
 
     def links
       @links.to_json
+    end
+
+    def checksums
+      @links.each do |k,v|
+        check = @checksums[k]
+        check[:locs][:parsed] = v[:locs].count
+        check[:arcs][:parsed] = v[:arcs].count
+        check[:diff] = check[:locs].values.inject(0, :+) % 2 + check[:arcs].values.inject(0, :+) % 2
+      end
+      @checksums.reject { |k,v| v[:diff] == 0 }.to_json
     end
 
     private

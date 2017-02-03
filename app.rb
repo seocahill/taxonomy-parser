@@ -22,3 +22,8 @@ get '/links' do
   content_type :json
   $app.links
 end
+
+get '/checksums' do
+  content_type :json
+  $app.checksums
+end

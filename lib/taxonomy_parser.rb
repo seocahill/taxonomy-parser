@@ -13,7 +13,7 @@ module TaxonomyParser
     def initialize # (lang=en, dts=uk-gaap)
       @networks = {}
       @network_locations = {}
-      @links = Hash.new { |hash, key| hash[key] = {} }
+      @links = {}
       @checksums = {}
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
@@ -37,9 +37,9 @@ module TaxonomyParser
     def checksums
       @links.each do |k,v|
         check = @checksums[k]
-        check[:locs][:parsed] = v[:locs].count
-        check[:arcs][:parsed] = v[:arcs].count
-        check[:diff] = check[:locs].values.inject(0, :+) % 2 + check[:arcs].values.inject(0, :+) % 2
+        check[:locs][:parsed] = v.inject(0) { |m,i| m += i[:locs].count }
+        check[:arcs][:parsed] = v.inject(0) { |m,i| m += i[:arcs].count }
+        check[:diff] = check[:arcs][:xml] - check[:arcs][:parsed]
       end
       @checksums.reject { |k,v| v[:diff] == 0 }.to_json
     end

@@ -4,10 +4,28 @@ module PresentationParser
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
+      populate_links(parsed_links)
       nodes = parse_nodes(parsed_links)
       construct_graph(parsed_links, nodes)
     end
     add_tree_locations_to_all_nodes
+  end
+
+  def populate_links(links)
+    links.each do |link|
+      role = link.attributes["role"].value
+      role_links = @links[role] ||= []
+      parsed_results = {locs: {}, arcs: {}}
+      link.search("definitionArc", "presentationArc", "loc").each do |node|
+        if node.name == "loc"
+          parsed_results[:locs][node.attributes["href"].value] = hashify_xml(node)
+        else
+          id = node.attributes["from"].value + "/" + node.attributes["to"].value
+          parsed_results[:arcs][id] = hashify_xml(node)
+        end
+      end
+      role_links << parsed_results
+    end
   end
 
   def parse_nodes(links)
@@ -19,8 +37,6 @@ module PresentationParser
       check[:locs] ||= { xml: 0 }
       check[:locs][:xml] += link.xpath("./xmlns:loc").count
       link.xpath("./xmlns:loc").each do |loc|
-        locs = @links[role][:locs] ||= {}
-        locs[loc.attributes['href'].value] = hashify_xml(loc)
         build_node_properties(loc, locators)
       end
     end
@@ -61,9 +77,6 @@ module PresentationParser
       check[:arcs][:xml] += link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").count
       link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
         link_nodes(arc, locators)
-        arcs = @links[role][:arcs] ||= {}
-        id = arc.attributes["from"].value + "/" + arc.attributes["to"].value
-        arcs[id] = hashify_xml(arc)
       end
 
       @networks[role] = {

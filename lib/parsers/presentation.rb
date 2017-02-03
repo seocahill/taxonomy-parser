@@ -1,4 +1,5 @@
 module PresentationParser
+
   def parse_definition_and_presentation_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
@@ -6,16 +7,7 @@ module PresentationParser
       nodes = parse_nodes(parsed_links)
       construct_graph(parsed_links, nodes)
     end
-    add_tree_locations
-  end
-
-  def add_tree_locations
-    @networks.each do |k,v|
-      v[:nodes].each do |a,b|
-        add_tree_locations_to_nodes(a, b)
-      end
-    end
-    @networks
+    add_tree_locations_to_all_nodes
   end
 
   def parse_nodes(links)
@@ -24,6 +16,8 @@ module PresentationParser
       role = link.attributes["role"].value
       locators = entries[role] ||= {}
       link.xpath("./xmlns:loc").each do |loc|
+        locs = @links[role][:locs] ||= {}
+        locs[loc.attributes['href'].value] = hashify_xml(loc)
         build_node_properties(loc, locators)
       end
     end
@@ -40,6 +34,12 @@ module PresentationParser
     }
   end
 
+  def node_labels(href)
+    loc_label = @label_items[:locs][href.split("#").last]["label"]
+    link_to = @label_items[:links][loc_label]["to"]
+    label = @label_items[:resources][link_to]["http://www.xbrl.org/2003/role/label"]
+  end
+
   def node_references(href)
     reference = "This concept does not have any references."
     loc_ref = @reference_items[:locs].dig(href.split("#").last, "label")
@@ -49,19 +49,16 @@ module PresentationParser
     end
   end
 
-  def node_labels(href)
-    loc_label = @label_items[:locs][href.split("#").last]["label"]
-    link_to = @label_items[:links][loc_label]["to"]
-    label = @label_items[:resources][link_to]["http://www.xbrl.org/2003/role/label"]
-  end
-
-  def construct_graph(parsed_links, links)
+  def construct_graph(parsed_links, nodes)
     parsed_links.each do |link|
       role = link.attributes["role"].value
-      locators = links[role]
+      locators = nodes[role]
 
       link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
         link_nodes(arc, locators)
+        arcs = @links[role][:arcs] ||= {}
+        id = arc.attributes["from"].value + "/" + arc.attributes["to"].value
+        arcs[id] = hashify_xml(arc)
       end
 
       @networks[role] = {
@@ -69,6 +66,19 @@ module PresentationParser
         networks: locators.values.map { |i| i[:arcrole]&.split("/")&.last }.compact.uniq,
         nodes: node_tree(locators, role)
       }
+    end
+  end
+
+  def link_nodes(arc, locators)
+    from_loc = locators[arc.attributes["from"].value]
+    from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
+    to_loc = locators[arc.attributes["to"].value]
+    if to_loc
+      tree_locs = @network_locations[arc.attributes["to"].value] ||= Set.new
+      tree_locs << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
+      to_loc[:parent] = arc.attributes["from"]&.value
+      to_loc[:order] = arc.attributes["order"]&.value
+      to_loc[:arcrole] ||= arc.attributes["arcrole"]&.value
     end
   end
 
@@ -84,18 +94,6 @@ module PresentationParser
     end
   end
 
-  def link_nodes(arc, locators)
-    from_loc = locators[arc.attributes["from"].value]
-    from_loc[:arcrole] = arc.attributes["arcrole"]&.value if from_loc
-    to_loc = locators[arc.attributes["to"].value]
-    if to_loc
-      tree_locs = @network_locations[arc.attributes["to"].value] ||= Set.new
-      tree_locs << Hash[arc.attributes["arcrole"]&.value, arc.attributes["from"]&.value]
-      to_loc[:parent] = arc.attributes["from"]&.value
-      to_loc[:order] = arc.attributes["order"]&.value
-    end
-  end
-
   def children_for_node(locators, k)
     children = locators.select { |a,b| b[:parent] == k }
     children.each do |a,b|
@@ -103,10 +101,19 @@ module PresentationParser
     end
   end
 
-  def add_tree_locations_to_nodes(key, value)
+  def add_tree_locations_to_all_nodes
+    @networks.each do |k,v|
+      v[:nodes].each do |a,b|
+        add_tree_locations_to_node(a, b)
+      end
+    end
+    @networks
+  end
+
+  def add_tree_locations_to_node(key, value)
     value[:tree_locations] = @network_locations[key]&.to_a #|| Hash[value[:arcrole], "root_node"]
     value[:children].each do |k,v|
-      add_tree_locations_to_nodes(k, v)
+      add_tree_locations_to_node(k, v)
     end
   end
 end

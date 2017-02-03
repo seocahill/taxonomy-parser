@@ -13,6 +13,7 @@ module TaxonomyParser
     def initialize # (lang=en, dts=uk-gaap)
       @networks = {}
       @network_locations = {}
+      @links = Hash.new { |hash, key| hash[key] = {} }
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
@@ -26,6 +27,10 @@ module TaxonomyParser
     def menu(network)
       items = network ? @networks.select { |k,v| v[:networks].include?(network) } : @networks
       items.map { |k,v| v[:label] }.sort_by { |i| i.split().first.to_i }.to_json
+    end
+
+    def links
+      @links.to_json
     end
 
     private

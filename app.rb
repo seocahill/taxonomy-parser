@@ -23,6 +23,12 @@ get '/links' do
   $app.links
 end
 
+get '/role-types/:role' do
+  role = params['role']
+  content_type :json
+  $app.role_types(role)
+end
+
 get '/checksums' do
   content_type :json
   $app.checksums

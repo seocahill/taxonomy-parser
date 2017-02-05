@@ -34,6 +34,11 @@ module TaxonomyParser
       @links.to_json
     end
 
+    def role_types(role)
+      roleURI = "http://www.xbrl.org/uk/role/" + role
+      @networks[roleURI].to_json
+    end
+
     def checksums
       @links.each do |k,v|
         check = @checksums[k]

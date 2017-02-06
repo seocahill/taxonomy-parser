@@ -27,7 +27,11 @@ module TaxonomyParser
 
     def menu(network)
       items = network ? @networks.select { |k,v| v[:networks].include?(network) } : @networks
-      items.map { |k,v| v[:label] }.sort_by { |i| i.split().first.to_i }.to_json
+      items.map { |k,v|
+        { id: k, label: v[:label] }
+      }.sort_by { |i|
+        i[:label].split().first.to_i
+      }.to_json
     end
 
     def links
@@ -56,7 +60,7 @@ module TaxonomyParser
     end
 
     def nodes_for_role(role_links)
-      role_links.flat_map do |link|
+      role_links.map do |link|
         link[:locs].map do |k,v|
           {
             id: v["label"],
@@ -68,8 +72,7 @@ module TaxonomyParser
     end
 
     def node_parent(id, arcs)
-      arcs.detect { |k,v| v["to"] == id } || "root_node"
-      # arc ? arc.values["from"] : "parent_node"
+      arcs.values.detect { |arc| arc["to"] == id }&.dig("from") || "root_node"
     end
   end
 

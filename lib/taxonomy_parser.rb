@@ -36,7 +36,7 @@ module TaxonomyParser
 
     def role_types(role)
       roleURI = "http://www.xbrl.org/uk/role/" + role
-      @networks[roleURI].to_json
+      nodes_for_role(@links[roleURI]).to_json
     end
 
     def checksums
@@ -53,6 +53,23 @@ module TaxonomyParser
 
     def hashify_xml(xml)
       xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
+    end
+
+    def nodes_for_role(role_links)
+      role_links.flat_map do |link|
+        link[:locs].map do |k,v|
+          {
+            id: v["label"],
+            parent_id: node_parent(v["label"], link[:arcs]),
+            label: node_labels(v["href"])
+           }
+        end
+      end
+    end
+
+    def node_parent(id, arcs)
+      arcs.detect { |k,v| v["to"] == id } || "root_node"
+      # arc ? arc.values["from"] : "parent_node"
     end
   end
 

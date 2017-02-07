@@ -17,16 +17,39 @@ module DimensionParser
 
   def find_hypercubes(primary_items)
     items = primary_items.join(' ')
-    hyperubes = @definitions.flat_map do |parsed_file|
+    hypercubes = @definitions.flat_map do |parsed_file|
       parsed_file
         .xpath("//xmlns:definitionArc[contains('#{items}', @xlink:from) and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
         .map { |link| link.attributes["to"].value }
     end
-    find_dimensions(hyperubes)
+    find_dimensions(hypercubes)
   end
 
-  def find_dimensions(hyperubes)
-    hyperubes
+  def find_dimensions(hypercubes)
+    dimensions = @definitions.flat_map do |parsed_file|
+      parsed_file
+        .xpath("//xmlns:definitionArc[contains('#{hypercubes}', @xlink:from) and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
+        .map { |link| link.attributes["to"].value }
+    end
+    find_domains(dimensions)
+  end
+
+  def find_domains(dimensions)
+    # also http://xbrl.org/int/dim/arcrole/dimension-default
+    domains = @definitions.flat_map do |parsed_file|
+      parsed_file
+        .xpath("//xmlns:definitionArc[contains('#{dimensions}', @xlink:from) and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/dimension-domain']")
+        .map { |link| link.attributes["to"].value }
+    end
+    find_domain_members(domains)
+  end
+
+  def find_domain_members(domains)
+    @definitions.flat_map do |parsed_file|
+      parsed_file
+        .xpath("//xmlns:definitionArc[contains('#{domains}', @xlink:from) and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+        .map { |link| link.attributes["to"].value }
+    end
   end
 
 

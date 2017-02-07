@@ -33,3 +33,8 @@ get '/checksums' do
   content_type :json
   $app.checksums
 end
+
+get '/concepts/:id' do
+  content_type :json
+  $app.find_concept(params['id'])
+end

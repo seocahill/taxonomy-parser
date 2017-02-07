@@ -2,6 +2,7 @@ require_relative 'parsers/schema'
 require_relative 'parsers/presentation'
 require_relative 'parsers/label'
 require_relative 'parsers/reference'
+require_relative 'parsers/dimension'
 
 module TaxonomyParser
   class TaxonomyParser
@@ -9,6 +10,12 @@ module TaxonomyParser
     include PresentationParser
     include ReferenceParser
     include LabelParser
+    include DimensionParser
+
+    DTS = Struct.new(:id, :label)
+    Role = Struct.new(:id, :dts_id, :label)
+    Link = Struct.new(:id, :role_id, :label)
+    Node = Struct.new(:id, :link_id, :parent_id, :label)
 
     def initialize # (lang=en, dts=uk-gaap)
       @networks = {}
@@ -18,7 +25,8 @@ module TaxonomyParser
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
-      parse_definition_and_presentation_linkbases
+      @definitions = parse_definition_linkbases
+      # parse_definition_and_presentation_linkbases
     end
 
     def graph
@@ -51,6 +59,11 @@ module TaxonomyParser
         check[:diff] = check[:arcs][:xml] - check[:arcs][:parsed]
       end
       @checksums.reject { |k,v| v[:diff] == 0 }.to_json
+    end
+
+    def find_concept(label)
+      id = "uk-gaap_" + label
+      find_arcs(id).to_json
     end
 
     private

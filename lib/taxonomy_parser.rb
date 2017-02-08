@@ -61,9 +61,8 @@ module TaxonomyParser
       @checksums.reject { |k,v| v[:diff] == 0 }.to_json
     end
 
-    def find_concept(label)
-      id = "uk-gaap_" + label
-      find_arcs(id).to_json
+    def find_concept(id)
+      find_primary_items(id).to_json
     end
 
     private

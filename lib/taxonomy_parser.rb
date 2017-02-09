@@ -15,18 +15,18 @@ module TaxonomyParser
     DTS = Struct.new(:id, :label)
     Role = Struct.new(:id, :dts_id, :label)
     Link = Struct.new(:id, :role_id, :label)
-    Node = Struct.new(:id, :link_id, :parent_id, :label)
 
     def initialize # (lang=en, dts=uk-gaap)
       @networks = {}
       @network_locations = {}
       @links = {}
       @checksums = {}
+      @nodes = {}
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
       @definitions = parse_definition_linkbases
-      # parse_definition_and_presentation_linkbases
+      parse_presentation_linkbases
     end
 
     def graph
@@ -43,7 +43,7 @@ module TaxonomyParser
     end
 
     def links
-      @links.to_json
+      @nodes.to_json
     end
 
     def role_types(role)

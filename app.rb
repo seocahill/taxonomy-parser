@@ -7,6 +7,19 @@ require './lib/taxonomy_parser'
 
 configure { set :server, :puma }
 
+#  Explore
+# 1 - render the presentation graph
+# node id parent_id label element_id
+#
+# 2 - render the primary items
+#
+#  Tag
+# 1 - render role menu
+# 2 - render presentation graph for that role
+# 3 - render dimension graph for selected concept if dimensional
+# 4 - render tuple members for selected concept if tuple
+#
+
 get '/graph' do
   content_type :json
   $app.graph

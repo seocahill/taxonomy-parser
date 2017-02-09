@@ -1,31 +1,51 @@
 module PresentationParser
+  require 'SecureRandom'
 
-  def parse_definition_and_presentation_linkbases
-    Dir.glob("dts_assets/uk-gaap/**/*").grep(/(definition.xml|presentation.xml)/) do |file|
+  Node = Struct.new(:id, :element_id, :parent_id, :role)
+
+  def parse_presentation_linkbases
+    Dir.glob("dts_assets/uk-gaap/**/*").grep(/presentation.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
-      parsed_links = parsed_file.xpath("//*[self::xmlns:definitionLink or self::xmlns:presentationLink]")
+      parsed_links = parsed_file.xpath("//xmlns:presentationLink")
       populate_links(parsed_links)
-      nodes = parse_nodes(parsed_links)
-      construct_graph(parsed_links, nodes)
+      # nodes = parse_nodes(parsed_links)
+      # construct_graph(parsed_links, nodes)
     end
-    add_tree_locations_to_all_nodes
   end
 
   def populate_links(links)
     links.each do |link|
       role = link.attributes["role"].value
-      role_links = @links[role] ||= []
-      parsed_results = {locs: {}, arcs: {}}
-      link.search("definitionArc", "presentationArc", "loc").each do |node|
-        if node.name == "loc"
-          parsed_results[:locs][node.attributes["href"].value] = hashify_xml(node)
+      locs = {}
+      @links[role] ||= {}
+      node_ids = @links[role]
+      link.search("loc", "presentationArc").each do |element|
+        if element.name == "loc"
+          locs[element.attributes["label"].value] = element.attributes["href"].value
         else
-          id = node.attributes["from"].value + "/" + node.attributes["to"].value
-          parsed_results[:arcs][id] = hashify_xml(node)
+          find_parent_id(element, node_ids, role, locs)
         end
       end
-      role_links << parsed_results
     end
+  end
+
+  def find_parent_id(arc, node_ids, role, locs)
+    parent_link = arc.attributes["from"].value
+    child_link = arc.attributes["to"].value
+    parent_id = node_ids[parent_link] || create_node(parent_link, nil, role, node_ids).id
+    create_node(child_link, parent_id, role, node_ids)
+  end
+
+  def create_node(element_id, parent_id, role, node_ids)
+    node = Node.new(
+      SecureRandom.uuid,
+      element_id,
+      parent_id,
+      role
+    )
+    node_ids[node.element_id] ||= node.id
+    @nodes[node.id] = node.to_h
+    node
   end
 
   def parse_nodes(links)
@@ -74,8 +94,8 @@ module PresentationParser
       locators = nodes[role]
       check = @checksums[role] ||= {}
       check[:arcs] ||= { xml: 0 }
-      check[:arcs][:xml] += link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").count
-      link.xpath("./*[self::xmlns:definitionArc or self::xmlns:presentationArc]").each do |arc|
+      check[:arcs][:xml] += link.xpath("./xmlns:presentationArc").count
+      link.xpath("./xmlns:presentationArc").each do |arc|
         link_nodes(arc, locators)
       end
 

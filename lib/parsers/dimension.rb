@@ -31,76 +31,70 @@ module DimensionParser
     Node.new(SecureRandom.uuid, element, parent, order)
   end
 
-  def dimension_node_tree(element_id)
+  def dimension_node_tree(concept_id)
     nodes = []
-    root_node = new_node(element_id)
+    root_node = new_node(concept_id)
     nodes << root_node.to_h
     find_primary_items(root_node, nodes)
     nodes
   end
 
-  def find_primary_items(root_node, nodes)
-    primary_items = @definitions.flat_map do |parsed_file|
-      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{root_node.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+  def find_primary_items(parent, nodes)
+    items = @definitions.flat_map do |parsed_file|
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
     end
-    primary_items.map do |item|
-      nodes << new_node(item.attributes["from"].value, root_node.id, item.attributes.dig("order")&.value).to_h
-      find_hypercubes(item)
+    items.map do |item|
+      node = new_node(item.attributes["from"].value, parent.id, item.attributes.dig("order")&.value)
+      nodes << node.to_h
+      find_hypercubes(node, nodes)
     end
   end
 
-  def find_hypercubes(item)
-    hypercubes = @definitions.flat_map do |parsed_file|
+  def find_hypercubes(parent, nodes)
+    items = @definitions.flat_map do |parsed_file|
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
+    end
+    items.map do |item|
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      nodes << node.to_h
+      find_dimensions(node, nodes)
+    end
+  end
+
+  def find_dimensions(parent, nodes)
+    items = @definitions.flat_map do |parsed_file|
       parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:from='#{item}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
-        .map { |link| link.attributes["to"].value }
+        .xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
     end
-    hypercubes.map do |cube|
-      {
-        hypercube: cube,
-        dimensions: find_dimensions(cube)
-      }
+    items.map do |item|
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      nodes << node.to_h
+      find_domains(node, nodes)
     end
   end
 
-  def find_dimensions(hypercube)
-    dimensions = @definitions.flat_map do |parsed_file|
-      parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:from='#{hypercube}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
-        .map { |link| link.attributes["to"].value }
-    end
-    dimensions.map do |dimension|
-      {
-        dimension: dimension,
-        domains: find_domains(dimension)
-      }
-    end
-  end
-
-  def find_domains(dimension)
+  def find_domains(parent, nodes)
     arcroles = [
       "http://xbrl.org/int/dim/arcrole/dimension-default",
       "http://xbrl.org/int/dim/arcrole/dimension-domain"
     ]
-    domains = @definitions.flat_map do |parsed_file|
-      parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:from='#{dimension}' and contains('#{arcroles}', @xlink:arcrole)]")
-        .map { |link| { to: link.attributes["to"].value, arcrole: link.attributes["arcrole"].value } }
+   items = @definitions.flat_map do |parsed_file|
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and contains('#{arcroles}', @xlink:arcrole)]")
     end
-    domains.map do |domain|
-      {
-        domain: domain,
-        members: find_domain_members(domain[:to])
-      }
+    items.map do |item|
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      nodes << node.to_h
+      find_domain_members(node, nodes)
     end
   end
 
-  def find_domain_members(domain)
-    @definitions.flat_map do |parsed_file|
-      parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:from='#{domain}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
-        .map { |link| link.attributes["to"].value }
+  def find_domain_members(parent, nodes)
+    items = @definitions.flat_map do |parsed_file|
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+    end
+    items.map do |item|
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      nodes << node.to_h
     end
   end
-
 end

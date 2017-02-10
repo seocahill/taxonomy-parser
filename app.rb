@@ -26,9 +26,9 @@ get '/graph' do
 end
 
 get '/menu' do
-  network = params['network']
+  # each role should have its label and link to its root nodes somehow
   content_type :json
-  $app.menu(network)
+  $app.menu
 end
 
 get '/links' do

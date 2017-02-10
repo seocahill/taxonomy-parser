@@ -35,12 +35,13 @@ module TaxonomyParser
       }.to_json
     end
 
-    def menu(network)
-      items = network ? @networks.select { |k,v| v[:networks].include?(network) } : @networks
-      items.map { |k,v|
-        { id: k, label: v[:label] }
-      }.sort_by { |i|
-        i[:label].split().first.to_i
+    def menu
+      @role_types.select { |k,v|
+        v["usedOn"] == "link:presentationLink"
+      }.map { |k,v|
+        { id: k, label: v["definition"] }
+      }.sort_by { |node|
+        node[:label].split().first.to_i
       }.to_json
     end
 

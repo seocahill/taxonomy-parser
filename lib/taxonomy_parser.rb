@@ -30,7 +30,12 @@ module TaxonomyParser
     end
 
     def graph
-      @networks.to_json
+      {
+        nodes: @nodes.values,
+        concepts: @concepts,
+        labels: @label_items,
+        references: @reference_items
+      }.to_json
     end
 
     def menu(network)

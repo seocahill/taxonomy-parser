@@ -1,7 +1,7 @@
 module PresentationParser
   require 'SecureRandom'
 
-  Node = Struct.new(:id, :element_id, :parent_id, :role)
+  Node = Struct.new(:id, :element_id, :parent_id, :role, :order)
 
   def parse_presentation_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/presentation.xml/) do |file|
@@ -32,16 +32,18 @@ module PresentationParser
   def find_parent_id(arc, node_ids, role, locs)
     parent_link = arc.attributes["from"].value
     child_link = arc.attributes["to"].value
+    order = arc.attributes["order"].value
     parent_id = node_ids[parent_link] || create_node(parent_link, nil, role, node_ids).id
-    create_node(child_link, parent_id, role, node_ids)
+    create_node(child_link, parent_id, role, node_ids, order)
   end
 
-  def create_node(element_id, parent_id, role, node_ids)
+  def create_node(element_id, parent_id, role, node_ids, order = "0")
     node = Node.new(
       SecureRandom.uuid,
       element_id,
       parent_id,
-      role
+      role,
+      order
     )
     node_ids[node.element_id] ||= node.id
     @nodes[node.id] = node.to_h

@@ -33,18 +33,16 @@ module DimensionParser
 
   def dimension_node_tree(concept_id)
     nodes = []
-    root_node = new_node(concept_id)
-    nodes << root_node.to_h
-    find_primary_items(root_node, nodes)
+    find_primary_items(concept_id, nodes)
     nodes
   end
 
-  def find_primary_items(parent, nodes)
+  def find_primary_items(parent_id, nodes)
     items = @definitions.flat_map do |parsed_file|
-      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{parent_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
     end
     items.map do |item|
-      node = new_node(item.attributes["from"].value, parent.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["from"].value, nil, item.attributes.dig("order")&.value)
       nodes << node.to_h
       find_hypercubes(node, nodes)
     end

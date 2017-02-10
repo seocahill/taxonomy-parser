@@ -2,6 +2,25 @@ module DimensionParser
 
   Node = Struct.new(:id, :element_id, :parent_id, :order)
 
+   # "primary_item": "uk-bus_DimensionsParent-EntityOfficers",
+   #  "hypercubes": [
+   #    {
+   #      "hypercube": "uk-bus_EntityOfficersHypercube",
+   #      "dimensions": [
+   #        {
+   #          "dimension": "uk-bus_EntityOfficersDimension",
+   #          "domains": [
+   #            {
+   #              "domain": {
+   #                "to": "uk-bus_AllEntityOfficers",
+   #                "arcrole": "http://xbrl.org/int/dim/arcrole/dimension-domain"
+   #              },
+   #              "members": [
+   #                "uk-bus_Chairman",
+   #                "uk-bus_ChiefExecutive",
+   #                "uk-bus_ChairmanChiefExecutive",
+                  # "uk-bus_ChiefPartnerLimitedLiabi
+
   def parse_definition_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/definition.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))

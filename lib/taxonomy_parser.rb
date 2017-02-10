@@ -3,6 +3,7 @@ require_relative 'parsers/presentation'
 require_relative 'parsers/label'
 require_relative 'parsers/reference'
 require_relative 'parsers/dimension'
+require 'SecureRandom'
 
 module TaxonomyParser
   class TaxonomyParser
@@ -11,10 +12,6 @@ module TaxonomyParser
     include ReferenceParser
     include LabelParser
     include DimensionParser
-
-    DTS = Struct.new(:id, :label)
-    Role = Struct.new(:id, :dts_id, :label)
-    Link = Struct.new(:id, :role_id, :label)
 
     def initialize # (lang=en, dts=uk-gaap)
       @networks = {}
@@ -32,7 +29,7 @@ module TaxonomyParser
     def graph
       {
         nodes: @nodes.values,
-        concepts: @concepts,
+        concepts: @concepts.map { |k,v| v.merge(id: k) },
         labels: @label_items,
         references: @reference_items
       }.to_json

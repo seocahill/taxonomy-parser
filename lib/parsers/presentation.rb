@@ -1,5 +1,4 @@
 module PresentationParser
-  require 'SecureRandom'
 
   Node = Struct.new(:id, :element_id, :parent_id, :role, :order)
 

@@ -65,7 +65,7 @@ module TaxonomyParser
     end
 
     def find_concept(id)
-      find_primary_items(id).to_json
+      dimension_node_tree(id).to_json
     end
 
     private

@@ -1,22 +1,32 @@
 module DimensionParser
 
+  Node = Struct.new(:id, :element_id, :parent_id, :order)
+
   def parse_definition_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/definition.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
     end
   end
 
-  def find_primary_items(id)
+  def new_node(element, parent = nil, order = "0")
+    Node.new(SecureRandom.uuid, element, parent, order)
+  end
+
+  def dimension_node_tree(element_id)
+    nodes = []
+    root_node = new_node(element_id)
+    nodes << root_node.to_h
+    find_primary_items(root_node, nodes)
+    nodes
+  end
+
+  def find_primary_items(root_node, nodes)
     primary_items = @definitions.flat_map do |parsed_file|
-      parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:to='#{id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
-        .map { |link| link.attributes["from"].value }
+      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{root_node.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
     end
     primary_items.map do |item|
-      {
-        primary_item: item,
-        hypercubes: find_hypercubes(item)
-      }
+      nodes << new_node(item.attributes["from"].value, root_node.id, item.attributes.dig("order")&.value).to_h
+      find_hypercubes(item)
     end
   end
 

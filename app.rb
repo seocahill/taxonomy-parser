@@ -26,25 +26,8 @@ get '/graph' do
 end
 
 get '/menu' do
-  # each role should have its label and link to its root nodes somehow
   content_type :json
   $app.menu
-end
-
-get '/links' do
-  content_type :json
-  $app.links
-end
-
-get '/role-types/:role' do
-  role = params['role']
-  content_type :json
-  $app.role_types(role)
-end
-
-get '/checksums' do
-  content_type :json
-  $app.checksums
 end
 
 get '/concepts/:id' do

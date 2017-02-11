@@ -14,19 +14,17 @@ module TaxonomyParser
     include DimensionParser
 
     def initialize # (lang=en, dts=uk-gaap)
-      @networks = {}
-      @network_locations = {}
-      @links = {}
-      @checksums = {}
       @nodes = {}
+      @checksums = {}
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
+      @presentation_links = parse_presentation_linkbases
       @definitions = parse_definition_linkbases
-      parse_presentation_linkbases
     end
 
     def graph
+      populate_links
       {
         nodes: @nodes.values,
         concepts: @concepts.map { |k,v| v.merge(id: k) },
@@ -45,23 +43,9 @@ module TaxonomyParser
       }.to_json
     end
 
-    def links
-      @nodes.to_json
-    end
-
     def role_types(role)
       roleURI = "http://www.xbrl.org/uk/role/" + role
       nodes_for_role(@links[roleURI]).to_json
-    end
-
-    def checksums
-      @links.each do |k,v|
-        check = @checksums[k]
-        check[:locs][:parsed] = v.inject(0) { |m,i| m += i[:locs].count }
-        check[:arcs][:parsed] = v.inject(0) { |m,i| m += i[:arcs].count }
-        check[:diff] = check[:arcs][:xml] - check[:arcs][:parsed]
-      end
-      @checksums.reject { |k,v| v[:diff] == 0 }.to_json
     end
 
     def find_concept(id)

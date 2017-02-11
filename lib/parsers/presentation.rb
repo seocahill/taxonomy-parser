@@ -5,17 +5,22 @@ module PresentationParser
   def parse_presentation_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/presentation.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
-      parsed_links = parsed_file.xpath("//xmlns:presentationLink")
-      populate_links(parsed_links)
     end
   end
 
-  def populate_links(links)
-    links.each do |link|
+  def presentation_links
+    @presentation_links.flat_map do |parsed_file|
+      parsed_file.xpath("//xmlns:presentationLink")
+    end
+  end
+
+  def populate_links
+    links = {}
+    presentation_links.each do |link|
       role = link.attributes["role"].value
       locs = {}
-      @links[role] ||= {}
-      node_ids = @links[role]
+      links[role] ||= {}
+      node_ids = links[role]
       link.search("loc", "presentationArc").each do |element|
         if element.name == "loc"
           locs[element.attributes["label"].value] = element.attributes["href"].value

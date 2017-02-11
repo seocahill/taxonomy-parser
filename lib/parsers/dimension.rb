@@ -20,15 +20,22 @@ module DimensionParser
     nodes
   end
 
-  def find_primary_items(parent_id, nodes)
+  def find_primary_items(concept_id, nodes)
+    # you need to walk up the full tree not simply a matter of finding the parent and then the parents descendants
     items = @definitions.flat_map do |parsed_file|
-      parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{parent_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+      find_root_of_tree(parsed_file, concept_id, 'http://xbrl.org/int/dim/arcrole/domain-member')
     end
     items.map do |item|
       node = new_node(item.attributes["from"].value, nil, item.attributes.dig("order")&.value)
       nodes << node.to_h
       find_hypercubes(node, nodes)
     end
+  end
+
+  def find_root_of_tree(parsed_file, current_node, arcrole)
+    current_node_id = current_node.is_a?(String) ? current_node : current_node.attributes["from"].value
+    parent = parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{current_node_id}' and @xlink:arcrole='#{arcrole}']").first
+    parent ? find_root_of_tree(parsed_file, parent, arcrole) : (current_node.is_a?(Nokogiri::XML::Element) ? current_node : [])
   end
 
   def find_hypercubes(parent, nodes)

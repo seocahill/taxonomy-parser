@@ -15,21 +15,23 @@ module DimensionParser
   end
 
   def dimension_node_tree(concept_id)
-    nodes = []
-    find_primary_items(concept_id, nodes)
-    nodes
+    find_primary_items(concept_id)
   end
 
-  def find_primary_items(concept_id, nodes)
+  def find_primary_items(concept_id)
     # you need to walk up the full tree not simply a matter of finding the parent and then the parents descendants
+    search_results = {}
     items = @definitions.flat_map do |parsed_file|
       find_root_of_tree(parsed_file, concept_id, 'http://xbrl.org/int/dim/arcrole/domain-member')
     end
-    items.map do |item|
+    results = items.map do |item|
       node = new_node(item.attributes["from"].value, nil, item.attributes.dig("order")&.value)
-      nodes << node.to_h
-      find_hypercubes(node, nodes)
+      primary_item = node.to_h
+      primary_item[:hypercubes] = find_hypercubes(node)
+      primary_item
     end
+    search_results[:primary_items] = results
+    search_results
   end
 
   def find_root_of_tree(parsed_file, current_node, arcrole)
@@ -38,30 +40,33 @@ module DimensionParser
     parent ? find_root_of_tree(parsed_file, parent, arcrole) : (current_node.is_a?(Nokogiri::XML::Element) ? current_node : [])
   end
 
-  def find_hypercubes(parent, nodes)
+  def find_hypercubes(parent)
     items = @definitions.flat_map do |parsed_file|
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
     end
-    items.map do |item|
+    hypercubes = items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
-      nodes << node.to_h
-      find_dimensions(node, nodes)
+      hypercube = node.to_h
+      hypercube[:dimensions] = find_dimensions(node)
+      hypercube
     end
+    hypercubes
   end
 
-  def find_dimensions(parent, nodes)
+  def find_dimensions(parent)
     items = @definitions.flat_map do |parsed_file|
       parsed_file
         .xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
     end
     items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
-      nodes << node.to_h
-      find_domains(node, nodes)
+      dimension = node.to_h
+      dimension[:domains] = find_domains(node)
+      dimension
     end
   end
 
-  def find_domains(parent, nodes)
+  def find_domains(parent)
     arcroles = [
       "http://xbrl.org/int/dim/arcrole/dimension-default",
       "http://xbrl.org/int/dim/arcrole/dimension-domain"
@@ -71,18 +76,19 @@ module DimensionParser
     end
     items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
-      nodes << node.to_h
-      find_domain_members(node, nodes)
+      domain = node.to_h
+      domain[:members] = find_domain_members(node)
+      domain
     end
   end
 
-  def find_domain_members(parent, nodes)
+  def find_domain_members(parent)
     items = @definitions.flat_map do |parsed_file|
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
     end
     items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
-      nodes << node.to_h
+      node.to_h
     end
   end
 end

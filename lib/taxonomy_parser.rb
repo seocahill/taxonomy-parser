@@ -40,7 +40,7 @@ module TaxonomyParser
         { id: k, label: v["definition"] }
       }.sort_by { |node|
         node[:label].split().first.to_i
-      }.to_json
+      } #.to_json
     end
 
     def role_types(role)

@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'json'
 require 'pry'
 require 'set'
+require 'jsonapi/renderer'
 require './lib/taxonomy_parser'
 
 configure { set :server, :puma }
@@ -28,9 +29,41 @@ end
 get '/menu' do
   content_type :json
   $app.menu
+  roles = $app.menu.map {|item| RoleResource.new(item)}
+  JSONAPI.render(data: roles).to_json
 end
 
 get '/concepts/:id' do
   content_type :json
   $app.find_concept(params['id'])
 end
+
+class RoleResource
+  attr_accessor :id, :label
+
+  def initialize(role)
+    @id = role[:id]
+    @label = role[:label]
+  end
+
+  def jsonapi_type
+    'roles'
+  end
+
+  def jsonapi_id
+    @id.to_s
+  end
+
+  def jsonapi_related(included)
+    {}
+  end
+
+  def as_jsonapi(options = {})
+    fields = options[:fields] || [:label]
+    included = options[:include] || []
+    hash = { id: jsonapi_id, type: jsonapi_type }
+    hash[:attributes] = { label: @label }.select { |k, _| fields.include?(k) }
+    hash
+  end
+end
+

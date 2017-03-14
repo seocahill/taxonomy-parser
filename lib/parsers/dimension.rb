@@ -56,7 +56,7 @@ module DimensionParser
   def find_dimensions(parent)
     items = @definitions.flat_map do |parsed_file|
       parsed_file
-        .xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
+      .xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
     end
     items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
@@ -71,13 +71,17 @@ module DimensionParser
       "http://xbrl.org/int/dim/arcrole/dimension-default",
       "http://xbrl.org/int/dim/arcrole/dimension-domain"
     ]
-   items = @definitions.flat_map do |parsed_file|
+    items = @definitions.flat_map do |parsed_file|
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and contains('#{arcroles}', @xlink:arcrole)]")
     end
     items.map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
       domain = node.to_h
-      domain[:members] = find_domain_members(node)
+      if item.attributes["arcrole"].value == "http://xbrl.org/int/dim/arcrole/dimension-default"
+        domain[:default_member] = "true"
+      else
+        domain[:members] = find_domain_members(node)
+      end
       domain
     end
   end

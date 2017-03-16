@@ -43,6 +43,14 @@ module TaxonomyParser
       } #.to_json
     end
 
+    def all_dimensions
+      dimension_nodes = []
+      @concepts.keys.each do |concept_id|
+        dimension_nodes << dimension_node_tree(concept_id)
+      end
+      dimension_nodes
+    end
+
     def role_types(role)
       roleURI = "http://www.xbrl.org/uk/role/" + role
       nodes_for_role(@links[roleURI]).to_json

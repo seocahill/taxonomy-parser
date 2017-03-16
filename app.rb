@@ -28,9 +28,14 @@ end
 
 get '/menu' do
   content_type :json
-  $app.menu
-  roles = $app.menu.map {|item| RoleResource.new(item)}
-  JSONAPI.render(data: roles).to_json
+  $app.menu.to_json
+  # roles = $app.menu.map {|item| RoleResource.new(item)}
+  # JSONAPI.render(data: roles).to_json
+end
+
+get '/dimensions' do
+  content_type :json
+  $app.all_dimensions.to_json
 end
 
 get '/concepts/:id' do

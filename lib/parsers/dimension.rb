@@ -2,7 +2,7 @@ module DimensionParser
 
   # Items inheriting basic dimensions
 
-  Node = Struct.new(:id, :element_id, :parent_id, :order)
+  Node = Struct.new(:id, :element_id, :parent_id, :order, :arcrole)
 
   def parse_definition_linkbases
     Dir.glob("dts_assets/uk-gaap/**/*").grep(/definition.xml/) do |file|
@@ -10,12 +10,12 @@ module DimensionParser
     end
   end
 
-  def new_node(element, parent = nil, order = "1")
-    Node.new(SecureRandom.uuid, element, parent, order)
+  def new_node(element, parent = nil, order = "1", arcrole)
+    Node.new(SecureRandom.uuid, element, parent, order, arcrole)
   end
 
   def dimension_node_tree(concept_id)
-    concept_node = new_node(concept_id, nil, "0")
+    concept_node = new_node(concept_id, nil, "0", 'primary-item')
     find_primary_items(concept_node)
   end
 
@@ -26,7 +26,7 @@ module DimensionParser
       find_root_of_tree(parsed_file, concept_node.element_id, 'http://xbrl.org/int/dim/arcrole/domain-member')
     end
     nodes = items.flat_map do |item|
-      node = new_node(item.attributes["from"].value, concept_node.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["from"].value, concept_node.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       [node.to_h] + find_hypercubes(node)
     end
     [concept_node.to_h] + nodes
@@ -43,7 +43,7 @@ module DimensionParser
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
     end
     hypercubes = items.flat_map do |item|
-      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       [node.to_h] + find_dimensions(node)
     end
     hypercubes
@@ -55,7 +55,7 @@ module DimensionParser
       .xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/hypercube-dimension']")
     end
     dimensions = items.flat_map do |item|
-      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       [node.to_h] + find_domains(node)
     end
     dimensions
@@ -70,7 +70,7 @@ module DimensionParser
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and contains('#{arcroles}', @xlink:arcrole)]")
     end
     domains = items.flat_map do |item|
-      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       [node.to_h] + find_domain_members(node)
     end
     domains
@@ -81,7 +81,7 @@ module DimensionParser
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
     end
     domain_members = items.flat_map do |item|
-      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value)
+      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       node.to_h
     end
     domain_members

@@ -45,4 +45,15 @@ module PresentationParser
     @nodes[node.id] = node.to_h
     node
   end
+
+  def parse_presentation_nodes
+    populate_links
+    @nodes.values.each do |node|
+      parent = @store[:presentation_nodes].find { |n| n.id == node[:parent_id] } if @store[:presentation_nodes]
+      role = @store[:role_types].find { |i| i.role_uri == node[:role_id] }
+      model = PresentationNode.new(node[:id], role.id, node[:element_id], parent, node[:order])
+      model.element = @store[:elements].find { |e| e.id == model.element_id }
+      (@store[:presentation_nodes] ||= []) << model
+    end
+  end
 end

@@ -5,8 +5,8 @@ class DiscoverableTaxonomySet
   attr_accessor :role_types
 
   def initialize(name)
-    @name = name
     @id = SecureRandom.uuid
+    @name = name
   end
 end
 
@@ -15,7 +15,7 @@ require 'jsonapi-serializers'
 class DiscoverableTaxonomySetSerializer
   include JSONAPI::Serializer
 
-  has_many :role_types
+  has_many :role_types, include_links: false, include_data: true
   
   attribute :name
 end

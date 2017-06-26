@@ -24,4 +24,20 @@ module SchemaParser
     end
     [entries, role_types]
   end
+
+  def parse_elements
+    @concepts.each do |id, v|
+      model = Element.new(id, @current_dts.id, v["name"], v["type"], v["substitutionGroup"], v["periodType"], v["abstract"], v["nillable"])
+      (@store[:elements] ||= []) << model
+    end
+  end
+
+  def parse_roles
+    @role_types.each do |uri, role|
+      (@store[:role_types] ||= []) << RoleType.new(@current_dts.id, role["definition"], uri, role["usedOn"])
+    end
+    @current_dts.role_types = @store[:role_types]
+      .select { |item| item.network == "link:presentationLink" }
+      .sort_by { |item| item.order }
+  end
 end

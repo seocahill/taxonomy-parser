@@ -10,12 +10,17 @@ configure { set :server, :puma }
 
 get '/discoverable-taxonomy-sets' do
   content_type :json
-  $app.get_available_dts
+  $app.discoverable_taxonomy_sets
 end
 
 get '/discoverable-taxonomy-sets/:id' do
   content_type :json
-  $app.dts(params['id'])
+  $app.discoverable_taxonomy_set(params['id'])
+end
+
+get '/role-types/:id' do
+  content_type :json
+  $app.role_type(params['id'])
 end
 
 get '/graph' do

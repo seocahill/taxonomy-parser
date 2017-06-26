@@ -6,6 +6,8 @@ require_relative 'parsers/dimension'
 
 require_relative 'models/discoverable_taxonomy_set'
 require_relative 'models/role_type'
+require_relative 'models/presentation_node'
+require_relative 'models/element'
 
 require 'SecureRandom'
 
@@ -17,7 +19,11 @@ module TaxonomyParser
     include LabelParser
     include DimensionParser
 
+    attr_accessor :store, :concepts
+
     def initialize # (lang=en, dts=uk-gaap)
+      @current_dts = nil
+      @store = {}
       @nodes = {}
       @checksums = {}
       @discoverable_taxonomy_sets = parse_available_dts
@@ -28,79 +34,33 @@ module TaxonomyParser
       @definitions = parse_definition_linkbases
     end
 
-    def graph
-      populate_links
-      {
-        nodes: @nodes.values,
-        concepts: @concepts.map { |k,v| v.merge(id: k) },
-        labels: @label_items,
-        references: @reference_items
-      }.to_json
-    end
-
-    def menu
-      @role_types.select { |k,v|
-        v["usedOn"] == "link:presentationLink"
-      }.map { |k,v|
-        { id: k, label: v["definition"] }
-      }.sort_by { |node|
-        node[:label].split().first.to_i
-      } #.to_json
-    end
-
-    def all_dimensions
-      dimension_nodes = []
-      @concepts.keys.each do |concept_id|
-        dimension_nodes << dimension_node_tree(concept_id)
-      end
-      dimension_nodes
-    end
-
-    def role_types(role)
-      roleURI = "http://www.xbrl.org/uk/role/" + role
-      nodes_for_role(@links[roleURI]).to_json
-    end
-
-    def find_concept(id)
-      dimension_node_tree(id).to_json
-    end
-
-    def get_available_dts
+    def discoverable_taxonomy_sets
       JSONAPI::Serializer.serialize(@discoverable_taxonomy_sets, is_collection: true).to_json
     end
 
-    def dts(id)
-      discoverable_taxonomy_set = @discoverable_taxonomy_sets.find { |dts| dts.id == id }
-      discoverable_taxonomy_set.role_types = @role_types.select { |k,v|
-        v["usedOn"] == "link:presentationLink"
-      }.map { |k,v| 
-        RoleType.new(k, discoverable_taxonomy_set.id, v["definition"]) 
-      }.sort_by { |model|
-        model.definition.split().first.to_i
-      }
-      JSONAPI::Serializer.serialize(discoverable_taxonomy_set, include: ['role-types']).to_json
+    def discoverable_taxonomy_set(id)
+      @current_dts = @discoverable_taxonomy_sets.find { |dts| dts.id == id }
+      parse_current_dts
+      JSONAPI::Serializer.serialize(@current_dts, include: ['role-types']).to_json
+    end
+
+    def role_type(id)
+      role_type = @store[:role_types].find { |role_type| role_type.id == id }
+      role_type.presentation_nodes = @store[:presentation_nodes].select { |node| node.role_type_id == role_type.id }
+      JSONAPI::Serializer.serialize(role_type, include: ['presentation-nodes', 'presentation-nodes.element']).to_json
     end
 
     private
 
+    def parse_current_dts
+      parse_roles
+      parse_elements
+      parse_presentation_nodes
+      # parse_elements
+    end
+
     def hashify_xml(xml)
       xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
-    end
-
-    def nodes_for_role(role_links)
-      role_links.map do |link|
-        link[:locs].map do |k,v|
-          {
-            id: v["label"],
-            parent_id: node_parent(v["label"], link[:arcs]),
-            label: node_labels(v["href"])
-           }
-        end
-      end
-    end
-
-    def node_parent(id, arcs)
-      arcs.values.detect { |arc| arc["to"] == id }&.dig("from") || "root_node"
     end
 
     def parse_available_dts

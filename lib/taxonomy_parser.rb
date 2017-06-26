@@ -4,7 +4,8 @@ require_relative 'parsers/label'
 require_relative 'parsers/reference'
 require_relative 'parsers/dimension'
 
-require_relative 'models/discoverable-taxonomy-set'
+require_relative 'models/discoverable_taxonomy_set'
+require_relative 'models/role_type'
 
 require 'SecureRandom'
 
@@ -19,6 +20,7 @@ module TaxonomyParser
     def initialize # (lang=en, dts=uk-gaap)
       @nodes = {}
       @checksums = {}
+      @discoverable_taxonomy_sets = parse_available_dts
       @concepts, @role_types = parse_dts_schemas
       @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
@@ -64,10 +66,19 @@ module TaxonomyParser
     end
 
     def get_available_dts
-      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].map do |name| 
-        model = DiscoverableTaxonomySet.new(name)
-        { id: model.id, name: model.name }
-      end.to_json
+      JSONAPI::Serializer.serialize(@discoverable_taxonomy_sets, is_collection: true).to_json
+    end
+
+    def dts(id)
+      discoverable_taxonomy_set = @discoverable_taxonomy_sets.find { |dts| dts.id == id }
+      discoverable_taxonomy_set.role_types = @role_types.select { |k,v|
+        v["usedOn"] == "link:presentationLink"
+      }.map { |k,v| 
+        RoleType.new(k, discoverable_taxonomy_set.id, v["definition"]) 
+      }.sort_by { |model|
+        model.definition.split().first.to_i
+      }
+      JSONAPI::Serializer.serialize(discoverable_taxonomy_set, include: ['role-types']).to_json
     end
 
     private
@@ -90,6 +101,10 @@ module TaxonomyParser
 
     def node_parent(id, arcs)
       arcs.values.detect { |arc| arc["to"] == id }&.dig("from") || "root_node"
+    end
+
+    def parse_available_dts
+      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].map { |name| DiscoverableTaxonomySet.new(name) }
     end
   end
 

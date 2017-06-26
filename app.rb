@@ -3,14 +3,19 @@ require 'nokogiri'
 require 'json'
 require 'pry'
 require 'set'
-require 'jsonapi/renderer'
 require './lib/taxonomy_parser'
+require 'jsonapi-serializers'
 
 configure { set :server, :puma }
 
 get '/discoverable-taxonomy-sets' do
   content_type :json
   $app.get_available_dts
+end
+
+get '/discoverable-taxonomy-sets/:id' do
+  content_type :json
+  $app.dts(params['id'])
 end
 
 get '/graph' do

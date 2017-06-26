@@ -3,6 +3,9 @@ require_relative 'parsers/presentation'
 require_relative 'parsers/label'
 require_relative 'parsers/reference'
 require_relative 'parsers/dimension'
+
+require_relative 'models/discoverable-taxonomy-set'
+
 require 'SecureRandom'
 
 module TaxonomyParser
@@ -58,6 +61,13 @@ module TaxonomyParser
 
     def find_concept(id)
       dimension_node_tree(id).to_json
+    end
+
+    def get_available_dts
+      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].map do |name| 
+        model = DiscoverableTaxonomySet.new(name)
+        { id: model.id, name: model.name }
+      end.to_json
     end
 
     private

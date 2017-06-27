@@ -23,6 +23,21 @@ get '/role-types/:id' do
   $app.role_type(params['id'])
 end
 
+get '/elements/:id' do
+  content_type :json
+  $app.element(params['id'])
+end
+
+get '/presentation-nodes/:id' do
+  content_type :json
+  $app.presentation_node(params['id'])
+end
+
+get '/presentation-nodes/:id/dimension-nodes' do
+  content_type :json
+  $app.presentation_node_dimension_nodes(params['id'])
+end
+
 get '/graph' do
   content_type :json
   $app.graph
@@ -36,10 +51,5 @@ end
 get '/dimensions' do
   content_type :json
   $app.all_dimensions.to_json
-end
-
-get '/concepts/:id' do
-  content_type :json
-  $app.find_concept(params['id'])
 end
 

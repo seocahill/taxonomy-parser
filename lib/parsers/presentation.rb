@@ -48,12 +48,14 @@ module PresentationParser
 
   def parse_presentation_nodes
     populate_links
+    bucket = @store[:presentation_nodes] = {}
     @nodes.values.each do |node|
-      parent = @store[:presentation_nodes].find { |n| n.id == node[:parent_id] } if @store[:presentation_nodes]
-      role = @store[:role_types].find { |i| i.role_uri == node[:role_id] }
+      parent = bucket[node[:parent_id]]
+      role = @store[:role_types].values.find { |i| i.role_uri == node[:role_id] }
       model = PresentationNode.new(node[:id], role.id, node[:element_id], parent, node[:order])
-      model.element = @store[:elements].find { |e| e.id == model.element_id }
-      (@store[:presentation_nodes] ||= []) << model
+      model.element = @store[:elements][model.element_id]
+      (role.presentation_nodes ||= []) << model
+      bucket[model.id] = model
     end
   end
 end

@@ -26,17 +26,20 @@ module SchemaParser
   end
 
   def parse_elements
+    bucket = @store[:elements] = {}
     @concepts.each do |id, v|
       model = Element.new(id, @current_dts.id, v["name"], v["type"], v["substitutionGroup"], v["periodType"], v["abstract"], v["nillable"])
-      (@store[:elements] ||= []) << model
+      bucket[model.id] = model
     end
   end
 
   def parse_roles
+    bucket = @store[:role_types] = {}
     @role_types.each do |uri, role|
-      (@store[:role_types] ||= []) << RoleType.new(@current_dts.id, role["definition"], uri, role["usedOn"])
+      model = RoleType.new(@current_dts.id, role["definition"], uri, role["usedOn"])
+      bucket[model.id] = model 
     end
-    @current_dts.role_types = @store[:role_types]
+    @current_dts.role_types = @store[:role_types].values
       .select { |item| item.network == "link:presentationLink" }
       .sort_by { |item| item.order }
   end

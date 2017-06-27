@@ -19,9 +19,10 @@ module TaxonomyParser
     include LabelParser
     include DimensionParser
 
-    attr_accessor :store, :concepts
+    # attr_accessor :store, :concepts
 
-    def initialize # (lang=en, dts=uk-gaap)
+    def initialize
+      puts "initialized"
       @current_dts = nil
       @store = {}
       @nodes = {}
@@ -45,9 +46,24 @@ module TaxonomyParser
     end
 
     def role_type(id)
-      role_type = @store[:role_types].find { |role_type| role_type.id == id }
-      role_type.presentation_nodes = @store[:presentation_nodes].select { |node| node.role_type_id == role_type.id }
+      role_type = @store[:role_types][id]
       JSONAPI::Serializer.serialize(role_type, include: ['presentation-nodes', 'presentation-nodes.element']).to_json
+    end
+
+    def element(id)
+      element = @store[:elements][id]
+      JSONAPI::Serializer.serialize(element).to_json
+    end
+
+    def presentation_node(id)
+      presentation_node = @store[:presentation_nodes][id]
+      JSONAPI::Serializer.serialize(presentation_node).to_json
+    end
+
+    def presentation_node_dimension_nodes(id)
+      presentation_node = @store[:presentation_nodes][id]
+      # dimension_node_tree(concept_id)
+      JSONAPI::Serializer.serialize(presentation_node).to_json
     end
 
     private
@@ -56,7 +72,6 @@ module TaxonomyParser
       parse_roles
       parse_elements
       parse_presentation_nodes
-      # parse_elements
     end
 
     def hashify_xml(xml)

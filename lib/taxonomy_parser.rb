@@ -67,6 +67,11 @@ module TaxonomyParser
       JSONAPI::Serializer.serialize(presentation_node, include: ['element']).to_json
     end
 
+    def dimension_node(id)
+      dimension_node = @store[:dimension_nodes][id]
+      JSONAPI::Serializer.serialize(dimension_node, include: ['element']).to_json
+    end
+
     private
 
     def parse_current_dts

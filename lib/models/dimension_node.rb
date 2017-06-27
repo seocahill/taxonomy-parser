@@ -9,6 +9,10 @@ class DimensionNode
     @order = order
     @arcrole = arcrole
   end
+
+  def name
+    self.element.name
+  end
 end
 
 require 'jsonapi-serializers'
@@ -19,5 +23,5 @@ class DimensionNodeSerializer
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
-  attributes :order, :arcrole
+  attributes :order, :arcrole, :name
 end

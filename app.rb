@@ -33,6 +33,11 @@ get '/presentation-nodes/:id' do
   $app.presentation_node(params['id'])
 end
 
+get '/dimension-nodes/:id' do
+  content_type :json
+  $app.dimension_node(params['id'])
+end
+
 get '/elements/:id/dimension-nodes' do
   content_type :json
   $app.element_dimension_nodes(params['id'])

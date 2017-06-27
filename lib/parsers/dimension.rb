@@ -16,7 +16,15 @@ module DimensionParser
 
   def dimension_node_tree(concept_id)
     concept_node = new_node(concept_id, nil, "0", 'primary-item')
-    find_primary_items(concept_node)
+    nodes = find_primary_items(concept_node)
+    bucket = @store[:dimension_nodes] = {}
+    nodes.each do |node|
+      parent = bucket[node[:parent_id]]
+      element = @store[:elements][node[:element_id]]
+      model = DimensionNode.new(node[:id], element, parent, node[:order], node[:arcrole])
+      bucket[model.id] = model
+    end
+    bucket.values
   end
 
   def find_primary_items(concept_node)

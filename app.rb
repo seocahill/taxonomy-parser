@@ -33,9 +33,9 @@ get '/presentation-nodes/:id' do
   $app.presentation_node(params['id'])
 end
 
-get '/presentation-nodes/:id/dimension-nodes' do
+get '/elements/:id/dimension-nodes' do
   content_type :json
-  $app.presentation_node_dimension_nodes(params['id'])
+  $app.element_dimension_nodes(params['id'])
 end
 
 get '/graph' do

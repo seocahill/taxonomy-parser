@@ -8,6 +8,7 @@ require_relative 'models/discoverable_taxonomy_set'
 require_relative 'models/role_type'
 require_relative 'models/presentation_node'
 require_relative 'models/element'
+require_relative 'models/dimension_node'
 
 require 'SecureRandom'
 
@@ -41,7 +42,7 @@ module TaxonomyParser
 
     def discoverable_taxonomy_set(id)
       @current_dts = @discoverable_taxonomy_sets.find { |dts| dts.id == id }
-      parse_current_dts
+      parse_current_dts if @store.keys.length.zero?
       JSONAPI::Serializer.serialize(@current_dts, include: ['role-types']).to_json
     end
 
@@ -55,20 +56,21 @@ module TaxonomyParser
       JSONAPI::Serializer.serialize(element).to_json
     end
 
-    def presentation_node(id)
-      presentation_node = @store[:presentation_nodes][id]
-      JSONAPI::Serializer.serialize(presentation_node).to_json
+    def element_dimension_nodes(id)
+      # element = @store[:elements][id]
+      dimension_nodes = dimension_node_tree(id)
+      JSONAPI::Serializer.serialize(dimension_nodes, is_collection: true).to_json
     end
 
-    def presentation_node_dimension_nodes(id)
+    def presentation_node(id)
       presentation_node = @store[:presentation_nodes][id]
-      # dimension_node_tree(concept_id)
-      JSONAPI::Serializer.serialize(presentation_node).to_json
+      JSONAPI::Serializer.serialize(presentation_node, include: ['element']).to_json
     end
 
     private
 
     def parse_current_dts
+      puts "parsed dts"
       parse_roles
       parse_elements
       parse_presentation_nodes

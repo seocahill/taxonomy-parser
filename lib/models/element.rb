@@ -1,7 +1,8 @@
 class Element
 
   attr_reader :id, :discoverable_taxonomy_set_id, :name, :item_type, :substitution_group, :period_type, :abstract, :nillable
-
+  attr_accessor :dimension_nodes
+  
   def initialize(id, discoverable_taxonomy_set_id, name, item_type, substitution_group, period_type, abstract, nillable)
     @id = id
     @discoverable_taxonomy_set_id = discoverable_taxonomy_set_id
@@ -20,6 +21,7 @@ class ElementSerializer
   include JSONAPI::Serializer
 
   has_many :presentation_nodes 
+  has_many :dimension_nodes
 
   attributes :name, :item_type, :substitution_group, :period_type, :abstract, :nillable
 end

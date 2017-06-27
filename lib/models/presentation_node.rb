@@ -20,7 +20,5 @@ class PresentationNodeSerializer
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
-  has_many :dimension_nodes, include_links: true
-
   attributes :role_type_id, :element_id, :order
 end

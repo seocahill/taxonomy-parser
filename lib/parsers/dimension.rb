@@ -42,8 +42,14 @@ module DimensionParser
 
   def find_root_of_tree(parsed_file, current_node, arcrole)
     current_node_id = current_node.is_a?(String) ? current_node : current_node.attributes["from"].value
-    parent = parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{current_node_id}' and @xlink:arcrole='#{arcrole}']").first
-    parent ? find_root_of_tree(parsed_file, parent, arcrole) : (current_node.is_a?(Nokogiri::XML::Element) ? current_node : [])
+    parents = parsed_file.xpath("//xmlns:definitionArc[@xlink:to='#{current_node_id}' and @xlink:arcrole='#{arcrole}']")
+    if parents.any?
+      parents.flat_map do |parent|
+        find_root_of_tree(parsed_file, parent, arcrole)
+      end
+    else
+      current_node.is_a?(Nokogiri::XML::Element) ? current_node : []
+    end
   end
 
   def find_hypercubes(parent)

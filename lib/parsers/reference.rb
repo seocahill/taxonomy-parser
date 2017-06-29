@@ -10,7 +10,7 @@ module ReferenceParser
 
   def parse_reference_linkbases
     references = []
-    Dir.glob("dts_assets/uk-gaap/**/*.xml").grep(/reference/) do |file|
+    Dir.glob(File.join(__dir__, "/../../dts_assets/uk-gaap/**/*.xml")).grep(/reference/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('referenceLink').each do |link|
         arcs = {}

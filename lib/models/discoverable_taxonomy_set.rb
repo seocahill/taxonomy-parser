@@ -10,8 +10,6 @@ class DiscoverableTaxonomySet
   end
 end
 
-require 'jsonapi-serializers'
-
 class DiscoverableTaxonomySetSerializer
   include JSONAPI::Serializer
 

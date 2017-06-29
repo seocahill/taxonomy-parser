@@ -16,8 +16,6 @@ class RoleType
   end
 end
 
-require 'jsonapi-serializers'
-
 class RoleTypeSerializer
   include JSONAPI::Serializer
 

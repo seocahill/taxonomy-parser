@@ -12,8 +12,6 @@ class PresentationNode
   end
 end
 
-require 'jsonapi-serializers'
-
 class PresentationNodeSerializer
   include JSONAPI::Serializer
 

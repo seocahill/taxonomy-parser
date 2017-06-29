@@ -15,8 +15,6 @@ class DimensionNode
   end
 end
 
-require 'jsonapi-serializers'
-
 class DimensionNodeSerializer
   include JSONAPI::Serializer
 

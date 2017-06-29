@@ -5,7 +5,8 @@ Bundler.require :default, ENV['RACK_ENV'].to_sym
 
 require 'json'
 require 'set'
-require './lib/application_controller.rb'
+require 'jsonapi-serializers'
+require_relative 'lib/application_controller.rb'
 
 class TaxonomyParser < Sinatra::Base
   set :server, :puma

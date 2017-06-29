@@ -15,8 +15,6 @@ class Element
   end
 end
 
-require 'jsonapi-serializers'
-
 class ElementSerializer
   include JSONAPI::Serializer
 

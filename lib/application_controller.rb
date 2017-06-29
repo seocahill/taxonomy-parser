@@ -10,7 +10,7 @@ require_relative 'models/presentation_node'
 require_relative 'models/element'
 require_relative 'models/dimension_node'
 
-require 'SecureRandom'
+require 'securerandom'
 
 class ApplicationController
   include SchemaParser

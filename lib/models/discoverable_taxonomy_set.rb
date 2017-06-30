@@ -4,8 +4,8 @@ class DiscoverableTaxonomySet
 
   attr_accessor :role_types
 
-  def initialize(name)
-    @id = SecureRandom.uuid
+  def initialize(index, name)
+    @id = index + 1
     @name = name
   end
 end

@@ -28,7 +28,7 @@ module TaxonomyParser
     end
 
     def discoverable_taxonomy_sets
-      @discoverable_taxonomy_sets = parse_available_dts
+      @discoverable_taxonomy_sets ||= parse_available_dts
       JSONAPI::Serializer.serialize(@discoverable_taxonomy_sets, is_collection: true).to_json
     end
 
@@ -82,7 +82,9 @@ module TaxonomyParser
     end
 
     def parse_available_dts
-      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].map { |name| DiscoverableTaxonomySet.new(name) }
+      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].each_with_index.map { 
+        |name, index| DiscoverableTaxonomySet.new(index, name) 
+      }
     end
   end
 end

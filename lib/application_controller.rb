@@ -25,21 +25,26 @@ module TaxonomyParser
       @store = {}
       @nodes = {}
       @checksums = {}
+      parse_available_dts
     end
 
     def discoverable_taxonomy_sets
-      @discoverable_taxonomy_sets ||= parse_available_dts
-      JSONAPI::Serializer.serialize(@discoverable_taxonomy_sets, is_collection: true).to_json
+      JSONAPI::Serializer.serialize(@store[:discoverable_taxonomy_sets].values, is_collection: true).to_json
     end
 
     def discoverable_taxonomy_set(id)
-      @current_dts = @discoverable_taxonomy_sets.find { |dts| dts.id == id }
-      parse_current_dts if @store.keys.length.zero?
+      @current_dts = @store[:discoverable_taxonomy_sets][id.to_i]
+      parse_current_dts if @current_dts.role_types.nil?
       JSONAPI::Serializer.serialize(@current_dts, include: ['role-types']).to_json
     end
 
+    def role_types(params)
+      role_types = @store[:role_types].values
+      JSONAPI::Serializer.serialize(role_types, is_collection: true).to_json
+    end
+
     def role_type(id)
-      role_type = @store[:role_types][id]
+      role_type = @store[:role_types][id.to_i]
       JSONAPI::Serializer.serialize(role_type, include: ['presentation-nodes', 'presentation-nodes.element']).to_json
     end
 
@@ -49,7 +54,6 @@ module TaxonomyParser
     end
 
     def element_dimension_nodes(id)
-      # element = @store[:elements][id]
       dimension_nodes = dimension_node_tree(id)
       JSONAPI::Serializer.serialize(dimension_nodes, is_collection: true).to_json
     end
@@ -82,9 +86,11 @@ module TaxonomyParser
     end
 
     def parse_available_dts
-      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].each_with_index.map { 
-        |name, index| DiscoverableTaxonomySet.new(index, name) 
-      }
+      @store[:discoverable_taxonomy_sets] = {}
+      %w[uk-gaap uk-ifrs ie-gaap ie-ifrs].each_with_index do |name, index| 
+        model = DiscoverableTaxonomySet.new(index, name)
+        @store[:discoverable_taxonomy_sets][model.id] = model
+      end
     end
   end
 end

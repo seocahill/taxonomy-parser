@@ -19,7 +19,7 @@ class ElementSerializer
   include JSONAPI::Serializer
 
   has_many :presentation_nodes 
-  has_many :dimension_nodes
+  has_many :dimension_nodes, include_links: false, include_data: true
 
   attributes :name, :item_type, :substitution_group, :period_type, :abstract, :nillable
 end

@@ -13,7 +13,7 @@ end
 class DiscoverableTaxonomySetSerializer
   include JSONAPI::Serializer
 
-  has_many :role_types, include_links: false, include_data: true
+  has_many :role_types, include_data: true
   
   attribute :name
 end

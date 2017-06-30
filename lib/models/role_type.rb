@@ -19,7 +19,7 @@ end
 class RoleTypeSerializer
   include JSONAPI::Serializer
 
-  has_many :presentation_nodes, include_links: false #, include_data: true
+  has_many :presentation_nodes, include_links: false
 
-  attributes :definition, :order, :role_uri
+  attributes :definition, :order
 end

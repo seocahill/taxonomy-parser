@@ -36,7 +36,8 @@ module SchemaParser
   def parse_roles
     bucket = @store[:role_types] = {}
     @role_types.each do |uri, role|
-      model = RoleType.new(@current_dts.id, role["definition"], uri, role["usedOn"])
+      id = (bucket.keys.last || 0) + 1
+      model = RoleType.new(id, @current_dts.id, role["definition"], uri, role["usedOn"])
       bucket[model.id] = model 
     end
     @current_dts.role_types = @store[:role_types].values

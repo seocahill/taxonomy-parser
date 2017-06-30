@@ -51,9 +51,9 @@ module PresentationParser
     bucket = @store[:presentation_nodes] = {}
     @nodes.values.each do |node|
       parent = bucket[node[:parent_id]]
+      element = @store[:elements][node[:element_id]]
       role = @store[:role_types].values.find { |i| i.role_uri == node[:role_id] }
-      model = PresentationNode.new(node[:id], role.id, node[:element_id], parent, node[:order])
-      model.element = @store[:elements][model.element_id]
+      model = PresentationNode.new(node[:id], role.id, element, parent, node[:order])
       (role.presentation_nodes ||= []) << model
       bucket[model.id] = model
     end

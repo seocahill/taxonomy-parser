@@ -34,10 +34,10 @@ module DimensionParser
       find_root_of_tree(parsed_file, concept_node.element_id, 'http://xbrl.org/int/dim/arcrole/domain-member')
     end
     nodes = items.flat_map do |item|
-      node = new_node(item.attributes["from"].value, concept_node.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
+      node = new_node(item.attributes["from"].value, concept_node.id, item.attributes.dig("order")&.value, 'primary-item')
       [node.to_h] + find_hypercubes(node)
     end
-    [concept_node.to_h] + nodes
+    nodes
   end
 
   def find_root_of_tree(parsed_file, current_node, arcrole)

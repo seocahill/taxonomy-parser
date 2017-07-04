@@ -61,12 +61,19 @@ module TaxonomyParser
 
     def presentation_node(id)
       presentation_node = @store[:presentation_nodes][id]
-      JSONAPI::Serializer.serialize(presentation_node, include: ['element']).to_json
+      element = presentation_node.element
+      element.dimension_nodes = dimension_node_tree(element.id)
+      JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes']).to_json
     end
 
     def dimension_node(id)
       dimension_node = @store[:dimension_nodes][id]
       JSONAPI::Serializer.serialize(dimension_node, include: ['element']).to_json
+    end
+
+    def dimension_node_element(id)
+      dimension_node = @store[:dimension_nodes][id]
+      JSONAPI::Serializer.serialize(dimension_node.element).to_json
     end
 
     private

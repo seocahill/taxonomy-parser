@@ -22,4 +22,12 @@ class DimensionNodeSerializer
   has_one :parent, include_links: false, include_data: true
 
   attributes :order, :arcrole, :name
+
+  def base_url
+    "/api/v1"
+  end
+
+  def self_link
+    "#{base_url}/dimension_nodes/#{id}"
+  end
 end

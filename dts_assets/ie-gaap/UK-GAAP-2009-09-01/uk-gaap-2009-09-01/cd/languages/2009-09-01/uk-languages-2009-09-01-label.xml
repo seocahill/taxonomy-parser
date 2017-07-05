@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Languages-Label linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Abkhazian" xlink:label="uk-lang_Abkhazian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Abkhazian" xlink:to="uk-lang_Abkhazian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Abkhazian_lbl" xml:lang="en">Abkhazian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Afrikaans" xlink:label="uk-lang_Afrikaans" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Afrikaans" xlink:to="uk-lang_Afrikaans_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Afrikaans_lbl" xml:lang="en">Afrikaans</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Albanian" xlink:label="uk-lang_Albanian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Albanian" xlink:to="uk-lang_Albanian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Albanian_lbl" xml:lang="en">Albanian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_AllLanguages" xlink:label="uk-lang_AllLanguages" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_AllLanguages" xlink:to="uk-lang_AllLanguages_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_AllLanguages_lbl" xml:lang="en">All languages</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Amharic" xlink:label="uk-lang_Amharic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Amharic" xlink:to="uk-lang_Amharic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Amharic_lbl" xml:lang="en">Amharic</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Arabic" xlink:label="uk-lang_Arabic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Arabic" xlink:to="uk-lang_Arabic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Arabic_lbl" xml:lang="en">Arabic</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Armenian" xlink:label="uk-lang_Armenian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Armenian" xlink:to="uk-lang_Armenian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Armenian_lbl" xml:lang="en">Armenian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Assamese" xlink:label="uk-lang_Assamese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Assamese" xlink:to="uk-lang_Assamese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Assamese_lbl" xml:lang="en">Assamese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Azerbaijani" xlink:label="uk-lang_Azerbaijani" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Azerbaijani" xlink:to="uk-lang_Azerbaijani_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Azerbaijani_lbl" xml:lang="en">Azerbaijani</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Basque" xlink:label="uk-lang_Basque" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Basque" xlink:to="uk-lang_Basque_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Basque_lbl" xml:lang="en">Basque</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bengali" xlink:label="uk-lang_Bengali" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Bengali" xlink:to="uk-lang_Bengali_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Bengali_lbl" xml:lang="en">Bengali</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bihari" xlink:label="uk-lang_Bihari" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Bihari" xlink:to="uk-lang_Bihari_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Bihari_lbl" xml:lang="en">Bihari</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bulgarian" xlink:label="uk-lang_Bulgarian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Bulgarian" xlink:to="uk-lang_Bulgarian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Bulgarian_lbl" xml:lang="en">Bulgarian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Burmese" xlink:label="uk-lang_Burmese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Burmese" xlink:to="uk-lang_Burmese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Burmese_lbl" xml:lang="en">Burmese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Byelorussian" xlink:label="uk-lang_Byelorussian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Byelorussian" xlink:to="uk-lang_Byelorussian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Byelorussian_lbl" xml:lang="en">Byelorussian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Catalan" xlink:label="uk-lang_Catalan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Catalan" xlink:to="uk-lang_Catalan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Catalan_lbl" xml:lang="en">Catalan</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Chinese" xlink:label="uk-lang_Chinese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Chinese" xlink:to="uk-lang_Chinese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Chinese_lbl" xml:lang="en">Chinese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Croatian" xlink:label="uk-lang_Croatian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Croatian" xlink:to="uk-lang_Croatian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Croatian_lbl" xml:lang="en">Croatian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Czech" xlink:label="uk-lang_Czech" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Czech" xlink:to="uk-lang_Czech_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Czech_lbl" xml:lang="en">Czech</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Danish" xlink:label="uk-lang_Danish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Danish" xlink:to="uk-lang_Danish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Danish_lbl" xml:lang="en">Danish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_DimensionMembersRepresentingLanguagesHeading" xlink:label="uk-lang_DimensionMembersRepresentingLanguagesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_DimensionMembersRepresentingLanguagesHeading" xlink:to="uk-lang_DimensionMembersRepresentingLanguagesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_DimensionMembersRepresentingLanguagesHeading_lbl" xml:lang="en">Dimension members representing languages [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Dutch" xlink:label="uk-lang_Dutch" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Dutch" xlink:to="uk-lang_Dutch_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Dutch_lbl" xml:lang="en">Dutch</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_English" xlink:label="uk-lang_English" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_English" xlink:to="uk-lang_English_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_English_lbl" xml:lang="en">English</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Esperanto" xlink:label="uk-lang_Esperanto" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Esperanto" xlink:to="uk-lang_Esperanto_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Esperanto_lbl" xml:lang="en">Esperanto</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Estonian" xlink:label="uk-lang_Estonian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Estonian" xlink:to="uk-lang_Estonian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Estonian_lbl" xml:lang="en">Estonian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Faroese" xlink:label="uk-lang_Faroese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Faroese" xlink:to="uk-lang_Faroese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Faroese_lbl" xml:lang="en">Faroese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Fijian" xlink:label="uk-lang_Fijian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Fijian" xlink:to="uk-lang_Fijian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Fijian_lbl" xml:lang="en">Fijian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Finnish" xlink:label="uk-lang_Finnish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Finnish" xlink:to="uk-lang_Finnish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Finnish_lbl" xml:lang="en">Finnish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_French" xlink:label="uk-lang_French" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_French" xlink:to="uk-lang_French_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_French_lbl" xml:lang="en">French</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Frisian" xlink:label="uk-lang_Frisian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Frisian" xlink:to="uk-lang_Frisian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Frisian_lbl" xml:lang="en">Frisian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Georgian" xlink:label="uk-lang_Georgian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Georgian" xlink:to="uk-lang_Georgian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Georgian_lbl" xml:lang="en">Georgian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_German" xlink:label="uk-lang_German" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_German" xlink:to="uk-lang_German_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_German_lbl" xml:lang="en">German</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_GreekModern" xlink:label="uk-lang_GreekModern" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_GreekModern" xlink:to="uk-lang_GreekModern_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_GreekModern_lbl" xml:lang="en">Greek, Modern </label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Greenlandic" xlink:label="uk-lang_Greenlandic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Greenlandic" xlink:to="uk-lang_Greenlandic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Greenlandic_lbl" xml:lang="en">Greenlandic</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Gujarati" xlink:label="uk-lang_Gujarati" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Gujarati" xlink:to="uk-lang_Gujarati_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Gujarati_lbl" xml:lang="en">Gujarati</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Hebrew" xlink:label="uk-lang_Hebrew" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Hebrew" xlink:to="uk-lang_Hebrew_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Hebrew_lbl" xml:lang="en">Hebrew</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Hindi" xlink:label="uk-lang_Hindi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Hindi" xlink:to="uk-lang_Hindi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Hindi_lbl" xml:lang="en">Hindi</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Icelandic" xlink:label="uk-lang_Icelandic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Icelandic" xlink:to="uk-lang_Icelandic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Icelandic_lbl" xml:lang="en">Icelandic</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Indonesian" xlink:label="uk-lang_Indonesian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Indonesian" xlink:to="uk-lang_Indonesian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Indonesian_lbl" xml:lang="en">Indonesian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Iranian" xlink:label="uk-lang_Iranian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Iranian" xlink:to="uk-lang_Iranian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Iranian_lbl" xml:lang="en">Iranian </label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Irish" xlink:label="uk-lang_Irish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Irish" xlink:to="uk-lang_Irish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Irish_lbl" xml:lang="en">Irish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Italian" xlink:label="uk-lang_Italian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Italian" xlink:to="uk-lang_Italian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Italian_lbl" xml:lang="en">Italian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Japanese" xlink:label="uk-lang_Japanese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Japanese" xlink:to="uk-lang_Japanese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Japanese_lbl" xml:lang="en">Japanese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Javanese" xlink:label="uk-lang_Javanese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Javanese" xlink:to="uk-lang_Javanese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Javanese_lbl" xml:lang="en">Javanese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kashmiri" xlink:label="uk-lang_Kashmiri" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Kashmiri" xlink:to="uk-lang_Kashmiri_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Kashmiri_lbl" xml:lang="en">Kashmiri</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kazakh" xlink:label="uk-lang_Kazakh" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Kazakh" xlink:to="uk-lang_Kazakh_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Kazakh_lbl" xml:lang="en">Kazakh</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Khmer" xlink:label="uk-lang_Khmer" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Khmer" xlink:to="uk-lang_Khmer_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Khmer_lbl" xml:lang="en">Khmer</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kirghiz" xlink:label="uk-lang_Kirghiz" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Kirghiz" xlink:to="uk-lang_Kirghiz_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Kirghiz_lbl" xml:lang="en">Kirghiz</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Korean" xlink:label="uk-lang_Korean" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Korean" xlink:to="uk-lang_Korean_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Korean_lbl" xml:lang="en">Korean</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kurdish" xlink:label="uk-lang_Kurdish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Kurdish" xlink:to="uk-lang_Kurdish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Kurdish_lbl" xml:lang="en">Kurdish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_LanguageListHeading" xlink:label="uk-lang_LanguageListHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_LanguageListHeading" xlink:to="uk-lang_LanguageListHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-lang_LanguageListHeading_lbl" xml:lang="en">Groups list of languages based on International Standards Organisation (ISO) 639.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_LanguageListHeading_lbl" xml:lang="en">Language list [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_LanguagesDimension" xlink:label="uk-lang_LanguagesDimension" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_LanguagesDimension" xlink:to="uk-lang_LanguagesDimension_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_LanguagesDimension_lbl" xml:lang="en">Languages [Dimension]</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Lao" xlink:label="uk-lang_Lao" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Lao" xlink:to="uk-lang_Lao_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Lao_lbl" xml:lang="en">Lao</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Latin" xlink:label="uk-lang_Latin" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Latin" xlink:to="uk-lang_Latin_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Latin_lbl" xml:lang="en">Latin</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Latvian" xlink:label="uk-lang_Latvian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Latvian" xlink:to="uk-lang_Latvian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Latvian_lbl" xml:lang="en">Latvian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Letzeburgesch" xlink:label="uk-lang_Letzeburgesch" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Letzeburgesch" xlink:to="uk-lang_Letzeburgesch_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Letzeburgesch_lbl" xml:lang="en">Letzeburgesch</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Lithuanian" xlink:label="uk-lang_Lithuanian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Lithuanian" xlink:to="uk-lang_Lithuanian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Lithuanian_lbl" xml:lang="en">Lithuanian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Macedonian" xlink:label="uk-lang_Macedonian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Macedonian" xlink:to="uk-lang_Macedonian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Macedonian_lbl" xml:lang="en">Macedonian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Malagasy" xlink:label="uk-lang_Malagasy" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Malagasy" xlink:to="uk-lang_Malagasy_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Malagasy_lbl" xml:lang="en">Malagasy</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Malay" xlink:label="uk-lang_Malay" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Malay" xlink:to="uk-lang_Malay_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Malay_lbl" xml:lang="en">Malay</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Maltese" xlink:label="uk-lang_Maltese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Maltese" xlink:to="uk-lang_Maltese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Maltese_lbl" xml:lang="en">Maltese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Maori" xlink:label="uk-lang_Maori" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Maori" xlink:to="uk-lang_Maori_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Maori_lbl" xml:lang="en">Maori</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Marathi" xlink:label="uk-lang_Marathi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Marathi" xlink:to="uk-lang_Marathi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Marathi_lbl" xml:lang="en">Marathi</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Moldavian" xlink:label="uk-lang_Moldavian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Moldavian" xlink:to="uk-lang_Moldavian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Moldavian_lbl" xml:lang="en">Moldavian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Mongolian" xlink:label="uk-lang_Mongolian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Mongolian" xlink:to="uk-lang_Mongolian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Mongolian_lbl" xml:lang="en">Mongolian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_NauruLanguage" xlink:label="uk-lang_NauruLanguage" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_NauruLanguage" xlink:to="uk-lang_NauruLanguage_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_NauruLanguage_lbl" xml:lang="en">Nauru language</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Nepali" xlink:label="uk-lang_Nepali" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Nepali" xlink:to="uk-lang_Nepali_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Nepali_lbl" xml:lang="en">Nepali</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Norwegian" xlink:label="uk-lang_Norwegian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Norwegian" xlink:to="uk-lang_Norwegian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Norwegian_lbl" xml:lang="en">Norwegian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Ossetic" xlink:label="uk-lang_Ossetic" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Ossetic" xlink:to="uk-lang_Ossetic_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Ossetic_lbl" xml:lang="en">Ossetic</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Panjabi" xlink:label="uk-lang_Panjabi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Panjabi" xlink:to="uk-lang_Panjabi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Panjabi_lbl" xml:lang="en">Panjabi</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Persian" xlink:label="uk-lang_Persian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Persian" xlink:to="uk-lang_Persian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Persian_lbl" xml:lang="en">Persian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Polish" xlink:label="uk-lang_Polish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Polish" xlink:to="uk-lang_Polish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Polish_lbl" xml:lang="en">Polish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Portuguese" xlink:label="uk-lang_Portuguese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Portuguese" xlink:to="uk-lang_Portuguese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Portuguese_lbl" xml:lang="en">Portuguese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Pushto" xlink:label="uk-lang_Pushto" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Pushto" xlink:to="uk-lang_Pushto_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Pushto_lbl" xml:lang="en">Pushto</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Quechua" xlink:label="uk-lang_Quechua" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Quechua" xlink:to="uk-lang_Quechua_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Quechua_lbl" xml:lang="en">Quechua</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Rajasthani" xlink:label="uk-lang_Rajasthani" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Rajasthani" xlink:to="uk-lang_Rajasthani_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Rajasthani_lbl" xml:lang="en">Rajasthani</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Romanian" xlink:label="uk-lang_Romanian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Romanian" xlink:to="uk-lang_Romanian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Romanian_lbl" xml:lang="en">Romanian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Russian" xlink:label="uk-lang_Russian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Russian" xlink:to="uk-lang_Russian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Russian_lbl" xml:lang="en">Russian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Samoan" xlink:label="uk-lang_Samoan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Samoan" xlink:to="uk-lang_Samoan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Samoan_lbl" xml:lang="en">Samoan</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Serbian" xlink:label="uk-lang_Serbian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Serbian" xlink:to="uk-lang_Serbian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Serbian_lbl" xml:lang="en">Serbian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Serbo-Croatian" xlink:label="uk-lang_Serbo-Croatian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Serbo-Croatian" xlink:to="uk-lang_Serbo-Croatian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Serbo-Croatian_lbl" xml:lang="en">Serbo-Croatian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Singhalese" xlink:label="uk-lang_Singhalese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Singhalese" xlink:to="uk-lang_Singhalese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Singhalese_lbl" xml:lang="en">Singhalese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Slovak" xlink:label="uk-lang_Slovak" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Slovak" xlink:to="uk-lang_Slovak_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Slovak_lbl" xml:lang="en">Slovak</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Slovenian" xlink:label="uk-lang_Slovenian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Slovenian" xlink:to="uk-lang_Slovenian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Slovenian_lbl" xml:lang="en">Slovenian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Somali" xlink:label="uk-lang_Somali" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Somali" xlink:to="uk-lang_Somali_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Somali_lbl" xml:lang="en">Somali</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Spanish" xlink:label="uk-lang_Spanish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Spanish" xlink:to="uk-lang_Spanish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Spanish_lbl" xml:lang="en">Spanish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Sudanese" xlink:label="uk-lang_Sudanese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Sudanese" xlink:to="uk-lang_Sudanese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Sudanese_lbl" xml:lang="en">Sudanese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swahili" xlink:label="uk-lang_Swahili" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Swahili" xlink:to="uk-lang_Swahili_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Swahili_lbl" xml:lang="en">Swahili</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swazi" xlink:label="uk-lang_Swazi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Swazi" xlink:to="uk-lang_Swazi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Swazi_lbl" xml:lang="en">Swazi</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swedish" xlink:label="uk-lang_Swedish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Swedish" xlink:to="uk-lang_Swedish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Swedish_lbl" xml:lang="en">Swedish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Syriac" xlink:label="uk-lang_Syriac" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Syriac" xlink:to="uk-lang_Syriac_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Syriac_lbl" xml:lang="en">Syriac</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tagalog" xlink:label="uk-lang_Tagalog" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Tagalog" xlink:to="uk-lang_Tagalog_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Tagalog_lbl" xml:lang="en">Tagalog</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tahitian" xlink:label="uk-lang_Tahitian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Tahitian" xlink:to="uk-lang_Tahitian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Tahitian_lbl" xml:lang="en">Tahitian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tajik" xlink:label="uk-lang_Tajik" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Tajik" xlink:to="uk-lang_Tajik_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Tajik_lbl" xml:lang="en">Tajik</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tamil" xlink:label="uk-lang_Tamil" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Tamil" xlink:to="uk-lang_Tamil_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Tamil_lbl" xml:lang="en">Tamil</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Thai" xlink:label="uk-lang_Thai" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Thai" xlink:to="uk-lang_Thai_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Thai_lbl" xml:lang="en">Thai</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tibetan" xlink:label="uk-lang_Tibetan" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Tibetan" xlink:to="uk-lang_Tibetan_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Tibetan_lbl" xml:lang="en">Tibetan</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Turkish" xlink:label="uk-lang_Turkish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Turkish" xlink:to="uk-lang_Turkish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Turkish_lbl" xml:lang="en">Turkish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Turkmen" xlink:label="uk-lang_Turkmen" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Turkmen" xlink:to="uk-lang_Turkmen_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Turkmen_lbl" xml:lang="en">Turkmen</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Ukrainian" xlink:label="uk-lang_Ukrainian" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Ukrainian" xlink:to="uk-lang_Ukrainian_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Ukrainian_lbl" xml:lang="en">Ukrainian</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Urdu" xlink:label="uk-lang_Urdu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Urdu" xlink:to="uk-lang_Urdu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Urdu_lbl" xml:lang="en">Urdu</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Uzbek" xlink:label="uk-lang_Uzbek" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Uzbek" xlink:to="uk-lang_Uzbek_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Uzbek_lbl" xml:lang="en">Uzbek</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Vietnamese" xlink:label="uk-lang_Vietnamese" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Vietnamese" xlink:to="uk-lang_Vietnamese_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Vietnamese_lbl" xml:lang="en">Vietnamese</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Welsh" xlink:label="uk-lang_Welsh" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Welsh" xlink:to="uk-lang_Welsh_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Welsh_lbl" xml:lang="en">Welsh</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Yiddish" xlink:label="uk-lang_Yiddish" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Yiddish" xlink:to="uk-lang_Yiddish_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Yiddish_lbl" xml:lang="en">Yiddish</label>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Zulu" xlink:label="uk-lang_Zulu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-lang_Zulu" xlink:to="uk-lang_Zulu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-lang_Zulu_lbl" xml:lang="en">Zulu</label>
+  </labelLink>
+</linkbase>

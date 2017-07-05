@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-AuditorsDirectorsReport-Basic schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-aurep="http://www.xbrl.org/uk/reports/aurep/2009-09-01" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-common="http://www.xbrl.org/uk/all/common/2009-09-01" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/uk/reports/aurep/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/AuditorsReport" id="AuditorsReport">
+        <link:definition>06 - Auditor's Report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-aurep-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-aurep-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-aurep-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2004/ref" schemaLocation="http://www.xbrl.org/2004/ref-2004-08-10.xsd" />
+  <import namespace="http://www.xbrl.org/uk/cd/business/2009-09-01" schemaLocation="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" schemaLocation="../../../all/gaap-ref/2009-09-01/uk-gaap-ref-2009-09-01.xsd" />
+  <element id="uk-aurep_AuditFeesExpenses" name="AuditFeesExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees" name="AuditingAccountsAssociatesPursuantToLegislationFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees" name="AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees" name="AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_AuditorInformationHeading" name="AuditorInformationHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_AuditorsReportHeading" name="AuditorsReportHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_BasisAuditOpinion" name="BasisAuditOpinion" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" name="CorporateFinanceTransactionsEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_CorporateFinanceTransactionsFees" name="CorporateFinanceTransactionsFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_CorporateFinanceTransactionsPensionSchemesFees" name="CorporateFinanceTransactionsPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_DateAuditorsReport" name="DateAuditorsReport" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-aurep_DescriptionBenefitsInKindForAuditServices" name="DescriptionBenefitsInKindForAuditServices" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_DescriptionBenefitsInKindForNon-auditServices" name="DescriptionBenefitsInKindForNon-auditServices" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_DimensionMembersUsedToDistinguishDifferentAuditorsHeading" name="DimensionMembersUsedToDistinguishDifferentAuditorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" name="DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_EmphasisMatterStatement" name="EmphasisMatterStatement" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices" name="EstimatedMoneyValueBenefitsInKindForAuditServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices" name="EstimatedMoneyValueBenefitsInKindForNon-auditServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_FeesForNon-auditServices" name="FeesForNon-auditServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_FeesToAuditorsFree-textComment" name="FeesToAuditorsFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_FeesToAuditorsHeading" name="FeesToAuditorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_ForMoreInformationSeeThirdPartyAgentsInEntityInformationSectionCross-reference" name="ForMoreInformationSeeThirdPartyAgentsInEntityInformationSectionCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees" name="InformationTechnologyServicesEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_InformationTechnologyServicesFees" name="InformationTechnologyServicesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_InformationTechnologyServicesPensionSchemesFees" name="InformationTechnologyServicesPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_InternalAuditEntitySubsidiariesFees" name="InternalAuditEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_InternalAuditFees" name="InternalAuditFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_InternalAuditPensionSchemesFees" name="InternalAuditPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_LitigationServicesEntitySubsidiariesFees" name="LitigationServicesEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_LitigationServicesFees" name="LitigationServicesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_LitigationServicesPensionSchemesFees" name="LitigationServicesPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_NameIndividualAuditorOrAccountant" name="NameIndividualAuditorOrAccountant" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_NameOrLocationOfficePerformingAudit" name="NameOrLocationOfficePerformingAudit" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_NameSeniorStatutoryAuditor" name="NameSeniorStatutoryAuditor" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_OpinionAuditorsOnEntity" name="OpinionAuditorsOnEntity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees" name="OtherNon-auditServicesEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_OtherNon-auditServicesFees" name="OtherNon-auditServicesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_OtherNon-auditServicesPensionSchemesFees" name="OtherNon-auditServicesPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees" name="OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_OtherServicesPursuantToSuchLegislationFees" name="OtherServicesPursuantToSuchLegislationFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees" name="OtherServicesPursuantToSuchLegislationPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees" name="RecruitmentRemunerationServicesEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_RecruitmentRemunerationServicesFees" name="RecruitmentRemunerationServicesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees" name="RecruitmentRemunerationServicesPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared" name="StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_StatementOnReasonsForAnyQualificationOpinion" name="StatementOnReasonsForAnyQualificationOpinion" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite" name="StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_StatementOnScopeAuditReport" name="StatementOnScopeAuditReport" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements" name="StatementOnScopeLegislationCoveringFinancialStatements" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_StatementResponsibilities" name="StatementResponsibilities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-aurep_TaxationServicesEntitySubsidiariesFees" name="TaxationServicesEntitySubsidiariesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_TaxationServicesFees" name="TaxationServicesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_TaxationServicesPensionSchemesFees" name="TaxationServicesPensionSchemesFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_TotalFeesToAuditors" name="TotalFeesToAuditors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-aurep_UseDimensionsToIdentifyDifferentAuditorsAccountantsToDistinguishPaymentsByRegionExplanation" name="UseDimensionsToIdentifyDifferentAuditorsAccountantsToDistinguishPaymentsByRegionExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+</schema>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-StockExchanges-Basic schema 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" targetNamespace="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/StockExchanges" id="StockExchanges">
+        <link:definition>95 - Stock Exchanges</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/all/role/Dimension-StockExchanges" id="Dimension-StockExchanges">
+        <link:definition>522 - Dimension - Stock Exchanges</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-exchanges-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-exchanges-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-exchanges-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/ref/2009-09-01" schemaLocation="../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/common/2009-09-01" schemaLocation="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <element id="uk-exch_Albania-TiranaStockExchange" name="Albania-TiranaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Algeria-AlgiersStockExchange" name="Algeria-AlgiersStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Argentina-BuenosAiresStockExchange" name="Argentina-BuenosAiresStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Argentina-RosarioBolsaDeComercio" name="Argentina-RosarioBolsaDeComercio" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Armenia-ArmenianStockExchange" name="Armenia-ArmenianStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Australia-ASX" name="Australia-ASX" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Australia-NewcastleStockExchange" name="Australia-NewcastleStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Austria-ViennaStockExchangeWienerBoerse" name="Austria-ViennaStockExchangeWienerBoerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bahamas-InternationalSecuritiesExchange" name="Bahamas-InternationalSecuritiesExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bahrain-StockExchange" name="Bahrain-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bangladesh-ChittagongStockExchange" name="Bangladesh-ChittagongStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bangladesh-DhakaStockExchange" name="Bangladesh-DhakaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Barbados-StockExchange" name="Barbados-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Belgium-EuronextBrussels" name="Belgium-EuronextBrussels" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bermuda-StockExchange" name="Bermuda-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bosnia-BanjaLukaStockExchange" name="Bosnia-BanjaLukaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Botswana-StockExchange" name="Botswana-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Brazil-ParanaBolsaDeValores" name="Brazil-ParanaBolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" name="Brazil-RioDeJaneiroBolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Brazil-SaoPauloBolsaDeValores" name="Brazil-SaoPauloBolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Bulgaria-StockExchange" name="Bulgaria-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Canada-MontrealExchange" name="Canada-MontrealExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" name="Canada-NewStockExchangeCanadianTradingQuotingSystemInc" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Canada-TSXVentureExchange" name="Canada-TSXVentureExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Canada-TSXVentureExchange-NEX" name="Canada-TSXVentureExchange-NEX" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Canada-TorontoStockExchange" name="Canada-TorontoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_CaymanIslands-StockExchange" name="CaymanIslands-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Chile-LaBolsaElectronica" name="Chile-LaBolsaElectronica" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Chile-SantiagoStockExchange" name="Chile-SantiagoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_China-HongKongStockExchange" name="China-HongKongStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_China-ShanghaiStockExchange" name="China-ShanghaiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_China-ShenzhenStockExchange" name="China-ShenzhenStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Colombia-BolsaDeValores" name="Colombia-BolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_CostaRica-BolsaNacionalDeValores" name="CostaRica-BolsaNacionalDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Croatia-ZagrebStockExchange" name="Croatia-ZagrebStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Cyprus-StockExchange" name="Cyprus-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_CzechRepublic-PragueStockExchange" name="CzechRepublic-PragueStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Denmark-CopenhagenStockExchange" name="Denmark-CopenhagenStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_DimensionMembersRepresentingStockExchangesHeading" name="DimensionMembersRepresentingStockExchangesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_DominicanRepublic-BolsaDeValores" name="DominicanRepublic-BolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Ecuador-GuayaquilStockExchange" name="Ecuador-GuayaquilStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Ecuador-QuitoStockExchange" name="Ecuador-QuitoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Egypt-CairoAlexandriaStockExchange" name="Egypt-CairoAlexandriaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_ElSalvador-StockExchange" name="ElSalvador-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Estonia-TallinnStockExchange" name="Estonia-TallinnStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_ExchangesDimension" name="ExchangesDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Fiji-SouthPacificStockExchange" name="Fiji-SouthPacificStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Finland-HelsinkiStockExchange" name="Finland-HelsinkiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_France-EuronextParis" name="France-EuronextParis" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_FullStockExchangeListHeading" name="FullStockExchangeListHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Georgia-StockExchange" name="Georgia-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-BayerischeBoerse" name="Germany-BayerischeBoerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-BerlinerWertpapierboerse" name="Germany-BerlinerWertpapierboerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-BremerWertpapierboerse" name="Germany-BremerWertpapierboerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-DeutscheBoerse" name="Germany-DeutscheBoerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" name="Germany-DuesseldorfRheinishe-WestfaelischeBoerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" name="Germany-HamburgHanseatischeWertpapierboerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-HannoverNiedersaechsischeBoerse" name="Germany-HannoverNiedersaechsischeBoerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" name="Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Ghana-StockExchange" name="Ghana-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Greece-AthensStockExchange" name="Greece-AthensStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Guatemala-BolsaDeValoresNacional" name="Guatemala-BolsaDeValoresNacional" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Honduras-StockExchange" name="Honduras-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Hungary-BudapestStockExchange" name="Hungary-BudapestStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Iceland-StockExchange" name="Iceland-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-BangaloreStockExchange" name="India-BangaloreStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-CalcuttaStockExchange" name="India-CalcuttaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-DelhiStockExchange" name="India-DelhiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-MadrasStockExchange" name="India-MadrasStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-MumbaiStockExchange" name="India-MumbaiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_India-NationalStockExchange" name="India-NationalStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Indonesia-JakartaStockExchange" name="Indonesia-JakartaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Indonesia-SurabayaStockExchange" name="Indonesia-SurabayaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Iran-TeheranStockExchange" name="Iran-TeheranStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Ireland-IrishStockExchange" name="Ireland-IrishStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Israel-TelAvivStockExchange" name="Israel-TelAvivStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Italy-BorsaItaliana" name="Italy-BorsaItaliana" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" name="IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Jamaica-StockExchange" name="Jamaica-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Japan-FukuokaStockExchange" name="Japan-FukuokaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Japan-JASDAQSecuritiesExchange" name="Japan-JASDAQSecuritiesExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Japan-NagoyaStockExchange" name="Japan-NagoyaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Japan-OsakaSecuritiesExchange" name="Japan-OsakaSecuritiesExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Japan-TokyoStockExchange" name="Japan-TokyoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Jordan-AmmanStockExchange" name="Jordan-AmmanStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Kazakhstan-StockExchange" name="Kazakhstan-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Kenya-NairobiStockExchange" name="Kenya-NairobiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Korea-KOSDAQStockExchange" name="Korea-KOSDAQStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Korea-StockExchange" name="Korea-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Kuwait-StockExchange" name="Kuwait-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Kyrgyzstan-KyrgyzStockExchange" name="Kyrgyzstan-KyrgyzStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Latvia-RigaStockExchange" name="Latvia-RigaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Lebanon-BeirutStockExchange" name="Lebanon-BeirutStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Lithuania-NationalStockExchange" name="Lithuania-NationalStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Luxembourg-StockExchange" name="Luxembourg-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Macedonia-StockExchange" name="Macedonia-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Malawi-StockExchange" name="Malawi-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Malaysia-Bursa" name="Malaysia-Bursa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Malta-StockExchange" name="Malta-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Mauritius-StockExchange" name="Mauritius-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Mexico-MexicanStockExchange" name="Mexico-MexicanStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Moldova-StockExchange" name="Moldova-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Mongolia-StockExchange" name="Mongolia-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Morocco-CasablancaStockExchange" name="Morocco-CasablancaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Mozambique-MaputoStockExchange" name="Mozambique-MaputoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Namibia-StockExchange" name="Namibia-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Nepal-StockExchange" name="Nepal-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Netherlands-EuronextAmsterdam" name="Netherlands-EuronextAmsterdam" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_NewZealand-StockExchange" name="NewZealand-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Nicaragua-BolsaDeValores" name="Nicaragua-BolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Nigeria-StockExchange" name="Nigeria-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Norway-OsloBors" name="Norway-OsloBors" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Oman-MuscatSecuritiesMarket" name="Oman-MuscatSecuritiesMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_OtherMainExchangesHeading" name="OtherMainExchangesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Pakistan-IslamabadStockExchange" name="Pakistan-IslamabadStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Pakistan-KarachiStockExchange" name="Pakistan-KarachiStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Pakistan-LahoreStockExchange" name="Pakistan-LahoreStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Palestine-StockExchange" name="Palestine-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Panama-BolsaDeValores" name="Panama-BolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" name="PapuaNewGuinea-PortMoresbyStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" name="Paraguay-AsuncionBolsaDeValoresYProductos" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Peru-LimaBolsaDeValores" name="Peru-LimaBolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Philippines-StockExchange" name="Philippines-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Poland-WarsawStockExchange" name="Poland-WarsawStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Portugal-Euronext-Lisbon" name="Portugal-Euronext-Lisbon" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Qatar-DohaSecuritiesMarket" name="Qatar-DohaSecuritiesMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Romania-BucharestStockExchange" name="Romania-BucharestStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Romania-RASDAQ" name="Romania-RASDAQ" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Russia-MoscowCentralStockExchange" name="Russia-MoscowCentralStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Russia-RTSStockExchange" name="Russia-RTSStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Russia-SiberianStockExchange" name="Russia-SiberianStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Russia-StPetersburgStockExchange" name="Russia-StPetersburgStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Russia-VladivostokStockExchange" name="Russia-VladivostokStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_SaudiArabia-StockExchange" name="SaudiArabia-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Serbia-BelgradeStockExchange" name="Serbia-BelgradeStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Singapore-SGX" name="Singapore-SGX" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Slovakia-BratislavaStockExchange" name="Slovakia-BratislavaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" name="Slovakia-SlovakStockExchange-SKRM-S" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Slovenia-LjubljanaStockExchange" name="Slovenia-LjubljanaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_SouthAfrica-JSE" name="SouthAfrica-JSE" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Spain-BarcelonaStockExchange" name="Spain-BarcelonaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Spain-MadridBolsa" name="Spain-MadridBolsa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Spain-MercadoContinuo" name="Spain-MercadoContinuo" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Spain-ValenciaBolsa" name="Spain-ValenciaBolsa" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_SriLanka-ColomboStockExchange" name="SriLanka-ColomboStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Sudan-KhartoumStockExchange" name="Sudan-KhartoumStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Swaziland-StockExchange" name="Swaziland-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Sweden-NordicGrowthMarket" name="Sweden-NordicGrowthMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Sweden-OMStockholmExchange" name="Sweden-OMStockholmExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Switzerland-BerneStockExchange" name="Switzerland-BerneStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Switzerland-SwissExchange" name="Switzerland-SwissExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Taiwan-StockExchange" name="Taiwan-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Tanzania-DarEsSalaamStockExchange" name="Tanzania-DarEsSalaamStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Thailand-StockExchange" name="Thailand-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Thailand-StockExchangeForeignBoard" name="Thailand-StockExchangeForeignBoard" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_TrinidadTobago-StockExchange" name="TrinidadTobago-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Tunisia-BourseDesValeursMobilieres" name="Tunisia-BourseDesValeursMobilieres" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Turkey-IstanbulStockExchange" name="Turkey-IstanbulStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UAE-AbuDhabiSecuritiesMarket" name="UAE-AbuDhabiSecuritiesMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UAE-DubaiFinancialMarket" name="UAE-DubaiFinancialMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UAE-DubaiInternationalFinancialExchange" name="UAE-DubaiInternationalFinancialExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UK-AlternateInvestmentMarket" name="UK-AlternateInvestmentMarket" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UK-ChannelIslandsStockExchange" name="UK-ChannelIslandsStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_UK-LondonStockExchange" name="UK-LondonStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-AmericanStockExchange" name="US-AmericanStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-ArizonaStockExchange" name="US-ArizonaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-BostonStockExchange" name="US-BostonStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-ChicagoStockExchange" name="US-ChicagoStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-NASDAQStockExchange" name="US-NASDAQStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-NationalStockExchange" name="US-NationalStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-NewYorkStockExchange" name="US-NewYorkStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-PacificExchange" name="US-PacificExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_US-PhiladelphiaStockExchange" name="US-PhiladelphiaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Uganda-SecuritiesExchange" name="Uganda-SecuritiesExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Ukraine-KievUniversalExchange" name="Ukraine-KievUniversalExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Uruguay-MontevideoBolsaDeValores" name="Uruguay-MontevideoBolsaDeValores" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Uzbekistan-StockExchange" name="Uzbekistan-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Venezuela-CaracasStockExchange" name="Venezuela-CaracasStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_VietNam-StockExchange" name="VietNam-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Zambia-LusakaStockExchange" name="Zambia-LusakaStockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-exch_Zimbabwe-StockExchange" name="Zimbabwe-StockExchange" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+</schema>

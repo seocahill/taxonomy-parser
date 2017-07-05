@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-StockExchanges-Presentation linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef xlink:type="simple" xlink:href="uk-exchanges-2009-09-01.xsd#StockExchanges" roleURI="http://www.xbrl.org/uk/all/role/StockExchanges" />
+  <presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/StockExchanges">
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:label="uk-exch_DimensionMembersRepresentingStockExchangesHeading" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-LondonStockExchange" xlink:label="uk-exch_UK-LondonStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-LondonStockExchange" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-AlternateInvestmentMarket" xlink:label="uk-exch_UK-AlternateInvestmentMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_OtherMainExchangesHeading" xlink:label="uk-exch_OtherMainExchangesHeading" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_OtherMainExchangesHeading" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NewYorkStockExchange" xlink:label="uk-exch_US-NewYorkStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_US-NewYorkStockExchange" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NASDAQStockExchange" xlink:label="uk-exch_US-NASDAQStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_US-NASDAQStockExchange" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-TokyoStockExchange" xlink:label="uk-exch_Japan-TokyoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Japan-TokyoStockExchange" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DeutscheBoerse" xlink:label="uk-exch_Germany-DeutscheBoerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Germany-DeutscheBoerse" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_France-EuronextParis" xlink:label="uk-exch_France-EuronextParis" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_France-EuronextParis" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-OMStockholmExchange" xlink:label="uk-exch_Sweden-OMStockholmExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Sweden-OMStockholmExchange" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Netherlands-EuronextAmsterdam" xlink:label="uk-exch_Netherlands-EuronextAmsterdam" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Netherlands-EuronextAmsterdam" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MercadoContinuo" xlink:label="uk-exch_Spain-MercadoContinuo" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Spain-MercadoContinuo" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Belgium-EuronextBrussels" xlink:label="uk-exch_Belgium-EuronextBrussels" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_Belgium-EuronextBrussels" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-ChannelIslandsStockExchange" xlink:label="uk-exch_UK-ChannelIslandsStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_UK-ChannelIslandsStockExchange" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_FullStockExchangeListHeading" xlink:label="uk-exch_FullStockExchangeListHeading" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_FullStockExchangeListHeading" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Albania-TiranaStockExchange" xlink:label="uk-exch_Albania-TiranaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Albania-TiranaStockExchange" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Algeria-AlgiersStockExchange" xlink:label="uk-exch_Algeria-AlgiersStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Algeria-AlgiersStockExchange" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-BuenosAiresStockExchange" xlink:label="uk-exch_Argentina-BuenosAiresStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Argentina-BuenosAiresStockExchange" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-RosarioBolsaDeComercio" xlink:label="uk-exch_Argentina-RosarioBolsaDeComercio" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Argentina-RosarioBolsaDeComercio" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Armenia-ArmenianStockExchange" xlink:label="uk-exch_Armenia-ArmenianStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Armenia-ArmenianStockExchange" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-ASX" xlink:label="uk-exch_Australia-ASX" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Australia-ASX" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-NewcastleStockExchange" xlink:label="uk-exch_Australia-NewcastleStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Australia-NewcastleStockExchange" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Austria-ViennaStockExchangeWienerBoerse" xlink:label="uk-exch_Austria-ViennaStockExchangeWienerBoerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Austria-ViennaStockExchangeWienerBoerse" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahamas-InternationalSecuritiesExchange" xlink:label="uk-exch_Bahamas-InternationalSecuritiesExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bahamas-InternationalSecuritiesExchange" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahrain-StockExchange" xlink:label="uk-exch_Bahrain-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bahrain-StockExchange" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-ChittagongStockExchange" xlink:label="uk-exch_Bangladesh-ChittagongStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bangladesh-ChittagongStockExchange" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-DhakaStockExchange" xlink:label="uk-exch_Bangladesh-DhakaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bangladesh-DhakaStockExchange" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Barbados-StockExchange" xlink:label="uk-exch_Barbados-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Barbados-StockExchange" order="13" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Belgium-EuronextBrussels" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bermuda-StockExchange" xlink:label="uk-exch_Bermuda-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bermuda-StockExchange" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bosnia-BanjaLukaStockExchange" xlink:label="uk-exch_Bosnia-BanjaLukaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bosnia-BanjaLukaStockExchange" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Botswana-StockExchange" xlink:label="uk-exch_Botswana-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Botswana-StockExchange" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-ParanaBolsaDeValores" xlink:label="uk-exch_Brazil-ParanaBolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Brazil-ParanaBolsaDeValores" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-RioDeJaneiroBolsaDeValores" xlink:label="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" order="19" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-SaoPauloBolsaDeValores" xlink:label="uk-exch_Brazil-SaoPauloBolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Brazil-SaoPauloBolsaDeValores" order="20" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bulgaria-StockExchange" xlink:label="uk-exch_Bulgaria-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Bulgaria-StockExchange" order="21" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-MontrealExchange" xlink:label="uk-exch_Canada-MontrealExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Canada-MontrealExchange" order="22" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" xlink:label="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" order="23" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TorontoStockExchange" xlink:label="uk-exch_Canada-TorontoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Canada-TorontoStockExchange" order="24" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange" xlink:label="uk-exch_Canada-TSXVentureExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Canada-TSXVentureExchange" order="25" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange-NEX" xlink:label="uk-exch_Canada-TSXVentureExchange-NEX" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Canada-TSXVentureExchange-NEX" order="26" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CaymanIslands-StockExchange" xlink:label="uk-exch_CaymanIslands-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_CaymanIslands-StockExchange" order="27" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-LaBolsaElectronica" xlink:label="uk-exch_Chile-LaBolsaElectronica" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Chile-LaBolsaElectronica" order="28" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-SantiagoStockExchange" xlink:label="uk-exch_Chile-SantiagoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Chile-SantiagoStockExchange" order="29" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-HongKongStockExchange" xlink:label="uk-exch_China-HongKongStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_China-HongKongStockExchange" order="30" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShanghaiStockExchange" xlink:label="uk-exch_China-ShanghaiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_China-ShanghaiStockExchange" order="31" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShenzhenStockExchange" xlink:label="uk-exch_China-ShenzhenStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_China-ShenzhenStockExchange" order="32" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Colombia-BolsaDeValores" xlink:label="uk-exch_Colombia-BolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Colombia-BolsaDeValores" order="33" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CostaRica-BolsaNacionalDeValores" xlink:label="uk-exch_CostaRica-BolsaNacionalDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_CostaRica-BolsaNacionalDeValores" order="34" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Croatia-ZagrebStockExchange" xlink:label="uk-exch_Croatia-ZagrebStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Croatia-ZagrebStockExchange" order="35" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Cyprus-StockExchange" xlink:label="uk-exch_Cyprus-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Cyprus-StockExchange" order="36" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CzechRepublic-PragueStockExchange" xlink:label="uk-exch_CzechRepublic-PragueStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_CzechRepublic-PragueStockExchange" order="37" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Denmark-CopenhagenStockExchange" xlink:label="uk-exch_Denmark-CopenhagenStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Denmark-CopenhagenStockExchange" order="38" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_DominicanRepublic-BolsaDeValores" xlink:label="uk-exch_DominicanRepublic-BolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_DominicanRepublic-BolsaDeValores" order="39" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-GuayaquilStockExchange" xlink:label="uk-exch_Ecuador-GuayaquilStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Ecuador-GuayaquilStockExchange" order="40" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-QuitoStockExchange" xlink:label="uk-exch_Ecuador-QuitoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Ecuador-QuitoStockExchange" order="41" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Egypt-CairoAlexandriaStockExchange" xlink:label="uk-exch_Egypt-CairoAlexandriaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Egypt-CairoAlexandriaStockExchange" order="42" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_ElSalvador-StockExchange" xlink:label="uk-exch_ElSalvador-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_ElSalvador-StockExchange" order="43" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Estonia-TallinnStockExchange" xlink:label="uk-exch_Estonia-TallinnStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Estonia-TallinnStockExchange" order="44" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Fiji-SouthPacificStockExchange" xlink:label="uk-exch_Fiji-SouthPacificStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Fiji-SouthPacificStockExchange" order="45" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Finland-HelsinkiStockExchange" xlink:label="uk-exch_Finland-HelsinkiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Finland-HelsinkiStockExchange" order="46" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_France-EuronextParis" order="47" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Georgia-StockExchange" xlink:label="uk-exch_Georgia-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Georgia-StockExchange" order="48" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BayerischeBoerse" xlink:label="uk-exch_Germany-BayerischeBoerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-BayerischeBoerse" order="49" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BerlinerWertpapierboerse" xlink:label="uk-exch_Germany-BerlinerWertpapierboerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-BerlinerWertpapierboerse" order="50" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BremerWertpapierboerse" xlink:label="uk-exch_Germany-BremerWertpapierboerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-BremerWertpapierboerse" order="51" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-DeutscheBoerse" order="52" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" xlink:label="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" order="53" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HamburgHanseatischeWertpapierboerse" xlink:label="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" order="54" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HannoverNiedersaechsischeBoerse" xlink:label="uk-exch_Germany-HannoverNiedersaechsischeBoerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-HannoverNiedersaechsischeBoerse" order="55" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" xlink:label="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" order="56" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ghana-StockExchange" xlink:label="uk-exch_Ghana-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Ghana-StockExchange" order="57" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Greece-AthensStockExchange" xlink:label="uk-exch_Greece-AthensStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Greece-AthensStockExchange" order="58" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Guatemala-BolsaDeValoresNacional" xlink:label="uk-exch_Guatemala-BolsaDeValoresNacional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Guatemala-BolsaDeValoresNacional" order="59" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Honduras-StockExchange" xlink:label="uk-exch_Honduras-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Honduras-StockExchange" order="60" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Hungary-BudapestStockExchange" xlink:label="uk-exch_Hungary-BudapestStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Hungary-BudapestStockExchange" order="61" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iceland-StockExchange" xlink:label="uk-exch_Iceland-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Iceland-StockExchange" order="62" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-BangaloreStockExchange" xlink:label="uk-exch_India-BangaloreStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-BangaloreStockExchange" order="63" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-CalcuttaStockExchange" xlink:label="uk-exch_India-CalcuttaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-CalcuttaStockExchange" order="64" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-DelhiStockExchange" xlink:label="uk-exch_India-DelhiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-DelhiStockExchange" order="65" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MadrasStockExchange" xlink:label="uk-exch_India-MadrasStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-MadrasStockExchange" order="66" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MumbaiStockExchange" xlink:label="uk-exch_India-MumbaiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-MumbaiStockExchange" order="67" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-NationalStockExchange" xlink:label="uk-exch_India-NationalStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_India-NationalStockExchange" order="68" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-JakartaStockExchange" xlink:label="uk-exch_Indonesia-JakartaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Indonesia-JakartaStockExchange" order="69" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-SurabayaStockExchange" xlink:label="uk-exch_Indonesia-SurabayaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Indonesia-SurabayaStockExchange" order="70" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iran-TeheranStockExchange" xlink:label="uk-exch_Iran-TeheranStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Iran-TeheranStockExchange" order="71" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ireland-IrishStockExchange" xlink:label="uk-exch_Ireland-IrishStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Ireland-IrishStockExchange" order="72" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Israel-TelAvivStockExchange" xlink:label="uk-exch_Israel-TelAvivStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Israel-TelAvivStockExchange" order="73" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Italy-BorsaItaliana" xlink:label="uk-exch_Italy-BorsaItaliana" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Italy-BorsaItaliana" order="74" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" xlink:label="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" order="75" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jamaica-StockExchange" xlink:label="uk-exch_Jamaica-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Jamaica-StockExchange" order="76" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-FukuokaStockExchange" xlink:label="uk-exch_Japan-FukuokaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Japan-FukuokaStockExchange" order="77" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-JASDAQSecuritiesExchange" xlink:label="uk-exch_Japan-JASDAQSecuritiesExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Japan-JASDAQSecuritiesExchange" order="78" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-NagoyaStockExchange" xlink:label="uk-exch_Japan-NagoyaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Japan-NagoyaStockExchange" order="79" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-OsakaSecuritiesExchange" xlink:label="uk-exch_Japan-OsakaSecuritiesExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Japan-OsakaSecuritiesExchange" order="80" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Japan-TokyoStockExchange" order="81" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jordan-AmmanStockExchange" xlink:label="uk-exch_Jordan-AmmanStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Jordan-AmmanStockExchange" order="82" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kazakhstan-StockExchange" xlink:label="uk-exch_Kazakhstan-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Kazakhstan-StockExchange" order="83" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kenya-NairobiStockExchange" xlink:label="uk-exch_Kenya-NairobiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Kenya-NairobiStockExchange" order="84" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-KOSDAQStockExchange" xlink:label="uk-exch_Korea-KOSDAQStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Korea-KOSDAQStockExchange" order="85" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-StockExchange" xlink:label="uk-exch_Korea-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Korea-StockExchange" order="86" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kuwait-StockExchange" xlink:label="uk-exch_Kuwait-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Kuwait-StockExchange" order="87" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kyrgyzstan-KyrgyzStockExchange" xlink:label="uk-exch_Kyrgyzstan-KyrgyzStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Kyrgyzstan-KyrgyzStockExchange" order="88" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Latvia-RigaStockExchange" xlink:label="uk-exch_Latvia-RigaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Latvia-RigaStockExchange" order="89" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lebanon-BeirutStockExchange" xlink:label="uk-exch_Lebanon-BeirutStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Lebanon-BeirutStockExchange" order="90" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lithuania-NationalStockExchange" xlink:label="uk-exch_Lithuania-NationalStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Lithuania-NationalStockExchange" order="91" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Luxembourg-StockExchange" xlink:label="uk-exch_Luxembourg-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Luxembourg-StockExchange" order="92" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Macedonia-StockExchange" xlink:label="uk-exch_Macedonia-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Macedonia-StockExchange" order="93" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malawi-StockExchange" xlink:label="uk-exch_Malawi-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Malawi-StockExchange" order="94" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malaysia-Bursa" xlink:label="uk-exch_Malaysia-Bursa" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Malaysia-Bursa" order="95" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malta-StockExchange" xlink:label="uk-exch_Malta-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Malta-StockExchange" order="96" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mauritius-StockExchange" xlink:label="uk-exch_Mauritius-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Mauritius-StockExchange" order="97" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mexico-MexicanStockExchange" xlink:label="uk-exch_Mexico-MexicanStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Mexico-MexicanStockExchange" order="98" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Moldova-StockExchange" xlink:label="uk-exch_Moldova-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Moldova-StockExchange" order="99" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mongolia-StockExchange" xlink:label="uk-exch_Mongolia-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Mongolia-StockExchange" order="100" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Morocco-CasablancaStockExchange" xlink:label="uk-exch_Morocco-CasablancaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Morocco-CasablancaStockExchange" order="101" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mozambique-MaputoStockExchange" xlink:label="uk-exch_Mozambique-MaputoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Mozambique-MaputoStockExchange" order="102" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Namibia-StockExchange" xlink:label="uk-exch_Namibia-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Namibia-StockExchange" order="103" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nepal-StockExchange" xlink:label="uk-exch_Nepal-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Nepal-StockExchange" order="104" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Netherlands-EuronextAmsterdam" order="105" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_NewZealand-StockExchange" xlink:label="uk-exch_NewZealand-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_NewZealand-StockExchange" order="106" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nicaragua-BolsaDeValores" xlink:label="uk-exch_Nicaragua-BolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Nicaragua-BolsaDeValores" order="107" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nigeria-StockExchange" xlink:label="uk-exch_Nigeria-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Nigeria-StockExchange" order="108" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Norway-OsloBors" xlink:label="uk-exch_Norway-OsloBors" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Norway-OsloBors" order="109" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Oman-MuscatSecuritiesMarket" xlink:label="uk-exch_Oman-MuscatSecuritiesMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Oman-MuscatSecuritiesMarket" order="110" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-IslamabadStockExchange" xlink:label="uk-exch_Pakistan-IslamabadStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Pakistan-IslamabadStockExchange" order="111" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-KarachiStockExchange" xlink:label="uk-exch_Pakistan-KarachiStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Pakistan-KarachiStockExchange" order="112" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-LahoreStockExchange" xlink:label="uk-exch_Pakistan-LahoreStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Pakistan-LahoreStockExchange" order="113" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Palestine-StockExchange" xlink:label="uk-exch_Palestine-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Palestine-StockExchange" order="114" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Panama-BolsaDeValores" xlink:label="uk-exch_Panama-BolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Panama-BolsaDeValores" order="115" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" xlink:label="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" order="116" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" xlink:label="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" order="117" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Peru-LimaBolsaDeValores" xlink:label="uk-exch_Peru-LimaBolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Peru-LimaBolsaDeValores" order="118" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Philippines-StockExchange" xlink:label="uk-exch_Philippines-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Philippines-StockExchange" order="119" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Poland-WarsawStockExchange" xlink:label="uk-exch_Poland-WarsawStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Poland-WarsawStockExchange" order="120" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Portugal-Euronext-Lisbon" xlink:label="uk-exch_Portugal-Euronext-Lisbon" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Portugal-Euronext-Lisbon" order="121" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Qatar-DohaSecuritiesMarket" xlink:label="uk-exch_Qatar-DohaSecuritiesMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Qatar-DohaSecuritiesMarket" order="122" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-BucharestStockExchange" xlink:label="uk-exch_Romania-BucharestStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Romania-BucharestStockExchange" order="123" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-RASDAQ" xlink:label="uk-exch_Romania-RASDAQ" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Romania-RASDAQ" order="124" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-MoscowCentralStockExchange" xlink:label="uk-exch_Russia-MoscowCentralStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Russia-MoscowCentralStockExchange" order="125" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-RTSStockExchange" xlink:label="uk-exch_Russia-RTSStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Russia-RTSStockExchange" order="126" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-SiberianStockExchange" xlink:label="uk-exch_Russia-SiberianStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Russia-SiberianStockExchange" order="127" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-StPetersburgStockExchange" xlink:label="uk-exch_Russia-StPetersburgStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Russia-StPetersburgStockExchange" order="128" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-VladivostokStockExchange" xlink:label="uk-exch_Russia-VladivostokStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Russia-VladivostokStockExchange" order="129" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SaudiArabia-StockExchange" xlink:label="uk-exch_SaudiArabia-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_SaudiArabia-StockExchange" order="130" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Serbia-BelgradeStockExchange" xlink:label="uk-exch_Serbia-BelgradeStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Serbia-BelgradeStockExchange" order="131" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Singapore-SGX" xlink:label="uk-exch_Singapore-SGX" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Singapore-SGX" order="132" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-BratislavaStockExchange" xlink:label="uk-exch_Slovakia-BratislavaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Slovakia-BratislavaStockExchange" order="133" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-SlovakStockExchange-SKRM-S" xlink:label="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" order="134" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovenia-LjubljanaStockExchange" xlink:label="uk-exch_Slovenia-LjubljanaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Slovenia-LjubljanaStockExchange" order="135" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SouthAfrica-JSE" xlink:label="uk-exch_SouthAfrica-JSE" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_SouthAfrica-JSE" order="136" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-BarcelonaStockExchange" xlink:label="uk-exch_Spain-BarcelonaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Spain-BarcelonaStockExchange" order="137" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MadridBolsa" xlink:label="uk-exch_Spain-MadridBolsa" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Spain-MadridBolsa" order="138" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Spain-MercadoContinuo" order="139" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-ValenciaBolsa" xlink:label="uk-exch_Spain-ValenciaBolsa" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Spain-ValenciaBolsa" order="140" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SriLanka-ColomboStockExchange" xlink:label="uk-exch_SriLanka-ColomboStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_SriLanka-ColomboStockExchange" order="141" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sudan-KhartoumStockExchange" xlink:label="uk-exch_Sudan-KhartoumStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Sudan-KhartoumStockExchange" order="142" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Swaziland-StockExchange" xlink:label="uk-exch_Swaziland-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Swaziland-StockExchange" order="143" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-NordicGrowthMarket" xlink:label="uk-exch_Sweden-NordicGrowthMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Sweden-NordicGrowthMarket" order="144" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Sweden-OMStockholmExchange" order="145" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-BerneStockExchange" xlink:label="uk-exch_Switzerland-BerneStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Switzerland-BerneStockExchange" order="146" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-SwissExchange" xlink:label="uk-exch_Switzerland-SwissExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Switzerland-SwissExchange" order="147" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Taiwan-StockExchange" xlink:label="uk-exch_Taiwan-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Taiwan-StockExchange" order="148" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tanzania-DarEsSalaamStockExchange" xlink:label="uk-exch_Tanzania-DarEsSalaamStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Tanzania-DarEsSalaamStockExchange" order="149" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchange" xlink:label="uk-exch_Thailand-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Thailand-StockExchange" order="150" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchangeForeignBoard" xlink:label="uk-exch_Thailand-StockExchangeForeignBoard" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Thailand-StockExchangeForeignBoard" order="151" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_TrinidadTobago-StockExchange" xlink:label="uk-exch_TrinidadTobago-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_TrinidadTobago-StockExchange" order="152" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tunisia-BourseDesValeursMobilieres" xlink:label="uk-exch_Tunisia-BourseDesValeursMobilieres" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Tunisia-BourseDesValeursMobilieres" order="153" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Turkey-IstanbulStockExchange" xlink:label="uk-exch_Turkey-IstanbulStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Turkey-IstanbulStockExchange" order="154" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-AbuDhabiSecuritiesMarket" xlink:label="uk-exch_UAE-AbuDhabiSecuritiesMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UAE-AbuDhabiSecuritiesMarket" order="155" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiFinancialMarket" xlink:label="uk-exch_UAE-DubaiFinancialMarket" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UAE-DubaiFinancialMarket" order="156" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiInternationalFinancialExchange" xlink:label="uk-exch_UAE-DubaiInternationalFinancialExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UAE-DubaiInternationalFinancialExchange" order="157" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uganda-SecuritiesExchange" xlink:label="uk-exch_Uganda-SecuritiesExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Uganda-SecuritiesExchange" order="158" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" order="159" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UK-ChannelIslandsStockExchange" order="160" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_UK-LondonStockExchange" order="161" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ukraine-KievUniversalExchange" xlink:label="uk-exch_Ukraine-KievUniversalExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Ukraine-KievUniversalExchange" order="162" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uruguay-MontevideoBolsaDeValores" xlink:label="uk-exch_Uruguay-MontevideoBolsaDeValores" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Uruguay-MontevideoBolsaDeValores" order="163" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-AmericanStockExchange" xlink:label="uk-exch_US-AmericanStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-AmericanStockExchange" order="164" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ArizonaStockExchange" xlink:label="uk-exch_US-ArizonaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-ArizonaStockExchange" order="165" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-BostonStockExchange" xlink:label="uk-exch_US-BostonStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-BostonStockExchange" order="166" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ChicagoStockExchange" xlink:label="uk-exch_US-ChicagoStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-ChicagoStockExchange" order="167" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-NASDAQStockExchange" order="168" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NationalStockExchange" xlink:label="uk-exch_US-NationalStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-NationalStockExchange" order="169" use="optional" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-NewYorkStockExchange" order="170" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PacificExchange" xlink:label="uk-exch_US-PacificExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-PacificExchange" order="171" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PhiladelphiaStockExchange" xlink:label="uk-exch_US-PhiladelphiaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_US-PhiladelphiaStockExchange" order="172" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uzbekistan-StockExchange" xlink:label="uk-exch_Uzbekistan-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Uzbekistan-StockExchange" order="173" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Venezuela-CaracasStockExchange" xlink:label="uk-exch_Venezuela-CaracasStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Venezuela-CaracasStockExchange" order="174" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_VietNam-StockExchange" xlink:label="uk-exch_VietNam-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_VietNam-StockExchange" order="175" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zambia-LusakaStockExchange" xlink:label="uk-exch_Zambia-LusakaStockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Zambia-LusakaStockExchange" order="176" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zimbabwe-StockExchange" xlink:label="uk-exch_Zimbabwe-StockExchange" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_FullStockExchangeListHeading" xlink:to="uk-exch_Zimbabwe-StockExchange" order="177" use="optional" />
+  </presentationLink>
+</linkbase>

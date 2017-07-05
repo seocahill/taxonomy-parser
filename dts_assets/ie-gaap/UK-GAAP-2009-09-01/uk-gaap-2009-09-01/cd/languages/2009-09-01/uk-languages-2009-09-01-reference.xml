@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Languages-Reference linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/cd/languages/2009-09-01 uk-languages-2009-09-01.xsd http://www.xbrl.org/uk/all/ref/2009-09-01 ../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Abkhazian" xlink:label="uk-lang_Abkhazian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Abkhazian" xlink:to="uk-lang_Abkhazian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Abkhazian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>abk</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ab</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Afrikaans" xlink:label="uk-lang_Afrikaans" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Afrikaans" xlink:to="uk-lang_Afrikaans_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Afrikaans_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>afr</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>af</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Albanian" xlink:label="uk-lang_Albanian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Albanian" xlink:to="uk-lang_Albanian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Albanian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>alb/sqi</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sq</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_AllLanguages" xlink:label="uk-lang_AllLanguages" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_AllLanguages" xlink:to="uk-lang_AllLanguages_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_AllLanguages_ref">
+      <uk-cd-ref:Description>Common practice</uk-cd-ref:Description>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Amharic" xlink:label="uk-lang_Amharic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Amharic" xlink:to="uk-lang_Amharic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Amharic_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>amh</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>am</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Arabic" xlink:label="uk-lang_Arabic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Arabic" xlink:to="uk-lang_Arabic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Arabic_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ara</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ar</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Armenian" xlink:label="uk-lang_Armenian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Armenian" xlink:to="uk-lang_Armenian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Armenian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>arm/hye</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>hy</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Assamese" xlink:label="uk-lang_Assamese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Assamese" xlink:to="uk-lang_Assamese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Assamese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>asm</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>as</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Azerbaijani" xlink:label="uk-lang_Azerbaijani" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Azerbaijani" xlink:to="uk-lang_Azerbaijani_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Azerbaijani_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>aze</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>az</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Basque" xlink:label="uk-lang_Basque" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Basque" xlink:to="uk-lang_Basque_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Basque_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>baq/eus</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>eu</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bengali" xlink:label="uk-lang_Bengali" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Bengali" xlink:to="uk-lang_Bengali_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Bengali_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ben</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>bn</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bihari" xlink:label="uk-lang_Bihari" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Bihari" xlink:to="uk-lang_Bihari_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Bihari_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>bih</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>bh</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Bulgarian" xlink:label="uk-lang_Bulgarian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Bulgarian" xlink:to="uk-lang_Bulgarian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Bulgarian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>bul</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>bg</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Burmese" xlink:label="uk-lang_Burmese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Burmese" xlink:to="uk-lang_Burmese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Burmese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>bur/mya</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>my</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Byelorussian" xlink:label="uk-lang_Byelorussian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Byelorussian" xlink:to="uk-lang_Byelorussian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Byelorussian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>bel</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>be</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Catalan" xlink:label="uk-lang_Catalan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Catalan" xlink:to="uk-lang_Catalan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Catalan_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>cat</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ca</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Chinese" xlink:label="uk-lang_Chinese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Chinese" xlink:to="uk-lang_Chinese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Chinese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>chi/zho</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>zh</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Croatian" xlink:label="uk-lang_Croatian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Croatian" xlink:to="uk-lang_Croatian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Croatian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:AlternativeCode>hr</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Czech" xlink:label="uk-lang_Czech" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Czech" xlink:to="uk-lang_Czech_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Czech_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ces/cze</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>cs</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Danish" xlink:label="uk-lang_Danish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Danish" xlink:to="uk-lang_Danish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Danish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>dan</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>da</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Dutch" xlink:label="uk-lang_Dutch" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Dutch" xlink:to="uk-lang_Dutch_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Dutch_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>dut/nla</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>nl</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_English" xlink:label="uk-lang_English" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_English" xlink:to="uk-lang_English_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_English_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>eng</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>en</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Esperanto" xlink:label="uk-lang_Esperanto" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Esperanto" xlink:to="uk-lang_Esperanto_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Esperanto_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>epo</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>eo</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Estonian" xlink:label="uk-lang_Estonian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Estonian" xlink:to="uk-lang_Estonian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Estonian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>est</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>et</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Faroese" xlink:label="uk-lang_Faroese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Faroese" xlink:to="uk-lang_Faroese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Faroese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fao</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fo</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Fijian" xlink:label="uk-lang_Fijian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Fijian" xlink:to="uk-lang_Fijian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Fijian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fij</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fj</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Finnish" xlink:label="uk-lang_Finnish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Finnish" xlink:to="uk-lang_Finnish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Finnish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fin</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fi</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_French" xlink:label="uk-lang_French" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_French" xlink:to="uk-lang_French_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_French_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fra/fre</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fr</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Frisian" xlink:label="uk-lang_Frisian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Frisian" xlink:to="uk-lang_Frisian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Frisian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fry</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fy</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Georgian" xlink:label="uk-lang_Georgian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Georgian" xlink:to="uk-lang_Georgian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Georgian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>geo/kat</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ka</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_German" xlink:label="uk-lang_German" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_German" xlink:to="uk-lang_German_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_German_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>deu/ger</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>de</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_GreekModern" xlink:label="uk-lang_GreekModern" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_GreekModern" xlink:to="uk-lang_GreekModern_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_GreekModern_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ell/gre</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>el</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Greenlandic" xlink:label="uk-lang_Greenlandic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Greenlandic" xlink:to="uk-lang_Greenlandic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Greenlandic_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kal</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>kl</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Gujarati" xlink:label="uk-lang_Gujarati" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Gujarati" xlink:to="uk-lang_Gujarati_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Gujarati_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>guj</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>gu</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Hebrew" xlink:label="uk-lang_Hebrew" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Hebrew" xlink:to="uk-lang_Hebrew_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Hebrew_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>heb</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>he</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Hindi" xlink:label="uk-lang_Hindi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Hindi" xlink:to="uk-lang_Hindi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Hindi_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>hin</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>hi</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Icelandic" xlink:label="uk-lang_Icelandic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Icelandic" xlink:to="uk-lang_Icelandic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Icelandic_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ice/isl</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>is</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Indonesian" xlink:label="uk-lang_Indonesian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Indonesian" xlink:to="uk-lang_Indonesian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Indonesian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ind</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>id</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Iranian" xlink:label="uk-lang_Iranian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Iranian" xlink:to="uk-lang_Iranian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Iranian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ira</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Irish" xlink:label="uk-lang_Irish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Irish" xlink:to="uk-lang_Irish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Irish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>gai/iri</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ga</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Italian" xlink:label="uk-lang_Italian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Italian" xlink:to="uk-lang_Italian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Italian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ita</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>it</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Japanese" xlink:label="uk-lang_Japanese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Japanese" xlink:to="uk-lang_Japanese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Japanese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>jpn</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ja</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Javanese" xlink:label="uk-lang_Javanese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Javanese" xlink:to="uk-lang_Javanese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Javanese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>jav/jaw</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>jv/jw</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kashmiri" xlink:label="uk-lang_Kashmiri" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Kashmiri" xlink:to="uk-lang_Kashmiri_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Kashmiri_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kas</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ks</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kazakh" xlink:label="uk-lang_Kazakh" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Kazakh" xlink:to="uk-lang_Kazakh_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Kazakh_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kaz</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>kk</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Khmer" xlink:label="uk-lang_Khmer" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Khmer" xlink:to="uk-lang_Khmer_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Khmer_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>khm</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>km</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kirghiz" xlink:label="uk-lang_Kirghiz" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Kirghiz" xlink:to="uk-lang_Kirghiz_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Kirghiz_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kir</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ky</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Korean" xlink:label="uk-lang_Korean" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Korean" xlink:to="uk-lang_Korean_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Korean_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kor</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ko</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Kurdish" xlink:label="uk-lang_Kurdish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Kurdish" xlink:to="uk-lang_Kurdish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Kurdish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>kur</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ku</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Lao" xlink:label="uk-lang_Lao" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Lao" xlink:to="uk-lang_Lao_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Lao_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>lao</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>lo</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Latin" xlink:label="uk-lang_Latin" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Latin" xlink:to="uk-lang_Latin_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Latin_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>lat</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>la</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Latvian" xlink:label="uk-lang_Latvian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Latvian" xlink:to="uk-lang_Latvian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Latvian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>lav</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>lv</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Letzeburgesch" xlink:label="uk-lang_Letzeburgesch" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Letzeburgesch" xlink:to="uk-lang_Letzeburgesch_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Letzeburgesch_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ltz</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Lithuanian" xlink:label="uk-lang_Lithuanian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Lithuanian" xlink:to="uk-lang_Lithuanian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Lithuanian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>lit</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>lt</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Macedonian" xlink:label="uk-lang_Macedonian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Macedonian" xlink:to="uk-lang_Macedonian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Macedonian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mac/mak</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mk</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Malagasy" xlink:label="uk-lang_Malagasy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Malagasy" xlink:to="uk-lang_Malagasy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Malagasy_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mlg</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mg</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Malay" xlink:label="uk-lang_Malay" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Malay" xlink:to="uk-lang_Malay_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Malay_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>may/msa</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ms</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Maltese" xlink:label="uk-lang_Maltese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Maltese" xlink:to="uk-lang_Maltese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Maltese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mlt</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ml</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Maori" xlink:label="uk-lang_Maori" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Maori" xlink:to="uk-lang_Maori_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Maori_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mao/mri</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mi</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Marathi" xlink:label="uk-lang_Marathi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Marathi" xlink:to="uk-lang_Marathi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Marathi_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mar</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mr</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Moldavian" xlink:label="uk-lang_Moldavian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Moldavian" xlink:to="uk-lang_Moldavian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Moldavian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mol</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mo</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Mongolian" xlink:label="uk-lang_Mongolian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Mongolian" xlink:to="uk-lang_Mongolian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Mongolian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>mon</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>mn</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_NauruLanguage" xlink:label="uk-lang_NauruLanguage" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_NauruLanguage" xlink:to="uk-lang_NauruLanguage_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_NauruLanguage_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>nau</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>na</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Nepali" xlink:label="uk-lang_Nepali" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Nepali" xlink:to="uk-lang_Nepali_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Nepali_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>nep</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ne</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Norwegian" xlink:label="uk-lang_Norwegian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Norwegian" xlink:to="uk-lang_Norwegian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Norwegian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>nor</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>no</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Ossetic" xlink:label="uk-lang_Ossetic" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Ossetic" xlink:to="uk-lang_Ossetic_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Ossetic_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>oss</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Panjabi" xlink:label="uk-lang_Panjabi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Panjabi" xlink:to="uk-lang_Panjabi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Panjabi_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>pan</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>pa</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Persian" xlink:label="uk-lang_Persian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Persian" xlink:to="uk-lang_Persian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Persian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>fas/per</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>fa</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Polish" xlink:label="uk-lang_Polish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Polish" xlink:to="uk-lang_Polish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Polish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>pol</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>pl</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Portuguese" xlink:label="uk-lang_Portuguese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Portuguese" xlink:to="uk-lang_Portuguese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Portuguese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>por</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>pt</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Pushto" xlink:label="uk-lang_Pushto" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Pushto" xlink:to="uk-lang_Pushto_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Pushto_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>pus</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ps</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Quechua" xlink:label="uk-lang_Quechua" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Quechua" xlink:to="uk-lang_Quechua_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Quechua_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>que</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>qu</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Rajasthani" xlink:label="uk-lang_Rajasthani" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Rajasthani" xlink:to="uk-lang_Rajasthani_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Rajasthani_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>raj</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Romanian" xlink:label="uk-lang_Romanian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Romanian" xlink:to="uk-lang_Romanian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Romanian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ron/rum</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ro</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Russian" xlink:label="uk-lang_Russian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Russian" xlink:to="uk-lang_Russian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Russian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>rus</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ru</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Samoan" xlink:label="uk-lang_Samoan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Samoan" xlink:to="uk-lang_Samoan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Samoan_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>smo</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sm</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Serbian" xlink:label="uk-lang_Serbian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Serbian" xlink:to="uk-lang_Serbian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Serbian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:AlternativeCode>sr</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Serbo-Croatian" xlink:label="uk-lang_Serbo-Croatian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Serbo-Croatian" xlink:to="uk-lang_Serbo-Croatian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Serbo-Croatian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>scr</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sh</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Singhalese" xlink:label="uk-lang_Singhalese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Singhalese" xlink:to="uk-lang_Singhalese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Singhalese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>sin</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>si</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Slovak" xlink:label="uk-lang_Slovak" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Slovak" xlink:to="uk-lang_Slovak_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Slovak_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>slk/slo</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sk</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Slovenian" xlink:label="uk-lang_Slovenian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Slovenian" xlink:to="uk-lang_Slovenian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Slovenian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>slv</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sl</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Somali" xlink:label="uk-lang_Somali" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Somali" xlink:to="uk-lang_Somali_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Somali_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>som</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>so</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Spanish" xlink:label="uk-lang_Spanish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Spanish" xlink:to="uk-lang_Spanish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Spanish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>esl/spa</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>es</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Sudanese" xlink:label="uk-lang_Sudanese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Sudanese" xlink:to="uk-lang_Sudanese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Sudanese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>sun</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>su</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swahili" xlink:label="uk-lang_Swahili" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Swahili" xlink:to="uk-lang_Swahili_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Swahili_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>swa</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sw</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swazi" xlink:label="uk-lang_Swazi" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Swazi" xlink:to="uk-lang_Swazi_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Swazi_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ssw</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Swedish" xlink:label="uk-lang_Swedish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Swedish" xlink:to="uk-lang_Swedish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Swedish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>sve/swe</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>sv</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Syriac" xlink:label="uk-lang_Syriac" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Syriac" xlink:to="uk-lang_Syriac_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Syriac_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>syr</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tagalog" xlink:label="uk-lang_Tagalog" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Tagalog" xlink:to="uk-lang_Tagalog_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Tagalog_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tgl</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>tl</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tahitian" xlink:label="uk-lang_Tahitian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Tahitian" xlink:to="uk-lang_Tahitian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Tahitian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tah</uk-cd-ref:Code>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tajik" xlink:label="uk-lang_Tajik" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Tajik" xlink:to="uk-lang_Tajik_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Tajik_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tgk</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>tg</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tamil" xlink:label="uk-lang_Tamil" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Tamil" xlink:to="uk-lang_Tamil_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Tamil_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tam</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ta</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Thai" xlink:label="uk-lang_Thai" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Thai" xlink:to="uk-lang_Thai_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Thai_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tha</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>th</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Tibetan" xlink:label="uk-lang_Tibetan" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Tibetan" xlink:to="uk-lang_Tibetan_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Tibetan_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>bod/tib</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>bo</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Turkish" xlink:label="uk-lang_Turkish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Turkish" xlink:to="uk-lang_Turkish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Turkish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tur</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>tr</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Turkmen" xlink:label="uk-lang_Turkmen" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Turkmen" xlink:to="uk-lang_Turkmen_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Turkmen_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>tuk</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>tk</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Ukrainian" xlink:label="uk-lang_Ukrainian" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Ukrainian" xlink:to="uk-lang_Ukrainian_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Ukrainian_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>ukr</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>uk</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Urdu" xlink:label="uk-lang_Urdu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Urdu" xlink:to="uk-lang_Urdu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Urdu_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>urd</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>ur</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Uzbek" xlink:label="uk-lang_Uzbek" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Uzbek" xlink:to="uk-lang_Uzbek_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Uzbek_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>uzb</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>uz</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Vietnamese" xlink:label="uk-lang_Vietnamese" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Vietnamese" xlink:to="uk-lang_Vietnamese_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Vietnamese_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>vie</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>vi</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Welsh" xlink:label="uk-lang_Welsh" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Welsh" xlink:to="uk-lang_Welsh_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Welsh_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>cym/wel</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>cy</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Yiddish" xlink:label="uk-lang_Yiddish" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Yiddish" xlink:to="uk-lang_Yiddish_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Yiddish_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>yid</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>yi</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-languages-2009-09-01.xsd#uk-lang_Zulu" xlink:label="uk-lang_Zulu" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-lang_Zulu" xlink:to="uk-lang_Zulu_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-lang_Zulu_ref">
+      <uk-cd-ref:ISOName>ISO 639</uk-cd-ref:ISOName>
+      <uk-cd-ref:Code>zul</uk-cd-ref:Code>
+      <uk-cd-ref:AlternativeCode>zu</uk-cd-ref:AlternativeCode>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+  </referenceLink>
+</linkbase>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IE-GAAP - full entry point schema for Irish extension to UK GAAP taxonomy and associated files
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema targetNamespace="http://www.xbrl-ie.net/gaap/core-full/2012-12-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ie-gaap-full="http://www.xbrl-ie.net/gaap/core-full/2012-12-01" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <import namespace="http://www.xbrl.org/uk/gaap/core-full/2009-09-01" schemaLocation="http://www.xbrl.org/uk/gaap/core/2009-09-01/uk-gaap-full-2009-09-01.xsd"/>
+  <import namespace="http://www.xbrl-ie.net/gaap/core/2012-12-01" schemaLocation="ie-gaap-2012-12-01.xsd"/>
+  <import namespace="http://www.xbrl-ie.net/common/core-full/2012-12-01" schemaLocation="../../../common/core/2012-12-01/ie-common-full-2012-12-01.xsd"/>
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ie-gaap-2012-12-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+    </appinfo>
+  </annotation>
+</schema>

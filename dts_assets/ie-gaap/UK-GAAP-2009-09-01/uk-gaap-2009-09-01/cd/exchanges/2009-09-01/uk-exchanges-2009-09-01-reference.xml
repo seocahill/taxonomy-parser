@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-StockExchanges-Reference linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/cd/exchanges/2009-09-01 uk-exchanges-2009-09-01.xsd http://www.xbrl.org/uk/all/ref/2009-09-01 ../../../all/ref/2009-09-01/uk-cd-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Albania-TiranaStockExchange" xlink:label="uk-exch_Albania-TiranaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Albania-TiranaStockExchange" xlink:to="uk-exch_Albania-TiranaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Albania-TiranaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTIR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ALBANIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TIRANA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Algeria-AlgiersStockExchange" xlink:label="uk-exch_Algeria-AlgiersStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Algeria-AlgiersStockExchange" xlink:to="uk-exch_Algeria-AlgiersStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Algeria-AlgiersStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XALG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ALGERIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ALGIERS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-BuenosAiresStockExchange" xlink:label="uk-exch_Argentina-BuenosAiresStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Argentina-BuenosAiresStockExchange" xlink:to="uk-exch_Argentina-BuenosAiresStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Argentina-BuenosAiresStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBUE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ARGENTINA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BUENOS AIRES</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Argentina-RosarioBolsaDeComercio" xlink:label="uk-exch_Argentina-RosarioBolsaDeComercio" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Argentina-RosarioBolsaDeComercio" xlink:to="uk-exch_Argentina-RosarioBolsaDeComercio_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Argentina-RosarioBolsaDeComercio_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XROS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ROFEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ARGENTINA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ROSARIO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Armenia-ArmenianStockExchange" xlink:label="uk-exch_Armenia-ArmenianStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Armenia-ArmenianStockExchange" xlink:to="uk-exch_Armenia-ArmenianStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Armenia-ArmenianStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XARM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ARMEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ARMENIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AM</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>YEREVAN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-ASX" xlink:label="uk-exch_Australia-ASX" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Australia-ASX" xlink:to="uk-exch_Australia-ASX_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Australia-ASX_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XASX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ASX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>AUSTRALIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SYDNEY</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Australia-NewcastleStockExchange" xlink:label="uk-exch_Australia-NewcastleStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Australia-NewcastleStockExchange" xlink:to="uk-exch_Australia-NewcastleStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Australia-NewcastleStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNEC</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NSX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>AUSTRALIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NEWCASTLE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Austria-ViennaStockExchangeWienerBoerse" xlink:label="uk-exch_Austria-ViennaStockExchangeWienerBoerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Austria-ViennaStockExchangeWienerBoerse" xlink:to="uk-exch_Austria-ViennaStockExchangeWienerBoerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Austria-ViennaStockExchangeWienerBoerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XWBO</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>WBAG</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>AUSTRIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VIENNA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahamas-InternationalSecuritiesExchange" xlink:label="uk-exch_Bahamas-InternationalSecuritiesExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bahamas-InternationalSecuritiesExchange" xlink:to="uk-exch_Bahamas-InternationalSecuritiesExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bahamas-InternationalSecuritiesExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBAA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BISX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BAHAMAS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BS</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NASAU</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bahrain-StockExchange" xlink:label="uk-exch_Bahrain-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bahrain-StockExchange" xlink:to="uk-exch_Bahrain-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bahrain-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBAH</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BAHRAIN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MANAMA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-ChittagongStockExchange" xlink:label="uk-exch_Bangladesh-ChittagongStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bangladesh-ChittagongStockExchange" xlink:to="uk-exch_Bangladesh-ChittagongStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bangladesh-ChittagongStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCHG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BANGLADESH </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BD</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CHITTAGONG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bangladesh-DhakaStockExchange" xlink:label="uk-exch_Bangladesh-DhakaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bangladesh-DhakaStockExchange" xlink:to="uk-exch_Bangladesh-DhakaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bangladesh-DhakaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDHA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>DSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BANGLADESH </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BD</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DHAKA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Barbados-StockExchange" xlink:label="uk-exch_Barbados-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Barbados-StockExchange" xlink:to="uk-exch_Barbados-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Barbados-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBAB</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BARBADOS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BB</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BRIDGETOWN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Belgium-EuronextBrussels" xlink:label="uk-exch_Belgium-EuronextBrussels" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Belgium-EuronextBrussels" xlink:to="uk-exch_Belgium-EuronextBrussels_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Belgium-EuronextBrussels_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBRU</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>EURONEXT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BELGIUM</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BRUSSELS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bermuda-StockExchange" xlink:label="uk-exch_Bermuda-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bermuda-StockExchange" xlink:to="uk-exch_Bermuda-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bermuda-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBDA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BERMUDA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BM</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HAMILTON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bosnia-BanjaLukaStockExchange" xlink:label="uk-exch_Bosnia-BanjaLukaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bosnia-BanjaLukaStockExchange" xlink:to="uk-exch_Bosnia-BanjaLukaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bosnia-BanjaLukaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBLB</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BOSNIA AND HERZEGOVINA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BANJA LUKA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Botswana-StockExchange" xlink:label="uk-exch_Botswana-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Botswana-StockExchange" xlink:to="uk-exch_Botswana-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Botswana-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBOT</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BOTSWANA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BW</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>GABORONO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-ParanaBolsaDeValores" xlink:label="uk-exch_Brazil-ParanaBolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Brazil-ParanaBolsaDeValores" xlink:to="uk-exch_Brazil-ParanaBolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Brazil-ParanaBolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBVP</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BRAZIL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CURITIBA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-RioDeJaneiroBolsaDeValores" xlink:label="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Brazil-RioDeJaneiroBolsaDeValores" xlink:to="uk-exch_Brazil-RioDeJaneiroBolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Brazil-RioDeJaneiroBolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XRIO</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVRJ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BRAZIL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>RIO DE JANEIRO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Brazil-SaoPauloBolsaDeValores" xlink:label="uk-exch_Brazil-SaoPauloBolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Brazil-SaoPauloBolsaDeValores" xlink:to="uk-exch_Brazil-SaoPauloBolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Brazil-SaoPauloBolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBSP</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BOVESPA</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BRAZIL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SAO PAULO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Bulgaria-StockExchange" xlink:label="uk-exch_Bulgaria-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Bulgaria-StockExchange" xlink:to="uk-exch_Bulgaria-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Bulgaria-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBUL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>BULGARIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>BG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SOFIA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-MontrealExchange" xlink:label="uk-exch_Canada-MontrealExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Canada-MontrealExchange" xlink:to="uk-exch_Canada-MontrealExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Canada-MontrealExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMOD</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CDE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MONTREAL</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" xlink:label="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc" xlink:to="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Canada-NewStockExchangeCanadianTradingQuotingSystemInc_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCNQ</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CNQ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TORONTO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange-NEX" xlink:label="uk-exch_Canada-TSXVentureExchange-NEX" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Canada-TSXVentureExchange-NEX" xlink:to="uk-exch_Canada-TSXVentureExchange-NEX_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Canada-TSXVentureExchange-NEX_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTNX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VANCOUVER</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TSXVentureExchange" xlink:label="uk-exch_Canada-TSXVentureExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Canada-TSXVentureExchange" xlink:to="uk-exch_Canada-TSXVentureExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Canada-TSXVentureExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTSX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TSX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TORONTO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Canada-TorontoStockExchange" xlink:label="uk-exch_Canada-TorontoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Canada-TorontoStockExchange" xlink:to="uk-exch_Canada-TorontoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Canada-TorontoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CANADA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TORONTO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CaymanIslands-StockExchange" xlink:label="uk-exch_CaymanIslands-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_CaymanIslands-StockExchange" xlink:to="uk-exch_CaymanIslands-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_CaymanIslands-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCAY</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CAYMAN ISLANDS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KY</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>GEORGETOWN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-LaBolsaElectronica" xlink:label="uk-exch_Chile-LaBolsaElectronica" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Chile-LaBolsaElectronica" xlink:to="uk-exch_Chile-LaBolsaElectronica_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Chile-LaBolsaElectronica_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBCL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BOLCHILE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CHILE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SANTIAGO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Chile-SantiagoStockExchange" xlink:label="uk-exch_Chile-SantiagoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Chile-SantiagoStockExchange" xlink:to="uk-exch_Chile-SantiagoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Chile-SantiagoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSGO</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CHILE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SANTIAGO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-HongKongStockExchange" xlink:label="uk-exch_China-HongKongStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_China-HongKongStockExchange" xlink:to="uk-exch_China-HongKongStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_China-HongKongStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XHKG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SEHK</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>HONG KONG</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>HK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HONG KONG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShanghaiStockExchange" xlink:label="uk-exch_China-ShanghaiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_China-ShanghaiStockExchange" xlink:to="uk-exch_China-ShanghaiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_China-ShanghaiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSHG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CHINA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SHANGHAI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_China-ShenzhenStockExchange" xlink:label="uk-exch_China-ShenzhenStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_China-ShenzhenStockExchange" xlink:to="uk-exch_China-ShenzhenStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_China-ShenzhenStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSHE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CHINA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SHENZHEN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Colombia-BolsaDeValores" xlink:label="uk-exch_Colombia-BolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Colombia-BolsaDeValores" xlink:to="uk-exch_Colombia-BolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Colombia-BolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBOG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVC</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>COLOMBIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BOGOTA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CostaRica-BolsaNacionalDeValores" xlink:label="uk-exch_CostaRica-BolsaNacionalDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_CostaRica-BolsaNacionalDeValores" xlink:to="uk-exch_CostaRica-BolsaNacionalDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_CostaRica-BolsaNacionalDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBNV</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BNV</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>COSTA RICA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SAN JOSE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Croatia-ZagrebStockExchange" xlink:label="uk-exch_Croatia-ZagrebStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Croatia-ZagrebStockExchange" xlink:to="uk-exch_Croatia-ZagrebStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Croatia-ZagrebStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XZAG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CROATIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>HR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ZAGREB</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Cyprus-StockExchange" xlink:label="uk-exch_Cyprus-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Cyprus-StockExchange" xlink:to="uk-exch_Cyprus-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Cyprus-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCYS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CYPRUS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CY</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NICOSIA (LEFKOSIA)</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_CzechRepublic-PragueStockExchange" xlink:label="uk-exch_CzechRepublic-PragueStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_CzechRepublic-PragueStockExchange" xlink:to="uk-exch_CzechRepublic-PragueStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_CzechRepublic-PragueStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPRA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>PSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>CZECH REPUBLIC </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PRAGUE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Denmark-CopenhagenStockExchange" xlink:label="uk-exch_Denmark-CopenhagenStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Denmark-CopenhagenStockExchange" xlink:to="uk-exch_Denmark-CopenhagenStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Denmark-CopenhagenStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>DENMARK</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>COPENHAGEN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_DominicanRepublic-BolsaDeValores" xlink:label="uk-exch_DominicanRepublic-BolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_DominicanRepublic-BolsaDeValores" xlink:to="uk-exch_DominicanRepublic-BolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_DominicanRepublic-BolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBVR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVRD</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>DOMINICAN REPUBLIC</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ST DOMINGO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-GuayaquilStockExchange" xlink:label="uk-exch_Ecuador-GuayaquilStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Ecuador-GuayaquilStockExchange" xlink:to="uk-exch_Ecuador-GuayaquilStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Ecuador-GuayaquilStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XGUA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ECUADOR</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>EC</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>GUAYAQUIL</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ecuador-QuitoStockExchange" xlink:label="uk-exch_Ecuador-QuitoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Ecuador-QuitoStockExchange" xlink:to="uk-exch_Ecuador-QuitoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Ecuador-QuitoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XQUI</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ECUADOR</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>EC</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>QUITO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Egypt-CairoAlexandriaStockExchange" xlink:label="uk-exch_Egypt-CairoAlexandriaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Egypt-CairoAlexandriaStockExchange" xlink:to="uk-exch_Egypt-CairoAlexandriaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Egypt-CairoAlexandriaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCAI</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CASE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>EGYPT</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>EG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CAIRO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_ElSalvador-StockExchange" xlink:label="uk-exch_ElSalvador-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_ElSalvador-StockExchange" xlink:to="uk-exch_ElSalvador-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_ElSalvador-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSVA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>EL SALVADOR</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SV</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>EL SALVADOR</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Estonia-TallinnStockExchange" xlink:label="uk-exch_Estonia-TallinnStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Estonia-TallinnStockExchange" xlink:to="uk-exch_Estonia-TallinnStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Estonia-TallinnStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTAL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ESTONIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>EE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TALLINN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Fiji-SouthPacificStockExchange" xlink:label="uk-exch_Fiji-SouthPacificStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Fiji-SouthPacificStockExchange" xlink:to="uk-exch_Fiji-SouthPacificStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Fiji-SouthPacificStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSPS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SPSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>FIJI</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>FJ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SUVA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Finland-HelsinkiStockExchange" xlink:label="uk-exch_Finland-HelsinkiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Finland-HelsinkiStockExchange" xlink:to="uk-exch_Finland-HelsinkiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Finland-HelsinkiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XHEL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>FINLAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>FI</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HELSINKI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_France-EuronextParis" xlink:label="uk-exch_France-EuronextParis" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_France-EuronextParis" xlink:to="uk-exch_France-EuronextParis_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_France-EuronextParis_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>EURONEXT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>FRANCE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>FR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PARIS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Georgia-StockExchange" xlink:label="uk-exch_Georgia-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Georgia-StockExchange" xlink:to="uk-exch_Georgia-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Georgia-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XGSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>GSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GEORGIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TBILISI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BayerischeBoerse" xlink:label="uk-exch_Germany-BayerischeBoerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-BayerischeBoerse" xlink:to="uk-exch_Germany-BayerischeBoerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-BayerischeBoerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMUN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MUENCHEN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BerlinerWertpapierboerse" xlink:label="uk-exch_Germany-BerlinerWertpapierboerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-BerlinerWertpapierboerse" xlink:to="uk-exch_Germany-BerlinerWertpapierboerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-BerlinerWertpapierboerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBER</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BERLIN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-BremerWertpapierboerse" xlink:label="uk-exch_Germany-BremerWertpapierboerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-BremerWertpapierboerse" xlink:to="uk-exch_Germany-BremerWertpapierboerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-BremerWertpapierboerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBRE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BREMEN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DeutscheBoerse" xlink:label="uk-exch_Germany-DeutscheBoerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-DeutscheBoerse" xlink:to="uk-exch_Germany-DeutscheBoerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-DeutscheBoerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XFRA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>FRANKFURT AM MAIN </uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" xlink:label="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse" xlink:to="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-DuesseldorfRheinishe-WestfaelischeBoerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDUS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DUESSELDORF</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HamburgHanseatischeWertpapierboerse" xlink:label="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-HamburgHanseatischeWertpapierboerse" xlink:to="uk-exch_Germany-HamburgHanseatischeWertpapierboerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-HamburgHanseatischeWertpapierboerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XHAM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HAMBURG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-HannoverNiedersaechsischeBoerse" xlink:label="uk-exch_Germany-HannoverNiedersaechsischeBoerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-HannoverNiedersaechsischeBoerse" xlink:to="uk-exch_Germany-HannoverNiedersaechsischeBoerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-HannoverNiedersaechsischeBoerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XHAN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HANNOVER</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" xlink:label="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse" xlink:to="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Germany-StuttgartBaden-WuerttembergischeWertpapierboerse_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSTU</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GERMANY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>DE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>STUTTGART</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ghana-StockExchange" xlink:label="uk-exch_Ghana-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Ghana-StockExchange" xlink:to="uk-exch_Ghana-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Ghana-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XGHA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GHANA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ACCRA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Greece-AthensStockExchange" xlink:label="uk-exch_Greece-AthensStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Greece-AthensStockExchange" xlink:to="uk-exch_Greece-AthensStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Greece-AthensStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XATH</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GREECE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ATHENS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Guatemala-BolsaDeValoresNacional" xlink:label="uk-exch_Guatemala-BolsaDeValoresNacional" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Guatemala-BolsaDeValoresNacional" xlink:to="uk-exch_Guatemala-BolsaDeValoresNacional_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Guatemala-BolsaDeValoresNacional_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XGTG</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GUATEMALA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>GUATEMALA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Honduras-StockExchange" xlink:label="uk-exch_Honduras-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Honduras-StockExchange" xlink:to="uk-exch_Honduras-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Honduras-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XHON</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVH</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>HONDURAS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>HN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SAN PEDRO SULA </uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Hungary-BudapestStockExchange" xlink:label="uk-exch_Hungary-BudapestStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Hungary-BudapestStockExchange" xlink:to="uk-exch_Hungary-BudapestStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Hungary-BudapestStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBUD</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>HUNGARY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>HU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BUDAPEST</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iceland-StockExchange" xlink:label="uk-exch_Iceland-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Iceland-StockExchange" xlink:to="uk-exch_Iceland-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Iceland-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XICE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ICEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ICELAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IS</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>REYKJAVIK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-BangaloreStockExchange" xlink:label="uk-exch_India-BangaloreStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-BangaloreStockExchange" xlink:to="uk-exch_India-BangaloreStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-BangaloreStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBAN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BANGALORE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-CalcuttaStockExchange" xlink:label="uk-exch_India-CalcuttaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-CalcuttaStockExchange" xlink:to="uk-exch_India-CalcuttaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-CalcuttaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCAL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CALCUTTA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-DelhiStockExchange" xlink:label="uk-exch_India-DelhiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-DelhiStockExchange" xlink:to="uk-exch_India-DelhiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-DelhiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDES</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DELHI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MadrasStockExchange" xlink:label="uk-exch_India-MadrasStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-MadrasStockExchange" xlink:to="uk-exch_India-MadrasStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-MadrasStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMDS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MADRAS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-MumbaiStockExchange" xlink:label="uk-exch_India-MumbaiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-MumbaiStockExchange" xlink:to="uk-exch_India-MumbaiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-MumbaiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBOM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>MSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MUMBAI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_India-NationalStockExchange" xlink:label="uk-exch_India-NationalStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_India-NationalStockExchange" xlink:to="uk-exch_India-NationalStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_India-NationalStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MUMBAI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-JakartaStockExchange" xlink:label="uk-exch_Indonesia-JakartaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Indonesia-JakartaStockExchange" xlink:to="uk-exch_Indonesia-JakartaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Indonesia-JakartaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XJKT</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDONESIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ID</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>JAKARTA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Indonesia-SurabayaStockExchange" xlink:label="uk-exch_Indonesia-SurabayaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Indonesia-SurabayaStockExchange" xlink:to="uk-exch_Indonesia-SurabayaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Indonesia-SurabayaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSUR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>INDONESIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ID</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SURABAYA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Iran-TeheranStockExchange" xlink:label="uk-exch_Iran-TeheranStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Iran-TeheranStockExchange" xlink:to="uk-exch_Iran-TeheranStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Iran-TeheranStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTEH</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>IRAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TEHERAN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ireland-IrishStockExchange" xlink:label="uk-exch_Ireland-IrishStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Ireland-IrishStockExchange" xlink:to="uk-exch_Ireland-IrishStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Ireland-IrishStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDUB</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ISE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>IRELAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DUBLIN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Israel-TelAvivStockExchange" xlink:label="uk-exch_Israel-TelAvivStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Israel-TelAvivStockExchange" xlink:to="uk-exch_Israel-TelAvivStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Israel-TelAvivStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTAE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TASE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ISRAEL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TEL AVIV</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Italy-BorsaItaliana" xlink:label="uk-exch_Italy-BorsaItaliana" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Italy-BorsaItaliana" xlink:to="uk-exch_Italy-BorsaItaliana_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Italy-BorsaItaliana_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMIL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ITALY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>IT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MILANO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" xlink:label="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres" xlink:to="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_IvoryCoast-AbidjanBourseRegionaleDeValeursMobilieres_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBRV</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BRVM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>IVORY COAST</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CI</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ABIDJAN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jamaica-StockExchange" xlink:label="uk-exch_Jamaica-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Jamaica-StockExchange" xlink:to="uk-exch_Jamaica-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Jamaica-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XJAM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAMAICA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JM</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KINGSTON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-FukuokaStockExchange" xlink:label="uk-exch_Japan-FukuokaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Japan-FukuokaStockExchange" xlink:to="uk-exch_Japan-FukuokaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Japan-FukuokaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XFKA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>FUKUOKA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-JASDAQSecuritiesExchange" xlink:label="uk-exch_Japan-JASDAQSecuritiesExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Japan-JASDAQSecuritiesExchange" xlink:to="uk-exch_Japan-JASDAQSecuritiesExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Japan-JASDAQSecuritiesExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XJAS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>JASDAQ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TOKYO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-NagoyaStockExchange" xlink:label="uk-exch_Japan-NagoyaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Japan-NagoyaStockExchange" xlink:to="uk-exch_Japan-NagoyaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Japan-NagoyaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNGO</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NAGOYA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-OsakaSecuritiesExchange" xlink:label="uk-exch_Japan-OsakaSecuritiesExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Japan-OsakaSecuritiesExchange" xlink:to="uk-exch_Japan-OsakaSecuritiesExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Japan-OsakaSecuritiesExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XOSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>OSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>OSAKA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Japan-TokyoStockExchange" xlink:label="uk-exch_Japan-TokyoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Japan-TokyoStockExchange" xlink:to="uk-exch_Japan-TokyoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Japan-TokyoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTKS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JAPAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TOKYO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Jordan-AmmanStockExchange" xlink:label="uk-exch_Jordan-AmmanStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Jordan-AmmanStockExchange" xlink:to="uk-exch_Jordan-AmmanStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Jordan-AmmanStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XAMM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>JORDAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>JO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>AMMAN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kazakhstan-StockExchange" xlink:label="uk-exch_Kazakhstan-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Kazakhstan-StockExchange" xlink:to="uk-exch_Kazakhstan-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Kazakhstan-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKAZ</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KAZE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KAZAKHSTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ALMA-ATA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kenya-NairobiStockExchange" xlink:label="uk-exch_Kenya-NairobiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Kenya-NairobiStockExchange" xlink:to="uk-exch_Kenya-NairobiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Kenya-NairobiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNAI</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KENYA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NAIROBI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-KOSDAQStockExchange" xlink:label="uk-exch_Korea-KOSDAQStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Korea-KOSDAQStockExchange" xlink:to="uk-exch_Korea-KOSDAQStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Korea-KOSDAQStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKOS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KOSDAQ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KOREA, REPUBLIC OF</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SEOUL</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Korea-StockExchange" xlink:label="uk-exch_Korea-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Korea-StockExchange" xlink:to="uk-exch_Korea-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Korea-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKOR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KOREA, REPUBLIC OF</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SEOUL</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kuwait-StockExchange" xlink:label="uk-exch_Kuwait-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Kuwait-StockExchange" xlink:to="uk-exch_Kuwait-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Kuwait-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKUW</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KUWAIT</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KW</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KUWAIT</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Kyrgyzstan-KyrgyzStockExchange" xlink:label="uk-exch_Kyrgyzstan-KyrgyzStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Kyrgyzstan-KyrgyzStockExchange" xlink:to="uk-exch_Kyrgyzstan-KyrgyzStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Kyrgyzstan-KyrgyzStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>KYRGYZSTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>KG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BISHKEK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Latvia-RigaStockExchange" xlink:label="uk-exch_Latvia-RigaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Latvia-RigaStockExchange" xlink:to="uk-exch_Latvia-RigaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Latvia-RigaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XRIS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>LATVIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>LV</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>RIGA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lebanon-BeirutStockExchange" xlink:label="uk-exch_Lebanon-BeirutStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Lebanon-BeirutStockExchange" xlink:to="uk-exch_Lebanon-BeirutStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Lebanon-BeirutStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBEY</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>LEBANON</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>LB</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BEIRUT</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Lithuania-NationalStockExchange" xlink:label="uk-exch_Lithuania-NationalStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Lithuania-NationalStockExchange" xlink:to="uk-exch_Lithuania-NationalStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Lithuania-NationalStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLIT</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>LITHUANIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>LT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VILNIUS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Luxembourg-StockExchange" xlink:label="uk-exch_Luxembourg-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Luxembourg-StockExchange" xlink:to="uk-exch_Luxembourg-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Luxembourg-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLUX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>LUXEMBOURG</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>LU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LUXEMBOURG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Macedonia-StockExchange" xlink:label="uk-exch_Macedonia-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Macedonia-StockExchange" xlink:to="uk-exch_Macedonia-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Macedonia-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MACEDONIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SKOPJE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malawi-StockExchange" xlink:label="uk-exch_Malawi-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Malawi-StockExchange" xlink:to="uk-exch_Malawi-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Malawi-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMSW</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MALAWI</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MW</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BLANTYRE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malaysia-Bursa" xlink:label="uk-exch_Malaysia-Bursa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Malaysia-Bursa" xlink:to="uk-exch_Malaysia-Bursa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Malaysia-Bursa_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKLS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MALAYSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MY</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KUALA LUMPUR</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Malta-StockExchange" xlink:label="uk-exch_Malta-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Malta-StockExchange" xlink:to="uk-exch_Malta-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Malta-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MALTA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VALLETTA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mauritius-StockExchange" xlink:label="uk-exch_Mauritius-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Mauritius-StockExchange" xlink:to="uk-exch_Mauritius-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Mauritius-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAU</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MAURITIUS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PORT LOUIS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mexico-MexicanStockExchange" xlink:label="uk-exch_Mexico-MexicanStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Mexico-MexicanStockExchange" xlink:to="uk-exch_Mexico-MexicanStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Mexico-MexicanStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMEX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MEXICO</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MX</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MEXICO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Moldova-StockExchange" xlink:label="uk-exch_Moldova-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Moldova-StockExchange" xlink:to="uk-exch_Moldova-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Moldova-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMOL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MOLDOVA, REPUBLIC OF</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MD</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CHISINAU</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mongolia-StockExchange" xlink:label="uk-exch_Mongolia-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Mongolia-StockExchange" xlink:to="uk-exch_Mongolia-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Mongolia-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XULA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MONGOLIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ULAAN BAATAR</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Morocco-CasablancaStockExchange" xlink:label="uk-exch_Morocco-CasablancaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Morocco-CasablancaStockExchange" xlink:to="uk-exch_Morocco-CasablancaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Morocco-CasablancaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCAS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MOROCCO</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CASABLANCA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Mozambique-MaputoStockExchange" xlink:label="uk-exch_Mozambique-MaputoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Mozambique-MaputoStockExchange" xlink:to="uk-exch_Mozambique-MaputoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Mozambique-MaputoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAP</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>MOZAMBIQUE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>MZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MAPUTO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Namibia-StockExchange" xlink:label="uk-exch_Namibia-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Namibia-StockExchange" xlink:to="uk-exch_Namibia-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Namibia-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNAM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NAMIBIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>WINDHOEK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nepal-StockExchange" xlink:label="uk-exch_Nepal-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Nepal-StockExchange" xlink:to="uk-exch_Nepal-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Nepal-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNEP</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NEPAL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NP</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KATHMANDU</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Netherlands-EuronextAmsterdam" xlink:label="uk-exch_Netherlands-EuronextAmsterdam" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Netherlands-EuronextAmsterdam" xlink:to="uk-exch_Netherlands-EuronextAmsterdam_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Netherlands-EuronextAmsterdam_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XAMS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>EURONEXT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>THE NETHERLANDS</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>AMSTERDAM</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_NewZealand-StockExchange" xlink:label="uk-exch_NewZealand-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_NewZealand-StockExchange" xlink:to="uk-exch_NewZealand-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_NewZealand-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNZE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NZSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NEW ZEALAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>WELLINGTON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nicaragua-BolsaDeValores" xlink:label="uk-exch_Nicaragua-BolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Nicaragua-BolsaDeValores" xlink:to="uk-exch_Nicaragua-BolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Nicaragua-BolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NICARAGUA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NI</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MANAGUA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Nigeria-StockExchange" xlink:label="uk-exch_Nigeria-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Nigeria-StockExchange" xlink:to="uk-exch_Nigeria-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Nigeria-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNSA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NIGERIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LAGOS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Norway-OsloBors" xlink:label="uk-exch_Norway-OsloBors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Norway-OsloBors" xlink:to="uk-exch_Norway-OsloBors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Norway-OsloBors_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XOSL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>NORWAY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>NO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>OLSO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Oman-MuscatSecuritiesMarket" xlink:label="uk-exch_Oman-MuscatSecuritiesMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Oman-MuscatSecuritiesMarket" xlink:to="uk-exch_Oman-MuscatSecuritiesMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Oman-MuscatSecuritiesMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMUS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>MSM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>OMAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>OM</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MUSCAT</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-IslamabadStockExchange" xlink:label="uk-exch_Pakistan-IslamabadStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Pakistan-IslamabadStockExchange" xlink:to="uk-exch_Pakistan-IslamabadStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Pakistan-IslamabadStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XISL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ISE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PAKISTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ISLAMABAD</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-KarachiStockExchange" xlink:label="uk-exch_Pakistan-KarachiStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Pakistan-KarachiStockExchange" xlink:to="uk-exch_Pakistan-KarachiStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Pakistan-KarachiStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PAKISTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KARACHI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Pakistan-LahoreStockExchange" xlink:label="uk-exch_Pakistan-LahoreStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Pakistan-LahoreStockExchange" xlink:to="uk-exch_Pakistan-LahoreStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Pakistan-LahoreStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLAH</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>LSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PAKISTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LAHORE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Palestine-StockExchange" xlink:label="uk-exch_Palestine-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Palestine-StockExchange" xlink:to="uk-exch_Palestine-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Palestine-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPAE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>PSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PALESTINIAN TERRITORY, OCCUPIED</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PS</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NABLUS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Panama-BolsaDeValores" xlink:label="uk-exch_Panama-BolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Panama-BolsaDeValores" xlink:to="uk-exch_Panama-BolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Panama-BolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPTY</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVP</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PANAMA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PANAMA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" xlink:label="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange" xlink:to="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_PapuaNewGuinea-PortMoresbyStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPOM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PAPUA NEW GUINEA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PORT MORESBY</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" xlink:label="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos" xlink:to="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Paraguay-AsuncionBolsaDeValoresYProductos_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XVPA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVPASA</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PARAGUAY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PY</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ASUNCION</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Peru-LimaBolsaDeValores" xlink:label="uk-exch_Peru-LimaBolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Peru-LimaBolsaDeValores" xlink:to="uk-exch_Peru-LimaBolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Peru-LimaBolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLIM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVL</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PERU</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LIMA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Philippines-StockExchange" xlink:label="uk-exch_Philippines-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Philippines-StockExchange" xlink:to="uk-exch_Philippines-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Philippines-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPHS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>PSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PHILIPPINES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PASIG CITY</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Poland-WarsawStockExchange" xlink:label="uk-exch_Poland-WarsawStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Poland-WarsawStockExchange" xlink:to="uk-exch_Poland-WarsawStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Poland-WarsawStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XWAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>WSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>POLAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PL</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>WARSAW</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Portugal-Euronext-Lisbon" xlink:label="uk-exch_Portugal-Euronext-Lisbon" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Portugal-Euronext-Lisbon" xlink:to="uk-exch_Portugal-Euronext-Lisbon_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Portugal-Euronext-Lisbon_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLIS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>EURONEXT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>PORTUGAL</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>PT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LISBOA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Qatar-DohaSecuritiesMarket" xlink:label="uk-exch_Qatar-DohaSecuritiesMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Qatar-DohaSecuritiesMarket" xlink:to="uk-exch_Qatar-DohaSecuritiesMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Qatar-DohaSecuritiesMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>DSMD</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>DSM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>QATAR</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>QA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DOHA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-BucharestStockExchange" xlink:label="uk-exch_Romania-BucharestStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Romania-BucharestStockExchange" xlink:to="uk-exch_Romania-BucharestStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Romania-BucharestStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVP</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ROMANIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BUCHAREST</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Romania-RASDAQ" xlink:label="uk-exch_Romania-RASDAQ" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Romania-RASDAQ" xlink:to="uk-exch_Romania-RASDAQ_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Romania-RASDAQ_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XRAS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>RASDAQ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ROMANIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RO</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BUCHAREST</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-MoscowCentralStockExchange" xlink:label="uk-exch_Russia-MoscowCentralStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Russia-MoscowCentralStockExchange" xlink:to="uk-exch_Russia-MoscowCentralStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Russia-MoscowCentralStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMOS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>MCSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>RUSSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MOSCOW</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-RTSStockExchange" xlink:label="uk-exch_Russia-RTSStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Russia-RTSStockExchange" xlink:to="uk-exch_Russia-RTSStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Russia-RTSStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>RTSX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>RTS</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>RUSSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MOSCOW</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-SiberianStockExchange" xlink:label="uk-exch_Russia-SiberianStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Russia-SiberianStockExchange" xlink:to="uk-exch_Russia-SiberianStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Russia-SiberianStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSIB</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SIMEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>RUSSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NOVOSIBIRSK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-StPetersburgStockExchange" xlink:label="uk-exch_Russia-StPetersburgStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Russia-StPetersburgStockExchange" xlink:to="uk-exch_Russia-StPetersburgStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Russia-StPetersburgStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPET</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SPBEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>RUSSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SAINT-PETERSBURG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Russia-VladivostokStockExchange" xlink:label="uk-exch_Russia-VladivostokStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Russia-VladivostokStockExchange" xlink:to="uk-exch_Russia-VladivostokStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Russia-VladivostokStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XVLA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>VSX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>RUSSIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>RU</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VLADIVOSTOK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SaudiArabia-StockExchange" xlink:label="uk-exch_SaudiArabia-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_SaudiArabia-StockExchange" xlink:to="uk-exch_SaudiArabia-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_SaudiArabia-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSAU</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SAUDI ARABIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>RIJAD</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Serbia-BelgradeStockExchange" xlink:label="uk-exch_Serbia-BelgradeStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Serbia-BelgradeStockExchange" xlink:to="uk-exch_Serbia-BelgradeStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Serbia-BelgradeStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBEL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SERBIA AND MONTENEGRO</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CS</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BELGRADE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Singapore-SGX" xlink:label="uk-exch_Singapore-SGX" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Singapore-SGX" xlink:to="uk-exch_Singapore-SGX_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Singapore-SGX_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSES</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SGX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SINGAPORE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SINGAPORE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-BratislavaStockExchange" xlink:label="uk-exch_Slovakia-BratislavaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Slovakia-BratislavaStockExchange" xlink:to="uk-exch_Slovakia-BratislavaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Slovakia-BratislavaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBRA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SLOVAKIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BRATISLAVA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovakia-SlovakStockExchange-SKRM-S" xlink:label="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Slovakia-SlovakStockExchange-SKRM-S" xlink:to="uk-exch_Slovakia-SlovakStockExchange-SKRM-S_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Slovakia-SlovakStockExchange-SKRM-S_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XRMS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SK RM-S</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SLOVAKIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BRATISLAVA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Slovenia-LjubljanaStockExchange" xlink:label="uk-exch_Slovenia-LjubljanaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Slovenia-LjubljanaStockExchange" xlink:to="uk-exch_Slovenia-LjubljanaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Slovenia-LjubljanaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLJU</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SLOVENIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SI</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LJUBLJANA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SouthAfrica-JSE" xlink:label="uk-exch_SouthAfrica-JSE" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_SouthAfrica-JSE" xlink:to="uk-exch_SouthAfrica-JSE_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_SouthAfrica-JSE_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XJSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>JSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SOUTH AFRICA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ZA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>JOHANNESBURG</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-BarcelonaStockExchange" xlink:label="uk-exch_Spain-BarcelonaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Spain-BarcelonaStockExchange" xlink:to="uk-exch_Spain-BarcelonaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Spain-BarcelonaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SPAIN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ES</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BARCELONA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MadridBolsa" xlink:label="uk-exch_Spain-MadridBolsa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Spain-MadridBolsa" xlink:to="uk-exch_Spain-MadridBolsa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Spain-MadridBolsa_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMAD</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SPAIN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ES</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MADRID</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-MercadoContinuo" xlink:label="uk-exch_Spain-MercadoContinuo" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Spain-MercadoContinuo" xlink:to="uk-exch_Spain-MercadoContinuo_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Spain-MercadoContinuo_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMCE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SPAIN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ES</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MADRID</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Spain-ValenciaBolsa" xlink:label="uk-exch_Spain-ValenciaBolsa" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Spain-ValenciaBolsa" xlink:to="uk-exch_Spain-ValenciaBolsa_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Spain-ValenciaBolsa_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XVAL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SPAIN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ES</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>VALENCIA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_SriLanka-ColomboStockExchange" xlink:label="uk-exch_SriLanka-ColomboStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_SriLanka-ColomboStockExchange" xlink:to="uk-exch_SriLanka-ColomboStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_SriLanka-ColomboStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCOL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SRI LANKA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>LK</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>COLOMBO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sudan-KhartoumStockExchange" xlink:label="uk-exch_Sudan-KhartoumStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Sudan-KhartoumStockExchange" xlink:to="uk-exch_Sudan-KhartoumStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Sudan-KhartoumStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKHA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>KSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SUDAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SD</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KHARTOUM</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Swaziland-StockExchange" xlink:label="uk-exch_Swaziland-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Swaziland-StockExchange" xlink:to="uk-exch_Swaziland-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Swaziland-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSWA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SSX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SWAZILAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MBABANE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-NordicGrowthMarket" xlink:label="uk-exch_Sweden-NordicGrowthMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Sweden-NordicGrowthMarket" xlink:to="uk-exch_Sweden-NordicGrowthMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Sweden-NordicGrowthMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNGM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NGM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SWEDEN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>STOCKHOLM</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Sweden-OMStockholmExchange" xlink:label="uk-exch_Sweden-OMStockholmExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Sweden-OMStockholmExchange" xlink:to="uk-exch_Sweden-OMStockholmExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Sweden-OMStockholmExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XOME</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>OM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SWEDEN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>SE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>STOCKHOLM</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-BerneStockExchange" xlink:label="uk-exch_Switzerland-BerneStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Switzerland-BerneStockExchange" xlink:to="uk-exch_Switzerland-BerneStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Switzerland-BerneStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBRN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SWITZERLAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BERNE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Switzerland-SwissExchange" xlink:label="uk-exch_Switzerland-SwissExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Switzerland-SwissExchange" xlink:to="uk-exch_Switzerland-SwissExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Switzerland-SwissExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSWX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SWX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>SWITZERLAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>CH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ZURICH</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Taiwan-StockExchange" xlink:label="uk-exch_Taiwan-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Taiwan-StockExchange" xlink:to="uk-exch_Taiwan-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Taiwan-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTAI</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TSEC</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>TAIWAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TW</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TAIPEI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tanzania-DarEsSalaamStockExchange" xlink:label="uk-exch_Tanzania-DarEsSalaamStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Tanzania-DarEsSalaamStockExchange" xlink:to="uk-exch_Tanzania-DarEsSalaamStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Tanzania-DarEsSalaamStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>TANZANIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DAR ES SALAAM</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchangeForeignBoard" xlink:label="uk-exch_Thailand-StockExchangeForeignBoard" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Thailand-StockExchangeForeignBoard" xlink:to="uk-exch_Thailand-StockExchangeForeignBoard_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Thailand-StockExchangeForeignBoard_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBKF</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SET</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>THAILAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BANGKOK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Thailand-StockExchange" xlink:label="uk-exch_Thailand-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Thailand-StockExchange" xlink:to="uk-exch_Thailand-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Thailand-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBKK</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>SET</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>THAILAND</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TH</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BANGKOK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_TrinidadTobago-StockExchange" xlink:label="uk-exch_TrinidadTobago-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_TrinidadTobago-StockExchange" xlink:to="uk-exch_TrinidadTobago-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_TrinidadTobago-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTRN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>TTSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>TRINIDAD AND TOBAGO</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TT</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PORT OF SPAIN</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Tunisia-BourseDesValeursMobilieres" xlink:label="uk-exch_Tunisia-BourseDesValeursMobilieres" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Tunisia-BourseDesValeursMobilieres" xlink:to="uk-exch_Tunisia-BourseDesValeursMobilieres_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Tunisia-BourseDesValeursMobilieres_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XTUN</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVMT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>TUNISIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TUNIS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Turkey-IstanbulStockExchange" xlink:label="uk-exch_Turkey-IstanbulStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Turkey-IstanbulStockExchange" xlink:to="uk-exch_Turkey-IstanbulStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Turkey-IstanbulStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XIST</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ISE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>TURKEY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>TR</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ISTAMBUL</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-AbuDhabiSecuritiesMarket" xlink:label="uk-exch_UAE-AbuDhabiSecuritiesMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UAE-AbuDhabiSecuritiesMarket" xlink:to="uk-exch_UAE-AbuDhabiSecuritiesMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UAE-AbuDhabiSecuritiesMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XADS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>ADSM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED ARAB EMIRATES </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ABU DHABI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiFinancialMarket" xlink:label="uk-exch_UAE-DubaiFinancialMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UAE-DubaiFinancialMarket" xlink:to="uk-exch_UAE-DubaiFinancialMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UAE-DubaiFinancialMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XDFM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>DFM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED ARAB EMIRATES </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DUBAI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UAE-DubaiInternationalFinancialExchange" xlink:label="uk-exch_UAE-DubaiInternationalFinancialExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UAE-DubaiInternationalFinancialExchange" xlink:to="uk-exch_UAE-DubaiInternationalFinancialExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UAE-DubaiInternationalFinancialExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>DIFX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>DIFX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED ARAB EMIRATES </uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>AE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>DUBAI</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-AlternateInvestmentMarket" xlink:label="uk-exch_UK-AlternateInvestmentMarket" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UK-AlternateInvestmentMarket" xlink:to="uk-exch_UK-AlternateInvestmentMarket_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UK-AlternateInvestmentMarket_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>AIMX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>AIM</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED KINGDOM</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GB</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LONDON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-ChannelIslandsStockExchange" xlink:label="uk-exch_UK-ChannelIslandsStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UK-ChannelIslandsStockExchange" xlink:to="uk-exch_UK-ChannelIslandsStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UK-ChannelIslandsStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCIE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CISX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>GUERNSEY, C.I.</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>ST.  PETER PORT</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_UK-LondonStockExchange" xlink:label="uk-exch_UK-LondonStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_UK-LondonStockExchange" xlink:to="uk-exch_UK-LondonStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_UK-LondonStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLON</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>LSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED KINGDOM</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>GB</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LONDON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-AmericanStockExchange" xlink:label="uk-exch_US-AmericanStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-AmericanStockExchange" xlink:to="uk-exch_US-AmericanStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-AmericanStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XASE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>AMEX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NEW YORK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ArizonaStockExchange" xlink:label="uk-exch_US-ArizonaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-ArizonaStockExchange" xlink:to="uk-exch_US-ArizonaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-ArizonaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XAZX</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>AZX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PHOENIX</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-BostonStockExchange" xlink:label="uk-exch_US-BostonStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-BostonStockExchange" xlink:to="uk-exch_US-BostonStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-BostonStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XBOS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>BOSTON</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-ChicagoStockExchange" xlink:label="uk-exch_US-ChicagoStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-ChicagoStockExchange" xlink:to="uk-exch_US-ChicagoStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-ChicagoStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCHI</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>CHX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CHICAGO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NASDAQStockExchange" xlink:label="uk-exch_US-NASDAQStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-NASDAQStockExchange" xlink:to="uk-exch_US-NASDAQStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-NASDAQStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNAS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NASDAQ</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NEW YORK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NationalStockExchange" xlink:label="uk-exch_US-NationalStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-NationalStockExchange" xlink:to="uk-exch_US-NationalStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-NationalStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCIS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CHICAGO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-NewYorkStockExchange" xlink:label="uk-exch_US-NewYorkStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-NewYorkStockExchange" xlink:to="uk-exch_US-NewYorkStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-NewYorkStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XNYS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>NYSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>NEW YORK</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PacificExchange" xlink:label="uk-exch_US-PacificExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-PacificExchange" xlink:to="uk-exch_US-PacificExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-PacificExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPSE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>PCX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>SAN FRANCISCO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_US-PhiladelphiaStockExchange" xlink:label="uk-exch_US-PhiladelphiaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_US-PhiladelphiaStockExchange" xlink:to="uk-exch_US-PhiladelphiaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_US-PhiladelphiaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XPHL</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>PHLX</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UNITED STATES</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>US</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>PHILADELPHIA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uganda-SecuritiesExchange" xlink:label="uk-exch_Uganda-SecuritiesExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Uganda-SecuritiesExchange" xlink:to="uk-exch_Uganda-SecuritiesExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Uganda-SecuritiesExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XUGA</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>USE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UGANDA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>UG</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KAMPALA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Ukraine-KievUniversalExchange" xlink:label="uk-exch_Ukraine-KievUniversalExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Ukraine-KievUniversalExchange" xlink:to="uk-exch_Ukraine-KievUniversalExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Ukraine-KievUniversalExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XKIE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UKRAINE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>UA</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>KIEV</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uruguay-MontevideoBolsaDeValores" xlink:label="uk-exch_Uruguay-MontevideoBolsaDeValores" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Uruguay-MontevideoBolsaDeValores" xlink:to="uk-exch_Uruguay-MontevideoBolsaDeValores_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Uruguay-MontevideoBolsaDeValores_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XMNT</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>BVMT</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>URUGUAY</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>UY</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>MONTEVIDEO</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Uzbekistan-StockExchange" xlink:label="uk-exch_Uzbekistan-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Uzbekistan-StockExchange" xlink:to="uk-exch_Uzbekistan-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Uzbekistan-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSTE</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>UZSE</uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>UZBEKISTAN</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>UZ</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>TASHKENT</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Venezuela-CaracasStockExchange" xlink:label="uk-exch_Venezuela-CaracasStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Venezuela-CaracasStockExchange" xlink:to="uk-exch_Venezuela-CaracasStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Venezuela-CaracasStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XCAR</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>VENEZUELA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>VE</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>CARACAS</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_VietNam-StockExchange" xlink:label="uk-exch_VietNam-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_VietNam-StockExchange" xlink:to="uk-exch_VietNam-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_VietNam-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XSTC</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>VIET NAM</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>VN</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HO CHI MINH CITY</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zambia-LusakaStockExchange" xlink:label="uk-exch_Zambia-LusakaStockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Zambia-LusakaStockExchange" xlink:to="uk-exch_Zambia-LusakaStockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Zambia-LusakaStockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XLUS</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ZAMBIA</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ZM</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>LUSAKA</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-exchanges-2009-09-01.xsd#uk-exch_Zimbabwe-StockExchange" xlink:label="uk-exch_Zimbabwe-StockExchange" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-exch_Zimbabwe-StockExchange" xlink:to="uk-exch_Zimbabwe-StockExchange_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-exch_Zimbabwe-StockExchange_ref">
+      <uk-cd-ref:ISOName>ISO 10383</uk-cd-ref:ISOName>
+      <uk-cd-ref:MarketIdentificationCode>XZIM</uk-cd-ref:MarketIdentificationCode>
+      <uk-cd-ref:ExchangeAcronym>
+      </uk-cd-ref:ExchangeAcronym>
+      <uk-cd-ref:HomeCountry>ZIMBABWE</uk-cd-ref:HomeCountry>
+      <uk-cd-ref:HomeCountryCode>ZW</uk-cd-ref:HomeCountryCode>
+      <uk-cd-ref:HomeCity>HARARE</uk-cd-ref:HomeCity>
+      <uk-cd-ref:Date>2009-09-01</uk-cd-ref:Date>
+    </reference>
+  </referenceLink>
+</linkbase>

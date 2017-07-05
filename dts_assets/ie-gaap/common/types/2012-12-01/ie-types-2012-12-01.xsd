@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IE-Types - schema for types shared by Irish extensions to UK GAAP and UK IFRS taxonomies and associated files
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema targetNamespace="http://www.xbrl-ie.net/common/types/2012-12-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ie-types="http://www.xbrl-ie.net/common/types/2012-12-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+</schema>

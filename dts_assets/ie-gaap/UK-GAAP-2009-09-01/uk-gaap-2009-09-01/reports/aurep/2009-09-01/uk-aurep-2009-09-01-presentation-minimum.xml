@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+UK-AuditorsReport-Presentation linkbase FOR MINIMUM TAGGING
+2009-09-01 VERSION 1.1
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+--><linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+   <roleRef roleURI="http://www.xbrl.org/uk/role/AuditorsReport" xlink:href="uk-aurep-2009-09-01.xsd#AuditorsReport" xlink:type="simple"/>
+   <presentationLink xlink:role="http://www.xbrl.org/uk/role/AuditorsReport" xlink:title="Auditors' Report " xlink:type="extended">
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditorInformationHeading" xlink:label="uk-aurep_AuditorInformationHeading" xlink:type="locator"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" xlink:label="uk-aurep_DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" xlink:type="locator"/>
+      <presentationArc order="1.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="uk-aurep_DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" xlink:type="arc"/>
+      <loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_EntityAccountantsOrAuditors" xlink:label="uk-bus_EntityAccountantsOrAuditors" xlink:type="locator"/>
+      <presentationArc order="1.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_DimensionMembersUsedToIdentifyThirdPartyAgentAsAuditorAccountantHeading" xlink:to="uk-bus_EntityAccountantsOrAuditors" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditorsReportHeading" xlink:label="uk-aurep_AuditorsReportHeading" xlink:type="locator"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_EmphasisMatterStatement" xlink:label="uk-aurep_EmphasisMatterStatement" xlink:type="locator"/>
+      <presentationArc order="6.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorsReportHeading" xlink:to="uk-aurep_EmphasisMatterStatement" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementOnReasonsForAnyQualificationOpinion" xlink:label="uk-aurep_StatementOnReasonsForAnyQualificationOpinion" xlink:type="locator"/>
+      <presentationArc order="8.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorsReportHeading" xlink:to="uk-aurep_StatementOnReasonsForAnyQualificationOpinion" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_DateAuditorsReport" xlink:label="uk-aurep_DateAuditorsReport" xlink:type="locator"/>
+      <presentationArc order="9.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorsReportHeading" xlink:to="uk-aurep_DateAuditorsReport" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_FeesToAuditorsHeading" xlink:label="uk-aurep_FeesToAuditorsHeading" xlink:type="locator"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TotalFeesToAuditors" xlink:label="uk-aurep_TotalFeesToAuditors" xlink:type="locator"/>
+      <presentationArc order="2.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_FeesToAuditorsHeading" xlink:to="uk-aurep_TotalFeesToAuditors" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditFeesExpenses" xlink:label="uk-aurep_AuditFeesExpenses" xlink:type="locator"/>
+      <presentationArc order="1.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_TotalFeesToAuditors" xlink:to="uk-aurep_AuditFeesExpenses" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_FeesForNon-auditServices" xlink:label="uk-aurep_FeesForNon-auditServices" xlink:type="locator"/>
+      <presentationArc order="2.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_TotalFeesToAuditors" xlink:to="uk-aurep_FeesForNon-auditServices" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TaxationServicesFees" xlink:label="uk-aurep_TaxationServicesFees" xlink:type="locator"/>
+      <presentationArc order="3.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="uk-aurep_TaxationServicesFees" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TaxationServicesEntitySubsidiariesFees" xlink:label="uk-aurep_TaxationServicesEntitySubsidiariesFees" xlink:type="locator"/>
+      <presentationArc order="2.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_TaxationServicesFees" xlink:to="uk-aurep_TaxationServicesEntitySubsidiariesFees" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_CorporateFinanceTransactionsFees" xlink:label="uk-aurep_CorporateFinanceTransactionsFees" xlink:type="locator"/>
+      <presentationArc order="8.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="uk-aurep_CorporateFinanceTransactionsFees" xlink:type="arc"/>
+      <loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" xlink:label="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" xlink:type="locator"/>
+      <presentationArc order="2.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_CorporateFinanceTransactionsFees" xlink:to="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_DimensionMembersIdentifyingStatusThirdPartyAgentHeading" xlink:label="lbl_DimensionMembersIdentifyingStatusThirdPartyAgentHeading" xlink:type="locator"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="lbl_DimensionMembersIdentifyingStatusThirdPartyAgentHeading" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_TotalAgentsDefault" xlink:label="lbl_TotalAgentsDefault" xlink:type="locator"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_DimensionMembersIdentifyingStatusThirdPartyAgentHeading" xlink:to="lbl_TotalAgentsDefault" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_PrincipalAgent" xlink:label="lbl_PrincipalAgent" xlink:type="locator"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_TotalAgentsDefault" xlink:to="lbl_PrincipalAgent" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_JointAgent1" xlink:label="lbl_JointAgent1" xlink:type="locator"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_TotalAgentsDefault" xlink:to="lbl_JointAgent1" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_JointAgent2" xlink:label="lbl_JointAgent2" xlink:type="locator"/>
+      <link:presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_TotalAgentsDefault" xlink:to="lbl_JointAgent2" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_JointAgent3" xlink:label="lbl_JointAgent3" xlink:type="locator"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_TotalAgentsDefault" xlink:to="lbl_JointAgent3" xlink:type="arc"/>
+      <link:loc xlink:href="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_NameThirdPartyAgent" xlink:label="lbl_NameThirdPartyAgent" xlink:type="locator"/>
+      <link:presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="lbl_NameThirdPartyAgent" xlink:type="arc"/>
+      <link:loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_NameIndividualAuditorOrAccountant" xlink:label="lbl_NameIndividualAuditorOrAccountant" xlink:type="locator"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="lbl_NameIndividualAuditorOrAccountant" xlink:type="arc"/>
+      <link:loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_NameSeniorStatutoryAuditor" xlink:label="lbl_NameSeniorStatutoryAuditor" xlink:type="locator"/>
+      <link:presentationArc order="5.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="lbl_NameSeniorStatutoryAuditor" xlink:type="arc"/>
+      <link:loc xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OpinionAuditorsOnEntity" xlink:label="lbl_OpinionAuditorsOnEntity" xlink:type="locator"/>
+      <link:presentationArc order="5.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorsReportHeading" xlink:to="lbl_OpinionAuditorsOnEntity" xlink:type="arc"/>
+   </presentationLink>
+</linkbase>

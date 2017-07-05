@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-DirectorsReport-Basic schema
+2009-09-01 VERSION 1.1
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-direp="http://www.xbrl.org/uk/reports/direp/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xmlns:uk-common="http://www.xbrl.org/uk/all/common/2009-09-01" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/uk/reports/direp/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/DirectorsReport" id="DirectorsReport">
+        <link:definition>05 - Directors' Report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/Dimension-ShareClasses" id="Dimension-ShareClasses">
+        <link:definition>450 - Dimension - Share Classes</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/Dimension-ShareTypes" id="Dimension-ShareTypes">
+        <link:definition>451 - Dimension - Share Types</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-direp-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-direp-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-direp-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/cd/business/2009-09-01" schemaLocation="../../../cd/business/2009-09-01/uk-bus-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/2004/ref" schemaLocation="http://www.xbrl.org/2004/ref-2004-08-10.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" schemaLocation="../../../all/gaap-ref/2009-09-01/uk-gaap-ref-2009-09-01.xsd" />
+  <element id="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies" name="AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies" name="AccountsAreInAccordanceWithSpecialProvisionsInSection4453CompaniesActRelatingToMedium-sizedCompanies" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors" name="AccruedLumpSumPensionEntitlementUnderDefinedBenefitSchemeDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors" name="AccruedPensionEntitlementUnderDefinedBenefitSchemeDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_AdvancesCreditsDirectors" name="AdvancesCreditsDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_AdvancesCreditsMadeInPeriodDirectors" name="AdvancesCreditsMadeInPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AdvancesCreditsRepaidInPeriodDirectors" name="AdvancesCreditsRepaidInPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AgeDirector" name="AgeDirector" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AmountDonationToEUPoliticalOrganisation" name="AmountDonationToEUPoliticalOrganisation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors" name="AmountPaidLiabilityIncurredInFulfillingGuaranteesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" name="AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AmountSpecificAdvanceOrCreditDirectors" name="AmountSpecificAdvanceOrCreditDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" name="AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" name="AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_AmountSpecificCharitableDonation" name="AmountSpecificCharitableDonation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_BenefitsInKindDirectors" name="BenefitsInKindDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_BenefitsUnderLong-termIncentiveSchemesDirectors" name="BenefitsUnderLong-termIncentiveSchemesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_BonusesDirectors" name="BonusesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_CashReceivableUnderLong-termIncentiveSchemes" name="CashReceivableUnderLong-termIncentiveSchemes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_CharitableDonations" name="CharitableDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_CompanyContributionsToDefinedBenefitSchemesDirectors" name="CompanyContributionsToDefinedBenefitSchemesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_CompanyContributionsToMoneyPurchaseSchemesDirectors" name="CompanyContributionsToMoneyPurchaseSchemesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_CompanyHasActedAsAnAgentDuringPeriod" name="CompanyHasActedAsAnAgentDuringPeriod" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_CompensationForLossOfficeDirectors" name="CompensationForLossOfficeDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_DateAssumedPosition" name="DateAssumedPosition" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DateAwardInterestInInLong-termIncentiveScheme" name="DateAwardInterestInInLong-termIncentiveScheme" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DateGrantOption" name="DateGrantOption" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DateNextReappointment" name="DateNextReappointment" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DateResignation" name="DateResignation" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DateSigningDirectorsReport" name="DateSigningDirectorsReport" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DeferredBonusSharesInEntityOrItsUndertakingsDirectors" name="DeferredBonusSharesInEntityOrItsUndertakingsDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant" name="DescriptionAnyLongTermIncentiveSchemesInWhichThereOnlyOneParticipant" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionAnyNon-cashBenefitsDirectors" name="DescriptionAnyNon-cashBenefitsDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors" name="DescriptionAnyPensionCommitmentsNotProvidedWhichRelateToFormerDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation" name="DescriptionArrangementsRelatedToEmployeesSuchAsProvisionInformationConsultation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" name="DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionGrantRightsToSubscribeToSharesDirectors" name="DescriptionGrantRightsToSubscribeToSharesDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionLong-termInvestmentScheme" name="DescriptionLong-termInvestmentScheme" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice" name="DescriptionNon-cashBenefitsProvidedAsCompensationForLossOffice" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors" name="DescriptionNon-cashBenefitsProvidedToThirdPartiesForServicesDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" name="DescriptionNon-cashRetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionOptionType" name="DescriptionOptionType" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionPurposeSpecificCharitableDonation" name="DescriptionPurposeSpecificCharitableDonation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" name="DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" name="DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionReasonsForPurchaseOwnShares" name="DescriptionReasonsForPurchaseOwnShares" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" name="DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" name="DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionSpecificGuaranteeItsTermsDirectors" name="DescriptionSpecificGuaranteeItsTermsDirectors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes" name="DescriptionVariationsMadeToQualifyingConditionsLong-termIncentiveSchemes" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments" name="DesicriptionAnyArrangementsUnderWhichDirectorsWaiveEmoluments" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DetailsBenefitsUnderLong-termIncentiveSchemesHeading" name="DetailsBenefitsUnderLong-termIncentiveSchemesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DetailsExerciseSpecificOptionsDirectorsGrouping" name="DetailsExerciseSpecificOptionsDirectorsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:ExerciseDate" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberOptionsExercisedDateDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:MarketPriceExerciseDate" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:GainLossOnExerciseSpecificOptionsDateDirectors" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_DetailsPensionBenefitsIndvidualDirectorsHeading" name="DetailsPensionBenefitsIndvidualDirectorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DetailsSharesAwardedUnderSpecificLong-termIncentiveSchemeGrouping" name="DetailsSharesAwardedUnderSpecificLong-termIncentiveSchemeGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionLong-termInvestmentScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:DateAwardInterestInInLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSharesHeldUnderSpecificLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:DescriptionQualifyingConditionsSharesAwardedInPeriodUnderLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:DescriptionQualifyingConditionsRelatedToSharesVestedUnderLong-termIncentiveScheme" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_DetailsSpecificOptionsDirectorsGrouping" name="DetailsSpecificOptionsDirectorsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DateGrantOption" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:DescriptionOptionType" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSpecificOptionsDirectors" minOccurs="0" maxOccurs="unbounded" />
+            <element ref="uk-direp:NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSpecificOptionsGrantedDuingPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSpecificOptionsLapsedDuringPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSpecificOptionsExercisedDuringPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:DetailsExerciseSpecificOptionsDirectorsGrouping" minOccurs="0" maxOccurs="unbounded" />
+            <element ref="uk-direp:ExercisePriceOption" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:GainLossOnExerciseSpecificOptionsDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NetValueSpecificOptionsEndPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:EarliestDateExerciseOpton" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:ExpiryDate" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading" name="DiectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DirectorRemuneration" name="DirectorRemuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_DirectorRemunerationBenefitsExcludingPaymentsToThirdParties" name="DirectorRemunerationBenefitsExcludingPaymentsToThirdParties" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_DirectorRemunerationBenefitsIncludingPaymentsToThirdParties" name="DirectorRemunerationBenefitsIncludingPaymentsToThirdParties" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_DirectorSigningReport" name="DirectorSigningReport" type="uk-types:fixedItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct" name="DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DirectorsAdvancesCreditGuaranteesFree-textComment" name="DirectorsAdvancesCreditGuaranteesFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DirectorsAdvancesCreditGuaranteesHeading" name="DirectorsAdvancesCreditGuaranteesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping" name="DirectorsInterestInDebenturesEntityOrItsUndertakingsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionDirectorInterestInDebenturesEntityOrItsUndertakings" minOccurs="1" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_DirectorsInterestInSharesEntityOrItsUndertakingsHeading" name="DirectorsInterestInSharesEntityOrItsUndertakingsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment" name="DirectorsInterestInSharesOrDebenturesEntityOrItsUndertakingsFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DirectorsRemunerationFree-textComment" name="DirectorsRemunerationFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_DirectorsRemunerationHeading" name="DirectorsRemunerationHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DirectorsReport" name="DirectorsReport" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_DividendRecommendedByDirectors" name="DividendRecommendedByDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_EUPoliticalDonations" name="EUPoliticalDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_EarliestDateExerciseOpton" name="EarliestDateExerciseOpton" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_EmploymentDisabledPersonsPolicy" name="EmploymentDisabledPersonsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_ExcessRetirementBenefitsOverOriginalEntitlementDirectors" name="ExcessRetirementBenefitsOverOriginalEntitlementDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_ExerciseDate" name="ExerciseDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_ExercisePriceOption" name="ExercisePriceOption" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_ExpenseAllowancesDirectors" name="ExpenseAllowancesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_ExpiryDate" name="ExpiryDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_FeesDirectors" name="FeesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_ForFullInformationOnEntitySeeEntityInformationSectionCross-reference" name="ForFullInformationOnEntitySeeEntityInformationSectionCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_ForFurtherDetailsOnOwnSharesSeeOwnSharesNoteInFixedAssetsSectionCross-reference" name="ForFurtherDetailsOnOwnSharesSeeOwnSharesNoteInFixedAssetsSectionCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_ForOtherStatementsRelatedToSmallCompaniesSeeDirectorsOrEntitysDeclarationsInNotesGAAPTaxonomyCross-reference" name="ForOtherStatementsRelatedToSmallCompaniesSeeDirectorsOrEntitysDeclarationsInNotesGAAPTaxonomyCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_GainLossOnExerciseShareOptionsDirectors" name="GainLossOnExerciseShareOptionsDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_GainLossOnExerciseSpecificOptionsDateDirectors" name="GainLossOnExerciseSpecificOptionsDateDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_GainLossOnExerciseSpecificOptionsDirectors" name="GainLossOnExerciseSpecificOptionsDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes" name="GeneralDescriptionBenefitsUnderLong-termIncentiveSchemes" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_GrantRightsToDirectorsToSubscribeToSharesGrouping" name="GrantRightsToDirectorsToSubscribeToSharesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionGrantRightsToSubscribeToSharesDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:NumberSharesGrantedDirectors" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors" name="IncreaseDecreaseInPensionsEntitlementDuringPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_IncreaseDecreasePensionsTransferValueDirectors" name="IncreaseDecreasePensionsTransferValueDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_ListDirectorsHeading" name="ListDirectorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_MarketPriceExerciseDate" name="MarketPriceExerciseDate" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" name="MarketPriceSharesDateAwardUnderLong-termIncentiveScheme" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" name="MarketValueSharesAwardedDuringPeriodUnderSpecificLong-termIncentiveScheme" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" name="MarketValueSharesVestedDuringPeriodUnderSpecificLong-termIncentiveSchemes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_MaximumLiabilityUnderGuaranteesDirectors" name="MaximumLiabilityUnderGuaranteesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" nillable="true" />
+  <element id="uk-direp_MaximumLiabilityUnderSpecificGuaranteeDirectors" name="MaximumLiabilityUnderSpecificGuaranteeDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" nillable="true" />
+  <element id="uk-direp_MaximumNominalValueOwnSharesHeldByEntityInPeriod" name="MaximumNominalValueOwnSharesHeldByEntityInPeriod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_MaximumNumberOwnSharesHeldByEntityInPeriod" name="MaximumNumberOwnSharesHeldByEntityInPeriod" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NameOrDescriptionRecipientOrganisation" name="NameOrDescriptionRecipientOrganisation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NetConsiderationPaidForOwnShares" name="NetConsiderationPaidForOwnShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" name="NetNumberSpecificOptionsGrantedLapsedDuringPeriodDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NetValueSpecificOptionsEndPeriodDirectors" name="NetValueSpecificOptionsEndPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NominalValueOwnSharesPurchased" name="NominalValueOwnSharesPurchased" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NominalValueOwnSharesSold" name="NominalValueOwnSharesSold" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_Non-EUPoliticalDonations" name="Non-EUPoliticalDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_NumberBeneficialSharesInEntityOrItsUndertakingsDirectors" name="NumberBeneficialSharesInEntityOrItsUndertakingsDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme" name="NumberDirectorsAccruingBenefitsUnderDefinedBenefitScheme" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme" name="NumberDirectorsAccruingBenefitsUnderMoneyPurchaseScheme" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberDirectorsAccruingRetirementBenefits" name="NumberDirectorsAccruingRetirementBenefits" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberDirectorsWhoExercisedShareOptions" name="NumberDirectorsWhoExercisedShareOptions" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes" name="NumberDirectorsWhoReceivedOrWereEntitledToReceiveSharesUnderLongTermIncentiveSchemes" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors" name="NumberNon-beneficialSharesInEntityOrItsUndertakingsDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberOptionsExercisedDateDirectors" name="NumberOptionsExercisedDateDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberOwnSharesPurchased" name="NumberOwnSharesPurchased" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberOwnSharesSold" name="NumberOwnSharesSold" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" name="NumberSharesAwardedDuringPeriodUnderLong-termIncentiveScheme" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" name="NumberSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSharesGrantedDirectors" name="NumberSharesGrantedDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSharesHeldUnderLong-termIncentiveSchemes" name="NumberSharesHeldUnderLong-termIncentiveSchemes" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberSharesHeldUnderSpecificLong-termIncentiveScheme" name="NumberSharesHeldUnderSpecificLong-termIncentiveScheme" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberSharesInEntityOrItsUndertakingsDirectors" name="NumberSharesInEntityOrItsUndertakingsDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" name="NumberSharesLapsedUnderSpecificLong-termIncentiveScheme" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" name="NumberSharesVestedDuringPeriodUnderSpecificLong-termIncentiveScheme" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSpecificOptionsDirectors" name="NumberSpecificOptionsDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_NumberSpecificOptionsExercisedDuringPeriodDirectors" name="NumberSpecificOptionsExercisedDuringPeriodDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSpecificOptionsGrantedDuingPeriodDirectors" name="NumberSpecificOptionsGrantedDuingPeriodDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumberSpecificOptionsLapsedDuringPeriodDirectors" name="NumberSpecificOptionsLapsedDuringPeriodDirectors" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_NumbersDirectorsReceivingBenefitsShareIncentivesHeading" name="NumbersDirectorsReceivingBenefitsShareIncentivesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OptionsDirectorsHeading" name="OptionsDirectorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OrdinaryShareClass1" name="OrdinaryShareClass1" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OrdinaryShareClass2" name="OrdinaryShareClass2" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OrdinaryShareClass3" name="OrdinaryShareClass3" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OrdinaryShareClass4" name="OrdinaryShareClass4" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OrdinaryShareClass5" name="OrdinaryShareClass5" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_OtherAssetsReceivableUnderLong-termIncentiveSchemes" name="OtherAssetsReceivableUnderLong-termIncentiveSchemes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping" name="OwnSharesAcquiredOrHeldInSpecialCircumstancesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionSpecialCircumstancesTypeNumberNominalValuesSharesAcquiredDisposedOrCharged" minOccurs="1" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_PaymentCreditorsPolicyPractice" name="PaymentCreditorsPolicyPractice" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors" name="PaymentsMadeToThirdPartiesForServicesDirectorsAsDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors" name="PaymentsMadeToThirdPartiesForServicesDirectorsWhileDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_PaymentsToThirdPartiesForDirectorServices" name="PaymentsToThirdPartiesForDirectorServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_PaymentsToThirdPartiesForDirectorsServicesHeading" name="PaymentsToThirdPartiesForDirectorsServicesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PensionBenefitsDirectorsHeading" name="PensionBenefitsDirectorsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod" name="PercentageCalled-upShareCapitalRepresentedByPurchasesDuringPeriod" type="uk-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_PoliticalCharitableDonations" name="PoliticalCharitableDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_PoliticalCharitableDonationsFree-textComment" name="PoliticalCharitableDonationsFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_PoliticalDonations" name="PoliticalDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_PreferenceShareClass1" name="PreferenceShareClass1" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PreferenceShareClass2" name="PreferenceShareClass2" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PreferenceShareClass3" name="PreferenceShareClass3" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PreferenceShareClass4" name="PreferenceShareClass4" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PreferenceShareClass5" name="PreferenceShareClass5" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_PurchaseOwnShares" name="PurchaseOwnShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_PurchaseOwnSharesFree-textComment" name="PurchaseOwnSharesFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_PurchaseOwnSharesHeading" name="PurchaseOwnSharesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" name="RetirementBenefitsReceivedOrReceivableInExcessEntitlementOn31March1997" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_SalariesDirectors" name="SalariesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_SalariesFeesDirectors" name="SalariesFeesDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-direp_SaleOwnShares" name="SaleOwnShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_SpecificAdvanceOrCreditDirectorsGrouping" name="SpecificAdvanceOrCreditDirectorsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionSpecificAdvanceOrCreditItsConditionsDirectors" minOccurs="1" maxOccurs="1" />
+            <element ref="uk-direp:AmountSpecificAdvanceOrCreditDirectors" minOccurs="0" maxOccurs="unbounded" />
+            <element ref="uk-direp:AmountSpecificAdvanceOrCreditMadeInPeriodDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:AmountSpecificAdvanceOrCreditRepaidInPeriodDirectors" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_SpecificCharitableDonationGrouping" name="SpecificCharitableDonationGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionPurposeSpecificCharitableDonation" minOccurs="1" maxOccurs="1" />
+            <element ref="uk-direp:AmountSpecificCharitableDonation" minOccurs="1" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_SpecificEUPoliticalDonationGrouping" name="SpecificEUPoliticalDonationGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:NameOrDescriptionRecipientOrganisation" minOccurs="1" maxOccurs="1" />
+            <element ref="uk-direp:AmountDonationToEUPoliticalOrganisation" minOccurs="1" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_SpecificGuaranteeDirectorsGrouping" name="SpecificGuaranteeDirectorsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-direp:DescriptionSpecificGuaranteeItsTermsDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:MaximumLiabilityUnderSpecificGuaranteeDirectors" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-direp:AmountPaidLiabilityIncurredInFulfillingSpecificGuaranteeDirectors" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-direp_StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings" name="StatementIfDirectorOrExecutiveHadNoInterestInSharesOrDebenturesEntityOrItsUndertakings" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_StatementOnQualifyingThirdPartyIndemnityProvisions" name="StatementOnQualifyingThirdPartyIndemnityProvisions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_StatementOnQualityCompletenessInformationProvidedToAuditors" name="StatementOnQualityCompletenessInformationProvidedToAuditors" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_StatementsInDirectorsReport" name="StatementsInDirectorsReport" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" name="TotalMarketValueSharesAwardedDuringPeriodUnderLong-termIncentiveSchemes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-direp_TotalNetValueOptionsEndPeriodDirectors" name="TotalNetValueOptionsEndPeriodDirectors" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-direp_UseDimensionMembersToIdentifyShareTypeUndertakingExplanation" name="UseDimensionMembersToIdentifyShareTypeUndertakingExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_UseDirectorsDimensionMembersToIdentifyTotalsForDirectorsIndividualDirectorsExplanation" name="UseDirectorsDimensionMembersToIdentifyTotalsForDirectorsIndividualDirectorsExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-direp_YearsServiceDirector" name="YearsServiceDirector" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+</schema>

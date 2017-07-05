@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IE-COMMON-Presentation linkbase
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#Entity-Information" roleURI="http://www.xbrl.org/uk/cd/role/Entity-Information" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#AuditorsReport" roleURI="http://www.xbrl.org/uk/role/AuditorsReport" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#CountriesAndRegions" roleURI="http://www.xbrl.org/uk/all/role/CountriesAndRegions" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#StockExchanges" roleURI="http://www.xbrl.org/uk/all/role/StockExchanges" />
+  <presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Entity-Information">
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_EntityIdentifyingCodesHeading" xlink:label="uk-bus_EntityIdentifyingCodesHeading" />
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_UKCompaniesHouseRegisteredNumber" xlink:label="uk-bus_UKCompaniesHouseRegisteredNumber" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-bus_EntityIdentifyingCodesHeading" xlink:to="uk-bus_UKCompaniesHouseRegisteredNumber" order="1" use="prohibited" />
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_UKVATRegistrationNumber" xlink:label="uk-bus_UKVATRegistrationNumber" />
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-bus_EntityIdentifyingCodesHeading" xlink:to="uk-bus_UKVATRegistrationNumber" order="2" use="prohibited" />
+    <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_CompaniesRegistrationOfficeNumber" xlink:label="ie-common_CompaniesRegistrationOfficeNumber" xlink:type="locator"/>
+    <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_IrishVATRegistrationNumber" xlink:label="ie-common_IrishVATRegistrationNumber" xlink:type="locator"/>
+    <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-bus_EntityIdentifyingCodesHeading" xlink:to="ie-common_CompaniesRegistrationOfficeNumber" xlink:type="arc"/>
+    <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-bus_EntityIdentifyingCodesHeading" xlink:to="ie-common_IrishVATRegistrationNumber" xlink:type="arc"/>
+  </presentationLink>
+  <presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/role/AuditorsReport" xlink:title="Auditors' Report ">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_NameCharteredAccountantRegisteredAuditor" xlink:label="ie-common_NameCharteredAccountantRegisteredAuditor" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesFees" xlink:label="ie-common_OtherAuditServicesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesPensionSchemesFees" xlink:label="ie-common_OtherAuditServicesPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:label="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryFees" xlink:label="ie-common_TaxationAdvisoryFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryPensionSchemesFees" xlink:label="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:label="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceFees" xlink:label="ie-common_OtherAssuranceFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssurancePensionSchemesFees" xlink:label="ie-common_OtherAssurancePensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:label="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_AuditorInformationHeading" xlink:label="uk-aurep_AuditorInformationHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_AuditFeesExpenses" xlink:label="uk-aurep_AuditFeesExpenses" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_FeesForNon-auditServices" xlink:label="uk-aurep_FeesForNon-auditServices" xlink:type="locator"/>
+      <presentationArc order="6.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="ie-common_NameCharteredAccountantRegisteredAuditor" xlink:type="arc"/>
+      <presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditFeesExpenses" xlink:to="ie-common_OtherAuditServicesFees" xlink:type="arc"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_OtherAuditServicesFees" xlink:to="ie-common_OtherAuditServicesPensionSchemesFees" xlink:type="arc"/>
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_OtherAuditServicesFees" xlink:to="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:type="arc"/>
+      <presentationArc order="2.5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="ie-common_TaxationAdvisoryFees" xlink:type="arc"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_TaxationAdvisoryFees" xlink:to="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:type="arc"/>
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_TaxationAdvisoryFees" xlink:to="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:type="arc"/>
+      <presentationArc order="5.5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="ie-common_OtherAssuranceFees" xlink:type="arc"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_OtherAssuranceFees" xlink:to="ie-common_OtherAssurancePensionSchemesFees" xlink:type="arc"/>
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ie-common_OtherAssuranceFees" xlink:to="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:type="arc"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_NameSeniorStatutoryAuditor" xlink:label="uk-aurep_NameSeniorStatutoryAuditor" xlink:type="locator"/>
+      <presentationArc order="6.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-aurep_AuditorInformationHeading" xlink:to="uk-aurep_NameSeniorStatutoryAuditor" xlink:type="arc" use="prohibited" />
+  </presentationLink>
+  <presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/CountriesAndRegions">
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ireland" xlink:label="uk-countries_Ireland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HomeCountriesHeading" xlink:label="uk-countries_HomeCountriesHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedKingdom" xlink:label="uk-countries_UnitedKingdom" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_England" xlink:label="uk-countries_England" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Scotland" xlink:label="uk-countries_Scotland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Wales" xlink:label="uk-countries_Wales" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorthernIreland" xlink:label="uk-countries_NorthernIreland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_IsleMan" xlink:label="uk-countries_IsleMan" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Jersey" xlink:label="uk-countries_Jersey" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guernsey" xlink:label="uk-countries_Guernsey" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_GreatBritain" xlink:label="uk-countries_GreatBritain" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestWorldOutsideIreland" xlink:label="ie-common_RestWorldOutsideIreland" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestEuropeOutsideIreland" xlink:label="ie-common_RestEuropeOutsideIreland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestWorldOutsideUK" xlink:label="uk-countries_RestWorldOutsideUK" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestEuropeOutsideUK" xlink:label="uk-countries_RestEuropeOutsideUK" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:label="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MainRegionsHeading" xlink:label="uk-countries_MainRegionsHeading" xlink:type="locator"/>
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:to="uk-countries_Ireland" xlink:type="arc"/>
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:to="uk-countries_HomeCountriesHeading" xlink:type="arc" use="prohibited" />
+      <presentationArc order="0.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_UnitedKingdom" xlink:type="arc" use="prohibited" />
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_England" xlink:type="arc" use="prohibited" />
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Scotland" xlink:type="arc" use="prohibited" />
+      <presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Wales" xlink:type="arc" use="prohibited" />
+      <presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_NorthernIreland" xlink:type="arc" use="prohibited" />
+      <presentationArc order="5.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_IsleMan" xlink:type="arc" use="prohibited" />
+      <presentationArc order="6.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Jersey" xlink:type="arc" use="prohibited" />
+      <presentationArc order="7.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Guernsey" xlink:type="arc" use="prohibited" />
+      <presentationArc order="8.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_GreatBritain" xlink:type="arc" use="prohibited" />
+      <presentationArc order="0.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="ie-common_RestWorldOutsideIreland" xlink:type="arc"/>
+      <presentationArc order="0.5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="ie-common_RestEuropeOutsideIreland" xlink:type="arc"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestWorldOutsideUK" xlink:type="arc" use="prohibited" />
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestEuropeOutsideUK" xlink:type="arc" use="prohibited" />
+  </presentationLink>
+  <presentationLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/StockExchanges">
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_Ireland-IrishStockExchange" xlink:label="uk-exch_Ireland-IrishStockExchange" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_UK-LondonStockExchange" xlink:label="uk-exch_UK-LondonStockExchange" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_UK-AlternateInvestmentMarket" xlink:label="uk-exch_UK-AlternateInvestmentMarket" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:label="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_OtherMainExchangesHeading" xlink:label="uk-exch_OtherMainExchangesHeading" xlink:type="locator"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_Ireland-IrishStockExchange" xlink:type="arc"/>
+      <presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-LondonStockExchange" xlink:type="arc" use="prohibited" />
+      <presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" xlink:type="arc" use="prohibited" />
+      <presentationArc order="9.5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" xlink:type="arc"/>
+      <presentationArc order="11.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_UK-LondonStockExchange" xlink:type="arc"/>
+  </presentationLink>
+</linkbase>

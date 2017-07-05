@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IE-IFRS - entry schema for full IFRS taxonomy and associated files
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ie-ifrs-all="http://www.xbrl-ie.net/ifrs/core-all/2012-12-01" targetNamespace="http://www.xbrl-ie.net/ifrs/core-all/2012-12-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo />
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl-ie.net/ifrs/core-full/2012-12-01" schemaLocation="ifrs/core/2012-12-01/ie-ifrs-full-2012-12-01.xsd" />
+</schema>

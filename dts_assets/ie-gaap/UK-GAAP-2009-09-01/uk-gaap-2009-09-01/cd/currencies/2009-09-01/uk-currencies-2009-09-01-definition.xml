@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Currencies-Definition linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+  <roleRef xlink:type="simple" xlink:href="uk-currencies-2009-09-01.xsd#Dimension-Currencies" roleURI="http://www.xbrl.org/uk/all/role/Dimension-Currencies" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/Dimension-Currencies">
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CurrenciesDimension" xlink:label="uk-curr_CurrenciesDimension" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:label="uk-curr_DimensionMembersRepresentingCurrenciesHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="uk-curr_CurrenciesDimension" xlink:to="uk-curr_DimensionMembersRepresentingCurrenciesHeading" order="1" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AllCurrencies" xlink:label="uk-curr_AllCurrencies" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:to="uk-curr_AllCurrencies" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MainCurrenciesHeading" xlink:label="uk-curr_MainCurrenciesHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:to="uk-curr_MainCurrenciesHeading" order="2" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PoundSterling" xlink:label="uk-curr_PoundSterling" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_PoundSterling" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollar" xlink:label="uk-curr_USDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_USDollar" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Euro" xlink:label="uk-curr_Euro" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_Euro" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Yen" xlink:label="uk-curr_Yen" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_Yen" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CanadianDollar" xlink:label="uk-curr_CanadianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_CanadianDollar" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FullCurrenciesListHeading" xlink:label="uk-curr_FullCurrenciesListHeading" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:to="uk-curr_FullCurrenciesListHeading" order="3" use="optional" xbrldt:usable="false" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Afghani" xlink:label="uk-curr_Afghani" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Afghani" order="1" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AlgerianDinar" xlink:label="uk-curr_AlgerianDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_AlgerianDinar" order="2" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArgentinePeso" xlink:label="uk-curr_ArgentinePeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ArgentinePeso" order="3" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArmenianDram" xlink:label="uk-curr_ArmenianDram" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ArmenianDram" order="4" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArubanGuilder" xlink:label="uk-curr_ArubanGuilder" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ArubanGuilder" order="5" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AustralianDollar" xlink:label="uk-curr_AustralianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_AustralianDollar" order="6" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AzerbaijanianManat" xlink:label="uk-curr_AzerbaijanianManat" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_AzerbaijanianManat" order="7" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahamianDollar" xlink:label="uk-curr_BahamianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BahamianDollar" order="8" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahrainiDinar" xlink:label="uk-curr_BahrainiDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BahrainiDinar" order="9" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Baht" xlink:label="uk-curr_Baht" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Baht" order="10" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Balboa" xlink:label="uk-curr_Balboa" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Balboa" order="11" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BarbadosDollar" xlink:label="uk-curr_BarbadosDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BarbadosDollar" order="12" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelarussianRuble" xlink:label="uk-curr_BelarussianRuble" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BelarussianRuble" order="13" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelizeDollar" xlink:label="uk-curr_BelizeDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BelizeDollar" order="14" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BermudianDollar" xlink:label="uk-curr_BermudianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BermudianDollar" order="15" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Bolivar" xlink:label="uk-curr_Bolivar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Bolivar" order="16" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Boliviano" xlink:label="uk-curr_Boliviano" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Boliviano" order="17" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" xlink:label="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" order="18" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BrazilianReal" xlink:label="uk-curr_BrazilianReal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BrazilianReal" order="19" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BruneiDollar" xlink:label="uk-curr_BruneiDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BruneiDollar" order="20" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BulgarianLev" xlink:label="uk-curr_BulgarianLev" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BulgarianLev" order="21" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BurundiFranc" xlink:label="uk-curr_BurundiFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_BurundiFranc" order="22" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CanadianDollar" order="23" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CapeVerdeEscudo" xlink:label="uk-curr_CapeVerdeEscudo" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CapeVerdeEscudo" order="24" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CaymanIslandsDollar" xlink:label="uk-curr_CaymanIslandsDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CaymanIslandsDollar" order="25" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Cedi" xlink:label="uk-curr_Cedi" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Cedi" order="26" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBCEAO" xlink:label="uk-curr_CFAFrancBCEAO" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CFAFrancBCEAO" order="27" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBEAC" xlink:label="uk-curr_CFAFrancBEAC" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CFAFrancBEAC" order="28" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFPFranc" xlink:label="uk-curr_CFPFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CFPFranc" order="29" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ChileanPeso" xlink:label="uk-curr_ChileanPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ChileanPeso" order="30" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ColombianPeso" xlink:label="uk-curr_ColombianPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ColombianPeso" order="31" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ComoroFranc" xlink:label="uk-curr_ComoroFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ComoroFranc" order="32" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ConvertibleMarks" xlink:label="uk-curr_ConvertibleMarks" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ConvertibleMarks" order="33" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CordobaOro" xlink:label="uk-curr_CordobaOro" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CordobaOro" order="34" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CostaRicanColon" xlink:label="uk-curr_CostaRicanColon" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CostaRicanColon" order="35" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CroatianKuna" xlink:label="uk-curr_CroatianKuna" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CroatianKuna" order="36" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CubanPeso" xlink:label="uk-curr_CubanPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CubanPeso" order="37" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CyprusPound" xlink:label="uk-curr_CyprusPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CyprusPound" order="38" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CzechKoruna" xlink:label="uk-curr_CzechKoruna" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_CzechKoruna" order="39" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dalasi" xlink:label="uk-curr_Dalasi" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Dalasi" order="40" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DanishKrone" xlink:label="uk-curr_DanishKrone" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_DanishKrone" order="41" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Denar" xlink:label="uk-curr_Denar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Denar" order="42" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DjiboutiFranc" xlink:label="uk-curr_DjiboutiFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_DjiboutiFranc" order="43" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dobra" xlink:label="uk-curr_Dobra" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Dobra" order="44" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DominicanPeso" xlink:label="uk-curr_DominicanPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_DominicanPeso" order="45" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dong" xlink:label="uk-curr_Dong" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Dong" order="46" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EastCaribbeanDollar" xlink:label="uk-curr_EastCaribbeanDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EastCaribbeanDollar" order="47" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EgyptianPound" xlink:label="uk-curr_EgyptianPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EgyptianPound" order="48" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ElSalvadorColon" xlink:label="uk-curr_ElSalvadorColon" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ElSalvadorColon" order="49" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EthiopianBirr" xlink:label="uk-curr_EthiopianBirr" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EthiopianBirr" order="50" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Euro" order="51" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanMonetaryUnitE.M.U.-6" xlink:label="uk-curr_EuropeanMonetaryUnitE.M.U.-6" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EuropeanMonetaryUnitE.M.U.-6" order="52" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount17E.U.A.-17" xlink:label="uk-curr_EuropeanUnitAccount17E.U.A.-17" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EuropeanUnitAccount17E.U.A.-17" order="53" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount9E.U.A.-9" xlink:label="uk-curr_EuropeanUnitAccount9E.U.A.-9" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_EuropeanUnitAccount9E.U.A.-9" order="54" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FalklandIslandsPound" xlink:label="uk-curr_FalklandIslandsPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_FalklandIslandsPound" order="55" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FijiDollar" xlink:label="uk-curr_FijiDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_FijiDollar" order="56" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Forint" xlink:label="uk-curr_Forint" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Forint" order="57" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FrancCongolais" xlink:label="uk-curr_FrancCongolais" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_FrancCongolais" order="58" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GibraltarPound" xlink:label="uk-curr_GibraltarPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_GibraltarPound" order="59" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold" xlink:label="uk-curr_Gold" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Gold" order="60" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold-Franc" xlink:label="uk-curr_Gold-Franc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Gold-Franc" order="61" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gourde" xlink:label="uk-curr_Gourde" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Gourde" order="62" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guarani" xlink:label="uk-curr_Guarani" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Guarani" order="63" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guinea-BissauPeso" xlink:label="uk-curr_Guinea-BissauPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Guinea-BissauPeso" order="64" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuineaFranc" xlink:label="uk-curr_GuineaFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_GuineaFranc" order="65" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuyanaDollar" xlink:label="uk-curr_GuyanaDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_GuyanaDollar" order="66" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_HongKongDollar" xlink:label="uk-curr_HongKongDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_HongKongDollar" order="67" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Hryvnia" xlink:label="uk-curr_Hryvnia" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Hryvnia" order="68" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IcelandKrona" xlink:label="uk-curr_IcelandKrona" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_IcelandKrona" order="69" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IndianRupee" xlink:label="uk-curr_IndianRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_IndianRupee" order="70" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IranianRial" xlink:label="uk-curr_IranianRial" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_IranianRial" order="71" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IraqiDinar" xlink:label="uk-curr_IraqiDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_IraqiDinar" order="72" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JamaicanDollar" xlink:label="uk-curr_JamaicanDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_JamaicanDollar" order="73" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JordanianDinar" xlink:label="uk-curr_JordanianDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_JordanianDinar" order="74" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KenyanShilling" xlink:label="uk-curr_KenyanShilling" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_KenyanShilling" order="75" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kina" xlink:label="uk-curr_Kina" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Kina" order="76" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kip" xlink:label="uk-curr_Kip" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Kip" order="77" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kroon" xlink:label="uk-curr_Kroon" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Kroon" order="78" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KuwaitiDinar" xlink:label="uk-curr_KuwaitiDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_KuwaitiDinar" order="79" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kwacha" xlink:label="uk-curr_Kwacha" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Kwacha" order="80" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kyat" xlink:label="uk-curr_Kyat" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Kyat" order="81" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lari" xlink:label="uk-curr_Lari" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Lari" order="82" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LatvianLats" xlink:label="uk-curr_LatvianLats" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_LatvianLats" order="83" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LebanesePound" xlink:label="uk-curr_LebanesePound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_LebanesePound" order="84" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lek" xlink:label="uk-curr_Lek" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Lek" order="85" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lempira" xlink:label="uk-curr_Lempira" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Lempira" order="86" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Leone" xlink:label="uk-curr_Leone" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Leone" order="87" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LiberianDollar" xlink:label="uk-curr_LiberianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_LiberianDollar" order="88" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LibyanDinar" xlink:label="uk-curr_LibyanDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_LibyanDinar" order="89" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lilangeni" xlink:label="uk-curr_Lilangeni" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Lilangeni" order="90" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LithuanianLitas" xlink:label="uk-curr_LithuanianLitas" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_LithuanianLitas" order="91" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Loti" xlink:label="uk-curr_Loti" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Loti" order="92" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalagasyAriary" xlink:label="uk-curr_MalagasyAriary" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MalagasyAriary" order="93" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalaysianRinggit" xlink:label="uk-curr_MalaysianRinggit" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MalaysianRinggit" order="94" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalteseLira" xlink:label="uk-curr_MalteseLira" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MalteseLira" order="95" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Manat" xlink:label="uk-curr_Manat" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Manat" order="96" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MauritiusRupee" xlink:label="uk-curr_MauritiusRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MauritiusRupee" order="97" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Merical" xlink:label="uk-curr_Merical" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Merical" order="98" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanPeso" xlink:label="uk-curr_MexicanPeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MexicanPeso" order="99" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanUnidadDeInversionUID" xlink:label="uk-curr_MexicanUnidadDeInversionUID" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MexicanUnidadDeInversionUID" order="100" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoldovanLeu" xlink:label="uk-curr_MoldovanLeu" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MoldovanLeu" order="101" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoroccanDirham" xlink:label="uk-curr_MoroccanDirham" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_MoroccanDirham" order="102" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Mvdol" xlink:label="uk-curr_Mvdol" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Mvdol" order="103" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Naira" xlink:label="uk-curr_Naira" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Naira" order="104" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Nakfa" xlink:label="uk-curr_Nakfa" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Nakfa" order="105" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NamibianDollar" xlink:label="uk-curr_NamibianDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NamibianDollar" order="106" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NepaleseRupee" xlink:label="uk-curr_NepaleseRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NepaleseRupee" order="107" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NetherlandsAntillianGuilder" xlink:label="uk-curr_NetherlandsAntillianGuilder" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NetherlandsAntillianGuilder" order="108" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewIsraeliSheqel" xlink:label="uk-curr_NewIsraeliSheqel" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NewIsraeliSheqel" order="109" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewLeu" xlink:label="uk-curr_NewLeu" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NewLeu" order="110" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTaiwanDollar" xlink:label="uk-curr_NewTaiwanDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NewTaiwanDollar" order="111" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTurkishLira" xlink:label="uk-curr_NewTurkishLira" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NewTurkishLira" order="112" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewZealandDollar" xlink:label="uk-curr_NewZealandDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NewZealandDollar" order="113" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ngultrum" xlink:label="uk-curr_Ngultrum" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Ngultrum" order="114" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorthKoreanWon" xlink:label="uk-curr_NorthKoreanWon" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NorthKoreanWon" order="115" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorwegianKrone" xlink:label="uk-curr_NorwegianKrone" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NorwegianKrone" order="116" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NuevoSol" xlink:label="uk-curr_NuevoSol" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_NuevoSol" order="117" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldLeu" xlink:label="uk-curr_OldLeu" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_OldLeu" order="118" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldTurkishLira" xlink:label="uk-curr_OldTurkishLira" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_OldTurkishLira" order="119" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ouguiya" xlink:label="uk-curr_Ouguiya" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Ouguiya" order="120" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Paanga" xlink:label="uk-curr_Paanga" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Paanga" order="121" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PakistanRupee" xlink:label="uk-curr_PakistanRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_PakistanRupee" order="122" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Palladium" xlink:label="uk-curr_Palladium" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Palladium" order="123" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pataca" xlink:label="uk-curr_Pataca" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Pataca" order="124" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PesoUruguayo" xlink:label="uk-curr_PesoUruguayo" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_PesoUruguayo" order="125" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PhilippinePeso" xlink:label="uk-curr_PhilippinePeso" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_PhilippinePeso" order="126" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Platinum" xlink:label="uk-curr_Platinum" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Platinum" order="127" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_PoundSterling" order="128" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pula" xlink:label="uk-curr_Pula" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Pula" order="129" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_QatariRial" xlink:label="uk-curr_QatariRial" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_QatariRial" order="130" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Quetzal" xlink:label="uk-curr_Quetzal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Quetzal" order="131" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rand" xlink:label="uk-curr_Rand" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Rand" order="132" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RialOmani" xlink:label="uk-curr_RialOmani" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_RialOmani" order="133" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Riel" xlink:label="uk-curr_Riel" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Riel" order="134" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rufiyaa" xlink:label="uk-curr_Rufiyaa" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Rufiyaa" order="135" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rupiah" xlink:label="uk-curr_Rupiah" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Rupiah" order="136" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RussianRuble" xlink:label="uk-curr_RussianRuble" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_RussianRuble" order="137" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RwandaFranc" xlink:label="uk-curr_RwandaFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_RwandaFranc" order="138" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaintHelenaPound" xlink:label="uk-curr_SaintHelenaPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SaintHelenaPound" order="139" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaudiRiyal" xlink:label="uk-curr_SaudiRiyal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SaudiRiyal" order="140" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SDR" xlink:label="uk-curr_SDR" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SDR" order="141" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SerbianDinar" xlink:label="uk-curr_SerbianDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SerbianDinar" order="142" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SeychellesRupee" xlink:label="uk-curr_SeychellesRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SeychellesRupee" order="143" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Silver" xlink:label="uk-curr_Silver" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Silver" order="144" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SingaporeDollar" xlink:label="uk-curr_SingaporeDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SingaporeDollar" order="145" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SlovakKoruna" xlink:label="uk-curr_SlovakKoruna" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SlovakKoruna" order="146" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SolomonIslandsDollar" xlink:label="uk-curr_SolomonIslandsDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SolomonIslandsDollar" order="147" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Som" xlink:label="uk-curr_Som" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Som" order="148" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SomaliShilling" xlink:label="uk-curr_SomaliShilling" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SomaliShilling" order="149" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Somoni" xlink:label="uk-curr_Somoni" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Somoni" order="150" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SriLankaRupee" xlink:label="uk-curr_SriLankaRupee" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SriLankaRupee" order="151" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SudaneseDinar" xlink:label="uk-curr_SudaneseDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SudaneseDinar" order="152" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SurinamDollar" xlink:label="uk-curr_SurinamDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SurinamDollar" order="153" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwedishKrona" xlink:label="uk-curr_SwedishKrona" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SwedishKrona" order="154" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwissFranc" xlink:label="uk-curr_SwissFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SwissFranc" order="155" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SyrianPound" xlink:label="uk-curr_SyrianPound" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_SyrianPound" order="156" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Taka" xlink:label="uk-curr_Taka" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Taka" order="157" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tala" xlink:label="uk-curr_Tala" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Tala" order="158" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TanzanianShilling" xlink:label="uk-curr_TanzanianShilling" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_TanzanianShilling" order="159" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tenge" xlink:label="uk-curr_Tenge" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Tenge" order="160" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tolar" xlink:label="uk-curr_Tolar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Tolar" order="161" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TrinidadTobagoDollar" xlink:label="uk-curr_TrinidadTobagoDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_TrinidadTobagoDollar" order="162" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tugrik" xlink:label="uk-curr_Tugrik" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Tugrik" order="163" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TunisianDinar" xlink:label="uk-curr_TunisianDinar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_TunisianDinar" order="164" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UAEDirham" xlink:label="uk-curr_UAEDirham" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UAEDirham" order="165" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UgandaShilling" xlink:label="uk-curr_UgandaShilling" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UgandaShilling" order="166" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UIC-Franc" xlink:label="uk-curr_UIC-Franc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UIC-Franc" order="167" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadDeValorReal" xlink:label="uk-curr_UnidadDeValorReal" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UnidadDeValorReal" order="168" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadesDeFormento" xlink:label="uk-curr_UnidadesDeFormento" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UnidadesDeFormento" order="169" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_USDollar" order="170" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarNextDay" xlink:label="uk-curr_USDollarNextDay" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_USDollarNextDay" order="171" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarSameDay" xlink:label="uk-curr_USDollarSameDay" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_USDollarSameDay" order="172" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UzbekistanSum" xlink:label="uk-curr_UzbekistanSum" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_UzbekistanSum" order="173" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Vatu" xlink:label="uk-curr_Vatu" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Vatu" order="174" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIREuro" xlink:label="uk-curr_WIREuro" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_WIREuro" order="175" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIRFranc" xlink:label="uk-curr_WIRFranc" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_WIRFranc" order="176" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Won" xlink:label="uk-curr_Won" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Won" order="177" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YemeniRial" xlink:label="uk-curr_YemeniRial" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_YemeniRial" order="178" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Yen" order="179" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YuanRenminbi" xlink:label="uk-curr_YuanRenminbi" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_YuanRenminbi" order="180" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ZimbabweDollar" xlink:label="uk-curr_ZimbabweDollar" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_ZimbabweDollar" order="181" use="optional" />
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Zloty" xlink:label="uk-curr_Zloty" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_Zloty" order="182" use="optional" />
+    <loc xlink:type="locator" xlink:href="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd#uk-common_NotApplicable" xlink:label="uk-common_NotApplicable" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:to="uk-common_NotApplicable" order="4" use="optional" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="uk-curr_CurrenciesDimension" xlink:to="uk-common_NotApplicable" order="2" use="optional" />
+  </definitionLink>
+</linkbase>

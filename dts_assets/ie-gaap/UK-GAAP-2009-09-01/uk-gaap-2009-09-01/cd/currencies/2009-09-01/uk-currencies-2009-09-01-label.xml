@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Currencies-Label linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Afghani" xlink:label="uk-curr_Afghani" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Afghani" xlink:to="uk-curr_Afghani_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Afghani_lbl" xml:lang="en">Afghani</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AlgerianDinar" xlink:label="uk-curr_AlgerianDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_AlgerianDinar" xlink:to="uk-curr_AlgerianDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_AlgerianDinar_lbl" xml:lang="en">Algerian Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AllCurrencies" xlink:label="uk-curr_AllCurrencies" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_AllCurrencies" xlink:to="uk-curr_AllCurrencies_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_AllCurrencies_lbl" xml:lang="en">All currencies</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArgentinePeso" xlink:label="uk-curr_ArgentinePeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ArgentinePeso" xlink:to="uk-curr_ArgentinePeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ArgentinePeso_lbl" xml:lang="en">Argentine Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArmenianDram" xlink:label="uk-curr_ArmenianDram" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ArmenianDram" xlink:to="uk-curr_ArmenianDram_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ArmenianDram_lbl" xml:lang="en">Armenian Dram</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ArubanGuilder" xlink:label="uk-curr_ArubanGuilder" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ArubanGuilder" xlink:to="uk-curr_ArubanGuilder_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ArubanGuilder_lbl" xml:lang="en">Aruban Guilder</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AustralianDollar" xlink:label="uk-curr_AustralianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_AustralianDollar" xlink:to="uk-curr_AustralianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_AustralianDollar_lbl" xml:lang="en">Australian Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_AzerbaijanianManat" xlink:label="uk-curr_AzerbaijanianManat" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_AzerbaijanianManat" xlink:to="uk-curr_AzerbaijanianManat_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_AzerbaijanianManat_lbl" xml:lang="en">Azerbaijanian Manat</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahamianDollar" xlink:label="uk-curr_BahamianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BahamianDollar" xlink:to="uk-curr_BahamianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BahamianDollar_lbl" xml:lang="en">Bahamian Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BahrainiDinar" xlink:label="uk-curr_BahrainiDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BahrainiDinar" xlink:to="uk-curr_BahrainiDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BahrainiDinar_lbl" xml:lang="en">Bahraini Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Baht" xlink:label="uk-curr_Baht" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Baht" xlink:to="uk-curr_Baht_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Baht_lbl" xml:lang="en">Baht</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Balboa" xlink:label="uk-curr_Balboa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Balboa" xlink:to="uk-curr_Balboa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Balboa_lbl" xml:lang="en">Balboa</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BarbadosDollar" xlink:label="uk-curr_BarbadosDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BarbadosDollar" xlink:to="uk-curr_BarbadosDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BarbadosDollar_lbl" xml:lang="en">Barbados Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelarussianRuble" xlink:label="uk-curr_BelarussianRuble" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BelarussianRuble" xlink:to="uk-curr_BelarussianRuble_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BelarussianRuble_lbl" xml:lang="en">Belarussian Ruble</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BelizeDollar" xlink:label="uk-curr_BelizeDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BelizeDollar" xlink:to="uk-curr_BelizeDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BelizeDollar_lbl" xml:lang="en">Belize Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BermudianDollar" xlink:label="uk-curr_BermudianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BermudianDollar" xlink:to="uk-curr_BermudianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BermudianDollar_lbl" xml:lang="en">Bermudian Dollar </label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Bolivar" xlink:label="uk-curr_Bolivar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Bolivar" xlink:to="uk-curr_Bolivar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Bolivar_lbl" xml:lang="en">Bolivar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Boliviano" xlink:label="uk-curr_Boliviano" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Boliviano" xlink:to="uk-curr_Boliviano_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Boliviano_lbl" xml:lang="en">Boliviano</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" xlink:label="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO" xlink:to="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BondMarketsUnitsEuropeanCompositeUnitEURCO_lbl" xml:lang="en">Bond Markets Units European Composite Unit (EURCO)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BrazilianReal" xlink:label="uk-curr_BrazilianReal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BrazilianReal" xlink:to="uk-curr_BrazilianReal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BrazilianReal_lbl" xml:lang="en">Brazilian Real</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BruneiDollar" xlink:label="uk-curr_BruneiDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BruneiDollar" xlink:to="uk-curr_BruneiDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BruneiDollar_lbl" xml:lang="en">Brunei Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BulgarianLev" xlink:label="uk-curr_BulgarianLev" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BulgarianLev" xlink:to="uk-curr_BulgarianLev_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BulgarianLev_lbl" xml:lang="en">Bulgarian Lev</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_BurundiFranc" xlink:label="uk-curr_BurundiFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_BurundiFranc" xlink:to="uk-curr_BurundiFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_BurundiFranc_lbl" xml:lang="en">Burundi Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBCEAO" xlink:label="uk-curr_CFAFrancBCEAO" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CFAFrancBCEAO" xlink:to="uk-curr_CFAFrancBCEAO_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CFAFrancBCEAO_lbl" xml:lang="en">CFA Franc BCEAO</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFAFrancBEAC" xlink:label="uk-curr_CFAFrancBEAC" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CFAFrancBEAC" xlink:to="uk-curr_CFAFrancBEAC_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CFAFrancBEAC_lbl" xml:lang="en">CFA Franc BEAC</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CFPFranc" xlink:label="uk-curr_CFPFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CFPFranc" xlink:to="uk-curr_CFPFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CFPFranc_lbl" xml:lang="en">CFP Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CanadianDollar" xlink:label="uk-curr_CanadianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CanadianDollar" xlink:to="uk-curr_CanadianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CanadianDollar_lbl" xml:lang="en">Canadian Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CapeVerdeEscudo" xlink:label="uk-curr_CapeVerdeEscudo" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CapeVerdeEscudo" xlink:to="uk-curr_CapeVerdeEscudo_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CapeVerdeEscudo_lbl" xml:lang="en">Cape Verde Escudo</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CaymanIslandsDollar" xlink:label="uk-curr_CaymanIslandsDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CaymanIslandsDollar" xlink:to="uk-curr_CaymanIslandsDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CaymanIslandsDollar_lbl" xml:lang="en">Cayman Islands Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Cedi" xlink:label="uk-curr_Cedi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Cedi" xlink:to="uk-curr_Cedi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Cedi_lbl" xml:lang="en">Cedi</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ChileanPeso" xlink:label="uk-curr_ChileanPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ChileanPeso" xlink:to="uk-curr_ChileanPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ChileanPeso_lbl" xml:lang="en">Chilean Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ColombianPeso" xlink:label="uk-curr_ColombianPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ColombianPeso" xlink:to="uk-curr_ColombianPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ColombianPeso_lbl" xml:lang="en">Colombian Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ComoroFranc" xlink:label="uk-curr_ComoroFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ComoroFranc" xlink:to="uk-curr_ComoroFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ComoroFranc_lbl" xml:lang="en">Comoro Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ConvertibleMarks" xlink:label="uk-curr_ConvertibleMarks" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ConvertibleMarks" xlink:to="uk-curr_ConvertibleMarks_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ConvertibleMarks_lbl" xml:lang="en">Convertible Marks</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CordobaOro" xlink:label="uk-curr_CordobaOro" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CordobaOro" xlink:to="uk-curr_CordobaOro_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CordobaOro_lbl" xml:lang="en">Cordoba Oro</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CostaRicanColon" xlink:label="uk-curr_CostaRicanColon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CostaRicanColon" xlink:to="uk-curr_CostaRicanColon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CostaRicanColon_lbl" xml:lang="en">Costa Rican Colon</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CroatianKuna" xlink:label="uk-curr_CroatianKuna" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CroatianKuna" xlink:to="uk-curr_CroatianKuna_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CroatianKuna_lbl" xml:lang="en">Croatian Kuna</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CubanPeso" xlink:label="uk-curr_CubanPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CubanPeso" xlink:to="uk-curr_CubanPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CubanPeso_lbl" xml:lang="en">Cuban Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CurrenciesDimension" xlink:label="uk-curr_CurrenciesDimension" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CurrenciesDimension" xlink:to="uk-curr_CurrenciesDimension_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CurrenciesDimension_lbl" xml:lang="en">Currencies [Dimension]</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CyprusPound" xlink:label="uk-curr_CyprusPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CyprusPound" xlink:to="uk-curr_CyprusPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CyprusPound_lbl" xml:lang="en">Cyprus Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_CzechKoruna" xlink:label="uk-curr_CzechKoruna" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_CzechKoruna" xlink:to="uk-curr_CzechKoruna_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_CzechKoruna_lbl" xml:lang="en">Czech Koruna</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dalasi" xlink:label="uk-curr_Dalasi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Dalasi" xlink:to="uk-curr_Dalasi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Dalasi_lbl" xml:lang="en">Dalasi</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DanishKrone" xlink:label="uk-curr_DanishKrone" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_DanishKrone" xlink:to="uk-curr_DanishKrone_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_DanishKrone_lbl" xml:lang="en">Danish Krone</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Denar" xlink:label="uk-curr_Denar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Denar" xlink:to="uk-curr_Denar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Denar_lbl" xml:lang="en">Denar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:label="uk-curr_DimensionMembersRepresentingCurrenciesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_DimensionMembersRepresentingCurrenciesHeading" xlink:to="uk-curr_DimensionMembersRepresentingCurrenciesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_DimensionMembersRepresentingCurrenciesHeading_lbl" xml:lang="en">Dimension members representing currencies [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DjiboutiFranc" xlink:label="uk-curr_DjiboutiFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_DjiboutiFranc" xlink:to="uk-curr_DjiboutiFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_DjiboutiFranc_lbl" xml:lang="en">Djibouti Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dobra" xlink:label="uk-curr_Dobra" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Dobra" xlink:to="uk-curr_Dobra_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Dobra_lbl" xml:lang="en">Dobra</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_DominicanPeso" xlink:label="uk-curr_DominicanPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_DominicanPeso" xlink:to="uk-curr_DominicanPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_DominicanPeso_lbl" xml:lang="en">Dominican Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Dong" xlink:label="uk-curr_Dong" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Dong" xlink:to="uk-curr_Dong_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Dong_lbl" xml:lang="en">Dong</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EastCaribbeanDollar" xlink:label="uk-curr_EastCaribbeanDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EastCaribbeanDollar" xlink:to="uk-curr_EastCaribbeanDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EastCaribbeanDollar_lbl" xml:lang="en">East Caribbean Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EgyptianPound" xlink:label="uk-curr_EgyptianPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EgyptianPound" xlink:to="uk-curr_EgyptianPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EgyptianPound_lbl" xml:lang="en">Egyptian Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ElSalvadorColon" xlink:label="uk-curr_ElSalvadorColon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ElSalvadorColon" xlink:to="uk-curr_ElSalvadorColon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ElSalvadorColon_lbl" xml:lang="en">El Salvador Colon</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EthiopianBirr" xlink:label="uk-curr_EthiopianBirr" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EthiopianBirr" xlink:to="uk-curr_EthiopianBirr_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EthiopianBirr_lbl" xml:lang="en">Ethiopian Birr</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanMonetaryUnitE.M.U.-6" xlink:label="uk-curr_EuropeanMonetaryUnitE.M.U.-6" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EuropeanMonetaryUnitE.M.U.-6" xlink:to="uk-curr_EuropeanMonetaryUnitE.M.U.-6_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EuropeanMonetaryUnitE.M.U.-6_lbl" xml:lang="en">European Monetary Unit (E.M.U.-6) </label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount17E.U.A.-17" xlink:label="uk-curr_EuropeanUnitAccount17E.U.A.-17" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EuropeanUnitAccount17E.U.A.-17" xlink:to="uk-curr_EuropeanUnitAccount17E.U.A.-17_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EuropeanUnitAccount17E.U.A.-17_lbl" xml:lang="en">European Unit of Account 17 (E.U.A.-17)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_EuropeanUnitAccount9E.U.A.-9" xlink:label="uk-curr_EuropeanUnitAccount9E.U.A.-9" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_EuropeanUnitAccount9E.U.A.-9" xlink:to="uk-curr_EuropeanUnitAccount9E.U.A.-9_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_EuropeanUnitAccount9E.U.A.-9_lbl" xml:lang="en">European Unit of Account 9 (E.U.A.-9)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Euro" xlink:label="uk-curr_Euro" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Euro" xlink:to="uk-curr_Euro_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Euro_lbl" xml:lang="en">Euro</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FalklandIslandsPound" xlink:label="uk-curr_FalklandIslandsPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_FalklandIslandsPound" xlink:to="uk-curr_FalklandIslandsPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_FalklandIslandsPound_lbl" xml:lang="en">Falkland Islands Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FijiDollar" xlink:label="uk-curr_FijiDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_FijiDollar" xlink:to="uk-curr_FijiDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_FijiDollar_lbl" xml:lang="en">Fiji Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Forint" xlink:label="uk-curr_Forint" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Forint" xlink:to="uk-curr_Forint_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Forint_lbl" xml:lang="en">Forint</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FrancCongolais" xlink:label="uk-curr_FrancCongolais" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_FrancCongolais" xlink:to="uk-curr_FrancCongolais_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_FrancCongolais_lbl" xml:lang="en">Franc Congolais</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_FullCurrenciesListHeading" xlink:label="uk-curr_FullCurrenciesListHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_FullCurrenciesListHeading" xlink:to="uk-curr_FullCurrenciesListHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:label="uk-curr_FullCurrenciesListHeading_lbl" xml:lang="en">Groups list of currencies based on International Standards Organisation (ISO) 4217.</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_FullCurrenciesListHeading_lbl" xml:lang="en">Full currencies list [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GibraltarPound" xlink:label="uk-curr_GibraltarPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_GibraltarPound" xlink:to="uk-curr_GibraltarPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_GibraltarPound_lbl" xml:lang="en">Gibraltar Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold-Franc" xlink:label="uk-curr_Gold-Franc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Gold-Franc" xlink:to="uk-curr_Gold-Franc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Gold-Franc_lbl" xml:lang="en">Gold-Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gold" xlink:label="uk-curr_Gold" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Gold" xlink:to="uk-curr_Gold_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Gold_lbl" xml:lang="en">Gold</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Gourde" xlink:label="uk-curr_Gourde" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Gourde" xlink:to="uk-curr_Gourde_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Gourde_lbl" xml:lang="en">Gourde</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guarani" xlink:label="uk-curr_Guarani" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Guarani" xlink:to="uk-curr_Guarani_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Guarani_lbl" xml:lang="en">Guarani</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Guinea-BissauPeso" xlink:label="uk-curr_Guinea-BissauPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Guinea-BissauPeso" xlink:to="uk-curr_Guinea-BissauPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Guinea-BissauPeso_lbl" xml:lang="en">Guinea-Bissau Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuineaFranc" xlink:label="uk-curr_GuineaFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_GuineaFranc" xlink:to="uk-curr_GuineaFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_GuineaFranc_lbl" xml:lang="en">Guinea Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_GuyanaDollar" xlink:label="uk-curr_GuyanaDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_GuyanaDollar" xlink:to="uk-curr_GuyanaDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_GuyanaDollar_lbl" xml:lang="en">Guyana Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_HongKongDollar" xlink:label="uk-curr_HongKongDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_HongKongDollar" xlink:to="uk-curr_HongKongDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_HongKongDollar_lbl" xml:lang="en">Hong Kong Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Hryvnia" xlink:label="uk-curr_Hryvnia" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Hryvnia" xlink:to="uk-curr_Hryvnia_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Hryvnia_lbl" xml:lang="en">Hryvnia</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IcelandKrona" xlink:label="uk-curr_IcelandKrona" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_IcelandKrona" xlink:to="uk-curr_IcelandKrona_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_IcelandKrona_lbl" xml:lang="en">Iceland Krona</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IndianRupee" xlink:label="uk-curr_IndianRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_IndianRupee" xlink:to="uk-curr_IndianRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_IndianRupee_lbl" xml:lang="en">Indian Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IranianRial" xlink:label="uk-curr_IranianRial" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_IranianRial" xlink:to="uk-curr_IranianRial_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_IranianRial_lbl" xml:lang="en">Iranian Rial</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_IraqiDinar" xlink:label="uk-curr_IraqiDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_IraqiDinar" xlink:to="uk-curr_IraqiDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_IraqiDinar_lbl" xml:lang="en">Iraqi Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JamaicanDollar" xlink:label="uk-curr_JamaicanDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_JamaicanDollar" xlink:to="uk-curr_JamaicanDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_JamaicanDollar_lbl" xml:lang="en">Jamaican Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_JordanianDinar" xlink:label="uk-curr_JordanianDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_JordanianDinar" xlink:to="uk-curr_JordanianDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_JordanianDinar_lbl" xml:lang="en">Jordanian Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KenyanShilling" xlink:label="uk-curr_KenyanShilling" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_KenyanShilling" xlink:to="uk-curr_KenyanShilling_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_KenyanShilling_lbl" xml:lang="en">Kenyan Shilling</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kina" xlink:label="uk-curr_Kina" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Kina" xlink:to="uk-curr_Kina_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Kina_lbl" xml:lang="en">Kina</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kip" xlink:label="uk-curr_Kip" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Kip" xlink:to="uk-curr_Kip_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Kip_lbl" xml:lang="en">Kip</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kroon" xlink:label="uk-curr_Kroon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Kroon" xlink:to="uk-curr_Kroon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Kroon_lbl" xml:lang="en">Kroon</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_KuwaitiDinar" xlink:label="uk-curr_KuwaitiDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_KuwaitiDinar" xlink:to="uk-curr_KuwaitiDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_KuwaitiDinar_lbl" xml:lang="en">Kuwaiti Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kwacha" xlink:label="uk-curr_Kwacha" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Kwacha" xlink:to="uk-curr_Kwacha_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Kwacha_lbl" xml:lang="en">Kwacha</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Kyat" xlink:label="uk-curr_Kyat" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Kyat" xlink:to="uk-curr_Kyat_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Kyat_lbl" xml:lang="en">Kyat</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lari" xlink:label="uk-curr_Lari" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Lari" xlink:to="uk-curr_Lari_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Lari_lbl" xml:lang="en">Lari</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LatvianLats" xlink:label="uk-curr_LatvianLats" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_LatvianLats" xlink:to="uk-curr_LatvianLats_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_LatvianLats_lbl" xml:lang="en">Latvian Lats</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LebanesePound" xlink:label="uk-curr_LebanesePound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_LebanesePound" xlink:to="uk-curr_LebanesePound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_LebanesePound_lbl" xml:lang="en">Lebanese Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lek" xlink:label="uk-curr_Lek" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Lek" xlink:to="uk-curr_Lek_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Lek_lbl" xml:lang="en">Lek</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lempira" xlink:label="uk-curr_Lempira" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Lempira" xlink:to="uk-curr_Lempira_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Lempira_lbl" xml:lang="en">Lempira</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Leone" xlink:label="uk-curr_Leone" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Leone" xlink:to="uk-curr_Leone_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Leone_lbl" xml:lang="en">Leone</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LiberianDollar" xlink:label="uk-curr_LiberianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_LiberianDollar" xlink:to="uk-curr_LiberianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_LiberianDollar_lbl" xml:lang="en">Liberian Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LibyanDinar" xlink:label="uk-curr_LibyanDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_LibyanDinar" xlink:to="uk-curr_LibyanDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_LibyanDinar_lbl" xml:lang="en">Libyan Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Lilangeni" xlink:label="uk-curr_Lilangeni" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Lilangeni" xlink:to="uk-curr_Lilangeni_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Lilangeni_lbl" xml:lang="en">Lilangeni</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_LithuanianLitas" xlink:label="uk-curr_LithuanianLitas" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_LithuanianLitas" xlink:to="uk-curr_LithuanianLitas_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_LithuanianLitas_lbl" xml:lang="en">Lithuanian Litas</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Loti" xlink:label="uk-curr_Loti" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Loti" xlink:to="uk-curr_Loti_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Loti_lbl" xml:lang="en">Loti</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MainCurrenciesHeading" xlink:label="uk-curr_MainCurrenciesHeading" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MainCurrenciesHeading" xlink:to="uk-curr_MainCurrenciesHeading_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MainCurrenciesHeading_lbl" xml:lang="en">Main currencies [heading]</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalagasyAriary" xlink:label="uk-curr_MalagasyAriary" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MalagasyAriary" xlink:to="uk-curr_MalagasyAriary_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MalagasyAriary_lbl" xml:lang="en">Malagasy Ariary</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalaysianRinggit" xlink:label="uk-curr_MalaysianRinggit" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MalaysianRinggit" xlink:to="uk-curr_MalaysianRinggit_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MalaysianRinggit_lbl" xml:lang="en">Malaysian Ringgit</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MalteseLira" xlink:label="uk-curr_MalteseLira" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MalteseLira" xlink:to="uk-curr_MalteseLira_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MalteseLira_lbl" xml:lang="en">Maltese Lira</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Manat" xlink:label="uk-curr_Manat" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Manat" xlink:to="uk-curr_Manat_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Manat_lbl" xml:lang="en">Manat</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MauritiusRupee" xlink:label="uk-curr_MauritiusRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MauritiusRupee" xlink:to="uk-curr_MauritiusRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MauritiusRupee_lbl" xml:lang="en">Mauritius Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Merical" xlink:label="uk-curr_Merical" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Merical" xlink:to="uk-curr_Merical_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Merical_lbl" xml:lang="en">Merical</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanPeso" xlink:label="uk-curr_MexicanPeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MexicanPeso" xlink:to="uk-curr_MexicanPeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MexicanPeso_lbl" xml:lang="en">Mexican Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MexicanUnidadDeInversionUID" xlink:label="uk-curr_MexicanUnidadDeInversionUID" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MexicanUnidadDeInversionUID" xlink:to="uk-curr_MexicanUnidadDeInversionUID_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MexicanUnidadDeInversionUID_lbl" xml:lang="en">Mexican Unidad de Inversion (UID)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoldovanLeu" xlink:label="uk-curr_MoldovanLeu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MoldovanLeu" xlink:to="uk-curr_MoldovanLeu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MoldovanLeu_lbl" xml:lang="en">Moldovan Leu</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_MoroccanDirham" xlink:label="uk-curr_MoroccanDirham" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_MoroccanDirham" xlink:to="uk-curr_MoroccanDirham_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_MoroccanDirham_lbl" xml:lang="en">Moroccan Dirham</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Mvdol" xlink:label="uk-curr_Mvdol" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Mvdol" xlink:to="uk-curr_Mvdol_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Mvdol_lbl" xml:lang="en">Mvdol</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Naira" xlink:label="uk-curr_Naira" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Naira" xlink:to="uk-curr_Naira_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Naira_lbl" xml:lang="en">Naira</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Nakfa" xlink:label="uk-curr_Nakfa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Nakfa" xlink:to="uk-curr_Nakfa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Nakfa_lbl" xml:lang="en">Nakfa</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NamibianDollar" xlink:label="uk-curr_NamibianDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NamibianDollar" xlink:to="uk-curr_NamibianDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NamibianDollar_lbl" xml:lang="en">Namibian Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NepaleseRupee" xlink:label="uk-curr_NepaleseRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NepaleseRupee" xlink:to="uk-curr_NepaleseRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NepaleseRupee_lbl" xml:lang="en">Nepalese Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NetherlandsAntillianGuilder" xlink:label="uk-curr_NetherlandsAntillianGuilder" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NetherlandsAntillianGuilder" xlink:to="uk-curr_NetherlandsAntillianGuilder_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NetherlandsAntillianGuilder_lbl" xml:lang="en">Netherlands Antillian Guilder</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewIsraeliSheqel" xlink:label="uk-curr_NewIsraeliSheqel" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NewIsraeliSheqel" xlink:to="uk-curr_NewIsraeliSheqel_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NewIsraeliSheqel_lbl" xml:lang="en">New Israeli Sheqel</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewLeu" xlink:label="uk-curr_NewLeu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NewLeu" xlink:to="uk-curr_NewLeu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NewLeu_lbl" xml:lang="en">New Leu</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTaiwanDollar" xlink:label="uk-curr_NewTaiwanDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NewTaiwanDollar" xlink:to="uk-curr_NewTaiwanDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NewTaiwanDollar_lbl" xml:lang="en">New Taiwan Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewTurkishLira" xlink:label="uk-curr_NewTurkishLira" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NewTurkishLira" xlink:to="uk-curr_NewTurkishLira_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NewTurkishLira_lbl" xml:lang="en">New Turkish Lira</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NewZealandDollar" xlink:label="uk-curr_NewZealandDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NewZealandDollar" xlink:to="uk-curr_NewZealandDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NewZealandDollar_lbl" xml:lang="en">New Zealand Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ngultrum" xlink:label="uk-curr_Ngultrum" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Ngultrum" xlink:to="uk-curr_Ngultrum_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Ngultrum_lbl" xml:lang="en">Ngultrum</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorthKoreanWon" xlink:label="uk-curr_NorthKoreanWon" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NorthKoreanWon" xlink:to="uk-curr_NorthKoreanWon_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NorthKoreanWon_lbl" xml:lang="en">North Korean Won</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NorwegianKrone" xlink:label="uk-curr_NorwegianKrone" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NorwegianKrone" xlink:to="uk-curr_NorwegianKrone_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NorwegianKrone_lbl" xml:lang="en">Norwegian Krone</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_NuevoSol" xlink:label="uk-curr_NuevoSol" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_NuevoSol" xlink:to="uk-curr_NuevoSol_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_NuevoSol_lbl" xml:lang="en">Nuevo Sol</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldLeu" xlink:label="uk-curr_OldLeu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_OldLeu" xlink:to="uk-curr_OldLeu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_OldLeu_lbl" xml:lang="en">Old Leu</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_OldTurkishLira" xlink:label="uk-curr_OldTurkishLira" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_OldTurkishLira" xlink:to="uk-curr_OldTurkishLira_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_OldTurkishLira_lbl" xml:lang="en">Old Turkish Lira</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Ouguiya" xlink:label="uk-curr_Ouguiya" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Ouguiya" xlink:to="uk-curr_Ouguiya_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Ouguiya_lbl" xml:lang="en">Ouguiya</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Paanga" xlink:label="uk-curr_Paanga" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Paanga" xlink:to="uk-curr_Paanga_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Paanga_lbl" xml:lang="en">Pa'anga</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PakistanRupee" xlink:label="uk-curr_PakistanRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_PakistanRupee" xlink:to="uk-curr_PakistanRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_PakistanRupee_lbl" xml:lang="en">Pakistan Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Palladium" xlink:label="uk-curr_Palladium" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Palladium" xlink:to="uk-curr_Palladium_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Palladium_lbl" xml:lang="en">Palladium</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pataca" xlink:label="uk-curr_Pataca" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Pataca" xlink:to="uk-curr_Pataca_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Pataca_lbl" xml:lang="en">Pataca</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PesoUruguayo" xlink:label="uk-curr_PesoUruguayo" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_PesoUruguayo" xlink:to="uk-curr_PesoUruguayo_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_PesoUruguayo_lbl" xml:lang="en">Peso Uruguayo</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PhilippinePeso" xlink:label="uk-curr_PhilippinePeso" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_PhilippinePeso" xlink:to="uk-curr_PhilippinePeso_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_PhilippinePeso_lbl" xml:lang="en">Philippine Peso</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Platinum" xlink:label="uk-curr_Platinum" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Platinum" xlink:to="uk-curr_Platinum_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Platinum_lbl" xml:lang="en">Platinum</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_PoundSterling" xlink:label="uk-curr_PoundSterling" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_PoundSterling" xlink:to="uk-curr_PoundSterling_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_PoundSterling_lbl" xml:lang="en">Pound Sterling</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Pula" xlink:label="uk-curr_Pula" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Pula" xlink:to="uk-curr_Pula_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Pula_lbl" xml:lang="en">Pula</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_QatariRial" xlink:label="uk-curr_QatariRial" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_QatariRial" xlink:to="uk-curr_QatariRial_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_QatariRial_lbl" xml:lang="en">Qatari Rial</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Quetzal" xlink:label="uk-curr_Quetzal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Quetzal" xlink:to="uk-curr_Quetzal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Quetzal_lbl" xml:lang="en">Quetzal</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rand" xlink:label="uk-curr_Rand" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Rand" xlink:to="uk-curr_Rand_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Rand_lbl" xml:lang="en">Rand</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RialOmani" xlink:label="uk-curr_RialOmani" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_RialOmani" xlink:to="uk-curr_RialOmani_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_RialOmani_lbl" xml:lang="en">Rial Omani</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Riel" xlink:label="uk-curr_Riel" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Riel" xlink:to="uk-curr_Riel_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Riel_lbl" xml:lang="en">Riel</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rufiyaa" xlink:label="uk-curr_Rufiyaa" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Rufiyaa" xlink:to="uk-curr_Rufiyaa_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Rufiyaa_lbl" xml:lang="en">Rufiyaa</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Rupiah" xlink:label="uk-curr_Rupiah" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Rupiah" xlink:to="uk-curr_Rupiah_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Rupiah_lbl" xml:lang="en">Rupiah</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RussianRuble" xlink:label="uk-curr_RussianRuble" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_RussianRuble" xlink:to="uk-curr_RussianRuble_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_RussianRuble_lbl" xml:lang="en">Russian Ruble</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_RwandaFranc" xlink:label="uk-curr_RwandaFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_RwandaFranc" xlink:to="uk-curr_RwandaFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_RwandaFranc_lbl" xml:lang="en">Rwanda Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SDR" xlink:label="uk-curr_SDR" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SDR" xlink:to="uk-curr_SDR_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SDR_lbl" xml:lang="en">SDR</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaintHelenaPound" xlink:label="uk-curr_SaintHelenaPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SaintHelenaPound" xlink:to="uk-curr_SaintHelenaPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SaintHelenaPound_lbl" xml:lang="en">Saint Helena Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SaudiRiyal" xlink:label="uk-curr_SaudiRiyal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SaudiRiyal" xlink:to="uk-curr_SaudiRiyal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SaudiRiyal_lbl" xml:lang="en">Saudi Riyal</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SerbianDinar" xlink:label="uk-curr_SerbianDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SerbianDinar" xlink:to="uk-curr_SerbianDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SerbianDinar_lbl" xml:lang="en">Serbian Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SeychellesRupee" xlink:label="uk-curr_SeychellesRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SeychellesRupee" xlink:to="uk-curr_SeychellesRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SeychellesRupee_lbl" xml:lang="en">Seychelles Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Silver" xlink:label="uk-curr_Silver" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Silver" xlink:to="uk-curr_Silver_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Silver_lbl" xml:lang="en">Silver</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SingaporeDollar" xlink:label="uk-curr_SingaporeDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SingaporeDollar" xlink:to="uk-curr_SingaporeDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SingaporeDollar_lbl" xml:lang="en">Singapore Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SlovakKoruna" xlink:label="uk-curr_SlovakKoruna" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SlovakKoruna" xlink:to="uk-curr_SlovakKoruna_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SlovakKoruna_lbl" xml:lang="en">Slovak Koruna</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SolomonIslandsDollar" xlink:label="uk-curr_SolomonIslandsDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SolomonIslandsDollar" xlink:to="uk-curr_SolomonIslandsDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SolomonIslandsDollar_lbl" xml:lang="en">Solomon Islands Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SomaliShilling" xlink:label="uk-curr_SomaliShilling" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SomaliShilling" xlink:to="uk-curr_SomaliShilling_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SomaliShilling_lbl" xml:lang="en">Somali Shilling</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Somoni" xlink:label="uk-curr_Somoni" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Somoni" xlink:to="uk-curr_Somoni_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Somoni_lbl" xml:lang="en">Somoni</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Som" xlink:label="uk-curr_Som" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Som" xlink:to="uk-curr_Som_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Som_lbl" xml:lang="en">Som</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SriLankaRupee" xlink:label="uk-curr_SriLankaRupee" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SriLankaRupee" xlink:to="uk-curr_SriLankaRupee_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SriLankaRupee_lbl" xml:lang="en">Sri Lanka Rupee</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SudaneseDinar" xlink:label="uk-curr_SudaneseDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SudaneseDinar" xlink:to="uk-curr_SudaneseDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SudaneseDinar_lbl" xml:lang="en">Sudanese Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SurinamDollar" xlink:label="uk-curr_SurinamDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SurinamDollar" xlink:to="uk-curr_SurinamDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SurinamDollar_lbl" xml:lang="en">Surinam Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwedishKrona" xlink:label="uk-curr_SwedishKrona" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SwedishKrona" xlink:to="uk-curr_SwedishKrona_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SwedishKrona_lbl" xml:lang="en">Swedish Krona</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SwissFranc" xlink:label="uk-curr_SwissFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SwissFranc" xlink:to="uk-curr_SwissFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SwissFranc_lbl" xml:lang="en">Swiss Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_SyrianPound" xlink:label="uk-curr_SyrianPound" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_SyrianPound" xlink:to="uk-curr_SyrianPound_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_SyrianPound_lbl" xml:lang="en">Syrian Pound</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Taka" xlink:label="uk-curr_Taka" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Taka" xlink:to="uk-curr_Taka_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Taka_lbl" xml:lang="en">Taka</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tala" xlink:label="uk-curr_Tala" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Tala" xlink:to="uk-curr_Tala_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Tala_lbl" xml:lang="en">Tala</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TanzanianShilling" xlink:label="uk-curr_TanzanianShilling" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_TanzanianShilling" xlink:to="uk-curr_TanzanianShilling_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_TanzanianShilling_lbl" xml:lang="en">Tanzanian Shilling</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tenge" xlink:label="uk-curr_Tenge" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Tenge" xlink:to="uk-curr_Tenge_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Tenge_lbl" xml:lang="en">Tenge</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tolar" xlink:label="uk-curr_Tolar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Tolar" xlink:to="uk-curr_Tolar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Tolar_lbl" xml:lang="en">Tolar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TrinidadTobagoDollar" xlink:label="uk-curr_TrinidadTobagoDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_TrinidadTobagoDollar" xlink:to="uk-curr_TrinidadTobagoDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_TrinidadTobagoDollar_lbl" xml:lang="en">Trinidad and Tobago Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Tugrik" xlink:label="uk-curr_Tugrik" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Tugrik" xlink:to="uk-curr_Tugrik_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Tugrik_lbl" xml:lang="en">Tugrik</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_TunisianDinar" xlink:label="uk-curr_TunisianDinar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_TunisianDinar" xlink:to="uk-curr_TunisianDinar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_TunisianDinar_lbl" xml:lang="en">Tunisian Dinar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UAEDirham" xlink:label="uk-curr_UAEDirham" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UAEDirham" xlink:to="uk-curr_UAEDirham_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UAEDirham_lbl" xml:lang="en">UAE Dirham</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UIC-Franc" xlink:label="uk-curr_UIC-Franc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UIC-Franc" xlink:to="uk-curr_UIC-Franc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UIC-Franc_lbl" xml:lang="en">UIC-Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarNextDay" xlink:label="uk-curr_USDollarNextDay" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_USDollarNextDay" xlink:to="uk-curr_USDollarNextDay_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_USDollarNextDay_lbl" xml:lang="en">US Dollar (Next day)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollarSameDay" xlink:label="uk-curr_USDollarSameDay" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_USDollarSameDay" xlink:to="uk-curr_USDollarSameDay_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_USDollarSameDay_lbl" xml:lang="en">US Dollar (Same day)</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_USDollar" xlink:label="uk-curr_USDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_USDollar" xlink:to="uk-curr_USDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_USDollar_lbl" xml:lang="en">US Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UgandaShilling" xlink:label="uk-curr_UgandaShilling" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UgandaShilling" xlink:to="uk-curr_UgandaShilling_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UgandaShilling_lbl" xml:lang="en">Uganda Shilling</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadDeValorReal" xlink:label="uk-curr_UnidadDeValorReal" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UnidadDeValorReal" xlink:to="uk-curr_UnidadDeValorReal_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UnidadDeValorReal_lbl" xml:lang="en">Unidad de Valor Real</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UnidadesDeFormento" xlink:label="uk-curr_UnidadesDeFormento" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UnidadesDeFormento" xlink:to="uk-curr_UnidadesDeFormento_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UnidadesDeFormento_lbl" xml:lang="en">Unidades de formento</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_UzbekistanSum" xlink:label="uk-curr_UzbekistanSum" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_UzbekistanSum" xlink:to="uk-curr_UzbekistanSum_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_UzbekistanSum_lbl" xml:lang="en">Uzbekistan Sum</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Vatu" xlink:label="uk-curr_Vatu" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Vatu" xlink:to="uk-curr_Vatu_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Vatu_lbl" xml:lang="en">Vatu</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIREuro" xlink:label="uk-curr_WIREuro" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_WIREuro" xlink:to="uk-curr_WIREuro_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_WIREuro_lbl" xml:lang="en">WIR Euro</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_WIRFranc" xlink:label="uk-curr_WIRFranc" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_WIRFranc" xlink:to="uk-curr_WIRFranc_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_WIRFranc_lbl" xml:lang="en">WIR Franc</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Won" xlink:label="uk-curr_Won" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Won" xlink:to="uk-curr_Won_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Won_lbl" xml:lang="en">Won</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YemeniRial" xlink:label="uk-curr_YemeniRial" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_YemeniRial" xlink:to="uk-curr_YemeniRial_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_YemeniRial_lbl" xml:lang="en">Yemeni Rial</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Yen" xlink:label="uk-curr_Yen" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Yen" xlink:to="uk-curr_Yen_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Yen_lbl" xml:lang="en">Yen</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_YuanRenminbi" xlink:label="uk-curr_YuanRenminbi" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_YuanRenminbi" xlink:to="uk-curr_YuanRenminbi_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_YuanRenminbi_lbl" xml:lang="en">Yuan Renminbi</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_ZimbabweDollar" xlink:label="uk-curr_ZimbabweDollar" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_ZimbabweDollar" xlink:to="uk-curr_ZimbabweDollar_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_ZimbabweDollar_lbl" xml:lang="en">Zimbabwe Dollar</label>
+    <loc xlink:type="locator" xlink:href="uk-currencies-2009-09-01.xsd#uk-curr_Zloty" xlink:label="uk-curr_Zloty" />
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="uk-curr_Zloty" xlink:to="uk-curr_Zloty_lbl" />
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="uk-curr_Zloty_lbl" xml:lang="en">Zloty</label>
+  </labelLink>
+</linkbase>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-AuditorsReport-Reference linkbase 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-aurep="http://www.xbrl.org/uk/reports/aurep/2009-09-01" xmlns:ref="http://www.xbrl.org/2004/ref" xmlns:uk-gaap-ref="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/reports/aurep/2009-09-01 uk-aurep-2009-09-01.xsd http://www.xbrl.org/uk/reports/aurep/2009-09-01 uk-aurep-2009-09-01.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd http://www.xbrl.org/uk/all/gaap-ref/2009-09-01 ../../../all/gaap-ref/2009-09-01/uk-gaap-ref-2009-09-01.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditFeesExpenses" xlink:label="uk-aurep_AuditFeesExpenses" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_AuditFeesExpenses" xlink:to="uk-aurep_AuditFeesExpenses_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_AuditFeesExpenses_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>390A</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees" xlink:label="uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees" xlink:to="uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees_ref" />
+    <reference id="id" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_AuditingAccountsAssociatesPursuantToLegislationFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees" xlink:label="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees" xlink:to="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees_ref" />
+    <reference id="id_ada938" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationEntityAndSubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees" xlink:label="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees" xlink:to="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees_ref" />
+    <reference id="id_3c8ad3" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_AuditingAccountsOfAssociatesPursuantToLegislationPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_BasisAuditOpinion" xlink:label="uk-aurep_BasisAuditOpinion" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_BasisAuditOpinion" xlink:to="uk-aurep_BasisAuditOpinion_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_BasisAuditOpinion_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" xlink:label="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees" xlink:to="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees_ref" />
+    <reference id="id_7799cf" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_CorporateFinanceTransactionsEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_CorporateFinanceTransactionsFees" xlink:label="uk-aurep_CorporateFinanceTransactionsFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_CorporateFinanceTransactionsFees" xlink:to="uk-aurep_CorporateFinanceTransactionsFees_ref" />
+    <reference id="id_91847b" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_CorporateFinanceTransactionsFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_CorporateFinanceTransactionsPensionSchemesFees" xlink:label="uk-aurep_CorporateFinanceTransactionsPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_CorporateFinanceTransactionsPensionSchemesFees" xlink:to="uk-aurep_CorporateFinanceTransactionsPensionSchemesFees_ref" />
+    <reference id="id_195ea4e" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_CorporateFinanceTransactionsPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_DateAuditorsReport" xlink:label="uk-aurep_DateAuditorsReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_DateAuditorsReport" xlink:to="uk-aurep_DateAuditorsReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_DateAuditorsReport_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_DescriptionBenefitsInKindForAuditServices" xlink:label="uk-aurep_DescriptionBenefitsInKindForAuditServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_DescriptionBenefitsInKindForAuditServices" xlink:to="uk-aurep_DescriptionBenefitsInKindForAuditServices_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_DescriptionBenefitsInKindForAuditServices_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_DescriptionBenefitsInKindForNon-auditServices" xlink:label="uk-aurep_DescriptionBenefitsInKindForNon-auditServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_DescriptionBenefitsInKindForNon-auditServices" xlink:to="uk-aurep_DescriptionBenefitsInKindForNon-auditServices_ref" />
+    <reference id="id_17a01ba" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_DescriptionBenefitsInKindForNon-auditServices_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_EmphasisMatterStatement" xlink:label="uk-aurep_EmphasisMatterStatement" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_EmphasisMatterStatement" xlink:to="uk-aurep_EmphasisMatterStatement_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_EmphasisMatterStatement_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices" xlink:label="uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices" xlink:to="uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_EstimatedMoneyValueBenefitsInKindForAuditServices_ref">
+      <ref:Name>SI</ref:Name>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+      <ref:Section>489</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices" xlink:label="uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices" xlink:to="uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices_ref" />
+    <reference id="id_9fe82f" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_EstimatedMoneyValueBenefitsInKindForNon-auditServices_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_FeesForNon-auditServices" xlink:label="uk-aurep_FeesForNon-auditServices" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="uk-aurep_FeesForNon-auditServices_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_FeesForNon-auditServices_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_FeesToAuditorsFree-textComment" xlink:label="uk-aurep_FeesToAuditorsFree-textComment" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_FeesToAuditorsFree-textComment" xlink:to="uk-aurep_FeesToAuditorsFree-textComment_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_FeesToAuditorsFree-textComment_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees" xlink:label="uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees" xlink:to="uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees_ref" />
+    <reference id="id_431ae9" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InformationTechnologyServicesEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InformationTechnologyServicesFees" xlink:label="uk-aurep_InformationTechnologyServicesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InformationTechnologyServicesFees" xlink:to="uk-aurep_InformationTechnologyServicesFees_ref" />
+    <reference id="id_1cc5532" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InformationTechnologyServicesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InformationTechnologyServicesPensionSchemesFees" xlink:label="uk-aurep_InformationTechnologyServicesPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InformationTechnologyServicesPensionSchemesFees" xlink:to="uk-aurep_InformationTechnologyServicesPensionSchemesFees_ref" />
+    <reference id="id_b84700" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InformationTechnologyServicesPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InternalAuditEntitySubsidiariesFees" xlink:label="uk-aurep_InternalAuditEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InternalAuditEntitySubsidiariesFees" xlink:to="uk-aurep_InternalAuditEntitySubsidiariesFees_ref" />
+    <reference id="id_49743c" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InternalAuditEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InternalAuditFees" xlink:label="uk-aurep_InternalAuditFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InternalAuditFees" xlink:to="uk-aurep_InternalAuditFees_ref" />
+    <reference id="id_ab4a2" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InternalAuditFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_InternalAuditPensionSchemesFees" xlink:label="uk-aurep_InternalAuditPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_InternalAuditPensionSchemesFees" xlink:to="uk-aurep_InternalAuditPensionSchemesFees_ref" />
+    <reference id="id_723919" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_InternalAuditPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_LitigationServicesEntitySubsidiariesFees" xlink:label="uk-aurep_LitigationServicesEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_LitigationServicesEntitySubsidiariesFees" xlink:to="uk-aurep_LitigationServicesEntitySubsidiariesFees_ref" />
+    <reference id="id_e2068d" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_LitigationServicesEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_LitigationServicesFees" xlink:label="uk-aurep_LitigationServicesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_LitigationServicesFees" xlink:to="uk-aurep_LitigationServicesFees_ref" />
+    <reference id="id_19ae17d" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_LitigationServicesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_LitigationServicesPensionSchemesFees" xlink:label="uk-aurep_LitigationServicesPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_LitigationServicesPensionSchemesFees" xlink:to="uk-aurep_LitigationServicesPensionSchemesFees_ref" />
+    <reference id="id_b695d8" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_LitigationServicesPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_NameIndividualAuditorOrAccountant" xlink:label="uk-aurep_NameIndividualAuditorOrAccountant" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_NameIndividualAuditorOrAccountant" xlink:to="uk-aurep_NameIndividualAuditorOrAccountant_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_NameIndividualAuditorOrAccountant_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Year>2006</uk-gaap-ref:Year>
+      <ref:Section>505</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_NameOrLocationOfficePerformingAudit" xlink:label="uk-aurep_NameOrLocationOfficePerformingAudit" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_NameOrLocationOfficePerformingAudit" xlink:to="uk-aurep_NameOrLocationOfficePerformingAudit_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_NameOrLocationOfficePerformingAudit_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>505</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_NameSeniorStatutoryAuditor" xlink:label="uk-aurep_NameSeniorStatutoryAuditor" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_NameSeniorStatutoryAuditor" xlink:to="uk-aurep_NameSeniorStatutoryAuditor_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_NameSeniorStatutoryAuditor_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Year>2006</uk-gaap-ref:Year>
+      <ref:Section>505</ref:Section>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OpinionAuditorsOnEntity" xlink:label="uk-aurep_OpinionAuditorsOnEntity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OpinionAuditorsOnEntity" xlink:to="uk-aurep_OpinionAuditorsOnEntity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OpinionAuditorsOnEntity_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees" xlink:label="uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees" xlink:to="uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees_ref" />
+    <reference id="id_912427" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherNon-auditServicesEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherNon-auditServicesFees" xlink:label="uk-aurep_OtherNon-auditServicesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherNon-auditServicesFees" xlink:to="uk-aurep_OtherNon-auditServicesFees_ref" />
+    <reference id="id_2b133f" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherNon-auditServicesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherNon-auditServicesPensionSchemesFees" xlink:label="uk-aurep_OtherNon-auditServicesPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherNon-auditServicesPensionSchemesFees" xlink:to="uk-aurep_OtherNon-auditServicesPensionSchemesFees_ref" />
+    <reference id="id_141870e" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherNon-auditServicesPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees" xlink:to="uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees_ref" />
+    <reference id="id_1d1ec86" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherServicesPursuantToSuchLegislationFees" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherServicesPursuantToSuchLegislationFees" xlink:to="uk-aurep_OtherServicesPursuantToSuchLegislationFees_ref" />
+    <reference id="id_1614206" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees" xlink:to="uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees_ref" />
+    <reference id="id_1fc8b48" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_OtherServicesPursuantToSuchLegislationPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees" xlink:label="uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees" xlink:to="uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees_ref" />
+    <reference id="id_b9b33c" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_RecruitmentRemunerationServicesEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_RecruitmentRemunerationServicesFees" xlink:label="uk-aurep_RecruitmentRemunerationServicesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_RecruitmentRemunerationServicesFees" xlink:to="uk-aurep_RecruitmentRemunerationServicesFees_ref" />
+    <reference id="id_efd1c1" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_RecruitmentRemunerationServicesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees" xlink:label="uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees" xlink:to="uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees_ref" />
+    <reference id="id_9ebb9e" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_RecruitmentRemunerationServicesPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared" xlink:label="uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared" xlink:to="uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementByAuditorThatCompanyEntitledToDeliverAbbreviatedAccountsAccountsProperlyPrepared_ref">
+      <ref:Name>CA</ref:Name>
+      <uk-gaap-ref:Year>2006</uk-gaap-ref:Year>
+      <ref:Section>449</ref:Section>
+      <ref:Paragraph>2</ref:Paragraph>
+      <ref:Subparagraph>a, b</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementOnReasonsForAnyQualificationOpinion" xlink:label="uk-aurep_StatementOnReasonsForAnyQualificationOpinion" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementOnReasonsForAnyQualificationOpinion" xlink:to="uk-aurep_StatementOnReasonsForAnyQualificationOpinion_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementOnReasonsForAnyQualificationOpinion_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite" xlink:label="uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite" xlink:to="uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementOnResponsibilityForMaintenanceIntegrityFinancialStatementsOnWebsite_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementOnScopeAuditReport" xlink:label="uk-aurep_StatementOnScopeAuditReport" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementOnScopeAuditReport" xlink:to="uk-aurep_StatementOnScopeAuditReport_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementOnScopeAuditReport_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements" xlink:label="uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements" xlink:to="uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementOnScopeLegislationCoveringFinancialStatements_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_StatementResponsibilities" xlink:label="uk-aurep_StatementResponsibilities" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_StatementResponsibilities" xlink:to="uk-aurep_StatementResponsibilities_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_StatementResponsibilities_ref">
+      <ref:Name>Common practice</ref:Name>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TaxationServicesEntitySubsidiariesFees" xlink:label="uk-aurep_TaxationServicesEntitySubsidiariesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_TaxationServicesEntitySubsidiariesFees" xlink:to="uk-aurep_TaxationServicesEntitySubsidiariesFees_ref" />
+    <reference id="id_ca8d60" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_TaxationServicesEntitySubsidiariesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TaxationServicesFees" xlink:label="uk-aurep_TaxationServicesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_TaxationServicesFees" xlink:to="uk-aurep_TaxationServicesFees_ref" />
+    <reference id="id_15a4815" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_TaxationServicesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TaxationServicesPensionSchemesFees" xlink:label="uk-aurep_TaxationServicesPensionSchemesFees" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_TaxationServicesPensionSchemesFees" xlink:to="uk-aurep_TaxationServicesPensionSchemesFees_ref" />
+    <reference id="id_1e25457" xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_TaxationServicesPensionSchemesFees_ref">
+      <ref:Name>SI</ref:Name>
+      <ref:Section>489</ref:Section>
+      <uk-gaap-ref:Year>2008</uk-gaap-ref:Year>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-aurep-2009-09-01.xsd#uk-aurep_TotalFeesToAuditors" xlink:label="uk-aurep_TotalFeesToAuditors" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-aurep_TotalFeesToAuditors" xlink:to="uk-aurep_TotalFeesToAuditors_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-aurep_TotalFeesToAuditors_ref">
+      <ref:Name>CA</ref:Name>
+      <ref:Section>390A</ref:Section>
+    </reference>
+  </referenceLink>
+</linkbase>

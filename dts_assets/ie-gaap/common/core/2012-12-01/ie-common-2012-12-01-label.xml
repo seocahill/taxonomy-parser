@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IE-COMMON-Label linkbase
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_CompaniesRegistrationOfficeNumber" xlink:label="ie-common_CompaniesRegistrationOfficeNumber" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_IrishVATRegistrationNumber" xlink:label="ie-common_IrishVATRegistrationNumber" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:label="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DirectorsLoansQuasiLoansHeading" xlink:label="ie-common_DirectorsLoansQuasiLoansHeading" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:label="ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:label="ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansDirectors" xlink:label="ie-common_LoansQuasiLoansDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:label="ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:label="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:label="ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" xlink:label="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_NameCharteredAccountantRegisteredAuditor" xlink:label="ie-common_NameCharteredAccountantRegisteredAuditor" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesFees" xlink:label="ie-common_OtherAuditServicesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesPensionSchemesFees" xlink:label="ie-common_OtherAuditServicesPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:label="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryFees" xlink:label="ie-common_TaxationAdvisoryFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryPensionSchemesFees" xlink:label="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:label="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceFees" xlink:label="ie-common_OtherAssuranceFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssurancePensionSchemesFees" xlink:label="ie-common_OtherAssurancePensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:label="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestWorldOutsideIreland" xlink:label="ie-common_RestWorldOutsideIreland" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestEuropeOutsideIreland" xlink:label="ie-common_RestEuropeOutsideIreland" xlink:type="locator"/>
+
+      <label xml:lang="en" xlink:label="ie-common_CompaniesRegistrationOfficeNumber_en" xlink:type="resource">Companies Registration Office number</label>
+      <label xml:lang="en" xlink:label="ie-common_IrishVATRegistrationNumber_en" xlink:type="resource">Irish VAT registration number</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963_en" xlink:type="resource">Loans for the purchase of own shares under Section 60 Companies Act 1963</label>
+      <label xml:lang="en" xlink:label="ie-common_DirectorsLoansQuasiLoansHeading_en" xlink:type="resource">Directors' loans and quasi loans [heading]</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansQuasiLoansDirectors_en" xlink:type="resource">Loans and quasi loans, directors</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansQuasiLoansDirectors_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource">Loans and quasi loans, directors, start of period</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansQuasiLoansDirectors_en" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource">Loans and quasi loans, directors, end of period</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansQuasiLoansMadeInPeriodDirectors_en" xlink:type="resource">Loans and quasi loans made in period, directors</label>
+      <label xml:lang="en" xlink:label="ie-common_LoansQuasiLoansRepaidInPeriodDirectors_en" xlink:type="resource">Loans and quasi loans repaid in period, directors</label>
+
+      <label xml:lang="en" xlink:label="ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping_en" xlink:type="resource">Specific loan or quasi loan, directors [grouping]</label>
+      <label xml:lang="en" xlink:label="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors_en" xlink:type="resource">Description of specific loan or quasi loan and its conditions, directors</label>
+      <label xml:lang="en" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanDirectors_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource">Amount of specific loan or quasi loan, directors, start of period</label>
+      <label xml:lang="en" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanDirectors_en" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource">Amount of specific loan or quasi loan, directors, end of period</label>
+      <label xml:lang="en" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanDirectors_en" xlink:type="resource">Amount of specific loan or quasi loan, directors</label>
+      <label xml:lang="en" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors_en" xlink:type="resource">Amount of specific loan or quasi loan made in period, directors</label>
+      <label xml:lang="en" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors_en" xlink:type="resource">Amount of specific loan or quasi loan repaid in period, directors</label>
+
+      <label xml:lang="en" xlink:label="ie-common_DirectorsLoansQuasiLoansFree-textComment_en" xlink:type="resource">Directors' loans and quasi loans free-text comment</label>
+      <label xml:lang="en" xlink:label="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions_en" xlink:type="resource">Directors' declaration of material interest in transactions</label>
+      <label xml:lang="en" xlink:label="ie-common_NameCharteredAccountantRegisteredAuditor_en" xlink:type="resource">Name of chartered accountant and registered auditor</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAuditServicesFees_en" xlink:type="resource">Other audit services, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAuditServicesPensionSchemesFees_en" xlink:type="resource">Other audit services, pension schemes, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAuditServicesEntitySubsidiariesFees_en" xlink:type="resource">Other audit services, entity and subsidiaries, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_TaxationAdvisoryFees_en" xlink:type="resource">Taxation advisory fees</label>
+      <label xml:lang="en" xlink:label="ie-common_TaxationAdvisoryPensionSchemesFees_en" xlink:type="resource">Taxation advisory, pension schemes, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_TaxationAdvisoryEntitySubsidiariesFees_en" xlink:type="resource">Taxation advisory, entity and subsidiaries, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAssuranceFees_en" xlink:type="resource">Other assurance fees</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAssurancePensionSchemesFees_en" xlink:type="resource">Other assurance, pension schemes, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_OtherAssuranceEntitySubsidiariesFees_en" xlink:type="resource">Other assurance, entity and subsidiaries, fees</label>
+      <label xml:lang="en" xlink:label="ie-common_RestWorldOutsideIreland_en" xlink:type="resource">Rest of world, outside Ireland</label>
+      <label xml:lang="en" xlink:label="ie-common_RestEuropeOutsideIreland_en" xlink:type="resource">Rest of Europe, outside Ireland</label>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_CompaniesRegistrationOfficeNumber" xlink:to="ie-common_CompaniesRegistrationOfficeNumber_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_IrishVATRegistrationNumber" xlink:to="ie-common_IrishVATRegistrationNumber_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:to="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_DirectorsLoansQuasiLoansHeading" xlink:to="ie-common_DirectorsLoansQuasiLoansHeading_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_LoansQuasiLoansDirectors" xlink:to="ie-common_LoansQuasiLoansDirectors_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:to="ie-common_LoansQuasiLoansMadeInPeriodDirectors_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:to="ie-common_LoansQuasiLoansRepaidInPeriodDirectors_en" xlink:type="arc"/>
+
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:to="ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:to="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanDirectors_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors_en" xlink:type="arc"/>
+
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:to="ie-common_DirectorsLoansQuasiLoansFree-textComment_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" xlink:to="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_NameCharteredAccountantRegisteredAuditor" xlink:to="ie-common_NameCharteredAccountantRegisteredAuditor_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAuditServicesFees" xlink:to="ie-common_OtherAuditServicesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAuditServicesPensionSchemesFees" xlink:to="ie-common_OtherAuditServicesPensionSchemesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:to="ie-common_OtherAuditServicesEntitySubsidiariesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_TaxationAdvisoryFees" xlink:to="ie-common_TaxationAdvisoryFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:to="ie-common_TaxationAdvisoryPensionSchemesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:to="ie-common_TaxationAdvisoryEntitySubsidiariesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAssuranceFees" xlink:to="ie-common_OtherAssuranceFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAssurancePensionSchemesFees" xlink:to="ie-common_OtherAssurancePensionSchemesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:to="ie-common_OtherAssuranceEntitySubsidiariesFees_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_RestWorldOutsideIreland" xlink:to="ie-common_RestWorldOutsideIreland_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_RestEuropeOutsideIreland" xlink:to="ie-common_RestEuropeOutsideIreland_en" xlink:type="arc"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_PartnersPartnershipHeading" xlink:label="ie-common_PartnersPartnershipHeading" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner1" xlink:label="ie-common_Partner1" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner2" xlink:label="ie-common_Partner2" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner3" xlink:label="ie-common_Partner3" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner4" xlink:label="ie-common_Partner4" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner5" xlink:label="ie-common_Partner5" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner6" xlink:label="ie-common_Partner6" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner7" xlink:label="ie-common_Partner7" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner8" xlink:label="ie-common_Partner8" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner9" xlink:label="ie-common_Partner9" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner10" xlink:label="ie-common_Partner10" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner11" xlink:label="ie-common_Partner11" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner12" xlink:label="ie-common_Partner12" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner13" xlink:label="ie-common_Partner13" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner14" xlink:label="ie-common_Partner14" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner15" xlink:label="ie-common_Partner15" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner16" xlink:label="ie-common_Partner16" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner17" xlink:label="ie-common_Partner17" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner18" xlink:label="ie-common_Partner18" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner19" xlink:label="ie-common_Partner19" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner20" xlink:label="ie-common_Partner20" xlink:type="locator"/>
+      <label xml:lang="en" xlink:label="ie-common_PartnersPartnershipHeading_en" xlink:type="resource">Partners, partnership [heading]</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner1_en" xlink:type="resource">Partner 1</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner2_en" xlink:type="resource">Partner 2</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner3_en" xlink:type="resource">Partner 3</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner4_en" xlink:type="resource">Partner 4</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner5_en" xlink:type="resource">Partner 5</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner6_en" xlink:type="resource">Partner 6</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner7_en" xlink:type="resource">Partner 7</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner8_en" xlink:type="resource">Partner 8</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner9_en" xlink:type="resource">Partner 9</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner10_en" xlink:type="resource">Partner 10</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner11_en" xlink:type="resource">Partner 11</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner12_en" xlink:type="resource">Partner 12</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner13_en" xlink:type="resource">Partner 13</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner14_en" xlink:type="resource">Partner 14</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner15_en" xlink:type="resource">Partner 15</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner16_en" xlink:type="resource">Partner 16</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner17_en" xlink:type="resource">Partner 17</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner18_en" xlink:type="resource">Partner 18</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner19_en" xlink:type="resource">Partner 19</label>
+      <label xml:lang="en" xlink:label="ie-common_Partner20_en" xlink:type="resource">Partner 20</label>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_PartnersPartnershipHeading_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner1" xlink:to="ie-common_Partner1_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner2" xlink:to="ie-common_Partner2_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner3" xlink:to="ie-common_Partner3_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner4" xlink:to="ie-common_Partner4_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner5" xlink:to="ie-common_Partner5_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner6" xlink:to="ie-common_Partner6_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner7" xlink:to="ie-common_Partner7_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner8" xlink:to="ie-common_Partner8_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner9" xlink:to="ie-common_Partner9_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner10" xlink:to="ie-common_Partner10_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner11" xlink:to="ie-common_Partner11_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner12" xlink:to="ie-common_Partner12_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner13" xlink:to="ie-common_Partner13_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner14" xlink:to="ie-common_Partner14_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner15" xlink:to="ie-common_Partner15_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner16" xlink:to="ie-common_Partner16_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner17" xlink:to="ie-common_Partner17_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner18" xlink:to="ie-common_Partner18_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner19" xlink:to="ie-common_Partner19_en" xlink:type="arc"/>
+      <labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ie-common_Partner20" xlink:to="ie-common_Partner20_en" xlink:type="arc"/>
+  </labelLink>
+</linkbase>

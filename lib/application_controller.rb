@@ -11,6 +11,7 @@ require_relative 'models/element'
 require_relative 'models/dimension_node'
 
 require 'securerandom'
+
 module TaxonomyParser
   class ApplicationController 
     include SchemaParser

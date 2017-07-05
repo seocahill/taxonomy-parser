@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IE-GAAP - entry schema for full GAAP taxonomy and associated files
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema targetNamespace="http://www.xbrl-ie.net/gaap/core-all/2012-12-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ie-gaap-all="http://www.xbrl-ie.net/gaap/core-all/2012-12-01" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <import namespace="http://www.xbrl-ie.net/gaap/core-full/2012-12-01" schemaLocation="gaap/core/2012-12-01/ie-gaap-full-2012-12-01.xsd"/>
+</schema>

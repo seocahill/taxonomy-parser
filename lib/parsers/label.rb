@@ -22,7 +22,8 @@ module LabelParser
             }
           else
             label = nodes[element.attributes['label'].value]
-            label[element.attributes['role'].value.split('/').last] = element.text
+            label_type = element.attributes['role'] ? element.attributes['role'].value.split('/').last : "label"
+            label[label_type] = element.text
           end
         end
         labels << nodes.values

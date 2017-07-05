@@ -5,7 +5,7 @@ module DimensionParser
   Node = Struct.new(:id, :element_id, :parent_id, :order, :arcrole)
 
   def parse_definition_linkbases
-    Dir.glob(File.join(__dir__, "/../../dts_assets/uk-gaap/**/*")).grep(/definition.xml/) do |file|
+    Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*")).grep(/definition.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
     end
   end

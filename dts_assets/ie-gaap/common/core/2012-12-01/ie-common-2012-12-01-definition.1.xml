@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IE-COMMON-Definition linkbase
+2012-12-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#Dimension-CountriesAndRegions" roleURI="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#Dimension-StockExchanges" roleURI="http://www.xbrl.org/uk/all/role/Dimension-StockExchanges" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#Dimension-EntityOfficers" roleURI="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficers" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#Hypercube-EntityOfficers" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-EntityOfficers" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#Hypercube-ThirdPartyAgentContactInfo" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-ThirdPartyAgents" />
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#Hypercube-Shares" roleURI="http://www.xbrl.org/uk/cd/role/Hypercube-Shares" />
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/Dimension-CountriesAndRegions">
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ireland" xlink:label="uk-countries_Ireland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HomeCountriesHeading" xlink:label="uk-countries_HomeCountriesHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedKingdom" xlink:label="uk-countries_UnitedKingdom" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_England" xlink:label="uk-countries_England" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Scotland" xlink:label="uk-countries_Scotland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Wales" xlink:label="uk-countries_Wales" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorthernIreland" xlink:label="uk-countries_NorthernIreland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_IsleMan" xlink:label="uk-countries_IsleMan" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Jersey" xlink:label="uk-countries_Jersey" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guernsey" xlink:label="uk-countries_Guernsey" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_GreatBritain" xlink:label="uk-countries_GreatBritain" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestWorldOutsideIreland" xlink:label="ie-common_RestWorldOutsideIreland" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_RestEuropeOutsideIreland" xlink:label="ie-common_RestEuropeOutsideIreland" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestWorldOutsideUK" xlink:label="uk-countries_RestWorldOutsideUK" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestEuropeOutsideUK" xlink:label="uk-countries_RestEuropeOutsideUK" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:label="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MainRegionsHeading" xlink:label="uk-countries_MainRegionsHeading" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:to="uk-countries_Ireland" order="2.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_DimensionMembersRepresentingCountriesRegionsHeading" xlink:to="uk-countries_HomeCountriesHeading" order="2.0" xbrldt:usable="false" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_UnitedKingdom" order="0.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_England" order="1.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Scotland" order="2.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Wales" order="3.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_NorthernIreland" order="4.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_IsleMan" order="5.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Jersey" order="6.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Guernsey" order="7.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_GreatBritain" order="8.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_MainRegionsHeading" xlink:to="ie-common_RestWorldOutsideIreland" order="0.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_MainRegionsHeading" xlink:to="ie-common_RestEuropeOutsideIreland" order="0.5" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestWorldOutsideUK" order="1.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestEuropeOutsideUK" order="2.0" use="prohibited" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/all/role/Dimension-StockExchanges">
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_Ireland-IrishStockExchange" xlink:label="uk-exch_Ireland-IrishStockExchange" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_UK-LondonStockExchange" xlink:label="uk-exch_UK-LondonStockExchange" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_UK-AlternateInvestmentMarket" xlink:label="uk-exch_UK-AlternateInvestmentMarket" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:label="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/uk-exchanges-2009-09-01.xsd#uk-exch_OtherMainExchangesHeading" xlink:label="uk-exch_OtherMainExchangesHeading" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_Ireland-IrishStockExchange" order="1.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-LondonStockExchange" order="1.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-exch_DimensionMembersRepresentingStockExchangesHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" order="2.0" use="prohibited" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_UK-AlternateInvestmentMarket" order="9.5" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-exch_OtherMainExchangesHeading" xlink:to="uk-exch_UK-LondonStockExchange" order="11.0" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-EntityOfficers">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansDirectors" xlink:label="ie-common_LoansQuasiLoansDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:label="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:label="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:label="ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:label="ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:label="ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-EntityOfficers" xlink:label="uk-bus_DimensionsParent-EntityOfficers" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="ie-common_LoansQuasiLoansDirectors" order="11.5" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_LoansQuasiLoansDirectors" xlink:to="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" order="1.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_LoansQuasiLoansDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanDirectors" order="2.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_LoansQuasiLoansDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" order="3.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_LoansQuasiLoansDirectors" xlink:to="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" order="4.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="ie-common_LoansQuasiLoansMadeInPeriodDirectors" order="11.6" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="ie-common_LoansQuasiLoansRepaidInPeriodDirectors" order="11.7" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="ie-common_DirectorsLoansQuasiLoansFree-textComment" order="11.8" use="optional" />
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" xlink:label="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-EntityOfficers" xlink:to="ie-common_DirectorsDeclarationOfMaterialInterestInTransactions" order="23.5" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-ThirdPartyAgents">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_NameCharteredAccountantRegisteredAuditor" xlink:label="ie-common_NameCharteredAccountantRegisteredAuditor" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_NameSeniorStatutoryAuditor" xlink:label="uk-aurep_NameSeniorStatutoryAuditor" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-ThirdPartyAgents" xlink:label="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="ie-common_NameCharteredAccountantRegisteredAuditor" order="22.0" use="optional" />
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-ThirdPartyAgents" xlink:to="uk-aurep_NameSeniorStatutoryAuditor" order="22.0" use="prohibited" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-ThirdPartyAgents">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesFees" xlink:label="ie-common_OtherAuditServicesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesPensionSchemesFees" xlink:label="ie-common_OtherAuditServicesPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:label="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryFees" xlink:label="ie-common_TaxationAdvisoryFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryPensionSchemesFees" xlink:label="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:label="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceFees" xlink:label="ie-common_OtherAssuranceFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssurancePensionSchemesFees" xlink:label="ie-common_OtherAssurancePensionSchemesFees" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:label="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_AuditFeesExpenses" xlink:label="uk-aurep_AuditFeesExpenses" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/reports/aurep/2009-09-01/uk-aurep-2009-09-01.xsd#uk-aurep_FeesForNon-auditServices" xlink:label="uk-aurep_FeesForNon-auditServices" xlink:type="locator"/>
+      <definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-aurep_AuditFeesExpenses" xlink:to="ie-common_OtherAuditServicesFees" xlink:type="arc"/>
+      <definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_OtherAuditServicesFees" xlink:to="ie-common_OtherAuditServicesPensionSchemesFees" xlink:type="arc"/>
+      <definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_OtherAuditServicesFees" xlink:to="ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:type="arc"/>
+      <definitionArc order="2.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="ie-common_TaxationAdvisoryFees" xlink:type="arc"/>
+      <definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_TaxationAdvisoryFees" xlink:to="ie-common_TaxationAdvisoryPensionSchemesFees" xlink:type="arc"/>
+      <definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_TaxationAdvisoryFees" xlink:to="ie-common_TaxationAdvisoryEntitySubsidiariesFees" xlink:type="arc"/>
+      <definitionArc order="5.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-aurep_FeesForNon-auditServices" xlink:to="ie-common_OtherAssuranceFees" xlink:type="arc"/>
+      <definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_OtherAssuranceFees" xlink:to="ie-common_OtherAssurancePensionSchemesFees" xlink:type="arc"/>
+      <definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_OtherAssuranceFees" xlink:to="ie-common_OtherAssuranceEntitySubsidiariesFees" xlink:type="arc"/>
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Hypercube-Shares">
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:label="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:type="locator"/>
+      <loc xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_DimensionsParent-Shares" xlink:label="uk-bus_DimensionsParent-Shares" xlink:type="locator"/>
+      <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_DimensionsParent-Shares" xlink:to="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" order="9.5" use="optional" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/uk/cd/role/Dimension-EntityOfficers">
+      <loc xlink:href="http://www.xbrl.org/uk/cd/business/2009-09-01/uk-bus-2009-09-01.xsd#uk-bus_AllEntityOfficers" xlink:label="uk-bus_AllEntityOfficers" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_PartnersPartnershipHeading" xlink:label="ie-common_PartnersPartnershipHeading" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner1" xlink:label="ie-common_Partner1" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner2" xlink:label="ie-common_Partner2" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner3" xlink:label="ie-common_Partner3" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner4" xlink:label="ie-common_Partner4" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner5" xlink:label="ie-common_Partner5" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner6" xlink:label="ie-common_Partner6" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner7" xlink:label="ie-common_Partner7" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner8" xlink:label="ie-common_Partner8" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner9" xlink:label="ie-common_Partner9" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner10" xlink:label="ie-common_Partner10" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner11" xlink:label="ie-common_Partner11" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner12" xlink:label="ie-common_Partner12" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner13" xlink:label="ie-common_Partner13" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner14" xlink:label="ie-common_Partner14" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner15" xlink:label="ie-common_Partner15" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner16" xlink:label="ie-common_Partner16" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner17" xlink:label="ie-common_Partner17" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner18" xlink:label="ie-common_Partner18" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner19" xlink:label="ie-common_Partner19" xlink:type="locator"/>
+      <loc xlink:href="ie-common-2012-12-01.xsd#ie-common_Partner20" xlink:label="ie-common_Partner20" xlink:type="locator"/>
+      <definitionArc order="47.5" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="uk-bus_AllEntityOfficers" xlink:to="ie-common_PartnersPartnershipHeading" xlink:type="arc" xbrldt:usable="false" />
+      <definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner1" xlink:type="arc"/>
+      <definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner2" xlink:type="arc"/>
+      <definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner3" xlink:type="arc"/>
+      <definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner4" xlink:type="arc"/>
+      <definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner5" xlink:type="arc"/>
+      <definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner6" xlink:type="arc"/>
+      <definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner7" xlink:type="arc"/>
+      <definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner8" xlink:type="arc"/>
+      <definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner9" xlink:type="arc"/>
+      <definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner10" xlink:type="arc"/>
+      <definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner11" xlink:type="arc"/>
+      <definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner12" xlink:type="arc"/>
+      <definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner13" xlink:type="arc"/>
+      <definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner14" xlink:type="arc"/>
+      <definitionArc order="15.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner15" xlink:type="arc"/>
+      <definitionArc order="16.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner16" xlink:type="arc"/>
+      <definitionArc order="17.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner17" xlink:type="arc"/>
+      <definitionArc order="18.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner18" xlink:type="arc"/>
+      <definitionArc order="19.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner19" xlink:type="arc"/>
+      <definitionArc order="20.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ie-common_PartnersPartnershipHeading" xlink:to="ie-common_Partner20" xlink:type="arc"/>
+  </definitionLink>
+</linkbase>

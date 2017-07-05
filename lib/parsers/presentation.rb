@@ -3,7 +3,7 @@ module PresentationParser
   Node = Struct.new(:id, :element_id, :parent_id, :role_id, :order)
 
   def parse_presentation_linkbases
-    Dir.glob(File.join(__dir__, "/../../dts_assets/uk-gaap/**/*")).grep(/presentation.xml/) do |file|
+    Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep_v(/minimum/).grep(/presentation/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
     end
   end

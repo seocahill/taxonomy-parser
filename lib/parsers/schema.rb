@@ -2,7 +2,7 @@ module SchemaParser
   def parse_dts_schemas
     entries = {}
     role_types = {}
-    Dir.glob(File.join(__dir__, "/../../dts_assets/uk-gaap/**/*.xsd")).grep_v(/(full|main|minimum)/) do |file|
+    Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xsd")).grep_v(/(full|main|minimum)/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_nodes = parsed_file.search("link|roleType", "element")
       current_tuple_id = nil

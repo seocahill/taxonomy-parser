@@ -10,7 +10,7 @@ module LabelParser
 
   def parse_label_linkbases
     labels = []
-    Dir.glob(File.join(__dir__, "/../../dts_assets/uk-gaap/**/*.xml")).grep(/label/) do |file|
+    Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/label/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('labelLink').each do |link|
         nodes = {}

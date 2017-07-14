@@ -97,7 +97,8 @@ module TaxonomyParser
     def parse_available_dts
       @store[:discoverable_taxonomy_sets] = {}
       dts_path = File.join(__dir__, "/../dts_assets")
-      dts_folders = Dir.entries(dts_path).select { |f| !File.directory? f }
+      # exclude . .. .DS_Store etc
+      dts_folders = Dir.entries(dts_path).reject { |file| file[0] == '.' }
       dts_folders.each_with_index do |name, index| 
         model = DiscoverableTaxonomySet.new(index, name)
         @store[:discoverable_taxonomy_sets][model.id] = model

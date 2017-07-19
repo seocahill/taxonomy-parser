@@ -61,7 +61,7 @@ module TaxonomyParser
     end
 
     def presentation_node(id)
-      presentation_node = @store[:presentation_nodes][id]
+      presentation_node = @store[:presentation_nodes][id.to_i]
       element = presentation_node.element
       element.dimension_nodes = dimension_node_tree(element.id)
       JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes']).to_json
@@ -81,7 +81,7 @@ module TaxonomyParser
 
     def parse_current_dts
       @concepts, @role_types = parse_dts_schemas
-      @presentation_links = parse_presentation_linkbases
+      parse_presentation_linkbases
       @definitions = parse_definition_linkbases
       parse_roles
       parse_elements

@@ -4,17 +4,15 @@ module PresentationParser
 
   def parse_presentation_linkbases
     Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep_v(/minimum/).grep(/presentation/) do |file|
-      parsed_file = Nokogiri::XML(File.open(file))
-    end
-  end
-
-  def presentation_links
-    @presentation_links.flat_map do |parsed_file|
+      Nokogiri::XML(File.open(file))
+    end.flat_map do |parsed_file|
       parsed_file.xpath("//xmlns:presentationLink")
+    end.tap do |presentation_links|
+      populate_links(presentation_links)
     end
   end
 
-  def populate_links
+  def populate_links(presentation_links)
     links = {}
     presentation_links.each do |link|
       role = link.attributes["role"].value
@@ -40,14 +38,14 @@ module PresentationParser
   end
 
   def create_node(element_id, parent_id, role, node_ids, order = "0")
-    node = Node.new(SecureRandom.uuid, element_id, parent_id, role, order)
+    id = @nodes.keys.any? ? (@nodes.keys[-1] + 1) : 1
+    node = Node.new(id, element_id, parent_id, role, order)
     node_ids[node.element_id] ||= node.id
     @nodes[node.id] = node.to_h
     node
   end
 
   def parse_presentation_nodes
-    populate_links
     bucket = @store[:presentation_nodes] = {}
     @nodes.values.each do |node|
       parent = bucket[node[:parent_id]]

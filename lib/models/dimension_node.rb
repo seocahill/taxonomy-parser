@@ -11,7 +11,7 @@ class DimensionNode
   end
 
   def name
-    self.element.name
+    self.element.labels.first.label
   end
 end
 

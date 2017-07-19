@@ -9,6 +9,7 @@ require_relative 'models/role_type'
 require_relative 'models/presentation_node'
 require_relative 'models/element'
 require_relative 'models/dimension_node'
+require_relative 'models/label'
 
 require 'securerandom'
 
@@ -81,12 +82,12 @@ module TaxonomyParser
 
     def parse_current_dts
       @concepts, @role_types = parse_dts_schemas
-      @label_items = parse_label_linkbases
       @reference_items = parse_reference_linkbases
       @presentation_links = parse_presentation_linkbases
       @definitions = parse_definition_linkbases
       parse_roles
       parse_elements
+      parse_label_linkbases
       parse_presentation_nodes
     end
 

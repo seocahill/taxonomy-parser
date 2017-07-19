@@ -10,31 +10,29 @@ module LabelParser
 
   def parse_label_linkbases
     labels = []
+    label_id = 0
+    @store[:labels] = {}
     Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/label/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('labelLink').each do |link|
         nodes = {}
-        link.search('labelArc', 'label', ).each do |element|
-          if element.name == 'labelArc'
-            nodes[element.attributes['to'].value] = {
-              id: SecureRandom.uuid,
-              element_id: element.attributes['from'].value
-            }
+        link.search('labelArc', 'label', ).each do |node|
+          if node.name == 'labelArc'
+            element = @store[:elements][node.attributes['from'].value]
+            label_id += 1
+            label = Label.new(label_id, element)
+            element.labels << label
+            nodes[node.attributes['to'].value] = label
           else
-            label = nodes[element.attributes['label'].value]
-            label_type = element.attributes['role'] ? element.attributes['role'].value.split('/').last : "label"
-            label[label_type] = element.text
+            label = nodes[node.attributes['label'].value]
+            label_type = node.attributes['role'] ? node.attributes['role'].value.split('/').last : "label"
+            label.send("#{label_type}=", node.text)
           end
         end
-        labels << nodes.values
+        nodes.values.each do |node|
+          @store[:labels][node.id] = node
+        end
       end
-    end
-    labels.flatten
-  end
-
-  def properties(element)
-    element.elements.each_with_object({}) do |element, object|
-      object[element.name] = element.text
     end
   end
 end

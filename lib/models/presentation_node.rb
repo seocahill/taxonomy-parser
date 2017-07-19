@@ -11,7 +11,7 @@ class PresentationNode
   end
 
   def name 
-    element.name
+    element.labels.first.label
   end
 end
 

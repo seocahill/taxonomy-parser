@@ -26,7 +26,6 @@ module TaxonomyParser
       @current_dts = nil
       @store = {}
       @nodes = {}
-      @checksums = {}
       parse_available_dts
     end
 
@@ -82,12 +81,12 @@ module TaxonomyParser
 
     def parse_current_dts
       @concepts, @role_types = parse_dts_schemas
-      @reference_items = parse_reference_linkbases
       @presentation_links = parse_presentation_linkbases
       @definitions = parse_definition_linkbases
       parse_roles
       parse_elements
       parse_label_linkbases
+      # parse_reference_linkbases
       parse_presentation_nodes
     end
 

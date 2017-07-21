@@ -9,6 +9,7 @@ class RoleType
     @definition = definition
     @role_uri = role_uri
     @network = network
+    @presentation_nodes = []
   end
 
   def order

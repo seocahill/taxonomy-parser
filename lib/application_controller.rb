@@ -21,6 +21,8 @@ module TaxonomyParser
     include LabelParser
     include DimensionParser
 
+    attr_reader :store
+
     def initialize
       puts "initialized"
       @current_dts = nil

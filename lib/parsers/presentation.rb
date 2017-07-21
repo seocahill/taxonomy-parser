@@ -14,6 +14,8 @@ module PresentationParser
 
   def populate_links(presentation_links)
     links = {}
+    # gather all presentation links together by role_type
+    # then parse them
     presentation_links.each do |link|
       role = link.attributes["role"].value
       locs = {}
@@ -48,6 +50,10 @@ module PresentationParser
   def parse_presentation_nodes
     bucket = @store[:presentation_nodes] = {}
     @nodes.values.each do |node|
+      # if node[:element_id] == "ie-common_PartnersPartnershipHeading"
+      if node[:element_id] == "uk-bus_DimensionMembersIdentifyingPositionEntityOfficerHeading"
+        binding.pry
+      end
       parent = bucket[node[:parent_id]]
       element = @store[:elements][node[:element_id]]
       role = @store[:role_types].values.find { |i| i.role_uri == node[:role_id] }

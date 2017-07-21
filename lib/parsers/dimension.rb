@@ -35,7 +35,7 @@ module DimensionParser
     end
     nodes = items.flat_map do |item|
       node = new_node(item.attributes["from"].value, concept_node.id, item.attributes.dig("order")&.value, 'primary-item')
-      [node.to_h] + find_hypercubes(node)
+      find_hypercubes(node)
     end
     nodes
   end

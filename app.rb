@@ -43,6 +43,11 @@ module TaxonomyParser
       $app.element(params['id'])
     end
 
+    get '/presentation_nodes' do
+      content_type :api_json
+      $app.presentation_nodes(params)
+    end
+
     get '/presentation_nodes/:id' do
       content_type :api_json
       $app.presentation_node(params['id'])

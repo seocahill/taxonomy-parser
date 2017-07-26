@@ -46,13 +46,21 @@ module PresentationParser
     # Join nodes separately or else extensions might attempt to look up locs 
     # that point to nodes that haven't been created yet.
     presentation_links.each do |link|
-      role = links[link.attributes["role"].value]
+      role_id = link.attributes["role"].value
+      role = @store[:role_types].values.find { |i| i.role_uri == role_id }
       link.search("presentationArc").each do |arc|
         parent_loc_id = arc.attributes["from"].value
         child_loc_id = arc.attributes["to"].value
         order = arc.attributes["order"].value
-        model = role[child_loc_id]
-        model.parent = role[parent_loc_id]
+        model = links[role_id][child_loc_id]
+        if model.parent
+          # create alias e.g. xlink:label="uk-bus_MeansContactHeading" has two parents links with entity info role.
+          model = model.dup
+          model.id = @store[:presentation_nodes].keys.last + 1
+          role.presentation_nodes << model
+          @store[:presentation_nodes][model.id] = model
+        end
+        model.parent = links[role_id][parent_loc_id]
         model.order = order
       end
     end

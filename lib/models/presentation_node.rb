@@ -1,7 +1,7 @@
 class PresentationNode
 
-  attr_reader :id, :role_type, :element, :href
-  attr_accessor :parent, :order
+  attr_reader :role_type, :element, :href
+  attr_accessor :id, :parent, :order
 
   def initialize(id, role_type, element, href)
     @id = id

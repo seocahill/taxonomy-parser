@@ -26,6 +26,7 @@ module LabelParser
           else
             label = nodes[node.attributes['label'].value]
             label_type = node.attributes['role'] ? node.attributes['role'].value.split('/').last : "label"
+            label_type = snake_case(label_type)
             label.send("#{label_type}=", node.text)
           end
         end
@@ -34,5 +35,12 @@ module LabelParser
         end
       end
     end
+  end
+
+  def snake_case(str)
+    return str.downcase if str.match(/\A[A-Z]+\z/)
+    str.gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2').
+    gsub(/([a-z])([A-Z])/, '\1_\2').
+    downcase
   end
 end

@@ -1,7 +1,7 @@
 class Label
 
   attr_reader :id, :element
-  attr_accessor :label, :documentation, :periodStartLabel, :periodEndLabel, :verboseLabel
+  attr_accessor :label, :documentation, :period_start_label, :period_end_label, :verbose_label
   
   def initialize(id, element)
     @id = id
@@ -14,5 +14,5 @@ class LabelSerializer
 
   has_one :element
 
-  attributes :label, :documentation, :periodStartLabel, :periodEndLabel, :verboseLabel
+  attributes :label, :documentation, :period_start_label, :period_end_label, :verbose_label
 end

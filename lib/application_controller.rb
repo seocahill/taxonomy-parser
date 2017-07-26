@@ -54,7 +54,7 @@ module TaxonomyParser
     def element(id)
       element = @store[:elements][id]
       element.dimension_nodes = dimension_node_tree(id)
-      JSONAPI::Serializer.serialize(element, include: ['dimension-nodes']).to_json
+      JSONAPI::Serializer.serialize(element, include: ['dimension-nodes', 'labels']).to_json
     end
 
     def element_dimension_nodes(id)
@@ -68,14 +68,14 @@ module TaxonomyParser
         element = node.element
         element.dimension_nodes = dimension_node_tree(element.id)
       end
-      JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension-nodes'], is_collection: true).to_json
+      JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension-nodes', 'element.labels'], is_collection: true).to_json
     end
 
     def presentation_node(id)
       presentation_node = @store[:presentation_nodes][id.to_i]
       element = presentation_node.element
       element.dimension_nodes = dimension_node_tree(element.id)
-      JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes']).to_json
+      JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes', 'element.labels']).to_json
     end
 
     def dimension_node(id)
@@ -86,6 +86,11 @@ module TaxonomyParser
     def dimension_node_element(id)
       dimension_node = @store[:dimension_nodes][id]
       JSONAPI::Serializer.serialize(dimension_node.element).to_json
+    end
+
+    def label(id)
+      label = @store[:labels][id.to_i]
+      JSONAPI::Serializer.serialize(label).to_json
     end
 
     private

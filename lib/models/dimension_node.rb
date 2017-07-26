@@ -13,6 +13,10 @@ class DimensionNode
   def name
     self.element.labels.first.label
   end
+
+  def tag
+    self.element.id
+  end
 end
 
 class DimensionNodeSerializer
@@ -21,7 +25,7 @@ class DimensionNodeSerializer
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
-  attributes :order, :arcrole, :name
+  attributes :order, :arcrole, :name, :tag
 
   def base_url
     "/api/v1"

@@ -1,7 +1,7 @@
 class PresentationNode
 
   attr_reader :role_type, :element, :href
-  attr_accessor :id, :parent, :order
+  attr_accessor :id, :parent, :order, :alias
 
   def initialize(id, role_type, element, href)
     @id = id
@@ -21,6 +21,7 @@ class PresentationNodeSerializer
   has_one :role_type
   has_one :element, include_link: false, include_data: true
   has_one :parent, include_data: true
+  has_one :alias, include_data: true
 
   attributes :order, :name
 end

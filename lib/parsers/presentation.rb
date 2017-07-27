@@ -55,6 +55,7 @@ module PresentationParser
         model = links[role_id][child_loc_id]
         if model.parent
           # create alias e.g. xlink:label="uk-bus_MeansContactHeading" has two parents links with entity info role.
+          model.alias = model.parent
           model = model.dup
           model.id = @store[:presentation_nodes].keys.last + 1
           role.presentation_nodes << model

@@ -96,13 +96,12 @@ module TaxonomyParser
     private
 
     def parse_current_dts
-      @concepts, @role_types = parse_dts_schemas
+      @concepts, @role_types, @tuples = parse_dts_schemas
       parse_roles
       parse_elements
       parse_presentation_linkbases
       @definitions = parse_definition_linkbases
       parse_label_linkbases
-      # parse_reference_linkbases
     end
 
     def hashify_xml(xml)

@@ -55,7 +55,7 @@ module DimensionParser
   def find_hypercubes(parent)
     items = @definitions.flat_map do |parsed_file|
       parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/all']")
-    end
+    end.uniq
     hypercubes = items.flat_map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
       [node.to_h] + find_dimensions(node)
@@ -96,7 +96,7 @@ module DimensionParser
     end
     domain_members = items.flat_map do |item|
       node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
-      node.to_h
+      [node.to_h] + find_domain_members(node)
     end
     domain_members
   end

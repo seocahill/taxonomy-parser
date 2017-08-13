@@ -28,6 +28,9 @@ module LabelParser
             label_type = node.attributes['role'] ? node.attributes['role'].value.split('/').last : "label"
             label_type = snake_case(label_type)
             label.send("#{label_type}=", node.text)
+            if ! (node.text =~ /\(.*\)/).nil?
+              label.element.invertible = true 
+            end
           end
         end
         nodes.values.each do |node|

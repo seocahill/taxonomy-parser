@@ -24,11 +24,11 @@ module TaxonomyParser
     attr_reader :store
 
     def initialize
-      puts "initialized"
       @current_dts = nil
       @store = {}
       @nodes = []
       parse_available_dts
+      puts "ready!"
     end
 
     def discoverable_taxonomy_sets
@@ -96,6 +96,7 @@ module TaxonomyParser
     private
 
     def parse_current_dts
+      puts "parsing current DTS"
       @concepts, @role_types, @tuples = parse_dts_schemas
       parse_roles
       parse_elements

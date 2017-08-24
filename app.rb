@@ -13,7 +13,7 @@ module TaxonomyParser
     mime_type :api_json, 'application/vnd.api+json'
 
     def initialize
-      puts "booting app"
+      puts "booting app...."
       $app = ApplicationController.new
       super
     end

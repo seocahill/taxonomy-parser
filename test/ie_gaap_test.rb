@@ -35,4 +35,38 @@ class IeGaapTest < MiniTest::Test
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["name"], "ShareCapitalAuthorised", "incorrect definition"
   end
+
+  def test_element_dimension_nodes
+    get '/elements/uk-gaap_ShareCapitalAuthorised/dimension-nodes'
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data.length, 125, "Dimension nodes for element"
+  end
+
+  def test_presentation_nodes
+    id = Hash["id", "100,200,300"]
+    params = Hash["filter", id]
+    get '/presentation_nodes', params
+    assert last_response.ok?, "should be ok"
+    assert_equal 3, json_data.length, "should return 3 Presentation nodes."
+  end
+
+  def test_presentation_nodes
+    get '/presentation_nodes/1'
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data["attributes"]["name"], "Loans for the purchase of own shares under Section 60 Companies Act 1963", "incorrect name"
+    # assert json_includes("included", "name", node_names), "missing presentation nodes"
+  end
+
+  def test_dimension_nodes
+    get '/elements/uk-gaap_ShareCapitalAuthorised'
+    # get node
+    get "/dimension_nodes/#{$app.store[:dimension_nodes].keys.first}"
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data["attributes"]["name"], "Shares [Hypercube]", "incorrect name"
+
+    # get node element
+    get "/dimension_nodes/#{$app.store[:dimension_nodes].keys.first}/element"
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data["attributes"]["name"], "SharesHypercube", "incorrect name"
+  end
 end

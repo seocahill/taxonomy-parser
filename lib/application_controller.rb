@@ -42,7 +42,7 @@ module TaxonomyParser
     end
 
     def role_types(params)
-      role_types = @store[:role_types].values
+      role_types = @store[:role_types].values_at(*params["filter"]["id"].split(',').map(&:to_i))
       JSONAPI::Serializer.serialize(role_types, is_collection: true).to_json
     end
 
@@ -109,6 +109,7 @@ module TaxonomyParser
     end
 
     def parse_available_dts
+      default_dts = ENV.fetch("DTS", "ie-gaap")
       @store[:discoverable_taxonomy_sets] = {}
       dts_path = File.join(__dir__, "/../dts_assets")
       # exclude . .. .DS_Store etc
@@ -116,6 +117,7 @@ module TaxonomyParser
       dts_folders.each_with_index do |name, index| 
         model = DiscoverableTaxonomySet.new(index, name)
         @store[:discoverable_taxonomy_sets][model.id] = model
+        discoverable_taxonomy_set(model.id) if name == default_dts
       end
     end
   end

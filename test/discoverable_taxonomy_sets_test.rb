@@ -1,11 +1,6 @@
-ENV['RACK_ENV'] = 'test'
-require 'minitest/autorun'
 require_relative './test_helper'
-# require 'pry-rescue/minitest'
-require 'rack/test'
-require_relative '../app'
 
-class APITest < MiniTest::Test
+class DiscoverableTaxonomySetsTest < MiniTest::Test
   include Rack::Test::Methods
   include TaxonomyParser::TestHelper
 

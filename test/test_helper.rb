@@ -1,3 +1,9 @@
+ENV['RACK_ENV'] = 'test'
+require 'minitest/autorun'
+require 'rack/test'
+require_relative '../app'
+# require 'pry-rescue/minitest'
+
 module TaxonomyParser
   module TestHelper
 

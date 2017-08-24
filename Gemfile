@@ -9,4 +9,5 @@ gem 'puma'
 group :test, :development do
   gem 'pry'
   gem 'pry-byebug'
+  gem 'simplecov'
 end

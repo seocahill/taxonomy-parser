@@ -50,7 +50,7 @@ class IeGaapTest < MiniTest::Test
     assert_equal 3, json_data.length, "should return 3 Presentation nodes."
   end
 
-  def test_presentation_nodes
+  def test_presentation_node
     get '/presentation_nodes/1'
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["name"], "Loans for the purchase of own shares under Section 60 Companies Act 1963", "incorrect name"
@@ -68,5 +68,18 @@ class IeGaapTest < MiniTest::Test
     get "/dimension_nodes/#{$app.store[:dimension_nodes].keys.first}/element"
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["name"], "SharesHypercube", "incorrect name"
+  end
+
+  def test_label
+    get '/labels/1'
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data["attributes"]["label"], "Companies Registration Office number", "incorrect label"
+  end
+
+  def test_reference
+    get '/references/1'
+    ref_data = [{"ISOName"=>"ISO 3166-1"}, {"Code"=>"AF"}, {"Date"=>"2009-09-01"}]
+    assert last_response.ok?, "should be ok"
+    assert_equal json_data["attributes"]["reference-data"], ref_data, "incorrect reference data"
   end
 end

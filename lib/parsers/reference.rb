@@ -1,40 +1,40 @@
 module ReferenceParser
-
   #
-  # each node has the element_id which corresponds to a ref loc
-  # each ref loc is linked to a ref via a ref arc
+  # each node has the element_id which corresponds to a reference loc
+  # each reference loc is linked to a reference via a reference arc
   # each node belongs to element
   # each element has many references
-  # each reference object should have an element_id == loc.from and a body = loc.to.ref
+  # each reference has a standard and a documentation reference
+  # each reference object should have an element_id == loc.from and a body = loc.to.reference
   #
 
   def parse_reference_linkbases
     references = []
+    reference_id = 0
+    @store[:references] = {}
     Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/reference/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
       parsed_file.search('referenceLink').each do |link|
-        arcs = {}
-        link.search('referenceArc', 'reference', ).each do |element|
-          if element.name == 'referenceArc'
-            arcs[element.attributes['to'].value] = element.attributes['from'].value
+        nodes = {}
+        link.search('referenceArc', 'reference', ).each do |node|
+          if node.name == 'referenceArc'
+            element = @store[:elements][node.attributes['from'].value]
+            reference_id += 1
+            reference = Reference.new(reference_id, element)
+            raise if element.reference
+            element.reference = reference
+            nodes[node.attributes['to'].value] = reference
           else
-            locator = arcs[element.attributes['label'].value]
-            references << {
-              id: SecureRandom.uuid,
-              element_id: locator,
-              properties: properties(element)
-            }
+            reference = nodes[node.attributes['label'].value]
+            reference.reference_data = node.elements.map do |el|
+              Hash[el.name, el.text]
+            end
           end
+        end
+        nodes.values.each do |node|
+          @store[:references][node.id] = node
         end
       end
     end
-    references
   end
-
-  def properties(element)
-    element.elements.each_with_object({}) do |element, object|
-      object[element.name] = element.text
-    end
-  end
-
 end

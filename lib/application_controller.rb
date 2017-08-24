@@ -3,6 +3,8 @@ require_relative 'parsers/presentation'
 require_relative 'parsers/label'
 require_relative 'parsers/reference'
 require_relative 'parsers/dimension'
+require_relative 'parsers/reference'
+require_relative 'parsers/parser_helper'
 
 require_relative 'models/discoverable_taxonomy_set'
 require_relative 'models/role_type'
@@ -10,6 +12,7 @@ require_relative 'models/presentation_node'
 require_relative 'models/element'
 require_relative 'models/dimension_node'
 require_relative 'models/label'
+require_relative 'models/reference'
 
 require 'securerandom'
 
@@ -20,6 +23,7 @@ module TaxonomyParser
     include ReferenceParser
     include LabelParser
     include DimensionParser
+    include ParserHelper
 
     attr_reader :store
 
@@ -93,6 +97,11 @@ module TaxonomyParser
       JSONAPI::Serializer.serialize(label).to_json
     end
 
+    def reference(id)
+      reference = @store[:references][id.to_i]
+      JSONAPI::Serializer.serialize(reference).to_json
+    end
+
     private
 
     def parse_current_dts
@@ -103,6 +112,7 @@ module TaxonomyParser
       parse_presentation_linkbases
       @definitions = parse_definition_linkbases
       parse_label_linkbases
+      parse_reference_linkbases
     end
 
     def hashify_xml(xml)

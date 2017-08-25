@@ -33,17 +33,13 @@ module DimensionParser
     Node.new(SecureRandom.uuid, element, parent, order, arcrole)
   end
 
-  def dimension_node_tree(concept_id)
-    concept_node = new_node(concept_id, nil, "0", 'primary-item')
-    nodes = find_primary_items(concept_node)
-    bucket = @store[:dimension_nodes] = {}
-    nodes.each do |node|
-      parent = bucket[node[:parent_id]]
-      element = @store[:elements][node[:element_id]]
-      model = DimensionNode.new(node[:id], element, parent, node[:order], node[:arcrole])
-      bucket[model.id] = model
-    end
-    bucket.values
+  def dimension_node_tree(element_id)
+    grouping_item_id = find_dimensions_grouping_item(element_id)
+    hypercubes = find_grouping_item_hypercubes(grouping_item_id)
+    hypercube_dimensions = hypercubes.flat_map { |id| find_hypercube_dimensions(id) }
+    default_dimensions = hypercube_dimensions.map { |id| find_dimension_default(id) }
+    dimension_domains = hypercube_dimensions.flat_map { |id| find_dimension_domains(id) }
+    all_domain_members = dimension_domains.flat_map { |id| find_all_domain_members(id) }
   end
 
   def find_dimensions_grouping_item(element_id)

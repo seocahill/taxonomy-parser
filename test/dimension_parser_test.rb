@@ -56,5 +56,7 @@ class DimensionParserTest < MiniTest::Test
     assert_empty actual - expected, "find all domain members for Share Classes"
   end
 
-  
+  def test_dimension_node_tree
+    assert_empty @test_obj.dimension_node_tree("uk-bus_NameEntityOfficer"), "whats in here?"
+  end
 end

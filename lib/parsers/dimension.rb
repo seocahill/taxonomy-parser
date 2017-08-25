@@ -23,7 +23,7 @@ module DimensionParser
           @def_index[arcrole][:to][to] = from
         end
         if from
-          @def_index[arcrole][:from][from] = to
+          (@def_index[arcrole][:from][from] ||= []) << to
         end
       end
     end
@@ -53,9 +53,14 @@ module DimensionParser
     find_dimensions_grouping_item(parent_id) || parent_id
   end
 
-  def find_grouping_item_hypercube(grouping_item_id)
+  def find_grouping_item_hypercubes(grouping_item_id)
     arcrole = "http://xbrl.org/int/dim/arcrole/all"
     @def_index[arcrole][:from][grouping_item_id]
+  end
+
+  def find_hypercube_dimensions(hypercube_id)
+    arcrole = "http://xbrl.org/int/dim/arcrole/hypercube-dimension"
+    @def_index[arcrole][:from][hypercube_id]
   end
 
   def find_primary_items(concept_node)

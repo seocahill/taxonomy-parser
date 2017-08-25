@@ -19,9 +19,19 @@ class DimensionParserTest < MiniTest::Test
     assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
   end
 
-  def test_find_hypercube_of_grouping_item
-    assert_equal @test_obj.find_grouping_item_hypercube("uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions"), "uk-gaap_TangibleFixedAssetsHypercube", "find hypercube for Fixed Assets"
-    assert_equal @test_obj.find_grouping_item_hypercube("uk-bus_DimensionsParent-EntityOfficers"), "uk-bus_EntityOfficersHypercube", "find hypercube for Entity officers"
+  def test_find_hypercubes_of_grouping_item
+    assert_equal @test_obj.find_grouping_item_hypercubes("uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions"), ["uk-gaap_TangibleFixedAssetsHypercube"], "find hypercubes for Fixed Assets"
+    assert_equal @test_obj.find_grouping_item_hypercubes("uk-bus_DimensionsParent-EntityOfficers"), ["uk-bus_EntityOfficersHypercube"], "find hypercubes for Entity officers"
+  end
+
+  def test_find_all_hypercube_dimensions
+    fixed_assets_dimensions = %w[
+      uk-gaap_TangibleFixedAssetClassesDimension
+      uk-gaap_TangibleFixedAssetOwnershipDimension
+      uk-gaap_RestatementsDimension
+      uk-gaap_GroupCompanyDimension
+    ]
+    assert_equal @test_obj.find_hypercube_dimensions("uk-gaap_TangibleFixedAssetsHypercube"), fixed_assets_dimensions, "find all dimensions for Fixed Assets hypercube"
   end
 
   def test_element_without_all_default_dimensions

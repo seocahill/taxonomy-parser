@@ -1,7 +1,10 @@
 class Element
 
-  attr_reader :id, :discoverable_taxonomy_set_id, :name, :item_type, :substitution_group, :period_type, :abstract, :nillable
-  attr_accessor :dimension_nodes, :labels, :max_occurs, :min_occurs, :tuple_id, :presentation_nodes, :invertible, :reference
+  attr_reader :id, :discoverable_taxonomy_set_id, :name, :item_type, :substitution_group, 
+    :period_type, :abstract, :nillable
+    
+  attr_accessor :dimension_nodes, :labels, :max_occurs, :min_occurs, :tuple_id, 
+    :presentation_nodes, :invertible, :reference, :default_dimensions
   
   def initialize(id, discoverable_taxonomy_set_id, name, item_type, substitution_group, period_type, abstract, nillable)
     @id = id
@@ -15,6 +18,7 @@ class Element
     @labels = []
     @presentation_nodes = []
     @invertible = false
+    @default_dimensions = true
   end
 end
 
@@ -27,5 +31,5 @@ class ElementSerializer
   has_one :reference
 
   attributes :name, :item_type, :substitution_group, :period_type, 
-    :abstract, :nillable, :max_occurs, :min_occurs, :tuple_id, :invertible
+    :abstract, :nillable, :max_occurs, :min_occurs, :tuple_id, :invertible, :default_dimensions
 end

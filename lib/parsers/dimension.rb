@@ -5,8 +5,27 @@ module DimensionParser
   Node = Struct.new(:id, :element_id, :parent_id, :order, :arcrole)
 
   def parse_definition_linkbases
-    Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*")).grep(/definition.xml/) do |file|
+    @def_linkbases = Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*")).grep(/definition.xml/) do |file|
       parsed_file = Nokogiri::XML(File.open(file))
+    end
+    generate_dimension_indices
+  end
+
+  def generate_dimension_indices
+    @def_index = {}
+    @def_linkbases.each do |linkbase|
+      linkbase.search('definitionArc').each do |def_arc|
+        arcrole = def_arc.attributes["arcrole"].value
+        to = def_arc.attributes["to"].value
+        from = def_arc.attributes["from"].value
+        @def_index[arcrole] ||= { to: {}, from: {} }
+        if to
+          @def_index[arcrole][:to][to] = from
+        end
+        if from
+          @def_index[arcrole][:from][from] = to
+        end
+      end
     end
   end
 
@@ -25,6 +44,12 @@ module DimensionParser
       bucket[model.id] = model
     end
     bucket.values
+  end
+
+  def find_dimensions_grouping_item(element_id)
+    return nil unless element_id
+    parent_id = @def_index['http://xbrl.org/int/dim/arcrole/domain-member'][:to][element_id]
+    find_dimensions_grouping_item(parent_id) || parent_id
   end
 
   def find_primary_items(concept_node)

@@ -51,9 +51,10 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
   end
 
   def test_element_dimension_nodes
+    # skip
     get '/elements/uk-gaap_ShareCapitalAuthorised/dimension-nodes'
     assert last_response.ok?, "should be ok"
-    assert_equal json_data.length, 125, "Dimension nodes for element"
+    assert_equal json_data.length, 102, "Dimension nodes for element"
   end
 
   def test_presentation_nodes
@@ -72,16 +73,15 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
   end
 
   def test_dimension_nodes
-    get '/elements/uk-gaap_ShareCapitalAuthorised'
     # get node
-    get "/dimension_nodes/#{$app.store[:dimension_nodes].keys.first}"
+    get "/dimension_nodes/1"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "Shares [Hypercube]", "incorrect name"
+    assert_equal json_data["attributes"]["name"], "Basic [Hypercube]", "incorrect name"
 
     # get node element
-    get "/dimension_nodes/#{$app.store[:dimension_nodes].keys.first}/element"
+    get "/dimension_nodes/1/element"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "SharesHypercube", "incorrect name"
+    assert_equal json_data["attributes"]["name"], "BasicHypercube", "incorrect name"
   end
 
   def test_label

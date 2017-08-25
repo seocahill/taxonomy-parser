@@ -58,20 +58,18 @@ module TaxonomyParser
 
     def element(id)
       element = @store[:elements][id]
-      element.dimension_nodes = dimension_node_tree(id)
       JSONAPI::Serializer.serialize(element, include: ['presentation-nodes', 'dimension-nodes', 'labels']).to_json
     end
 
     def element_dimension_nodes(id)
-      dimension_nodes = dimension_node_tree(id)
-      JSONAPI::Serializer.serialize(dimension_nodes, is_collection: true).to_json
+       element = @store[:elements][id]
+      JSONAPI::Serializer.serialize(element.dimension_nodes, is_collection: true).to_json
     end
 
     def presentation_nodes(params)
       presentation_nodes = @store[:presentation_nodes].values_at(*params["filter"]["id"].split(',').map(&:to_i))
       presentation_nodes.each do |node|
         element = node.element
-        element.dimension_nodes = dimension_node_tree(element.id)
       end
       JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension-nodes', 'element.labels'], is_collection: true).to_json
     end
@@ -79,17 +77,16 @@ module TaxonomyParser
     def presentation_node(id)
       presentation_node = @store[:presentation_nodes][id.to_i]
       element = presentation_node.element
-      element.dimension_nodes = dimension_node_tree(element.id)
       JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes', 'element.labels']).to_json
     end
 
     def dimension_node(id)
-      dimension_node = @store[:dimension_nodes][id]
+      dimension_node = @store[:dimension_nodes][id.to_i]
       JSONAPI::Serializer.serialize(dimension_node, include: ['element']).to_json
     end
 
     def dimension_node_element(id)
-      dimension_node = @store[:dimension_nodes][id]
+      dimension_node = @store[:dimension_nodes][id.to_i]
       JSONAPI::Serializer.serialize(dimension_node.element).to_json
     end
 
@@ -121,6 +118,8 @@ module TaxonomyParser
     def hashify_xml(xml)
       xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
     end
+
+    
 
     def parse_available_dts
       default_dts = ENV.fetch("DTS", "ie-gaap")

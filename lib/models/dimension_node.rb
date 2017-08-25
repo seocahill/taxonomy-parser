@@ -1,13 +1,18 @@
 class DimensionNode
 
-  attr_reader :id, :role_type_id, :element, :parent, :order, :arcrole
+  attr_reader :id, :element_id, :parent, :order
+  attr_accessor :default_id
 
-  def initialize(id, element, parent, order, arcrole)
+  def initialize(id, element_id, parent = nil, order = "0")
     @id = id
-    @element = element
+    @element_id = element_id
     @parent = parent
     @order = order
-    @arcrole = arcrole
+    @default_id = nil
+  end
+
+  def element
+    $app.store[:elements][self.element_id]
   end
 
   def name
@@ -15,7 +20,7 @@ class DimensionNode
   end
 
   def tag
-    self.element.id
+    self.element_id
   end
 end
 
@@ -25,7 +30,7 @@ class DimensionNodeSerializer
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
-  attributes :order, :arcrole, :name, :tag
+  attributes :order, :name, :tag, :default_id
 
   def base_url
     "/api/v1"

@@ -9,7 +9,15 @@ class DimensionParserTest < MiniTest::Test
     @test_obj.extend(DimensionParser)
     dts = OpenStruct.new(id: 1, name: "ie-gaap")
     @test_obj.instance_variable_set(:@current_dts, dts)
-    @test_obj.parse_definition_linkbases
+    @test_obj.instance_variable_set(:@store, store)
+    @test_obj.parse_definition_files
+    @test_obj.generate_dimension_indices
+  end
+
+  def store
+    data = { elements: {} }
+    data[:elements]["uk-gaap_NameEntityOfficer"] = OpenStruct.new(dimension_nodes: [])
+    data
   end
 
   def test_find_dimensions_grouping_items
@@ -57,6 +65,11 @@ class DimensionParserTest < MiniTest::Test
   end
 
   def test_dimension_node_tree
+    @test_obj.add_dimension_information_elements
+    # test default
+    # test hypercubes
+    # test members
+    skip
     assert_empty @test_obj.dimension_node_tree("uk-bus_NameEntityOfficer"), "whats in here?"
   end
 end

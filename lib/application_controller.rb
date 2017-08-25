@@ -29,6 +29,7 @@ module TaxonomyParser
 
     def initialize
       @current_dts = nil
+      @all_dts = []
       @store = {}
       @nodes = []
       parse_available_dts
@@ -36,11 +37,11 @@ module TaxonomyParser
     end
 
     def discoverable_taxonomy_sets
-      JSONAPI::Serializer.serialize(@store[:discoverable_taxonomy_sets].values, is_collection: true).to_json
+      JSONAPI::Serializer.serialize(@all_dts.values, is_collection: true).to_json
     end
 
     def discoverable_taxonomy_set(id)
-      @current_dts = @store[:discoverable_taxonomy_sets][id.to_i]
+      @current_dts = @all_dts[id.to_i]
       parse_current_dts if @current_dts.role_types.nil?
       JSONAPI::Serializer.serialize(@current_dts, include: ['role-types']).to_json
     end
@@ -105,7 +106,9 @@ module TaxonomyParser
     private
 
     def parse_current_dts
-      puts "parsing current DTS"
+      puts "parsing #{@current_dts.name} DTS"
+      @store = {}
+      @nodes = []
       @concepts, @role_types, @tuples = parse_dts_schemas
       parse_roles
       parse_elements
@@ -121,13 +124,13 @@ module TaxonomyParser
 
     def parse_available_dts
       default_dts = ENV.fetch("DTS", "ie-gaap")
-      @store[:discoverable_taxonomy_sets] = {}
+      @all_dts = {}
       dts_path = File.join(__dir__, "/../dts_assets")
       # exclude . .. .DS_Store etc
       dts_folders = Dir.entries(dts_path).reject { |file| file[0] == '.' }
       dts_folders.each_with_index do |name, index| 
         model = DiscoverableTaxonomySet.new(index, name)
-        @store[:discoverable_taxonomy_sets][model.id] = model
+        @all_dts[model.id] = model
         discoverable_taxonomy_set(model.id) if name == default_dts
       end
     end

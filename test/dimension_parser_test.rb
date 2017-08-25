@@ -34,16 +34,9 @@ class DimensionParserTest < MiniTest::Test
     assert_equal @test_obj.find_hypercube_dimensions("uk-gaap_TangibleFixedAssetsHypercube"), fixed_assets_dimensions, "find all dimensions for Fixed Assets hypercube"
   end
 
-  def test_element_without_all_default_dimensions
-    # uk-direp_FeesDirectors is a deeply nested item that also falls under Entity Officers Hypercube
-    # get primary item
-    # 
-    skip "todo"
-  end
-
-  def test_element_with_all_default_dimensions
-    # uk-gaap_DescriptionDepreciationMethodRateOrUsefulEconomicLifeForTangibleFixedAssets
-    skip "todo"
+  def test_find_dimension_default
+    assert_equal @test_obj.find_dimension_default("uk-gaap_TangibleFixedAssetClassesDimension"), "uk-gaap_AllTangibleFixedAssetsDefault", "find dimension default for Fixed Asset classes"
+    assert_equal @test_obj.find_dimension_default("uk-bus_EntityOfficersDimension"), nil, "Entity Officer Dimension has no default"
   end
 
   

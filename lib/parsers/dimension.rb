@@ -63,6 +63,25 @@ module DimensionParser
     @def_index[arcrole][:from][hypercube_id]
   end
 
+  def find_dimension_default(dimension_id)
+    arcrole = "http://xbrl.org/int/dim/arcrole/dimension-default"
+    @def_index[arcrole][:from][dimension_id]&.first
+  end
+
+  def find_dimension_domains(dimension_id)
+    arcrole = "http://xbrl.org/int/dim/arcrole/dimension-domain"
+    @def_index[arcrole][:from][dimension_id]
+  end
+
+  def find_domain_members(domain_id)
+    return nil unless element_id
+    arcrole = "http://xbrl.org/int/dim/arcrole/domain-member"
+    member_ids = @def_index[arcrole][:from][domain_id]
+    member_ids.flat_map do |id|
+      find_domain_members(id)
+    end.compact
+  end
+
   def find_primary_items(concept_node)
     # you need to walk up the full tree not simply a matter of finding the parent and then the parents descendants
     search_results = {}

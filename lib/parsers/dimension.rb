@@ -73,13 +73,17 @@ module DimensionParser
     @def_index[arcrole][:from][dimension_id]
   end
 
-  def find_domain_members(domain_id)
-    return nil unless element_id
+  def find_all_domain_members(domain_id)
+    find_domain_members([domain_id]) - [domain_id]
+  end
+
+  def find_domain_members(domain_ids)
+    return [] unless domain_ids
     arcrole = "http://xbrl.org/int/dim/arcrole/domain-member"
-    member_ids = @def_index[arcrole][:from][domain_id]
-    member_ids.flat_map do |id|
-      find_domain_members(id)
-    end.compact
+    domain_ids.flat_map do |id|
+      child_ids = @def_index[arcrole][:from][id]
+      [id] + find_domain_members(child_ids)
+    end
   end
 
   def find_primary_items(concept_node)
@@ -145,14 +149,14 @@ module DimensionParser
     domains
   end
 
-  def find_domain_members(parent)
-    items = @definitions.flat_map do |parsed_file|
-      parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
-    end
-    domain_members = items.flat_map do |item|
-      node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
-      [node.to_h] + find_domain_members(node)
-    end
-    domain_members
-  end
+  # def find_domain_members(parent)
+  #   items = @definitions.flat_map do |parsed_file|
+  #     parsed_file.xpath("//xmlns:definitionArc[@xlink:from='#{parent.element_id}' and @xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member']")
+  #   end
+  #   domain_members = items.flat_map do |item|
+  #     node = new_node(item.attributes["to"].value, parent.id, item.attributes.dig("order")&.value, item.attributes.dig('arcrole').value)
+  #     [node.to_h] + find_domain_members(node)
+  #   end
+  #   domain_members
+  # end
 end

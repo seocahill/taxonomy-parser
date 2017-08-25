@@ -36,7 +36,24 @@ class DimensionParserTest < MiniTest::Test
 
   def test_find_dimension_default
     assert_equal @test_obj.find_dimension_default("uk-gaap_TangibleFixedAssetClassesDimension"), "uk-gaap_AllTangibleFixedAssetsDefault", "find dimension default for Fixed Asset classes"
-    assert_equal @test_obj.find_dimension_default("uk-bus_EntityOfficersDimension"), nil, "Entity Officer Dimension has no default"
+    assert_nil @test_obj.find_dimension_default("uk-bus_EntityOfficersDimension"), "Entity Officer Dimension has no default"
+  end
+
+  def test_find_dimension_domains
+    assert_equal @test_obj.find_dimension_domains("uk-bus_EntityOfficersDimension"), ["uk-bus_AllEntityOfficers"], "find domains for Entity Officer dimension"
+  end
+
+  def test_find_dimension_domain_members
+    expected = %w[
+      uk-bus_AllOrdinaryShares uk-bus_AllPreferenceShares
+      uk-bus_OrdinaryShareClass1 uk-bus_PreferenceShareClass1
+      uk-bus_OrdinaryShareClass2 uk-bus_PreferenceShareClass2
+      uk-bus_OrdinaryShareClass3 uk-bus_PreferenceShareClass3
+      uk-bus_OrdinaryShareClass4 uk-bus_PreferenceShareClass4
+      uk-bus_OrdinaryShareClass5 uk-bus_PreferenceShareClass5
+    ]
+    actual = @test_obj.find_all_domain_members("uk-bus_AllShareClassesDefault")
+    assert_empty actual - expected, "find all domain members for Share Classes"
   end
 
   

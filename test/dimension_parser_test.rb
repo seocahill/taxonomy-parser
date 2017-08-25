@@ -19,6 +19,11 @@ class DimensionParserTest < MiniTest::Test
     assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
   end
 
+  def test_find_hypercube_of_grouping_item
+    assert_equal @test_obj.find_grouping_item_hypercube("uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions"), "uk-gaap_TangibleFixedAssetsHypercube", "find hypercube for Fixed Assets"
+    assert_equal @test_obj.find_grouping_item_hypercube("uk-bus_DimensionsParent-EntityOfficers"), "uk-bus_EntityOfficersHypercube", "find hypercube for Entity officers"
+  end
+
   def test_element_without_all_default_dimensions
     # uk-direp_FeesDirectors is a deeply nested item that also falls under Entity Officers Hypercube
     # get primary item

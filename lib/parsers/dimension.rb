@@ -48,8 +48,14 @@ module DimensionParser
 
   def find_dimensions_grouping_item(element_id)
     return nil unless element_id
-    parent_id = @def_index['http://xbrl.org/int/dim/arcrole/domain-member'][:to][element_id]
+    arcrole = 'http://xbrl.org/int/dim/arcrole/domain-member'
+    parent_id = @def_index[arcrole][:to][element_id]
     find_dimensions_grouping_item(parent_id) || parent_id
+  end
+
+  def find_grouping_item_hypercube(grouping_item_id)
+    arcrole = "http://xbrl.org/int/dim/arcrole/all"
+    @def_index[arcrole][:from][grouping_item_id]
   end
 
   def find_primary_items(concept_node)

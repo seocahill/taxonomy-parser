@@ -14,6 +14,8 @@ module DimensionParser
   end
 
   def generate_dimension_indices
+    @id = 0
+    @store[:dimension_nodes] = {}
     @def_index = {}
     @def_linkbases.each do |linkbase|
       linkbase.search('definitionArc').each do |def_arc|
@@ -26,15 +28,14 @@ module DimensionParser
           @def_index[arcrole][:to][to] = from
         end
         if from
-          (@def_index[arcrole][:from][from] ||= []) << to
+          model = add_dimension_node(element_id: to, order: order, arcrole: arcrole)
+          (@def_index[arcrole][:from][from] ||= []) << model
         end
       end
     end
   end
 
   def add_dimension_information_elements
-    @store[:dimension_nodes] = {}
-    @id = 0
     @store[:elements].each do |id, element|
       element.dimension_nodes = dimension_node_tree(id)
     end
@@ -44,30 +45,28 @@ module DimensionParser
     grouping_item_id = find_dimensions_grouping_item(element_id)
     nodes = []
     if hypercubes = find_grouping_item_hypercubes(grouping_item_id)
-      hypercubes.each do |hypercube_id|
+      hypercubes.each do |hypercube|
         # this is the root collection parent is nil
-        hypercube = add_dimension_node(hypercube_id)
+        # hypercube = add_dimension_node(hypercube_id)
         nodes << hypercube
 
         # can have empty hypercubes e.g. uk-bus_EmptyHypercube
-        if dimensions = find_hypercube_dimensions(hypercube_id)
-          dimensions.each do |dimension_id|
+        if dimensions = find_hypercube_dimensions(hypercube.element_id)
+          dimensions.each do |dimension|
             # create dimension and link to parent hypercube
-            dimension = add_dimension_node(dimension_id, hypercube)
+            # dimension = add_dimension_node(dimension_id, hypercube)
             nodes << dimension
             hypercube.children << dimension
 
             # check for defaults and update dimension if present
-            dimension.default_id = find_dimension_default(dimension_id)
+            dimension.default_id = find_dimension_default(dimension.element_id)
 
-            find_dimension_domains(dimension_id).each do |domain_id|
+            find_dimension_domains(dimension.element_id).each do |domain|
               # create domain set dimension to parent
-              domain = add_dimension_node(domain_id, dimension)
               nodes << domain
 
-              find_all_domain_members(domain_id).each do |member_id|
+              find_all_domain_members(domain).each do |member|
                 # create member with domain as parent
-                member = add_dimension_node(member_id, domain)
                 nodes << member
               end
             end
@@ -83,9 +82,9 @@ module DimensionParser
     nodes
   end
 
-  def add_dimension_node(element_id, parent = nil)
+  def add_dimension_node(element_id:, parent: nil, order:, arcrole:)
     @id += 1
-    model = DimensionNode.new(@id, element_id, parent)
+    model = DimensionNode.new(id: @id, element_id: element_id, parent: parent, arcrole: arcrole, order: order)
     @store[:dimension_nodes][@id] = model
     model
   end
@@ -117,16 +116,16 @@ module DimensionParser
     @def_index[arcrole][:from][dimension_id]
   end
 
-  def find_all_domain_members(domain_id)
-    find_domain_members([domain_id]) - [domain_id]
+  def find_all_domain_members(domain)
+    find_domain_members([domain]) - [domain]
   end
 
-  def find_domain_members(domain_ids)
-    return [] unless domain_ids
+  def find_domain_members(domains)
+    return [] unless domains
     arcrole = "http://xbrl.org/int/dim/arcrole/domain-member"
-    domain_ids.flat_map do |id|
-      child_ids = @def_index[arcrole][:from][id]
-      [id] + find_domain_members(child_ids)
+    domains.flat_map do |domain|
+      children = @def_index[arcrole][:from][domain.element_id]
+      [domain] + find_domain_members(children)
     end
   end
 end

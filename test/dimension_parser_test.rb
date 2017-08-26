@@ -28,8 +28,10 @@ class DimensionParserTest < MiniTest::Test
   end
 
   def test_find_hypercubes_of_grouping_item
-    assert_equal @test_obj.find_grouping_item_hypercubes("uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions"), ["uk-gaap_TangibleFixedAssetsHypercube"], "find hypercubes for Fixed Assets"
-    assert_equal @test_obj.find_grouping_item_hypercubes("uk-bus_DimensionsParent-EntityOfficers"), ["uk-bus_EntityOfficersHypercube"], "find hypercubes for Entity officers"
+    fixed_asset_hcubes =  @test_obj.find_grouping_item_hypercubes("uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions").map(&:element_id)
+    assert_equal fixed_asset_hcubes, ["uk-gaap_TangibleFixedAssetsHypercube"], "find hypercubes for Fixed Assets"
+    entity_officer_hcube = @test_obj.find_grouping_item_hypercubes("uk-bus_DimensionsParent-EntityOfficers").map(&:element_id)
+    assert_equal entity_officer_hcube, ["uk-bus_EntityOfficersHypercube"], "find hypercubes for Entity officers"
   end
 
   def test_find_all_hypercube_dimensions
@@ -39,16 +41,18 @@ class DimensionParserTest < MiniTest::Test
       uk-gaap_RestatementsDimension
       uk-gaap_GroupCompanyDimension
     ]
-    assert_equal @test_obj.find_hypercube_dimensions("uk-gaap_TangibleFixedAssetsHypercube"), fixed_assets_dimensions, "find all dimensions for Fixed Assets hypercube"
+    actual =  @test_obj.find_hypercube_dimensions("uk-gaap_TangibleFixedAssetsHypercube").map(&:element_id)
+    assert_equal actual, fixed_assets_dimensions, "find all dimensions for Fixed Assets hypercube"
   end
 
   def test_find_dimension_default
-    assert_equal @test_obj.find_dimension_default("uk-gaap_TangibleFixedAssetClassesDimension"), "uk-gaap_AllTangibleFixedAssetsDefault", "find dimension default for Fixed Asset classes"
-    assert_nil @test_obj.find_dimension_default("uk-bus_EntityOfficersDimension"), "Entity Officer Dimension has no default"
+    assert_equal @test_obj.find_dimension_default("uk-gaap_TangibleFixedAssetClassesDimension").element_id, "uk-gaap_AllTangibleFixedAssetsDefault", "find dimension default for Fixed Asset classes"
+    assert_nil @test_obj.find_dimension_default("uk-bus_EntityOfficersDimension")&.element_id, "Entity Officer Dimension has no default"
   end
 
   def test_find_dimension_domains
-    assert_equal @test_obj.find_dimension_domains("uk-bus_EntityOfficersDimension"), ["uk-bus_AllEntityOfficers"], "find domains for Entity Officer dimension"
+    domains =  @test_obj.find_dimension_domains("uk-bus_EntityOfficersDimension").map(&:element_id)
+    assert_equal domains, ["uk-bus_AllEntityOfficers"], "find domains for Entity Officer dimension"
   end
 
   def test_find_dimension_domain_members
@@ -60,7 +64,8 @@ class DimensionParserTest < MiniTest::Test
       uk-bus_OrdinaryShareClass4 uk-bus_PreferenceShareClass4
       uk-bus_OrdinaryShareClass5 uk-bus_PreferenceShareClass5
     ]
-    actual = @test_obj.find_all_domain_members("uk-bus_AllShareClassesDefault")
+    start_node = OpenStruct.new(element_id: "uk-bus_AllShareClassesDefault")
+    actual = @test_obj.find_all_domain_members(start_node).map(&:element_id)
     assert_empty actual - expected, "find all domain members for Share Classes"
   end
 

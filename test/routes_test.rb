@@ -76,12 +76,12 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
     # get node
     get "/dimension_nodes/1"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "Basic [Hypercube]", "incorrect name"
+    assert_equal json_data["attributes"]["name"], "Ireland", "incorrect name"
 
     # get node element
     get "/dimension_nodes/1/element"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "BasicHypercube", "incorrect name"
+    assert_equal json_data["attributes"]["name"], "Ireland", "incorrect name"
   end
 
   def test_label

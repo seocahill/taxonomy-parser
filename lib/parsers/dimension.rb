@@ -47,33 +47,33 @@ module DimensionParser
     if hypercubes = find_grouping_item_hypercubes(grouping_item_id)
       hypercubes.each do |hypercube|
         # this is the root collection parent is nil
-        # hypercube = add_dimension_node(hypercube_id)
         nodes << hypercube
 
         # can have empty hypercubes e.g. uk-bus_EmptyHypercube
         if dimensions = find_hypercube_dimensions(hypercube.element_id)
           dimensions.each do |dimension|
             # create dimension and link to parent hypercube
-            # dimension = add_dimension_node(dimension_id, hypercube)
             nodes << dimension
-            hypercube.children << dimension
+            dimension.parent = hypercube
 
             # check for defaults and update dimension if present
-            dimension.default_id = find_dimension_default(dimension.element_id)
+            dimension.default = find_dimension_default(dimension.element_id)
 
             find_dimension_domains(dimension.element_id).each do |domain|
               # create domain set dimension to parent
               nodes << domain
+              domain.parent = dimension
 
               find_all_domain_members(domain).each do |member|
                 # create member with domain as parent
                 nodes << member
+                member.parent = domain
               end
             end
           end
           
           # Indicate if hypercube is covered by defaults
-          if hypercube.children.any? { |node| node.default_id.nil? }
+          if dimensions.any? { |node| node.default.nil? }
             hypercube.has_defaults = false
           end
         end

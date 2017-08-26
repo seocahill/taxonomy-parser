@@ -19,5 +19,14 @@ module TaxonomyParser
       actual = json_data(type).map { |model| model["attributes"][attr] }
       (required - actual).empty?
     end
+
+    def find_children(element_id, nodes)
+      parent = find_node(element_id, nodes)
+      nodes.select { |node| node.parent == parent }
+    end
+
+    def find_node(element_id, nodes)
+      nodes.find { |node| node.element_id == element_id }
+    end
   end
 end

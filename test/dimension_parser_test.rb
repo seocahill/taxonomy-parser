@@ -83,5 +83,13 @@ class DimensionParserTest < MiniTest::Test
     actual = element.dimension_nodes.map(&:element_id)
     assert_empty (expected - actual), "Expected dimension nodes for Entity Officer Dimension"
     refute element.dimension_nodes.find { |node| node.element_id == "uk-bus_EntityOfficersHypercube"}.has_defaults, "Entity Officer hyperube has a dimension without a default value"
+
+    # test parent child relationships are set correctly before serializing 
+    dimension_ids = find_children("uk-bus_EntityOfficersHypercube", element.dimension_nodes).map(&:element_id)
+    domain_ids = find_children("uk-bus_EntityOfficersDimension", element.dimension_nodes).map(&:element_id)
+    member_ids = find_children("uk-bus_AllEntityOfficers", element.dimension_nodes).map(&:element_id)
+    assert_includes dimension_ids, "uk-bus_EntityOfficersDimension", "find hypercube child"
+    assert_includes domain_ids, "uk-bus_AllEntityOfficers", "find dimension domains"
+    assert_includes member_ids, "ie-common_Partner20", "find domain members"
   end
 end

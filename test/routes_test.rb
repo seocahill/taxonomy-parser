@@ -51,7 +51,6 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
   end
 
   def test_element_dimension_nodes
-    # skip
     get '/elements/uk-gaap_ShareCapitalAuthorised/dimension-nodes'
     assert last_response.ok?, "should be ok"
     assert_equal json_data.length, 102, "Dimension nodes for element"
@@ -69,11 +68,9 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
     get '/presentation_nodes/1'
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["name"], "Loans for the purchase of own shares under Section 60 Companies Act 1963", "incorrect name"
-    # assert json_includes("included", "name", node_names), "missing presentation nodes"
   end
 
   def test_dimension_nodes
-    # get node
     get "/dimension_nodes/1"
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["name"], "Ireland", "incorrect name"

@@ -1,7 +1,7 @@
 class DimensionNode
 
   attr_reader :id, :element_id, :parent, :order
-  attr_accessor :default_id
+  attr_accessor :default_id, :has_defaults, :children
 
   def initialize(id, element_id, parent = nil, order = "0")
     @id = id
@@ -9,6 +9,8 @@ class DimensionNode
     @parent = parent
     @order = order
     @default_id = nil
+    @has_defaults = true
+    @children = []
   end
 
   def element
@@ -30,7 +32,7 @@ class DimensionNodeSerializer
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
-  attributes :order, :name, :tag, :default_id
+  attributes :order, :name, :tag, :default_id, :has_defaults
 
   def base_url
     "/api/v1"

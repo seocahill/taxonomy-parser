@@ -16,7 +16,7 @@ class DimensionParserTest < MiniTest::Test
 
   def store
     data = { elements: {} }
-    data[:elements]["uk-gaap_NameEntityOfficer"] = OpenStruct.new(dimension_nodes: [])
+    data[:elements]["uk-bus_NameEntityOfficer"] = OpenStruct.new(dimension_nodes: [])
     data
   end
 
@@ -66,10 +66,17 @@ class DimensionParserTest < MiniTest::Test
 
   def test_dimension_node_tree
     @test_obj.add_dimension_information_elements
-    # test default
-    # test hypercubes
-    # test members
-    skip
-    assert_empty @test_obj.dimension_node_tree("uk-bus_NameEntityOfficer"), "whats in here?"
+    expected = %w[
+      uk-bus_EntityOfficersHypercube 
+      uk-bus_EntityOfficersDimension uk-bus_EntityOfficerTypeDimension 
+      uk-gaap_RestatementsDimension uk-gaap_GroupCompanyDimension
+      uk-bus_AllEntityOfficers uk-bus_Director40
+      uk-bus_Chairman uk-bus_CompanySecretaryDirector
+      ie-common_Partner20 uk-bus_PartnerLLP20
+    ]
+    element = @test_obj.instance_variable_get(:@store)[:elements]["uk-bus_NameEntityOfficer"]
+    actual = element.dimension_nodes.map(&:element_id)
+    assert_empty (expected - actual), "Expected dimension nodes for Entity Officer Dimension"
+    refute element.dimension_nodes.find { |node| node.element_id == "uk-bus_EntityOfficersHypercube"}.has_defaults, "Entity Officer hyperube has a dimension without a default value"
   end
 end

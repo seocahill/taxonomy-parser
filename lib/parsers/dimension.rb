@@ -55,6 +55,7 @@ module DimensionParser
             # create dimension and link to parent hypercube
             dimension = add_dimension_node(dimension_id, hypercube)
             nodes << dimension
+            hypercube.children << dimension
 
             # check for defaults and update dimension if present
             dimension.default_id = find_dimension_default(dimension_id)
@@ -70,6 +71,11 @@ module DimensionParser
                 nodes << member
               end
             end
+          end
+          
+          # Indicate if hypercube is covered by defaults
+          if hypercube.children.any? { |node| node.default_id.nil? }
+            hypercube.has_defaults = false
           end
         end
       end

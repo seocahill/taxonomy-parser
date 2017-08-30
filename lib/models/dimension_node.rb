@@ -24,6 +24,10 @@ class DimensionNode
   def tag
     self.element_id
   end
+
+  def default_dimension
+    self.default
+  end
 end
 
 class DimensionNodeSerializer
@@ -31,9 +35,8 @@ class DimensionNodeSerializer
 
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
-  has_one :default, include_links: false, include_data: true
 
-  attributes :order, :name, :tag, :has_defaults, :arcrole
+  attributes :order, :name, :tag, :has_defaults, :arcrole, :default_dimension
 
   def base_url
     "/api/v1"

@@ -58,6 +58,11 @@ module TaxonomyParser
       $app.dimension_node(params['id'])
     end
 
+    get '/dimension_nodes' do
+      content_type :api_json
+      $app.dimension_nodes(params)
+    end
+
     get '/dimension_nodes/:id/element' do
       content_type :api_json
       $app.dimension_node_element(params['id'])

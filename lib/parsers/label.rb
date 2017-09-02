@@ -28,15 +28,21 @@ module LabelParser
             label_type = node.attributes['role'] ? node.attributes['role'].value.split('/').last : "label"
             label_type = snake_case(label_type)
             label.send("#{label_type}=", node.text)
-            if ! (node.text =~ /\(.*\)/).nil?
-              label.element.invertible = true 
-            end
+            check_if_invertible(node, label, label_type)
           end
         end
         nodes.values.each do |node|
           @store[:labels][node.id] = node
         end
       end
+    end
+  end
+
+  # There are a few false positives this way but pretty obscure cant tweak later with black or whitelist
+
+  def check_if_invertible(node, label, label_type)
+    if (node.text =~ /\(.*\)/) && (label.element.item_type == "xbrli:monetaryItemType") && (label_type == "label")
+      label.element.invertible = true
     end
   end
 end

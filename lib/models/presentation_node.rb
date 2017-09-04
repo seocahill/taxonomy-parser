@@ -24,4 +24,12 @@ class PresentationNodeSerializer
   has_one :alias, include_data: true
 
   attributes :order, :name
+
+  def base_url
+    "/api/v1"
+  end
+
+  def self_link
+    "#{base_url}/presentation_nodes/#{id}"
+  end
 end

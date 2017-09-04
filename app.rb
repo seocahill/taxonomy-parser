@@ -38,6 +38,11 @@ module TaxonomyParser
       $app.role_type(params['id'])
     end
 
+    get '/role_types/:id/presentation-nodes' do
+      content_type :api_json
+      $app.role_type_presentation_nodes(params['id'])
+    end
+
     get '/elements/:id' do
       content_type :api_json
       $app.element(params['id'])
@@ -51,6 +56,11 @@ module TaxonomyParser
     get '/presentation_nodes/:id' do
       content_type :api_json
       $app.presentation_node(params['id'])
+    end
+
+    get '/presentation_nodes/:id/role-type' do
+      content_type :api_json
+      $app.presentation_node_role_type(params['id'])
     end
 
     get '/dimension_nodes/:id' do

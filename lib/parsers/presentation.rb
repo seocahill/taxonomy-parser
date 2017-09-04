@@ -37,6 +37,7 @@ module PresentationParser
           model = PresentationNode.new(id, role, element, href)
           role.presentation_nodes << model
           element.presentation_nodes << model
+          
           @store[:presentation_nodes][model.id] = model
           links[role_id][element_id] = model
           id += 1

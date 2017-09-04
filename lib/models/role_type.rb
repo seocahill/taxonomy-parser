@@ -20,7 +20,15 @@ end
 class RoleTypeSerializer
   include JSONAPI::Serializer
 
-  has_many :presentation_nodes, include_links: false
+  has_many :presentation_nodes
 
   attributes :definition, :order
+
+  def base_url
+    "/api/v1"
+  end
+
+  def self_link
+    "#{base_url}/role_types/#{id}"
+  end
 end

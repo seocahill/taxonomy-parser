@@ -53,7 +53,12 @@ module TaxonomyParser
 
     def role_type(id)
       role_type = @store[:role_types][id.to_i]
-      JSONAPI::Serializer.serialize(role_type, include: ['presentation-nodes', 'presentation-nodes.element']).to_json
+      JSONAPI::Serializer.serialize(role_type).to_json
+    end
+
+    def role_type_presentation_nodes(id)
+      role_type = @store[:role_types][id.to_i]
+      JSONAPI::Serializer.serialize(role_type.presentation_nodes, is_collection: true).to_json
     end
 
     def element(id)
@@ -78,6 +83,12 @@ module TaxonomyParser
       presentation_node = @store[:presentation_nodes][id.to_i]
       element = presentation_node.element
       JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes', 'element.labels']).to_json
+    end
+
+    def presentation_node_role_type(id)
+      presentation_node = @store[:presentation_nodes][id.to_i]
+      role_type = presentation_node.role_type
+      JSONAPI::Serializer.serialize(role_type).to_json
     end
 
     def dimension_node(id)

@@ -8,6 +8,10 @@ class IeGaapTest < MiniTest::Test
     TaxonomyParser::Base
   end
   
-  # Taxonomy specific tests
+  def test_date_directors_signing_report_dimensions
+    skip "todo"
+    # http://localhost:4200/api/v1/elements/uk-direp_DateSigningDirectorsReport
+    # should return basic hypercube but returing empty at the moment why?
+  end
   
 end

@@ -6,7 +6,7 @@ class DimensionParserTest < MiniTest::Test
 
   def setup
     @test_obj = Object.new
-    @test_obj.extend(DimensionParser)
+    @test_obj.extend(TaxonomyParser::DimensionParser)
     dts = OpenStruct.new(id: 1, name: "ie-gaap")
     @test_obj.instance_variable_set(:@current_dts, dts)
     @test_obj.instance_variable_set(:@store, store)

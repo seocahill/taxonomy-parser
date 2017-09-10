@@ -1,4 +1,4 @@
-class DiscoverableTaxonomySet
+class DiscoverableTaxonomySet < TaxonomyParser::BaseModel
 
   attr_reader :id, :name
 
@@ -10,7 +10,7 @@ class DiscoverableTaxonomySet
   end
 end
 
-class DiscoverableTaxonomySetSerializer
+class DiscoverableTaxonomySetSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_many :role_types, include_data: true

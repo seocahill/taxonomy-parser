@@ -1,4 +1,4 @@
-class RoleType
+class RoleType < TaxonomyParser::BaseModel
 
   attr_reader :id, :discoverable_taxonomy_set_id, :definition, :role_uri, :order, :network
   attr_accessor :presentation_nodes
@@ -17,18 +17,10 @@ class RoleType
   end
 end
 
-class RoleTypeSerializer
+class RoleTypeSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_many :presentation_nodes
 
   attributes :definition, :order
-
-  def base_url
-    "/api/v1"
-  end
-
-  def self_link
-    "#{base_url}/role_types/#{id}"
-  end
 end

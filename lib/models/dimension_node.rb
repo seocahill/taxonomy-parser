@@ -1,4 +1,4 @@
-class DimensionNode
+class DimensionNode < TaxonomyParser::BaseModel
 
   attr_reader :id, :element_id, :order, :arcrole
   attr_accessor :default, :has_defaults, :parent
@@ -30,19 +30,11 @@ class DimensionNode
   end
 end
 
-class DimensionNodeSerializer
+class DimensionNodeSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 
   attributes :order, :name, :tag, :has_defaults, :arcrole, :default_dimension
-
-  def base_url
-    "/api/v1"
-  end
-
-  def self_link
-    "#{base_url}/dimension_nodes/#{id}"
-  end
 end

@@ -1,4 +1,4 @@
-class PresentationNode
+class PresentationNode < TaxonomyParser::BaseModel
 
   attr_reader :role_type, :element, :href
   attr_accessor :id, :parent, :order, :alias
@@ -15,7 +15,7 @@ class PresentationNode
   end
 end
 
-class PresentationNodeSerializer
+class PresentationNodeSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_one :role_type
@@ -24,12 +24,4 @@ class PresentationNodeSerializer
   has_one :alias, include_data: true
 
   attributes :order, :name
-
-  def base_url
-    "/api/v1"
-  end
-
-  def self_link
-    "#{base_url}/presentation_nodes/#{id}"
-  end
 end

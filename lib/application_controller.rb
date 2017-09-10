@@ -6,6 +6,7 @@ require_relative 'parsers/dimension'
 require_relative 'parsers/reference'
 require_relative 'parsers/parser_helper'
 
+require_relative 'models/base_model'
 require_relative 'models/discoverable_taxonomy_set'
 require_relative 'models/role_type'
 require_relative 'models/presentation_node'
@@ -13,8 +14,6 @@ require_relative 'models/element'
 require_relative 'models/dimension_node'
 require_relative 'models/label'
 require_relative 'models/reference'
-
-require 'securerandom'
 
 module TaxonomyParser
   class ApplicationController 
@@ -29,9 +28,7 @@ module TaxonomyParser
 
     def initialize
       @current_dts = nil
-      @all_dts = []
-      @store = {}
-      @nodes = []
+      @all_dts, @nodes, @store = [], [], {}
       parse_available_dts
       puts "ready!"
     end
@@ -120,8 +117,7 @@ module TaxonomyParser
 
     def parse_current_dts
       puts "parsing #{@current_dts.name} DTS"
-      @store = {}
-      @nodes = []
+      @store, @nodes = {}, []
       @concepts, @role_types, @tuples = parse_dts_schemas
       parse_roles
       parse_elements
@@ -135,11 +131,9 @@ module TaxonomyParser
       xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
     end
 
-    
-
     def parse_available_dts
-      default_dts = ENV.fetch("DTS", "ie-gaap")
       @all_dts = {}
+      default_dts = ENV.fetch("DTS", "ie-gaap")
       dts_path = File.join(__dir__, "/../dts_assets")
       # exclude . .. .DS_Store etc
       dts_folders = Dir.entries(dts_path).reject { |file| file[0] == '.' }

@@ -1,4 +1,4 @@
-class Reference
+class Reference < TaxonomyParser::BaseModel
 
   attr_reader :id, :element
   attr_accessor :reference_data
@@ -9,7 +9,7 @@ class Reference
   end
 end
 
-class ReferenceSerializer
+class ReferenceSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_one :element

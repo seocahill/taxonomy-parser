@@ -1,4 +1,4 @@
-class Label
+class Label < TaxonomyParser::BaseModel
 
   attr_reader :id, :element
   attr_accessor :label, :documentation, :period_start_label, :period_end_label, :verbose_label
@@ -9,7 +9,7 @@ class Label
   end
 end
 
-class LabelSerializer
+class LabelSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_one :element

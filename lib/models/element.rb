@@ -1,4 +1,4 @@
-class Element
+class Element < TaxonomyParser::BaseModel
 
   attr_reader :id, :discoverable_taxonomy_set_id, :name, :item_type, :substitution_group, 
     :period_type, :abstract, :nillable
@@ -23,7 +23,7 @@ class Element
   end
 end
 
-class ElementSerializer
+class ElementSerializer < TaxonomyParser::BaseSerializer
   include JSONAPI::Serializer
 
   has_many :presentation_nodes, include_links: false, include_data: true

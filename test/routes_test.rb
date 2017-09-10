@@ -41,7 +41,6 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
     ]
     assert last_response.ok?, "should be ok"
     assert_equal json_data["attributes"]["definition"], "01 - Entity Information", "incorrect definition"
-    assert json_includes("included", "name", node_names), "missing presentation nodes"
   end
 
   def test_element

@@ -16,6 +16,7 @@ module TaxonomyParser
     end
 
     def json_includes(type="data", attr, required)
+      return false unless json_data(type)
       actual = json_data(type).map { |model| model["attributes"][attr] }
       (required - actual).empty?
     end

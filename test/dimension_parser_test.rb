@@ -25,6 +25,7 @@ class DimensionParserTest < MiniTest::Test
     assert_equal @test_obj.find_dimensions_grouping_item("uk-gaap_DescriptionEffectSpecificRevisionToUsefulLifeTangibleFixedAssets"), "uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions", "find dimension grouping for Fixed Assets specific policy"
     assert_equal @test_obj.find_dimensions_grouping_item("uk-bus_NameEntityOfficer"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Name Entity Officer"
     assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
+    assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
   end
 
   def test_find_hypercubes_of_grouping_item

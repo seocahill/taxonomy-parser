@@ -37,11 +37,11 @@ module DimensionParser
 
   def add_dimension_information_elements
     @store[:elements].each do |id, element|
-      element.dimension_nodes = dimension_node_tree(id)
+      element.dimension_nodes = dimension_node_tree(id, element)
     end
   end
 
-  def dimension_node_tree(element_id)
+  def dimension_node_tree(element_id, element)
     grouping_item_id = find_dimensions_grouping_item(element_id)
     nodes = []
     if hypercubes = find_grouping_item_hypercubes(grouping_item_id)
@@ -75,6 +75,7 @@ module DimensionParser
           # Indicate if hypercube is covered by defaults
           if dimensions.any? { |node| node.default.nil? }
             hypercube.has_defaults = false
+            element.must_choose_dimension = true
           end
         end
       end

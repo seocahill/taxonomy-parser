@@ -48,6 +48,11 @@ module TaxonomyParser
       $app.element(params['id'])
     end
 
+    get '/elements/:id/dimension-nodes' do
+      content_type :api_json
+      $app.element_dimension_nodes(params['id'])
+    end
+
     get '/presentation_nodes' do
       content_type :api_json
       $app.presentation_nodes(params)
@@ -78,11 +83,6 @@ module TaxonomyParser
       $app.dimension_node_element(params['id'])
     end
     
-    get '/elements/:id/dimension-nodes' do
-      content_type :api_json
-      $app.element_dimension_nodes(params['id'])
-    end
-
     get '/labels/:id' do
       content_type :api_json
       $app.label(params['id'])

@@ -10,13 +10,14 @@ module TaxonomyParser
     #
 
     def parse_label_linkbases
-      labels = []
       label_id = 0
       @store[:labels] = {}
+      
       Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/label/) do |file|
         parsed_file = Nokogiri::XML(File.open(file))
         parsed_file.search('labelLink').each do |link|
           nodes = {}
+
           link.search('labelArc', 'label', ).each do |node|
             if node.name == 'labelArc'
               element = @store[:elements][node.attributes['from'].value]
@@ -32,6 +33,7 @@ module TaxonomyParser
               check_if_invertible(node, label, label_type)
             end
           end
+
           nodes.values.each do |node|
             @store[:labels][node.id] = node
           end
@@ -39,12 +41,18 @@ module TaxonomyParser
       end
     end
 
-    # There are a few false positives this way but pretty obscure cant tweak later with black or whitelist
-
+    # There are a few false positives this way but pretty obscure can tweak later with black or whitelist
     def check_if_invertible(node, label, label_type)
       if (node.text =~ /\(.*\)/) && (label.element.item_type == "xbrli:monetaryItemType") && (label_type == "label")
         label.element.invertible = true
       end
+    end
+
+    def snake_case(str)
+      return str.downcase if str.match(/\A[A-Z]+\z/)
+      str.gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2').
+      gsub(/([a-z])([A-Z])/, '\1_\2').
+      downcase
     end
   end
 end

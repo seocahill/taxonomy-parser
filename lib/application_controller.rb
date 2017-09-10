@@ -4,7 +4,6 @@ require_relative 'parsers/label'
 require_relative 'parsers/reference'
 require_relative 'parsers/dimension'
 require_relative 'parsers/reference'
-require_relative 'parsers/parser_helper'
 
 require_relative 'models/base_model'
 require_relative 'models/discoverable_taxonomy_set'
@@ -22,13 +21,10 @@ module TaxonomyParser
     include ReferenceParser
     include LabelParser
     include DimensionParser
-    include ParserHelper
 
     attr_reader :store
 
     def initialize
-      @current_dts = nil
-      @all_dts, @nodes, @store = [], [], {}
       parse_available_dts
       puts "ready!"
     end
@@ -117,27 +113,23 @@ module TaxonomyParser
 
     def parse_current_dts
       puts "parsing #{@current_dts.name} DTS"
-      @store, @nodes = {}, []
-      @concepts, @role_types, @tuples = parse_dts_schemas
-      parse_roles
-      parse_elements
+      @store = {}
+      parse_dts
       parse_presentation_linkbases
-      @definitions = parse_definition_linkbases
+      parse_definition_linkbases
       parse_label_linkbases
       parse_reference_linkbases
-    end
-
-    def hashify_xml(xml)
-      xml.each_with_object({}) { |(k,v), hsh| hsh[k] = v }
     end
 
     def parse_available_dts
       @all_dts = {}
       default_dts = ENV.fetch("DTS", "ie-gaap")
       dts_path = File.join(__dir__, "/../dts_assets")
+
       # exclude . .. .DS_Store etc
-      dts_folders = Dir.entries(dts_path).reject { |file| file[0] == '.' }
-      dts_folders.each_with_index do |name, index| 
+      Dir.entries(dts_path).reject do |file| 
+        file[0] == '.' 
+      end.each_with_index do |name, index| 
         model = DiscoverableTaxonomySet.new(index, name)
         @all_dts[model.id] = model
         discoverable_taxonomy_set(model.id) if name == default_dts

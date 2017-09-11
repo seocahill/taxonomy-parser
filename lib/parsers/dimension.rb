@@ -47,12 +47,13 @@ module TaxonomyParser
       nodes = []
       grouping_items = find_grouping_items(element_id)
 
+      # Some elements relate to tuples or dimension / hypercube nodes and thus do not have dimensions themselves
       if grouping_items
         hypercubes = grouping_items.flat_map { |id| find_grouping_item_hypercubes(id) }
 
         if hypercubes.any?
           hypercubes.each do |hypercube|
-            # this is the root collection parent is nil
+            # this is the root of the collection parent is nil
             nodes << hypercube
 
             # can have empty hypercubes e.g. uk-bus_EmptyHypercube
@@ -105,13 +106,6 @@ module TaxonomyParser
         find_grouping_items(parent) || parent
       end.compact.uniq
     end
-
-    # def find_dimensions_grouping_item(element_id)
-    #   return nil unless element_id
-    #   arcrole = 'http://xbrl.org/int/dim/arcrole/domain-member'
-    #   parent_id = @def_index[arcrole][:to][element_id]
-    #   find_dimensions_grouping_item(parent_id) || parent_id
-    # end
 
     def find_grouping_item_hypercubes(grouping_item_id)
       arcrole = "http://xbrl.org/int/dim/arcrole/all"

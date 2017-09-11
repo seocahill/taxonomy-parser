@@ -20,12 +20,33 @@ class DimensionParserTest < MiniTest::Test
     data
   end
 
+  def test_address_line_1_dimensions
+    expected = ["uk-bus_DimensionsParent-EntityContactInfo", "uk-bus_DimensionsParent-ThirdPartyAgents"]
+    assert_equal @test_obj.find_grouping_items("uk-bus_AddressLine1"), expected, "Address item has two grouping items"
+  end
+
+  def test_address_line_1_hypercubes
+    expected = ["uk-bus_EntityContactInfoHypercube", "uk-bus_ThirdPartyAgentsHypercube"]
+    actual = [
+      "uk-bus_DimensionsParent-EntityContactInfo", 
+      "uk-bus_DimensionsParent-ThirdPartyAgents"
+    ].flat_map { |id|  @test_obj.find_grouping_item_hypercubes(id) }.map(&:element_id)
+    assert_equal actual, expected, "Address element has two hypercubes"
+  end
+
+  def test_date_directors_signing_report_dimensions
+    expected = ["uk-gaap_ItemsInheritingBasicDimensions", "uk-bus_DimensionsParent-NoDimensions"]
+    assert_equal @test_obj.find_grouping_items("uk-direp_DateSigningDirectorsReport"), expected, "Address item has two hypercubes"
+  end
+
   def test_find_dimensions_grouping_items
-    assert_equal @test_obj.find_dimensions_grouping_item("uk-gaap_TangibleFixedAssets"), "uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions", "find dimension grouping for Fixed Assets"
-    assert_equal @test_obj.find_dimensions_grouping_item("uk-gaap_DescriptionEffectSpecificRevisionToUsefulLifeTangibleFixedAssets"), "uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions", "find dimension grouping for Fixed Assets specific policy"
-    assert_equal @test_obj.find_dimensions_grouping_item("uk-bus_NameEntityOfficer"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Name Entity Officer"
-    assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
-    assert_equal @test_obj.find_dimensions_grouping_item("uk-direp_FeesDirectors"), "uk-bus_DimensionsParent-EntityOfficers", "find dimension grouping for Fees Directors"
+    tfa_expected = ["uk-gaap_ItemsInheritingTangibleFixedAssetsDimensions"]
+    eo_expected = ["uk-bus_DimensionsParent-EntityOfficers"]
+    assert_equal @test_obj.find_grouping_items("uk-gaap_TangibleFixedAssets"), tfa_expected, "find dimension grouping for Fixed Assets"
+    assert_equal @test_obj.find_grouping_items("uk-gaap_DescriptionEffectSpecificRevisionToUsefulLifeTangibleFixedAssets"), tfa_expected, "find dimension grouping for Fixed Assets specific policy"
+    assert_equal @test_obj.find_grouping_items("uk-bus_NameEntityOfficer"), eo_expected, "find dimension grouping for Name Entity Officer"
+    assert_equal @test_obj.find_grouping_items("uk-direp_FeesDirectors"), eo_expected, "find dimension grouping for Fees Directors"
+    assert_equal @test_obj.find_grouping_items("uk-direp_FeesDirectors"), eo_expected, "find dimension grouping for Fees Directors"
   end
 
   def test_find_hypercubes_of_grouping_item

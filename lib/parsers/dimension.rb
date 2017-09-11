@@ -26,7 +26,8 @@ module TaxonomyParser
           order = def_arc.attributes["order"]&.value || "0"
           @def_index[arcrole] ||= { to: {}, from: {} }
           if to
-            @def_index[arcrole][:to][to] = from
+            (@def_index[arcrole][:to][to] ||= []) << from
+            # @def_index[arcrole][:to][to] = from
           end
           if from
             model = add_dimension_node(element_id: to, order: order, arcrole: arcrole)
@@ -43,40 +44,45 @@ module TaxonomyParser
     end
 
     def dimension_node_tree(element_id, element)
-      grouping_item_id = find_dimensions_grouping_item(element_id)
       nodes = []
-      if hypercubes = find_grouping_item_hypercubes(grouping_item_id)
-        hypercubes.each do |hypercube|
-          # this is the root collection parent is nil
-          nodes << hypercube
+      grouping_items = find_grouping_items(element_id)
 
-          # can have empty hypercubes e.g. uk-bus_EmptyHypercube
-          if dimensions = find_hypercube_dimensions(hypercube.element_id)
-            dimensions.each do |dimension|
-              # create dimension and link to parent hypercube
-              nodes << dimension
-              dimension.parent = hypercube
+      if grouping_items
+        hypercubes = grouping_items.flat_map { |id| find_grouping_item_hypercubes(id) }
 
-              # check for defaults and update dimension if present
-              dimension.default = find_dimension_default(dimension.element_id)
+        if hypercubes.any?
+          hypercubes.each do |hypercube|
+            # this is the root collection parent is nil
+            nodes << hypercube
 
-              find_dimension_domains(dimension.element_id).each do |domain|
-                # create domain set dimension to parent
-                nodes << domain
-                domain.parent = dimension
+            # can have empty hypercubes e.g. uk-bus_EmptyHypercube
+            if dimensions = find_hypercube_dimensions(hypercube.element_id)
+              dimensions.each do |dimension|
+                # create dimension and link to parent hypercube
+                nodes << dimension
+                dimension.parent = hypercube
 
-                find_all_domain_members(domain).each do |member|
-                  # create member with domain as parent
-                  nodes << member
-                  member.parent = domain
+                # check for defaults and update dimension if present
+                dimension.default = find_dimension_default(dimension.element_id)
+
+                find_dimension_domains(dimension.element_id).each do |domain|
+                  # create domain set dimension to parent
+                  nodes << domain
+                  domain.parent = dimension
+
+                  find_all_domain_members(domain).each do |member|
+                    # create member with domain as parent
+                    nodes << member
+                    member.parent = domain
+                  end
                 end
               end
-            end
-            
-            # Indicate if hypercube is covered by defaults
-            if dimensions.any? { |node| node.default.nil? }
-              hypercube.has_defaults = false
-              element.must_choose_dimension = true
+              
+              # Indicate if hypercube is covered by defaults
+              if dimensions.any? { |node| node.default.nil? }
+                hypercube.has_defaults = false
+                element.must_choose_dimension = true
+              end
             end
           end
         end
@@ -91,12 +97,21 @@ module TaxonomyParser
       model
     end
 
-    def find_dimensions_grouping_item(element_id)
-      return nil unless element_id
+    def find_grouping_items(element_id)
       arcrole = 'http://xbrl.org/int/dim/arcrole/domain-member'
-      parent_id = @def_index[arcrole][:to][element_id]
-      find_dimensions_grouping_item(parent_id) || parent_id
+      parents = @def_index[arcrole][:to][element_id]
+      return nil unless parents
+      parents.flat_map do |parent|
+        find_grouping_items(parent) || parent
+      end.compact.uniq
     end
+
+    # def find_dimensions_grouping_item(element_id)
+    #   return nil unless element_id
+    #   arcrole = 'http://xbrl.org/int/dim/arcrole/domain-member'
+    #   parent_id = @def_index[arcrole][:to][element_id]
+    #   find_dimensions_grouping_item(parent_id) || parent_id
+    # end
 
     def find_grouping_item_hypercubes(grouping_item_id)
       arcrole = "http://xbrl.org/int/dim/arcrole/all"

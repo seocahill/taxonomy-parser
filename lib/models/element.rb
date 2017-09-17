@@ -24,8 +24,6 @@ class Element < TaxonomyParser::BaseModel
 end
 
 class ElementSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_many :presentation_nodes, include_links: false, include_data: true
   has_many :labels, include_links: false, include_data: true
   has_many :dimension_nodes, include_links: false, include_data: true

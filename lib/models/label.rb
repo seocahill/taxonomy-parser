@@ -10,8 +10,6 @@ class Label < TaxonomyParser::BaseModel
 end
 
 class LabelSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_one :element
 
   attributes :label, :documentation, :period_start_label, :period_end_label, :verbose_label

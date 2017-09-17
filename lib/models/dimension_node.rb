@@ -31,8 +31,6 @@ class DimensionNode < TaxonomyParser::BaseModel
 end
 
 class DimensionNodeSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_one :element, include_links: false, include_data: true
   has_one :parent, include_links: false, include_data: true
 

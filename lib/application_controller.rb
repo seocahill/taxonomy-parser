@@ -6,6 +6,7 @@ require_relative 'parsers/dimension'
 require_relative 'parsers/reference'
 
 require_relative 'models/base_model'
+require_relative 'models/base_serializer'
 require_relative 'models/discoverable_taxonomy_set'
 require_relative 'models/role_type'
 require_relative 'models/presentation_node'
@@ -37,7 +38,7 @@ module TaxonomyParser
     def discoverable_taxonomy_set(id)
       @current_dts = @all_dts[id.to_i]
       parse_current_dts if @current_dts.role_types.nil?
-      JSONAPI::Serializer.serialize(@current_dts, include: ['role-types']).to_json
+      JSONAPI::Serializer.serialize(@current_dts, include: ['role_types']).to_json
     end
 
     def role_types(params)
@@ -57,7 +58,7 @@ module TaxonomyParser
 
     def element(id)
       element = @store[:elements][id]
-      JSONAPI::Serializer.serialize(element, include: ['presentation-nodes', 'dimension-nodes', 'labels']).to_json
+      JSONAPI::Serializer.serialize(element, include: ['presentation_nodes', 'dimension_nodes', 'labels']).to_json
     end
 
     def element_dimension_nodes(id)
@@ -70,13 +71,13 @@ module TaxonomyParser
       presentation_nodes.each do |node|
         element = node.element
       end
-      JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension-nodes', 'element.labels'], is_collection: true).to_json
+      JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension_nodes', 'element.labels'], is_collection: true).to_json
     end
 
     def presentation_node(id)
       presentation_node = @store[:presentation_nodes][id.to_i]
       element = presentation_node.element
-      JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension-nodes', 'element.labels']).to_json
+      JSONAPI::Serializer.serialize(presentation_node, include: ['element.dimension_nodes', 'element.labels']).to_json
     end
 
     def presentation_node_role_type(id)

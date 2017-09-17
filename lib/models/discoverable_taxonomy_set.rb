@@ -11,8 +11,6 @@ class DiscoverableTaxonomySet < TaxonomyParser::BaseModel
 end
 
 class DiscoverableTaxonomySetSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_many :role_types, include_data: true
   
   attribute :name

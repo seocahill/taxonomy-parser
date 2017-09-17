@@ -90,6 +90,6 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
     get '/references/1'
     ref_data = [{"ISOName"=>"ISO 3166-1"}, {"Code"=>"AF"}, {"Date"=>"2009-09-01"}]
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["reference-data"], ref_data, "incorrect reference data"
+    assert_equal json_data["attributes"]["reference_data"], ref_data, "incorrect reference data"
   end
 end

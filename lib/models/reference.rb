@@ -10,8 +10,6 @@ class Reference < TaxonomyParser::BaseModel
 end
 
 class ReferenceSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_one :element
 
   attributes :reference_data

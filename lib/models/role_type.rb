@@ -18,8 +18,6 @@ class RoleType < TaxonomyParser::BaseModel
 end
 
 class RoleTypeSerializer < TaxonomyParser::BaseSerializer
-  include JSONAPI::Serializer
-
   has_many :presentation_nodes
 
   attributes :definition, :order

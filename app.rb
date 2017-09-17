@@ -14,8 +14,8 @@ module TaxonomyParser
 
     def initialize
       puts "booting app...."
+      super()
       $app = ApplicationController.new
-      super
     end
 
     get '/discoverable_taxonomy_sets' do

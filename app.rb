@@ -18,27 +18,27 @@ module TaxonomyParser
       $app = ApplicationController.new
     end
 
-    get '/discoverable_taxonomy_sets' do
+    get '/discoverable-taxonomy-sets' do
       content_type :api_json
       $app.discoverable_taxonomy_sets
     end
 
-    get '/discoverable_taxonomy_sets/:id' do
+    get '/discoverable-taxonomy-sets/:id' do
       content_type :api_json
       $app.discoverable_taxonomy_set(params['id'])
     end
 
-    get '/role_types' do
+    get '/role-types' do
       content_type :api_json
       $app.role_types(params)
     end
 
-    get '/role_types/:id' do
+    get '/role-types/:id' do
       content_type :api_json
       $app.role_type(params['id'])
     end
 
-    get '/role_types/:id/presentation-nodes' do
+    get '/role-types/:id/presentation-nodes' do
       content_type :api_json
       $app.role_type_presentation_nodes(params['id'])
     end
@@ -53,32 +53,32 @@ module TaxonomyParser
       $app.element_dimension_nodes(params['id'])
     end
 
-    get '/presentation_nodes' do
+    get '/presentation-nodes' do
       content_type :api_json
       $app.presentation_nodes(params)
     end
 
-    get '/presentation_nodes/:id' do
+    get '/presentation-nodes/:id' do
       content_type :api_json
       $app.presentation_node(params['id'])
     end
 
-    get '/presentation_nodes/:id/role-type' do
+    get '/presentation-nodes/:id/role-type' do
       content_type :api_json
       $app.presentation_node_role_type(params['id'])
     end
 
-    get '/dimension_nodes/:id' do
+    get '/dimension-nodes/:id' do
       content_type :api_json
       $app.dimension_node(params['id'])
     end
 
-    get '/dimension_nodes' do
+    get '/dimension-nodes' do
       content_type :api_json
       $app.dimension_nodes(params)
     end
 
-    get '/dimension_nodes/:id/element' do
+    get '/dimension-nodes/:id/element' do
       content_type :api_json
       $app.dimension_node_element(params['id'])
     end

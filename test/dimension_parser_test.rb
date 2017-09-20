@@ -77,6 +77,20 @@ class DimensionParserTest < MiniTest::Test
     assert_equal domains, ["uk-bus_AllEntityOfficers"], "find domains for Entity Officer dimension"
   end
 
+  def test_find_address_1_dimension_domains
+    domains =  @test_obj.find_dimension_domains("uk-countries_CountriesDimension").map(&:element_id)
+    assert_equal domains, ["uk-countries_DimensionMembersRepresentingCountriesRegionsHeading"], "find domains for Countries dimension"
+  end
+
+  def test_find_country_dimension_domain_members
+    expected = "uk-countries_AllCountries"
+    expected_child = "uk-countries_Afghanistan"
+    start_node = OpenStruct.new(element_id: "uk-countries_DimensionMembersRepresentingCountriesRegionsHeading")
+    actual = @test_obj.find_domain_members([start_node]).map(&:element_id)
+    assert_includes actual, expected, "find test domain member for countries"
+    assert_includes actual, expected_child, "find nested domain member for countries"
+  end
+
   def test_find_dimension_domain_members
     expected = %w[
       uk-bus_AllOrdinaryShares uk-bus_AllPreferenceShares
@@ -87,7 +101,7 @@ class DimensionParserTest < MiniTest::Test
       uk-bus_OrdinaryShareClass5 uk-bus_PreferenceShareClass5
     ]
     start_node = OpenStruct.new(element_id: "uk-bus_AllShareClassesDefault")
-    actual = @test_obj.find_all_domain_members(start_node).map(&:element_id)
+    actual = @test_obj.find_domain_members([start_node]).map(&:element_id)
     assert_empty actual - expected, "find all domain members for Share Classes"
   end
 

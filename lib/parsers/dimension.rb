@@ -71,7 +71,7 @@ module TaxonomyParser
                   nodes << domain
                   domain.parent = dimension
 
-                  find_all_domain_members(domain).each do |member|
+                  find_domain_members([domain]).each do |member|
                     # create member with domain as parent
                     nodes << member
                     member.parent = domain
@@ -127,16 +127,12 @@ module TaxonomyParser
       @def_index[arcrole][:from][dimension_id]
     end
 
-    def find_all_domain_members(domain)
-      find_domain_members([domain]) - [domain]
-    end
-
     def find_domain_members(domains)
       return [] unless domains
       arcrole = "http://xbrl.org/int/dim/arcrole/domain-member"
       domains.flat_map do |domain|
         children = @def_index[arcrole][:from][domain.element_id]
-        [domain] + find_domain_members(children)
+        (domain.arcrole == arcrole) ? [domain] + find_domain_members(children) : find_domain_members(children)
       end
     end
   end

@@ -1,7 +1,7 @@
 class DimensionNode < TaxonomyParser::BaseModel
 
-  attr_reader :id, :element_id, :order, :arcrole
-  attr_accessor :default, :has_defaults, :parent
+  attr_reader :element_id, :order, :arcrole
+  attr_accessor :id, :default, :has_defaults, :parent
 
   def initialize(id:, element_id:, parent: nil, order: "0", arcrole: nil)
     @id = id

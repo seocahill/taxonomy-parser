@@ -27,7 +27,6 @@ module TaxonomyParser
           @def_index[arcrole] ||= { to: {}, from: {} }
           if to
             (@def_index[arcrole][:to][to] ||= []) << from
-            # @def_index[arcrole][:to][to] = from
           end
           if from
             model = add_dimension_node(element_id: to, order: order, arcrole: arcrole)
@@ -44,7 +43,7 @@ module TaxonomyParser
     end
 
     def dimension_node_tree(element_id, element)
-      nodes = []
+      nodes = {}
       grouping_items = find_grouping_items(element_id)
 
       # Some elements relate to tuples or dimension / hypercube nodes and thus do not have dimensions themselves
@@ -54,27 +53,39 @@ module TaxonomyParser
         if hypercubes.any?
           hypercubes.each do |hypercube|
             # this is the root of the collection parent is nil
-            nodes << hypercube
+            nodes[hypercube.id] ||= hypercube
 
             # can have empty hypercubes e.g. uk-bus_EmptyHypercube
             if dimensions = find_hypercube_dimensions(hypercube.element_id)
               dimensions.each do |dimension|
                 # create dimension and link to parent hypercube
-                nodes << dimension
-                dimension.parent = hypercube
+                nodes[dimension.id] = dimension
+
+                dimension.parent ||= hypercube 
 
                 # check for defaults and update dimension if present
                 dimension.default = find_dimension_default(dimension.element_id)
 
                 find_dimension_domains(dimension.element_id).each do |domain|
                   # create domain set dimension to parent
-                  nodes << domain
+                  
+                  if domain.parent && (domain.parent.parent.element_id != dimension.parent.element_id)
+                    domain = alias_dimension(domain)
+                  end
+
                   domain.parent = dimension
+
+                  nodes[domain.id] ||= domain 
 
                   find_domain_members([domain]).each do |member|
                     # create member with domain as parent
-                    nodes << member
-                    member.parent = domain
+
+                    # if member.parent
+                    #   alias_dimension(domain).parent = domain
+                    # else
+                      member.parent = domain
+                    # end
+                    nodes[member.id] ||= member
                   end
                 end
               end
@@ -88,7 +99,7 @@ module TaxonomyParser
           end
         end
       end
-      nodes
+      nodes.values
     end
 
     def add_dimension_node(element_id:, parent: nil, order:, arcrole:)
@@ -96,6 +107,14 @@ module TaxonomyParser
       model = DimensionNode.new(id: @id, element_id: element_id, parent: parent, arcrole: arcrole, order: order)
       @store[:dimension_nodes][@id] = model
       model
+    end
+
+    def alias_dimension(model)
+      id = @store[:dimension_nodes].keys.last + 1
+      node = model.dup
+      node.id = id
+      @store[:dimension_nodes][id] = node
+      node
     end
 
     def find_grouping_items(element_id)
@@ -124,7 +143,7 @@ module TaxonomyParser
 
     def find_dimension_domains(dimension_id)
       arcrole = "http://xbrl.org/int/dim/arcrole/dimension-domain"
-      @def_index[arcrole][:from][dimension_id]
+      @def_index[arcrole][:from][dimension_id] || []
     end
 
     def find_domain_members(domains)

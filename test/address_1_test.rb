@@ -51,5 +51,10 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
       uk-gaap_RestatementsDimension
     ]
     assert_equal expected.sort, actual.sort, "all third party dimensions correct and present"
+
+    # assert each entity countries dimension has domain with members
+    entity_countries_dimension = entity_hcube_dimensions.find { |node| node.dig('relationships', 'element', 'data', 'id') == "uk-countries_CountriesDimension" }
+    domain = nodes.find { |node| node.dig('relationships', 'parent', 'data', 'id') == entity_countries_dimension["id"] }
+    assert_equal domain.dig('relationships', 'element', 'data', 'id'), "uk-countries_DimensionMembersRepresentingCountriesRegionsHeading", "entity countries has domain child"
   end
 end

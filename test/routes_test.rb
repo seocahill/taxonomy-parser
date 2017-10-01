@@ -1,4 +1,5 @@
 require_relative './test_helper'
+require 'logger'
 
 class DiscoverableTaxonomySetsTest < MiniTest::Test
   include Rack::Test::Methods

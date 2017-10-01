@@ -11,6 +11,12 @@ require_relative '../app'
 module TaxonomyParser
   module TestHelper
 
+    def log_response
+      File.open("logs/last_response.json","w") do |f|
+        f.write(last_response.body)
+      end
+    end
+
     def json_data(type="data")
       JSON.parse(last_response.body)[type]
     end

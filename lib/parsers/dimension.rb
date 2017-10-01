@@ -38,14 +38,14 @@ module TaxonomyParser
     end
 
     def add_dimension_information_elements
-      @store[:presentation_nodes].each do |id, pnode|
-        pnode.dimension_nodes = dimension_node_tree(pnode.element)
+      @store[:elements].each do |id, element|
+        element.dimension_nodes = dimension_node_tree(id, element)
       end
     end
 
-    def dimension_node_tree(element)
+    def dimension_node_tree(element_id, element)
       nodes = []
-      grouping_items = find_grouping_items(element.id)
+      grouping_items = find_grouping_items(element_id)
 
       # Some elements relate to tuples or dimension / hypercube nodes and thus do not have dimensions themselves
       if grouping_items

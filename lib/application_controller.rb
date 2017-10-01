@@ -72,7 +72,7 @@ module TaxonomyParser
     end
 
     def presentation_nodes(params)
-      presentation_nodes = if params.dig('filter' 'id')
+      presentation_nodes = if params.dig('filter', 'id')
         @store[:presentation_nodes].values_at(*params["filter"]["id"].split(',').map(&:to_i))
       else 
         @store[:presentation_nodes].values

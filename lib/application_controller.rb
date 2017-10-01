@@ -67,10 +67,12 @@ module TaxonomyParser
     end
 
     def presentation_nodes(params)
-      presentation_nodes = @store[:presentation_nodes].values_at(*params["filter"]["id"].split(',').map(&:to_i))
-      presentation_nodes.each do |node|
-        element = node.element
+      presentation_nodes = if params.dig('filter' 'id')
+        @store[:presentation_nodes].values_at(*params["filter"]["id"].split(',').map(&:to_i))
+      else 
+        @store[:presentation_nodes].values
       end
+      presentation_nodes.each { |node| element = node.element }
       JSONAPI::Serializer.serialize(presentation_nodes, include: ['element.dimension-nodes', 'element.labels'], is_collection: true).to_json
     end
 

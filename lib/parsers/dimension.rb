@@ -3,14 +3,9 @@ module TaxonomyParser
 
     def parse_definition_linkbases
       @id = 0
-      require 'ruby-prof'
-      RubyProf.start
       parse_definition_files
       generate_dimension_indices
       add_dimension_information_elements
-      result = RubyProf.stop
-      printer = RubyProf::GraphPrinter.new(result)
-      printer.print(STDOUT, :min_percent => 2)
     end
 
     def parse_definition_files
@@ -85,11 +80,12 @@ module TaxonomyParser
                   find_domain_members([domain]).each do |member|
                     # create member with domain as parent
 
-                    # if member.parent
-                    #   alias_dimension(domain).parent = domain
-                    # else
-                      member.parent = domain
-                    # end
+                    if member.parent
+                      member = alias_dimension(member)
+                    end
+
+                    member.parent = domain
+
                     nodes[member.id] ||= member
                   end
                 end

@@ -2,9 +2,15 @@ module TaxonomyParser
   module DimensionParser
 
     def parse_definition_linkbases
+      @id = 0
+      require 'ruby-prof'
+      RubyProf.start
       parse_definition_files
       generate_dimension_indices
       add_dimension_information_elements
+      result = RubyProf.stop
+      printer = RubyProf::GraphPrinter.new(result)
+      printer.print(STDOUT, :min_percent => 2)
     end
 
     def parse_definition_files
@@ -15,7 +21,6 @@ module TaxonomyParser
     end
 
     def generate_dimension_indices
-      @id = 0
       @store[:dimension_nodes] = {}
       @def_index = {}
       @def_linkbases.each do |linkbase|
@@ -110,10 +115,10 @@ module TaxonomyParser
     end
 
     def alias_dimension(model)
-      id = @store[:dimension_nodes].keys.last + 1
+      @id += 1
       node = model.dup
-      node.id = id
-      @store[:dimension_nodes][id] = node
+      node.id = @id
+      @store[:dimension_nodes][@id] = node
       node
     end
 

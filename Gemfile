@@ -8,7 +8,7 @@ gem 'puma'
 
 group :test, :development do
   gem 'pry'
-  # gem 'pry-byebug'
+  gem 'pry-byebug'
   gem 'pry-rescue'
   gem 'simplecov'
   gem 'ruby-prof'

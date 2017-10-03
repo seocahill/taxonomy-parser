@@ -54,22 +54,26 @@ module TaxonomyParser
         link.search("presentationArc").each do |arc|
           parent_loc_id = arc.attributes["from"].value
           child_loc_id = arc.attributes["to"].value
-          order = arc.attributes["order"].value
           model = links[role_id][child_loc_id]
+
           if model.parent
-            # create alias e.g. xlink:label="uk-bus_MeansContactHeading" 
-            # has two parents links with entity info role.
-            @id += 1
-            model.alias = model.parent
-            model = model.dup
-            model.id = @id
+            model = presentation_node_alias(model)
             role.presentation_nodes << model
-            @store[:presentation_nodes][model.id] = model
           end
+
           model.parent = links[role_id][parent_loc_id]
-          model.order = order
+          model.order = arc.attributes["order"].value
         end
       end
+    end
+
+    def presentation_node_alias(model)
+      # e.g. xlink:label="uk-bus_MeansContactHeading" has two parent links with same role.
+      @id += 1
+      model_alias = model.dup
+      model_alias.id = @id
+      @store[:presentation_nodes][@id] = model_alias
+      model_alias
     end
   end
 end

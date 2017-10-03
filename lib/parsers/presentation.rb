@@ -2,7 +2,7 @@ module TaxonomyParser
   module PresentationParser
 
     def parse_presentation_linkbases
-
+      @parent_child_index = {}
       @id = 1
       files = File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")
 
@@ -36,10 +36,7 @@ module TaxonomyParser
           if links[role_id][element_id].nil?
             element = @store[:elements][element_id]
             model = PresentationNode.new(@id, role, element, href)
-            role.presentation_nodes << model
-            element.presentation_nodes << model
-            
-            @store[:presentation_nodes][model.id] = model
+            save_presentation_model(model)
             links[role_id][element_id] = model
             @id += 1
           end
@@ -55,25 +52,46 @@ module TaxonomyParser
           parent_loc_id = arc.attributes["from"].value
           child_loc_id = arc.attributes["to"].value
           model = links[role_id][child_loc_id]
+          parent = links[role_id][parent_loc_id]
 
           if model.parent
-            model = presentation_node_alias(model)
-            role.presentation_nodes << model
+            model = presentation_node_alias(role, model)
           end
 
-          model.parent = links[role_id][parent_loc_id]
+          model.parent = parent
           model.order = arc.attributes["order"].value
+          
+          # update index
+          @parent_child_index[parent.id] ||= []
+          @parent_child_index[parent.id] << model.id
         end
       end
     end
 
-    def presentation_node_alias(model)
+    def presentation_node_alias(role, model)
       # e.g. xlink:label="uk-bus_MeansContactHeading" has two parent links with same role.
       @id += 1
       model_alias = model.dup
       model_alias.id = @id
-      @store[:presentation_nodes][@id] = model_alias
+      save_presentation_model(model_alias)
+
+      # fill out the full subtree if the original model has children
+      children = @store[:presentation_nodes].values_at(*@parent_child_index[model.id])
+      if children.any?
+        children.each do |child| 
+          child_alias = presentation_node_alias(role, child) 
+          child_alias.parent = model_alias
+        end
+      end
+
       model_alias
+    end
+
+    def save_presentation_model(model)
+      # set up relationships and store
+      model.role_type.presentation_nodes << model
+      model.element.presentation_nodes << model
+      @store[:presentation_nodes][model.id] = model
     end
   end
 end

@@ -19,7 +19,7 @@ class PresentationParserTest < MiniTest::Test
 
     nodes = @test_obj.store[:presentation_nodes].values
     expected = "uk-bus_E-mailAddress"
-    assert_equal 7667, nodes.size, "All nodes parsed"
+    assert_equal 9036, nodes.size, "All nodes parsed"
 
     actual_grandparents = lookup_nodes("uk-bus_E-mailAddress").map { |node| node.parent.parent.element.id }.sort
     expected_grandparents = %w[
@@ -27,6 +27,7 @@ class PresentationParserTest < MiniTest::Test
       uk-bus_GeneralContactInformationHeading
       uk-bus_ThirdPartyAgentsHeading
     ]
+    assert_equal 3, lookup_nodes("uk-bus_E-mailAddress").size, "create on extra alias"
     assert_equal expected_grandparents, actual_grandparents, "presentation tree being constructed correctly"
   end
 

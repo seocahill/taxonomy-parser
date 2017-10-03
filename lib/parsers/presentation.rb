@@ -3,6 +3,7 @@ module TaxonomyParser
 
     def parse_presentation_linkbases
 
+      @id = 1
       files = File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")
 
       Dir.glob(files).grep_v(/minimum/).grep(/presentation/) do |file|
@@ -19,7 +20,6 @@ module TaxonomyParser
       # set up a node store namespace, a node index scoped to role for parent lookups and a base id.
       links = {}
       @store[:presentation_nodes] = {}
-      id = 1
       
       # Parse all presentation links scoped by role_type
       presentation_links.each do |link|
@@ -35,13 +35,13 @@ module TaxonomyParser
           # Within a role_type there are no duplicate locs. 
           if links[role_id][element_id].nil?
             element = @store[:elements][element_id]
-            model = PresentationNode.new(id, role, element, href)
+            model = PresentationNode.new(@id, role, element, href)
             role.presentation_nodes << model
             element.presentation_nodes << model
             
             @store[:presentation_nodes][model.id] = model
             links[role_id][element_id] = model
-            id += 1
+            @id += 1
           end
         end
       end
@@ -57,10 +57,12 @@ module TaxonomyParser
           order = arc.attributes["order"].value
           model = links[role_id][child_loc_id]
           if model.parent
-            # create alias e.g. xlink:label="uk-bus_MeansContactHeading" has two parents links with entity info role.
+            # create alias e.g. xlink:label="uk-bus_MeansContactHeading" 
+            # has two parents links with entity info role.
+            @id += 1
             model.alias = model.parent
             model = model.dup
-            model.id = @store[:presentation_nodes].keys.last + 1
+            model.id = @id
             role.presentation_nodes << model
             @store[:presentation_nodes][model.id] = model
           end

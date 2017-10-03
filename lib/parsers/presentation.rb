@@ -76,7 +76,7 @@ module TaxonomyParser
       save_presentation_model(model_alias)
 
       # fill out the full subtree if the original model has children
-      children = @store[:presentation_nodes].values_at(*@parent_child_index[model.id])
+      children = lookup_children(model)
       if children.any?
         children.each do |child| 
           child_alias = presentation_node_alias(role, child) 
@@ -85,6 +85,10 @@ module TaxonomyParser
       end
 
       model_alias
+    end
+
+    def lookup_children(model)
+      @store[:presentation_nodes].values_at(*@parent_child_index[model.id])
     end
 
     def save_presentation_model(model)

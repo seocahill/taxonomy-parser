@@ -11,6 +11,10 @@ require_relative '../app'
 module TaxonomyParser
   module TestHelper
 
+    def test_obj
+      self.class.class_variable_get(:@@test_obj)
+    end
+
     def log_response
       File.open("logs/last_response.json","w") do |f|
         f.write(last_response.body)
@@ -27,6 +31,11 @@ module TaxonomyParser
       (required - actual).empty?
     end
 
+    def lookup_nodes(element_id)
+      test_obj.store[:elements][element_id].presentation_nodes
+    end
+
+    # are these used?
     def find_children(element_id, nodes)
       parent = find_node(element_id, nodes)
       nodes.select { |node| node.parent == parent }

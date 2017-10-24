@@ -32,12 +32,11 @@ The actual endpoints are defined in ```app.rb```.
 ## Running the server
 
 ```
-bundle install
-rackup
+docker-compose up
 ```
 
 ## Running the tests
 
 ```
-rake test
+docker-compose run api bundle exec rake test
 ```

@@ -3,9 +3,9 @@ require 'simplecov'
 SimpleCov.start do 
   add_filter "/test/"
 end
+require_relative '../app'
 require 'minitest/autorun'
 require 'rack/test'
-require_relative '../app'
 # require 'pry-rescue/minitest'
 
 module TaxonomyParser

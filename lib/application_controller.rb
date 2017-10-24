@@ -14,6 +14,8 @@ require_relative 'models/element'
 require_relative 'models/dimension_node'
 require_relative 'models/label'
 require_relative 'models/reference'
+
+require 'json'
 require 'logger'
 
 module TaxonomyParser

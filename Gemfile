@@ -1,10 +1,11 @@
 # Gemfile
 source 'https://rubygems.org'
 
-gem 'sinatra'
-gem 'nokogiri'
 gem 'jsonapi-serializers'
+gem 'nokogiri'
 gem 'puma'
+gem 'rake'
+gem 'sinatra'
 
 group :test, :development do
   gem 'pry'

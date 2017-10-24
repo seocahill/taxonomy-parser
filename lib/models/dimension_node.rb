@@ -1,11 +1,11 @@
 class DimensionNode < TaxonomyParser::BaseModel
 
-  attr_reader :element_id, :order, :arcrole
+  attr_reader :element, :order, :arcrole
   attr_accessor :id, :default, :has_defaults, :parent
 
-  def initialize(id:, element_id:, parent: nil, order: "0", arcrole: nil)
+  def initialize(id:, element:, parent: nil, order: "0", arcrole: nil)
     @id = id
-    @element_id = element_id
+    @element = element
     @parent = parent
     @order = order
     @arcrole = arcrole
@@ -13,16 +13,12 @@ class DimensionNode < TaxonomyParser::BaseModel
     @has_defaults = true
   end
 
-  def element
-    $app.store[:elements][self.element_id]
-  end
-
   def name
     self.element.labels.first.label
   end
 
   def tag
-    self.element_id
+    self.element.id
   end
 
   def default_dimension

@@ -105,7 +105,8 @@ module TaxonomyParser
 
     def add_dimension_node(element_id:, parent: nil, order:, arcrole:)
       @id += 1
-      model = DimensionNode.new(id: @id, element_id: element_id, parent: parent, arcrole: arcrole, order: order)
+      element =  @store[:elements][element_id]
+      model = DimensionNode.new(id: @id, element: element, parent: parent, arcrole: arcrole, order: order)
       @store[:dimension_nodes][@id] = model
       model
     end

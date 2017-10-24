@@ -23,7 +23,6 @@ module TaxonomyParser
               element = @store[:elements][node.attributes['from'].value]
               reference_id += 1
               reference = Reference.new(reference_id, element)
-              raise if element.reference
               element.reference = reference
               nodes[node.attributes['to'].value] = reference
             else

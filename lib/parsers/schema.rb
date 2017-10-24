@@ -11,8 +11,9 @@ module TaxonomyParser
       concepts = {}
       role_types = {}
       tuples = []
+      files = File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xsd")
 
-      Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xsd")).grep_v(/(full|main|minimum)/) do |file|
+      Dir.glob(files).grep_v(/(full|main|minimum)/) do |file|
         parsed_file = Nokogiri::XML(File.open(file))
         parsed_nodes = parsed_file.search("link|roleType", "element")
         parsed_nodes.each do |node|
@@ -27,7 +28,16 @@ module TaxonomyParser
       bucket = @store[:elements] = {}
 
       concepts.each do |id, v|
-        model = Element.new(id, @current_dts.id, v["name"], v["type"], v["substitutionGroup"], v["periodType"], v["abstract"], v["nillable"])
+        model = Element.new(
+          id, 
+          @current_dts.id, 
+          v["name"], 
+          v["type"], 
+          v["substitutionGroup"], 
+          v["periodType"], 
+          v["abstract"], 
+          v["nillable"]
+        )
         bucket[model.id] = model
       end
 

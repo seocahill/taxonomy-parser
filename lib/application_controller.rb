@@ -28,7 +28,6 @@ module TaxonomyParser
 
     def initialize
       parse_available_dts
-      puts "ready!"
     end
 
     def discoverable_taxonomy_sets
@@ -121,7 +120,6 @@ module TaxonomyParser
     private
 
     def parse_current_dts
-      puts "parsing #{@current_dts.name} DTS"
       @store = {}
       parse_dts
       parse_presentation_linkbases

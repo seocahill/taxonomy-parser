@@ -4,7 +4,6 @@ require 'bundler'
 Bundler.require :default, ENV['RACK_ENV'].to_sym
 
 require 'json'
-require 'set'
 require_relative 'lib/application_controller.rb'
 
 module TaxonomyParser
@@ -13,7 +12,6 @@ module TaxonomyParser
     mime_type :api_json, 'application/vnd.api+json'
 
     def initialize
-      puts "booting app...."
       super()
       $app = ApplicationController.new
     end

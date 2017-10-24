@@ -1,0 +1,11 @@
+version: "3.3"
+
+services: 
+  api:
+    build: .
+    image: $USER/taxonomy_parser
+    volumes:
+      - .:/app
+    ports:
+      - "9292:9292"
+    command: bundle exec puma

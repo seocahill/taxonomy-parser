@@ -10,6 +10,7 @@ class DimensionParserTest < MiniTest::Test
     dts = OpenStruct.new(id: 1, name: "ie-gaap")
     @test_obj.instance_variable_set(:@current_dts, dts)
     @test_obj.instance_variable_set(:@store, store)
+    @test_obj.instance_variable_set(:@id, 0)
     @test_obj.parse_definition_files
     @test_obj.generate_dimension_indices
   end

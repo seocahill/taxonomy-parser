@@ -12,7 +12,7 @@ module TaxonomyParser
   module TestHelper
 
     def test_obj
-      self.class.class_variable_get(:@@test_obj)
+      self.class.instance_variable_get(:@test_obj)
     end
 
     def log_response

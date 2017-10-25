@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/seocahill/taxonomy-parser.svg?branch=master)](https://travis-ci.org/seocahill/taxonomy-parser) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/97937c5de880f86d8d0d/maintainability)](https://codeclimate.com/github/seocahill/taxonomy-parser/maintainability) 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/97937c5de880f86d8d0d/test_coverage)](https://codeclimate.com/github/seocahill/taxonomy-parser/test_coverage)
+
 # Taxonomy Parser
 
 This is a sinatra app that parses static DTS assets and exposes their contents as a restful API.

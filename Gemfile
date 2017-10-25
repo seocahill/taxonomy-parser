@@ -11,6 +11,7 @@ group :test, :development do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rescue'
-  gem 'simplecov'
+  gem 'rack-test'
   gem 'ruby-prof'
+  gem 'simplecov'
 end

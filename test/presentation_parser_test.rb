@@ -4,7 +4,9 @@ require 'ostruct'
 class PresentationParserTest < MiniTest::Test
   include TaxonomyParser::TestHelper
 
-  @test_obj = TaxonomyParser::ApplicationController.new
+  def setup
+    @test_obj = TaxonomyParser::ApplicationController.new
+  end
 
   def test_email_nodes_are_created_properly
     # This is a test to check that various subtrees are create properly from the available linkage info.
@@ -15,7 +17,7 @@ class PresentationParserTest < MiniTest::Test
     # But rather than providing a link from each parent node to the same sub-tree it is preferable to attach
     # a copy of the subtree to each parent.
 
-    nodes = test_obj.store[:presentation_nodes].values
+    nodes = @test_obj.store[:presentation_nodes].values
     expected = "uk-bus_E-mailAddress"
     assert_equal 9036, nodes.size, "All nodes parsed"
 

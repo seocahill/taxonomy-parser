@@ -19,7 +19,7 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
   def test_discoverable_taxonomy_set
     get '/discoverable-taxonomy-sets/1'
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "ie-gaap", "correct DTS"
+    assert_equal json_data["type"], "discoverable-taxonomy-sets"
     assert_equal 18, json_data("included").length, "should return all presentation role-types"
   end
 
@@ -33,15 +33,8 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
 
   def test_role_type
     get '/role-types/1'
-    node_names = [
-      "Entity information [heading]",
-      "Date when ceased to be legal or registered name",
-      "Irish VAT registration number",
-      "Address line 1",
-      "Receivers for entity"
-    ]
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["definition"], "01 - Entity Information", "incorrect definition"
+    assert_equal json_data["type"], "role-types"
   end
 
   def test_element
@@ -67,30 +60,32 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
   def test_presentation_node
     get '/presentation-nodes/1'
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "Loans for the purchase of own shares under Section 60 Companies Act 1963", "incorrect name"
+    assert_equal json_data["type"], "presentation-nodes"
   end
 
   def test_dimension_nodes
     get "/dimension-nodes/1"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "Ireland", "incorrect name"
+    assert_equal json_data["type"], "dimension-nodes"
 
     # get node element
     get "/dimension-nodes/1/element"
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["name"], "Ireland", "incorrect name"
+    assert_equal json_data["type"], "elements"
   end
 
   def test_label
     get '/labels/1'
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["label"], "Companies Registration Office number", "incorrect label"
+    assert_equal json_data["type"], "labels"
+    assert json_data["attributes"].has_key?("label")
   end
 
   def test_reference
     get '/references/1'
     ref_data = [{"ISOName"=>"ISO 3166-1"}, {"Code"=>"AF"}, {"Date"=>"2009-09-01"}]
     assert last_response.ok?, "should be ok"
-    assert_equal json_data["attributes"]["reference-data"], ref_data, "incorrect reference data"
+    assert_equal json_data["type"], "references"
+    assert json_data["attributes"].has_key?("reference-data")
   end
 end

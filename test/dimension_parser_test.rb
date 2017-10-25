@@ -37,7 +37,8 @@ class DimensionParserTest < MiniTest::Test
 
   def test_date_directors_signing_report_dimensions
     expected = ["uk-gaap_ItemsInheritingBasicDimensions", "uk-bus_DimensionsParent-NoDimensions"]
-    assert_equal @test_obj.find_grouping_items("uk-direp_DateSigningDirectorsReport"), expected, "Address item has two hypercubes"
+    actual = @test_obj.find_grouping_items("uk-direp_DateSigningDirectorsReport")
+    assert_empty expected - actual, "Address item has two hypercubes"
   end
 
   def test_find_dimensions_grouping_items

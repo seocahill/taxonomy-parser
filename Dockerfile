@@ -4,7 +4,7 @@ LABEL author="Seosamh Cahill"
 
 WORKDIR /app
 
-COPY Gemfile* ./
+COPY Gemfile Gemfile.lock ./
 
 RUN \
   apk --update add --no-cache \

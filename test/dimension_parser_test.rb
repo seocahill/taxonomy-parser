@@ -9,7 +9,7 @@ class DimensionParserTest < MiniTest::Test
     @test_obj.extend(TaxonomyParser::DimensionParser)
     dts = OpenStruct.new(id: 1, name: "ie-gaap")
     @test_obj.instance_variable_set(:@current_dts, dts)
-    @test_obj.instance_variable_set(:@store, store)
+    @test_obj.instance_variable_set(:Store.instance.get_data, store)
     @test_obj.instance_variable_set(:@id, 0)
     @test_obj.parse_definition_files
     @test_obj.generate_dimension_indices
@@ -117,7 +117,7 @@ class DimensionParserTest < MiniTest::Test
       uk-bus_Chairman uk-bus_CompanySecretaryDirector
       ie-common_Partner20 uk-bus_PartnerLLP20
     ]
-    element = @test_obj.instance_variable_get(:@store)[:elements]["uk-bus_NameEntityOfficer"]
+    element = @test_obj.instance_variable_get(:Store.instance.get_data)[:elements]["uk-bus_NameEntityOfficer"]
     actual = element.dimension_nodes.map(&:element_id)
     assert_empty (expected - actual), "Expected dimension nodes for Entity Officer Dimension"
     refute element.dimension_nodes.find { |node| node.element_id == "uk-bus_EntityOfficersHypercube"}.has_defaults, "Entity Officer hyperube has a dimension without a default value"

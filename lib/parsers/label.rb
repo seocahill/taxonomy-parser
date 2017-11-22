@@ -11,7 +11,7 @@ module TaxonomyParser
 
     def parse_label_linkbases
       label_id = 0
-      @store[:labels] = {}
+      Store.instance.get_data[:labels] = {}
       
       Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/label/) do |file|
         parsed_file = Nokogiri::XML(File.open(file))
@@ -20,7 +20,7 @@ module TaxonomyParser
 
           link.search('labelArc', 'label', ).each do |node|
             if node.name == 'labelArc'
-              element = @store[:elements][node.attributes['from'].value]
+              element = Store.instance.get_data[:elements][node.attributes['from'].value]
               label_id += 1
               label = Label.new(label_id, element)
               element.labels << label
@@ -35,7 +35,7 @@ module TaxonomyParser
           end
 
           nodes.values.each do |node|
-            @store[:labels][node.id] = node
+            Store.instance.get_data[:labels][node.id] = node
           end
         end
       end

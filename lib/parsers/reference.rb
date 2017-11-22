@@ -11,7 +11,7 @@ module TaxonomyParser
 
     def parse_reference_linkbases
       reference_id = 0
-      @store[:references] = {}
+      Store.instance.get_data[:references] = {}
       
       Dir.glob(File.join(__dir__, "/../../dts_assets/#{@current_dts.name}/**/*.xml")).grep(/reference/) do |file|
         parsed_file = Nokogiri::XML(File.open(file))
@@ -20,7 +20,7 @@ module TaxonomyParser
 
           link.search('referenceArc', 'reference', ).each do |node|
             if node.name == 'referenceArc'
-              element = @store[:elements][node.attributes['from'].value]
+              element = Store.instance.get_data[:elements][node.attributes['from'].value]
               reference_id += 1
               reference = Reference.new(reference_id, element)
               element.reference = reference
@@ -34,7 +34,7 @@ module TaxonomyParser
           end
 
           nodes.values.each do |node|
-            @store[:references][node.id] = node
+            Store.instance.get_data[:references][node.id] = node
           end
         end
       end

@@ -16,7 +16,7 @@ module TaxonomyParser
     end
 
     def generate_dimension_indices
-      @store[:dimension_nodes] = {}
+      Store.instance.get_data[:dimension_nodes] = {}
       @def_index = {}
       @def_linkbases.each do |linkbase|
         linkbase.search('definitionArc').each do |def_arc|
@@ -37,7 +37,7 @@ module TaxonomyParser
     end
 
     def add_dimension_information_elements
-      @store[:elements].each do |id, element|
+      Store.instance.get_data[:elements].each do |id, element|
         element.dimension_nodes = dimension_node_tree(id, element)
       end
     end
@@ -106,8 +106,8 @@ module TaxonomyParser
     def add_dimension_node(element_id:, parent: nil, order:, arcrole:)
       @id += 1
       model = DimensionNode.new(id: @id, element_id: element_id, parent: parent, arcrole: arcrole, order: order)
-      model.element = @store[:elements][element_id]
-      @store[:dimension_nodes][@id] = model
+      model.element = Store.instance.get_data[:elements][element_id]
+      Store.instance.get_data[:dimension_nodes][@id] = model
       model
     end
 
@@ -115,7 +115,7 @@ module TaxonomyParser
       @id += 1
       node = model.dup
       node.id = @id
-      @store[:dimension_nodes][@id] = node
+      Store.instance.get_data[:dimension_nodes][@id] = node
       node
     end
 

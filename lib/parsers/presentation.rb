@@ -19,13 +19,13 @@ module TaxonomyParser
 
       # set up a node store namespace, a node index scoped to role for parent lookups and a base id.
       links = {}
-      @store[:presentation_nodes] = {}
+      Store.instance.get_data[:presentation_nodes] = {}
       
       # Parse all presentation links scoped by role_type
       presentation_links.each do |link|
         role_id = link.attributes["role"].value
         links[role_id] ||= {}
-        role = @store[:role_types].values.find { |i| i.role_uri == role_id }
+        role = Store.instance.get_data[:role_types].values.find { |i| i.role_uri == role_id }
         
         # Locs (pointers to concepts) can be used to populate the nodes in the graph.
         link.search("loc").each do |loc|
@@ -34,7 +34,7 @@ module TaxonomyParser
 
           # Within a role_type there are no duplicate locs. 
           if links[role_id][element_id].nil?
-            element = @store[:elements][element_id]
+            element = Store.instance.get_data[:elements][element_id]
             model = PresentationNode.new(@id, role, element, href)
             save_presentation_model(model)
             links[role_id][element_id] = model
@@ -47,7 +47,7 @@ module TaxonomyParser
       # that point to nodes that haven't been created yet.
       presentation_links.each do |link|
         role_id = link.attributes["role"].value
-        role = @store[:role_types].values.find { |i| i.role_uri == role_id }
+        role = Store.instance.get_data[:role_types].values.find { |i| i.role_uri == role_id }
         link.search("presentationArc").each do |arc|
           parent_loc_id = arc.attributes["from"].value
           child_loc_id = arc.attributes["to"].value
@@ -88,14 +88,14 @@ module TaxonomyParser
     end
 
     def lookup_children(model)
-      @store[:presentation_nodes].values_at(*@parent_child_index[model.id])
+      Store.instance.get_data[:presentation_nodes].values_at(*@parent_child_index[model.id])
     end
 
     def save_presentation_model(model)
       # set up relationships and store
       model.role_type.presentation_nodes << model
       model.element.presentation_nodes << model
-      @store[:presentation_nodes][model.id] = model
+      Store.instance.get_data[:presentation_nodes][model.id] = model
     end
   end
 end

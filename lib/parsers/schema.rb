@@ -25,7 +25,7 @@ module TaxonomyParser
     end
 
     def store_elements(concepts, tuples)
-      bucket = @store[:elements] = {}
+      bucket = Store.instance.get_data[:elements] = {}
 
       concepts.each do |id, v|
         model = Element.new(
@@ -52,7 +52,7 @@ module TaxonomyParser
     end
 
     def store_roles(role_types)
-      bucket = @store[:role_types] = {}
+      bucket = Store.instance.get_data[:role_types] = {}
       role_id = 0
 
       role_types.each do |uri, role|
@@ -61,7 +61,7 @@ module TaxonomyParser
         bucket[model.id] = model 
       end
 
-      @current_dts.role_types = @store[:role_types].values
+      @current_dts.role_types = Store.instance.get_data[:role_types].values
         .select { |item| item.network == "link:presentationLink" }
         .sort_by { |item| item.order }
     end

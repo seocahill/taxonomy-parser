@@ -4,7 +4,8 @@ require 'json'
 
 ENV['RACK_ENV'] ||= 'development'
 Bundler.require :default, ENV['RACK_ENV'].to_sym
-require_relative 'lib/routes'
+
+require_relative 'routes'
 
 module TaxonomyParser
   class Base < Sinatra::Base
@@ -13,7 +14,7 @@ module TaxonomyParser
 
     def initialize
       super()
-      Dir.glob(File.join(__dir__, "/lib/**/*.rb")).each {|file| require file }
+      Dir.glob(File.join(__dir__, "/lib/**/*.rb")).each { |file| require file }
     end
 
     register Routes

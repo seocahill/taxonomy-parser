@@ -13,10 +13,10 @@ before_script:
   - ./cc-test-reporter before-build
 
 before_install:
-  - docker build -t seocahill/taxonomy-parser .
+  - docker build -t seocahill/taxonomy-parser-ci .
 
 script:
-  - docker run seocahill/taxonomy-parser bundle exec rake test
+  - docker run seocahill/taxonomy-parser-ci bundle exec rake test
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

@@ -16,9 +16,3 @@ class RoleType < TaxonomyParser::BaseModel
     self.definition.split().first.to_i
   end
 end
-
-class RoleTypeSerializer < TaxonomyParser::BaseSerializer
-  has_many :presentation_nodes
-
-  attributes :definition, :order
-end

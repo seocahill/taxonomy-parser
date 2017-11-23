@@ -9,9 +9,3 @@ class DiscoverableTaxonomySet < TaxonomyParser::BaseModel
     @name = name
   end
 end
-
-class DiscoverableTaxonomySetSerializer < TaxonomyParser::BaseSerializer
-  has_many :role_types, include_data: true
-  
-  attribute :name
-end

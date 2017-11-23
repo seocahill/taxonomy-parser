@@ -12,7 +12,8 @@ module TaxonomyParser
           file[0] == '.' 
         end
         
-        source_dts_files.each_with_object({}).with_index do |(name, parsed_dts), index| 
+        # sort for predictable index
+        source_dts_files.sort.each_with_object({}).with_index do |(name, parsed_dts), index| 
           model = DiscoverableTaxonomySet.new(index, name)
           # ApplicationController.discoverable_taxonomy_set(model.id) if name == default_dts
           parsed_dts[model.id] = model

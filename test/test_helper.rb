@@ -1,12 +1,18 @@
 ENV['RACK_ENV'] = 'test'
+
 require 'simplecov'
 SimpleCov.start do 
   add_filter "/test/"
 end
+
 require_relative '../app'
 require 'minitest/autorun'
 require 'rack/test'
+require 'ostruct'
 # require 'pry-rescue/minitest'
+
+# load the application
+TaxonomyParser::Base.new
 
 module TaxonomyParser
   module TestHelper
@@ -28,7 +34,7 @@ module TaxonomyParser
     end
 
     def lookup_nodes(element_id)
-      @test_obj.store[:elements][element_id].presentation_nodes
+      Store.instance.get_data[:elements][element_id].presentation_nodes
     end
 
     # are these used?

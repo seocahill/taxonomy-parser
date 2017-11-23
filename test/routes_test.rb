@@ -1,5 +1,4 @@
 require_relative './test_helper'
-require 'logger'
 
 class DiscoverableTaxonomySetsTest < MiniTest::Test
   include Rack::Test::Methods
@@ -7,6 +6,10 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
 
   def app
     TaxonomyParser::Base
+  end
+
+  def setup
+    TaxonomyParser::ApplicationController.discoverable_taxonomy_set(1)
   end
 
   def test_discoverable_taxonomy_sets

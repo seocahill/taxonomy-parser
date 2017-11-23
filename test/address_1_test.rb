@@ -8,6 +8,10 @@ class DiscoverableTaxonomySetsTest < MiniTest::Test
     TaxonomyParser::Base
   end
 
+  def setup
+    TaxonomyParser::ApplicationController.discoverable_taxonomy_set(1)
+  end
+
   def test_element_dimension_nodes
     get '/elements/uk-bus_AddressLine1/dimension-nodes'
     assert last_response.ok?, "should be ok"

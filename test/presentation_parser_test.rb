@@ -1,11 +1,10 @@
 require_relative './test_helper'
-require 'ostruct'
 
 class PresentationParserTest < MiniTest::Test
   include TaxonomyParser::TestHelper
 
   def setup
-    @test_obj = TaxonomyParser::ApplicationController.new
+    TaxonomyParser::ApplicationController.discoverable_taxonomy_set(1)
   end
 
   def test_email_nodes_are_created_properly
@@ -17,7 +16,7 @@ class PresentationParserTest < MiniTest::Test
     # But rather than providing a link from each parent node to the same sub-tree it is preferable to attach
     # a copy of the subtree to each parent.
 
-    nodes = @test_obj.store[:presentation_nodes].values
+    nodes = TaxonomyParser::Store.instance.get_data[:presentation_nodes].values
     expected = "uk-bus_E-mailAddress"
     assert_equal 9036, nodes.size, "All nodes parsed"
 
@@ -32,8 +31,7 @@ class PresentationParserTest < MiniTest::Test
   end
 
   def test_tax_note_is_extended_correctly
-    skip
-    # The issue here is with the correct parsing of the IE extension and how it alters the base DTS
+    skip "The issue here is with the correct parsing of the IE extension and how it alters the base DTS"
     model = lookup_nodes("uk-gaap_TaxOnProfitOnOrdinaryActivitiesHeading").first
     children = @test_obj.lookup_children(model)
     assert_equal 6, children, "tax note heading has correct number of children"

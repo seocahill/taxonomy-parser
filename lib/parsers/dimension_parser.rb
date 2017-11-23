@@ -46,64 +46,72 @@ module TaxonomyParser
       end
 
       def dimension_node_tree(element_id, element)
-        nodes = {}
-        grouping_items = find_grouping_items(element_id)
+        @nodes = {}
 
-        # Some elements relate to tuples or dimension / hypercube nodes and thus do not have dimensions themselves
-        if grouping_items
+        # tuples, dimension and hypercube nodes do not have dimensions
+        if grouping_items = find_grouping_items(element_id)
           hypercubes = grouping_items.flat_map { |id| find_grouping_item_hypercubes(id) }
 
           if hypercubes.any?
             hypercubes.each do |hypercube|
-              # this is the root of the collection parent is nil
-              nodes[hypercube.id] ||= hypercube
-
-              # can have empty hypercubes e.g. uk-bus_EmptyHypercube
-              if dimensions = find_hypercube_dimensions(hypercube.element_id)
-                dimensions.each do |dimension|
-                  # create dimension and link to parent hypercube
-                  nodes[dimension.id] = dimension
-
-                  dimension.parent ||= hypercube 
-
-                  # check for defaults and update dimension if present
-                  dimension.default = find_dimension_default(dimension.element_id)
-
-                  find_dimension_domains(dimension.element_id).each do |domain|
-                    # create domain set dimension to parent
-                    
-                    if domain.parent && (domain.parent.parent.element_id != dimension.parent.element_id)
-                      domain = alias_dimension(domain)
-                    end
-
-                    domain.parent = dimension
-
-                    nodes[domain.id] ||= domain 
-
-                    find_domain_members([domain]).each do |member|
-                      # create member with domain as parent
-
-                      if member.parent
-                        member = alias_dimension(member)
-                      end
-
-                      member.parent = domain
-
-                      nodes[member.id] ||= member
-                    end
-                  end
-                end
-                
-                # Indicate if hypercube is covered by defaults
-                if dimensions.any? { |node| node.default.nil? }
-                  hypercube.has_defaults = false
-                  element.must_choose_dimension = true
-                end
-              end
+              @nodes[hypercube.id] ||= hypercube
+              add_hypercube_dimensions_to_nodes(hypercube, element)
             end
           end
         end
-        nodes.values
+        @nodes.values
+      end
+
+      def add_hypercube_dimensions_to_nodes(hypercube, element)
+        # can have empty hypercubes e.g. uk-bus_EmptyHypercube
+        if dimensions = find_hypercube_dimensions(hypercube.element_id)
+          dimensions.each do |dimension|
+            # create dimension and link to parent hypercube
+            @nodes[dimension.id] = dimension
+            dimension.parent ||= hypercube 
+
+            # check for defaults and update dimension if present
+            dimension.default = find_dimension_default(dimension.element_id)
+
+            add_dimension_domains_to_nodes(dimension)
+          end
+          
+          # Indicate if hypercube is covered by defaults
+          if dimensions.any? { |node| node.default.nil? }
+            hypercube.has_defaults = false
+            element.must_choose_dimension = true
+          end
+        end
+      end
+
+      def add_dimension_domains_to_nodes(dimension)
+        find_dimension_domains(dimension.element_id).each do |domain|
+          # create domain set dimension to parent
+          
+          if domain.parent && (domain.parent.parent.element_id != dimension.parent.element_id)
+            domain = alias_dimension(domain)
+          end
+
+          domain.parent = dimension
+
+          @nodes[domain.id] ||= domain 
+
+          add_domain_members_to_nodes(domain)
+        end
+      end
+
+      def add_domain_members_to_nodes(domain)
+        find_domain_members([domain]).each do |member|
+          # create member with domain as parent
+
+          if member.parent
+            member = alias_dimension(member)
+          end
+
+          member.parent = domain
+
+          @nodes[member.id] ||= member
+        end
       end
 
       def add_dimension_node(element_id:, parent: nil, order:, arcrole:)

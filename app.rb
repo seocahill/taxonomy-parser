@@ -14,7 +14,13 @@ module TaxonomyParser
 
     def initialize
       super()
-      Dir.glob(File.join(__dir__, "/lib/**/*.rb")).each { |file| require file }
+      load_files
+    end
+
+    def load_files
+      files = Dir.glob(File.join(__dir__, "/lib/**/*.rb"))
+      files.grep(/base_/).each { |file| require file }
+      files.grep_v(/base_/).each { |file| require file }
     end
 
     register Routes

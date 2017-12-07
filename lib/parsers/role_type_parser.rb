@@ -26,7 +26,7 @@ module TaxonomyParser
         child_attributes = node.children.each_with_object({}) do |child, obj|
           obj[child.name] = child.text
         end
-        
+
         @bucket[@id] = model  = RoleType.new(
           @id, 
           @current_dts.id, 
@@ -34,6 +34,7 @@ module TaxonomyParser
           node.attributes["roleURI"].value, 
           child_attributes["usedOn"]
         ) 
+        
         @id += 1
       end
 

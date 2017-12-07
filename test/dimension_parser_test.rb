@@ -99,7 +99,7 @@ class DimensionParserTest < MiniTest::Test
   end
 
   def test_dimension_node_tree
-    @parser.add_dimension_information_elements
+    @parser.add_dimension_information_to_elements
     expected = %w[
       uk-bus_EntityOfficersHypercube 
       uk-bus_EntityOfficersDimension uk-bus_EntityOfficerTypeDimension 

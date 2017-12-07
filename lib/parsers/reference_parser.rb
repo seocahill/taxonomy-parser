@@ -1,5 +1,5 @@
 module TaxonomyParser
-  class ReferenceParser
+  class ReferenceParser < BaseParser
 
     class << self
 

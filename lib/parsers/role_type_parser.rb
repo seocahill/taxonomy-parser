@@ -27,14 +27,14 @@ module TaxonomyParser
           obj[child.name] = child.text
         end
 
-        @bucket[@id] = model  = RoleType.new(
+        model = RoleType.new(
           @id, 
           @current_dts.id, 
           child_attributes["definition"], 
           node.attributes["roleURI"].value, 
           child_attributes["usedOn"]
         ) 
-
+        @bucket[@id] = model
         index(:role_uri)[model.role_uri] = model.id
         @id += 1
       end

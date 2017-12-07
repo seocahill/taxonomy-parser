@@ -1,5 +1,5 @@
 module TaxonomyParser
-  class DimensionParser
+  class DimensionParser < BaseParser
 
     class << self
 

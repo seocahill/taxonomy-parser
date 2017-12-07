@@ -34,7 +34,8 @@ module TaxonomyParser
           node.attributes["roleURI"].value, 
           child_attributes["usedOn"]
         ) 
-        
+
+        index(:role_uri)[model.role_uri] = model.id
         @id += 1
       end
 

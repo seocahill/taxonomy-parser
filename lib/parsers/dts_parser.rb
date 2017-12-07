@@ -1,5 +1,5 @@
 module TaxonomyParser
-  module DTSParser
+  class DTSParser < BaseParser
     class << self
 
       def parse

@@ -5,7 +5,7 @@ module TaxonomyParser
 
       def parse(current_dts)
         @id = 1
-        @bucket = Store.instance.get_data[:role_types] = {}
+        @bucket = Store.instance.data[:role_types] = {}
         @current_dts = current_dts
         parse_and_store_role_type_nodes
         add_role_types_current_dts

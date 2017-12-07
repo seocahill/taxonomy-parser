@@ -16,7 +16,7 @@ class PresentationParserTest < MiniTest::Test
     # But rather than providing a link from each parent node to the same sub-tree it is preferable to attach
     # a copy of the subtree to each parent.
 
-    nodes = TaxonomyParser::Store.instance.get_data[:presentation_nodes].values
+    nodes = TaxonomyParser::Store.instance.data[:presentation_nodes].values
     expected = "uk-bus_E-mailAddress"
     assert_equal 9036, nodes.size, "All nodes parsed"
 

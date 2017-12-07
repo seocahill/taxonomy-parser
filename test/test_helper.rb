@@ -34,7 +34,7 @@ module TaxonomyParser
     end
 
     def lookup_nodes(element_id)
-      Store.instance.get_data[:elements][element_id].presentation_nodes
+      Store.instance.data[:elements][element_id].presentation_nodes
     end
 
     # are these used?

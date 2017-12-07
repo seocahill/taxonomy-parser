@@ -5,7 +5,7 @@ module TaxonomyParser
 
       def parse(current_dts)
         @id = 1
-        @bucket = Store.instance.get_data[:references] = {}
+        @bucket = Store.instance.data[:references] = {}
         Dir.glob(File.join(__dir__, "/../../dts_assets/#{current_dts.name}/**/*.xml")).grep(/reference/) do |file|
           linkbase = Nokogiri::XML(File.open(file))
           process_linkbase(linkbase)
@@ -27,7 +27,7 @@ module TaxonomyParser
       end
 
       def add_new_reference(node)
-        element = Store.instance.get_data[:elements][node.attributes['from'].value]
+        element = Store.instance.data[:elements][node.attributes['from'].value]
         reference = Reference.new(@id, element)
         element.reference = reference
         @bucket[@id] = reference

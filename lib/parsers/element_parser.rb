@@ -4,7 +4,7 @@ module TaxonomyParser
     class << self
 
       def parse(current_dts)
-        @bucket = Store.instance.get_data[:elements] = {}
+        @bucket = Store.instance.data[:elements] = {}
         @tuples = []
         @current_dts = current_dts
         parse_and_store_elements

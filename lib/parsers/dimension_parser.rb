@@ -7,7 +7,7 @@ module TaxonomyParser
         @id = 1
         @current_dts = current_dts
         @def_index = {}
-        @bucket = Store.instance.get_data[:dimension_nodes] = {}
+        @bucket = Store.instance.data[:dimension_nodes] = {}
         parse_definition_files
         generate_nodes_and_indices
         add_dimension_information_to_elements
@@ -48,7 +48,7 @@ module TaxonomyParser
       end
 
       def add_dimension_information_to_elements
-        Store.instance.get_data[:elements].each do |id, element|
+        Store.instance.data[:elements].each do |id, element|
           element.dimension_nodes = dimension_node_tree(id, element)
         end
       end
@@ -112,7 +112,7 @@ module TaxonomyParser
 
       def add_dimension_node(element_id:, parent: nil, order:, arcrole:)
         model = DimensionNode.new(id: @id, element_id: element_id, parent: parent, arcrole: arcrole, order: order)
-        model.element = Store.instance.get_data[:elements][element_id]
+        model.element = Store.instance.data[:elements][element_id]
         @bucket[@id] = model
         @id += 1
         model

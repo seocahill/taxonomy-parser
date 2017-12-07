@@ -4,16 +4,12 @@ module TaxonomyParser
   class Store
     include Singleton
 
-    attr_reader :dts, :index
+    attr_reader :dts, :index, :data
 
     def initialize
       @data = {}
       @index = {}
       @dts = DTSParser.parse
-    end
-
-    def get_data
-      @data
     end
 
   end

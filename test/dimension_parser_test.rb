@@ -7,7 +7,7 @@ class DimensionParserTest < MiniTest::Test
   def setup
     @parser = TaxonomyParser::DimensionParser
     dts = OpenStruct.new(id: 1, name: "ie-gaap")
-    elements = TaxonomyParser::Store.instance.get_data[:elements] = {}
+    elements = TaxonomyParser::Store.instance.data[:elements] = {}
     elements["uk-bus_NameEntityOfficer"] = OpenStruct.new(dimension_nodes: [])
     @parser.parse(dts)
   end
@@ -108,7 +108,7 @@ class DimensionParserTest < MiniTest::Test
       uk-bus_Chairman uk-bus_CompanySecretaryDirector
       ie-common_Partner20 uk-bus_PartnerLLP20
     ]
-    element = TaxonomyParser::Store.instance.get_data[:elements]["uk-bus_NameEntityOfficer"]
+    element = TaxonomyParser::Store.instance.data[:elements]["uk-bus_NameEntityOfficer"]
     actual = element.dimension_nodes.map(&:element_id)
     assert_empty (expected - actual), "Expected dimension nodes for Entity Officer Dimension"
     refute element.dimension_nodes.find { |node| node.element_id == "uk-bus_EntityOfficersHypercube"}.has_defaults, "Entity Officer hyperube has a dimension without a default value"

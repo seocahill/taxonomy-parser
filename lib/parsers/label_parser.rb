@@ -5,7 +5,7 @@ module TaxonomyParser
 
       def parse(current_dts)
         @id = 1
-        @bucket = Store.instance.get_data[:labels] = {}
+        @bucket = Store.instance.data[:labels] = {}
         
         Dir.glob(File.join(__dir__, "/../../dts_assets/#{current_dts.name}/**/*.xml")).grep(/label/) do |file|
           linkbase = Nokogiri::XML(File.open(file))
@@ -28,7 +28,7 @@ module TaxonomyParser
       end
 
       def add_new_label(node)
-        element = Store.instance.get_data[:elements][node.attributes['from'].value]
+        element = Store.instance.data[:elements][node.attributes['from'].value]
         label = Label.new(@id, element)
         element.labels << label
         @bucket[@id] = label

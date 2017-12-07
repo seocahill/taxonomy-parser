@@ -5,7 +5,7 @@ module TaxonomyParser
 
       def parse(current_dts)
         @id = 1
-        @bucket = Store.instance.get_data[:presentation_nodes] = {}
+        @bucket = Store.instance.data[:presentation_nodes] = {}
         @current_dts = current_dts
         # some local indices required to build graph properly
         @parent_child_index = {}
@@ -68,7 +68,7 @@ module TaxonomyParser
 
       def lookup_role(link)
         role_id = index(:role_uri)[link.attributes["role"].value]
-        Store.instance.get_data[:role_types][role_id]
+        Store.instance.data[:role_types][role_id]
       end
 
       def lookup_children(model)
@@ -94,7 +94,7 @@ module TaxonomyParser
       end
 
       def save_new_element(element_id, loc, role)
-        element = Store.instance.get_data[:elements][element_id]
+        element = Store.instance.data[:elements][element_id]
         href = loc.attributes["href"].value
         model = PresentationNode.new(@id, role, element, href)
         save_presentation_model(model)

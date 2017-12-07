@@ -93,7 +93,8 @@ module TaxonomyParser
       private
 
       def parse_current_dts(current_dts)
-        SchemaParser.parse(current_dts)
+        ElementParser.parse(current_dts)
+        RoleTypeParser.parse(current_dts)
         PresentationParser.parse(current_dts)
         DimensionParser.parse(current_dts)
         LabelParser.parse(current_dts)

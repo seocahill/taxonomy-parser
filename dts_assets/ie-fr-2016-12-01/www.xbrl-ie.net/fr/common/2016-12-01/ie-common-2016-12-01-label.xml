@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="id_15e8e68" xlink:label="lbl_label8126749" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other audit services, fees</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_OtherAuditServicesFees" xlink:label="lbl_OtherAuditServicesFees" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_OtherAuditServicesFees" xlink:to="lbl_label8126749" xlink:type="arc"/>
+      <link:label id="id_1b0f171" xlink:label="lbl_label17163669" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other audit services, pension schemes, fees</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_OtherAuditServicesPensionSchemesFees" xlink:label="lbl_OtherAuditServicesPensionSchemesFees" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_OtherAuditServicesPensionSchemesFees" xlink:to="lbl_label17163669" xlink:type="arc"/>
+      <link:label id="id_2203b2" xlink:label="lbl_label8100845" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other audit services, entity and subsidiaries, fees</link:label>
+      <link:label id="id_e7f795" xlink:label="lbl_label11436015" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Directors' loans and quasi loans [heading]</link:label>
+      <link:label id="id_1614778" xlink:label="lbl_label1866003" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Loans and quasi loans, directors</link:label>
+      <link:label id="id_91ff46" xlink:label="lbl_label26064433" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Loans and quasi loans made in period, directors</link:label>
+      <link:label id="id_4dacf3" xlink:label="lbl_label7136600" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Loans and quasi loans repaid in period, directors</link:label>
+      <link:label id="id_9012a" xlink:label="lbl_label32625795" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Directors' loans and quasi loans free-text comment</link:label>
+      <link:label id="id_18116bc" xlink:label="lbl_label13972391" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Specific loan or quasi loan, directors [grouping]</link:label>
+      <link:label id="id_35bd19" xlink:label="lbl_label28108719" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Description of specific loan or quasi loan and its conditions, directors</link:label>
+      <link:label id="id_1b0e0a4" xlink:label="lbl_label7186206" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Amount of specific loan or quasi loan, directors</link:label>
+      <link:label id="id_1731acd" xlink:label="lbl_label11173710" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Amount of specific loan or quasi loan made in period, directors</link:label>
+      <link:label id="id_1a49bcc" xlink:label="lbl_label25814325" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Amount of specific loan or quasi loan repaid in period, directors</link:label>
+      <link:label id="id_1a9c2fd" xlink:label="lbl_label23715134" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Partnership</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_Partnership" xlink:label="lbl_Partnership" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Partnership" xlink:to="lbl_label23715134" xlink:type="arc"/>
+      <link:label id="id_38200a" xlink:label="lbl_label27532288" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Branch trading in ROI</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_BranchTradingInROI" xlink:label="lbl_BranchTradingInROI" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_BranchTradingInROI" xlink:to="lbl_label27532288" xlink:type="arc"/>
+      <link:label id="id_99d7a5" xlink:label="lbl_label12445064" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other ROI</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_OtherROI" xlink:label="lbl_OtherROI" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_OtherROI" xlink:to="lbl_label12445064" xlink:type="arc"/>
+      <link:label id="id_1abbf51" xlink:label="lbl_label26693826" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other non-ROI</link:label>
+      <link:label id="id_5621de" xlink:label="lbl_label31014385" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Ireland</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_Ireland" xlink:label="lbl_Ireland" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Ireland" xlink:to="lbl_label31014385" xlink:type="arc"/>
+      <link:label id="id_1cb7dc4" xlink:label="lbl_label14806462" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">United Kingdom [heading]</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_UnitedKingdomHeading" xlink:label="lbl_UnitedKingdomHeading" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_UnitedKingdomHeading" xlink:to="lbl_label14806462" xlink:type="arc"/>
+      <link:label id="id_1c32b43" xlink:label="lbl_label360382" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Rest of world, outside ROI</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_RestWorldOutsideROI" xlink:label="lbl_RestWorldOutsideROI" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_RestWorldOutsideROI" xlink:to="lbl_label360382" xlink:type="arc"/>
+      <link:label id="id_18c4f10" xlink:label="lbl_label6348826" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Rest of Europe, outside ROI</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_RestEuropeOutsideROI" xlink:label="lbl_RestEuropeOutsideROI" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_RestEuropeOutsideROI" xlink:to="lbl_label6348826" xlink:type="arc"/>
+      <link:label id="id_6e8932" xlink:label="lbl_label485518" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Companies Registration Office number</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_CompaniesRegistrationOfficeNumber" xlink:label="lbl_CompaniesRegistrationOfficeNumber" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_CompaniesRegistrationOfficeNumber" xlink:to="lbl_label485518" xlink:type="arc"/>
+      <link:label id="id_1b6c30d" xlink:label="lbl_label11998097" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Irish VAT registration number</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#id_IrishVATRegistrationNumber" xlink:label="lbl_IrishVATRegistrationNumber" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_IrishVATRegistrationNumber" xlink:to="lbl_label11998097" xlink:type="arc"/>
+      <link:label id="id_134944" xlink:label="lbl_label2346389" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Name of chartered accountant and registered auditor</link:label>
+      <link:label id="id_13fb220" xlink:label="lbl_label1859765796" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">SIC code recorded at ROI Companies House, 1</link:label>
+      <link:label id="id_f6a4ca" xlink:label="lbl_label1927045683" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">SIC code recorded at ROI Companies House, 2</link:label>
+      <link:label id="id_1f6df8a" xlink:label="lbl_label886566349" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">SIC code recorded at ROI Companies House, 3</link:label>
+      <link:label id="id_133f0c1" xlink:label="lbl_label568353290" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">SIC code recorded at ROI Companies House, 4</link:label>
+      <link:label id="id_1d7dd96" xlink:label="lbl_label1487483242" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Loans for the purchase of own shares under Section 60 Companies Act 1963</link:label>
+      <link:label id="id_1fa8eb5" xlink:label="lbl_label24460609" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">For legal information on this taxonomy, see 'http://xbrl.frc.org.uk/legal' and 'http://www.xbrl-ie.net/fr/legal' [guidance]</link:label>
+      <link:label id="id_10de723" xlink:label="lbl_label17688355" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">x-Specific loan or quasi loan, directors grouping [Dimension]</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_OtherAuditServicesEntitySubsidiariesFees" xlink:label="lbl_OtherAuditServicesEntitySubsidiariesFees" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_OtherAuditServicesEntitySubsidiariesFees" xlink:to="lbl_label8100845" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_LoansQuasiLoansDirectors" xlink:label="lbl_LoansQuasiLoansDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_LoansQuasiLoansDirectors" xlink:to="lbl_label1866003" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_DirectorsLoansQuasiLoansHeading" xlink:label="lbl_DirectorsLoansQuasiLoansHeading" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_DirectorsLoansQuasiLoansHeading" xlink:to="lbl_label11436015" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_LoansQuasiLoansMadeInPeriodDirectors" xlink:label="lbl_LoansQuasiLoansMadeInPeriodDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_LoansQuasiLoansMadeInPeriodDirectors" xlink:to="lbl_label26064433" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_LoansQuasiLoansRepaidInPeriodDirectors" xlink:label="lbl_LoansQuasiLoansRepaidInPeriodDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_LoansQuasiLoansRepaidInPeriodDirectors" xlink:to="lbl_label7136600" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_NameCharteredAccountantRegisteredAuditor" xlink:label="lbl_NameCharteredAccountantRegisteredAuditor" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_NameCharteredAccountantRegisteredAuditor" xlink:to="lbl_label2346389" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_X-SpecificLoanOrQuasiLoanDirectorsGroupingDimension" xlink:label="lbl_X-SpecificLoanOrQuasiLoanDirectorsGroupingDimension" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_X-SpecificLoanOrQuasiLoanDirectorsGroupingDimension" xlink:to="lbl_label17688355" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:label="lbl_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_SpecificLoanOrQuasiLoanDirectorsGrouping" xlink:to="lbl_label13972391" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:label="lbl_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" xlink:to="lbl_label28108719" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanDirectors" xlink:label="lbl_AmountSpecificLoanOrQuasiLoanDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_AmountSpecificLoanOrQuasiLoanDirectors" xlink:to="lbl_label7186206" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:label="lbl_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" xlink:to="lbl_label25814325" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:label="lbl_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" xlink:to="lbl_label11173710" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_SICCodeRecordedROICompaniesHouse1" xlink:label="lbl_SICCodeRecordedROICompaniesHouse1" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_SICCodeRecordedROICompaniesHouse1" xlink:to="lbl_label1859765796" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_SICCodeRecordedROICompaniesHouse2" xlink:label="lbl_SICCodeRecordedROICompaniesHouse2" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_SICCodeRecordedROICompaniesHouse2" xlink:to="lbl_label1927045683" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_SICCodeRecordedROICompaniesHouse3" xlink:label="lbl_SICCodeRecordedROICompaniesHouse3" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_SICCodeRecordedROICompaniesHouse3" xlink:to="lbl_label886566349" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_SICCodeRecordedROICompaniesHouse4" xlink:label="lbl_SICCodeRecordedROICompaniesHouse4" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_SICCodeRecordedROICompaniesHouse4" xlink:to="lbl_label568353290" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:label="lbl_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:to="lbl_label1487483242" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_OtherNon-ROI" xlink:label="lbl_OtherNon-ROI" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_OtherNon-ROI" xlink:to="lbl_label26693826" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_DirectorsLoansQuasiLoansFree-textComment" xlink:label="lbl_DirectorsLoansQuasiLoansFree-textComment" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_DirectorsLoansQuasiLoansFree-textComment" xlink:to="lbl_label32625795" xlink:type="arc"/>
+      <link:label id="id_1c44b3e" xlink:label="lbl_label29641534" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">For guidance on how to use the taxonomy, see guidance documents published at 'http://xbrl.frc.org.uk/' and 'http://www.xbrl-ie.net/fr/' [guidance]</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_ForGuidanceOnHowToUseTaxonomySeeGuidanceDocumentsPublishedHttpxbrl.frc.org.ukHttpwww.xbrl-ie.netfrGuidance" xlink:label="lbl_ForGuidanceOnHowToUseTaxonomySeeGuidanceDocumentsPublishedHttpxbrl.frc.org.ukHttpwww.xbrl-ie.netfrGuidance" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_ForGuidanceOnHowToUseTaxonomySeeGuidanceDocumentsPublishedHttpxbrl.frc.org.ukHttpwww.xbrl-ie.netfrGuidance" xlink:to="lbl_label29641534" xlink:type="arc"/>
+      <link:label id="id_1c9788c" xlink:label="lbl_label29980812" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Directors' declaration of material interest in transactions</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_DirectorsDeclarationMaterialInterestInTransactions" xlink:label="lbl_DirectorsDeclarationMaterialInterestInTransactions" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_DirectorsDeclarationMaterialInterestInTransactions" xlink:to="lbl_label29980812" xlink:type="arc"/>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_ForLegalInformationOnThisTaxonomySeeHttpxbrl.frc.org.uklegalHttpwww.xbrl-ie.netfrlegalGuidance" xlink:label="lbl_ForLegalInformationOnThisTaxonomySeeHttpxbrl.frc.org.uklegalHttpwww.xbrl-ie.netfrlegalGuidance" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_ForLegalInformationOnThisTaxonomySeeHttpxbrl.frc.org.uklegalHttpwww.xbrl-ie.netfrlegalGuidance" xlink:to="lbl_label24460609" xlink:type="arc"/>
+      <link:label id="id_2d75cf" xlink:label="lbl_label2979279" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Rest of world, outside Europe</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_RestWorldOutsideEurope" xlink:label="lbl_RestWorldOutsideEurope" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_RestWorldOutsideEurope" xlink:to="lbl_label2979279" xlink:type="arc"/>
+      <link:label id="id_1afca7" xlink:label="lbl_label1768615" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 4</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent4" xlink:label="lbl_Agent4" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent4" xlink:to="lbl_label1768615" xlink:type="arc"/>
+      <link:label id="id_1550948" xlink:label="lbl_label22350152" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 5</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent5" xlink:label="lbl_Agent5" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent5" xlink:to="lbl_label22350152" xlink:type="arc"/>
+      <link:label id="id_524743" xlink:label="lbl_label5392195" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 6</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent6" xlink:label="lbl_Agent6" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent6" xlink:to="lbl_label5392195" xlink:type="arc"/>
+      <link:label id="id_1a96eeb" xlink:label="lbl_label27881195" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 7</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent7" xlink:label="lbl_Agent7" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent7" xlink:to="lbl_label27881195" xlink:type="arc"/>
+      <link:label id="id_22567a" xlink:label="lbl_label2250362" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 8</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent8" xlink:label="lbl_Agent8" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent8" xlink:to="lbl_label2250362" xlink:type="arc"/>
+      <link:label id="id_51bd38" xlink:label="lbl_label5356856" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 9</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent9" xlink:label="lbl_Agent9" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent9" xlink:to="lbl_label5356856" xlink:type="arc"/>
+      <link:label id="id_25110b" xlink:label="lbl_label2429195" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Agent 10</link:label>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_Agent10" xlink:label="lbl_Agent10" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_Agent10" xlink:to="lbl_label2429195" xlink:type="arc"/>
+   </link:labelLink>
+</link:linkbase>

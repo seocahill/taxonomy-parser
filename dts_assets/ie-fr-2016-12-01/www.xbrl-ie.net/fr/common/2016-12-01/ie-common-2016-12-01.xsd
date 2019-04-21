@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ie-common="http://www.xbrl-ie.net/fr/common/2016-12-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:types="http://xbrl.frc.org.uk/general/2014-09-01/types" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault="" targetNamespace="http://www.xbrl-ie.net/fr/common/2016-12-01">
+   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+   <xsd:import namespace="http://xbrl.frc.org.uk/general/2014-09-01/types" schemaLocation="https://xbrl.frc.org.uk/general/2014-09-01/types/types-2014-09-01.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xsd:annotation>
+      <xsd:appinfo>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ie-common-2016-12-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ie-common-2016-12-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ie-common-2016-12-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ie-common-2016-12-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:type="simple"/>
+         <link:roleType id="hypercubeEntityOfficersGrouping3_39394823" roleURI="http://www.xbrl-ie.net/fr/roles/Hypercube-EntityOfficersGrouping3">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">90144 - Hypercube - Entity Officers Grouping 3</definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+         </link:roleType>
+      </xsd:appinfo>
+   </xsd:annotation>
+   <xsd:element abstract="false" id="id_OtherAuditServicesFees" name="OtherAuditServicesFees" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="id_OtherAuditServicesPensionSchemesFees" name="OtherAuditServicesPensionSchemesFees" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="id_Partnership" name="Partnership" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="id_BranchTradingInROI" name="BranchTradingInROI" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="id_OtherROI" name="OtherROI" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="id_Ireland" name="Ireland" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="id_UnitedKingdomHeading" name="UnitedKingdomHeading" nillable="true" substitutionGroup="xbrli:item" type="types:headingItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_RestWorldOutsideROI" name="RestWorldOutsideROI" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_RestEuropeOutsideROI" name="RestEuropeOutsideROI" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="id_CompaniesRegistrationOfficeNumber" name="CompaniesRegistrationOfficeNumber" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="id_IrishVATRegistrationNumber" name="IrishVATRegistrationNumber" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_OtherAuditServicesEntitySubsidiariesFees" name="OtherAuditServicesEntitySubsidiariesFees" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_LoansQuasiLoansDirectors" name="LoansQuasiLoansDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant"/>
+   <xsd:element abstract="true" id="ie-common_DirectorsLoansQuasiLoansHeading" name="DirectorsLoansQuasiLoansHeading" nillable="true" substitutionGroup="xbrli:item" type="types:headingItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_LoansQuasiLoansMadeInPeriodDirectors" name="LoansQuasiLoansMadeInPeriodDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_LoansQuasiLoansRepaidInPeriodDirectors" name="LoansQuasiLoansRepaidInPeriodDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_NameCharteredAccountantRegisteredAuditor" name="NameCharteredAccountantRegisteredAuditor" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_X-SpecificLoanOrQuasiLoanDirectorsGroupingDimension" name="X-SpecificLoanOrQuasiLoanDirectorsGroupingDimension" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrldt:typedDomainRef="#ie-common_SpecificLoanOrQuasiLoanDirectorsGroupingDimension.domain" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_SpecificLoanOrQuasiLoanDirectorsGroupingDimension.domain" name="SpecificLoanOrQuasiLoanDirectorsGroupingDimension.domain" nillable="false" type="types:grouping"/>
+   <xsd:element abstract="true" id="ie-common_SpecificLoanOrQuasiLoanDirectorsGrouping" name="SpecificLoanOrQuasiLoanDirectorsGrouping" nillable="true" substitutionGroup="xbrli:item" type="types:groupingItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" name="DescriptionSpecificLoanOrQuasiLoanItsConditionsDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_AmountSpecificLoanOrQuasiLoanDirectors" name="AmountSpecificLoanOrQuasiLoanDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant"/>
+   <xsd:element abstract="false" id="ie-common_AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" name="AmountSpecificLoanOrQuasiLoanRepaidInPeriodDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" name="AmountSpecificLoanOrQuasiLoanMadeInPeriodDirectors" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_SICCodeRecordedROICompaniesHouse1" name="SICCodeRecordedROICompaniesHouse1" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_SICCodeRecordedROICompaniesHouse2" name="SICCodeRecordedROICompaniesHouse2" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_SICCodeRecordedROICompaniesHouse3" name="SICCodeRecordedROICompaniesHouse3" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_SICCodeRecordedROICompaniesHouse4" name="SICCodeRecordedROICompaniesHouse4" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" name="LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant"/>
+   <xsd:element abstract="true" id="ie-common_OtherNon-ROI" name="OtherNon-ROI" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_DirectorsLoansQuasiLoansFree-textComment" name="DirectorsLoansQuasiLoansFree-textComment" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_ForGuidanceOnHowToUseTaxonomySeeGuidanceDocumentsPublishedHttpxbrl.frc.org.ukHttpwww.xbrl-ie.netfrGuidance" name="ForGuidanceOnHowToUseTaxonomySeeGuidanceDocumentsPublishedHttpxbrl.frc.org.ukHttpwww.xbrl-ie.netfrGuidance" nillable="true" substitutionGroup="xbrli:item" type="types:guidanceItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="false" id="ie-common_DirectorsDeclarationMaterialInterestInTransactions" name="DirectorsDeclarationMaterialInterestInTransactions" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_ForLegalInformationOnThisTaxonomySeeHttpxbrl.frc.org.uklegalHttpwww.xbrl-ie.netfrlegalGuidance" name="ForLegalInformationOnThisTaxonomySeeHttpxbrl.frc.org.uklegalHttpwww.xbrl-ie.netfrlegalGuidance" nillable="true" substitutionGroup="xbrli:item" type="types:guidanceItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_RestWorldOutsideEurope" name="RestWorldOutsideEurope" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent4" name="Agent4" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent5" name="Agent5" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent6" name="Agent6" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent7" name="Agent7" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent8" name="Agent8" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent9" name="Agent9" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+   <xsd:element abstract="true" id="ie-common_Agent10" name="Agent10" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+</xsd:schema>

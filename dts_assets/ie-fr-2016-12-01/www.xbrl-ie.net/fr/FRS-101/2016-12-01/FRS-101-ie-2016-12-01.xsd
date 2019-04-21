@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ie-FRS-101="http://www.xbrl-ie.net/fr/FRS-101/2016-12-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:types="http://xbrl.frc.org.uk/general/2014-09-01/types" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault="" targetNamespace="http://www.xbrl-ie.net/fr/FRS-101/2016-12-01">
+   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+   <xsd:import namespace="http://xbrl.frc.org.uk/general/2014-09-01/types" schemaLocation="https://xbrl.frc.org.uk/general/2014-09-01/types/types-2014-09-01.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xsd:import namespace="http://xbrl.frc.org.uk/FRS-101/2014-09-01" schemaLocation="https://xbrl.frc.org.uk/FRS-101/2014-09-01/FRS-101-2014-09-01.xsd"/>
+   <xsd:import namespace="http://www.xbrl-ie.net/fr/fr/2016-12-01" schemaLocation="../../fr/2016-12-01/ie-fr-2016-12-01.xsd"/>
+   <xsd:import namespace="http://www.xbrl-ie.net/fr/common/2016-12-01" schemaLocation="../../common/2016-12-01/ie-common-2016-12-01.xsd"/>
+   <xsd:annotation>
+      <xsd:appinfo>
+         <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="FRS-101-ie-2016-12-01-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      </xsd:appinfo>
+   </xsd:annotation>
+</xsd:schema>

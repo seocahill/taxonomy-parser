@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://xbrl.frc.org.uk/general/2014-09-01/ref https://xbrl.frc.org.uk/general/2014-09-01/ref/ref-2014-09-01.xsd">
+   <link:roleRef roleURI="http://xbrl.frc.org.uk/general/ref/roles/Standard" xlink:href="https://xbrl.frc.org.uk/general/2014-09-01/ref/ref-2014-09-01.xsd#Standard" xlink:type="simple"/>
+   <link:roleRef roleURI="http://xbrl.frc.org.uk/general/ref/roles/CompaniesAct" xlink:href="https://xbrl.frc.org.uk/general/2014-09-01/ref/ref-2014-09-01.xsd#CompaniesAct" xlink:type="simple"/>
+   <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:reference id="id_a1d707" xlink:label="lbl_reference971451724" xlink:role="http://xbrl.frc.org.uk/general/ref/roles/CompaniesAct" xlink:type="resource">
+         <ref:Name xmlns:ref="http://www.xbrl.org/2006/ref">SI</ref:Name>
+         <ref:Number xmlns:ref="http://www.xbrl.org/2006/ref">410</ref:Number>
+         <ref:Paragraph xmlns:ref="http://www.xbrl.org/2006/ref">9</ref:Paragraph>
+         <uk-ref:Schedule xmlns:uk-ref="http://xbrl.frc.org.uk/general/2014-09-01/ref">7</uk-ref:Schedule>
+         <uk-ref:Year xmlns:uk-ref="http://xbrl.frc.org.uk/general/2014-09-01/ref">2008</uk-ref:Year>
+      </link:reference>
+      <link:reference id="id_84e84c" xlink:label="lbl_reference32619273" xlink:role="http://xbrl.frc.org.uk/general/ref/roles/Standard" xlink:type="resource">
+         <ref:Name xmlns:ref="http://www.xbrl.org/2006/ref">APB Bulletin</ref:Name>
+         <ref:Number xmlns:ref="http://www.xbrl.org/2006/ref">2010/02</ref:Number>
+         <ref:Appendix xmlns:ref="http://www.xbrl.org/2006/ref">17</ref:Appendix>
+         <ref:Example xmlns:ref="http://www.xbrl.org/2006/ref">42</ref:Example>
+      </link:reference>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:label="lbl_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_LoansForPurchaseOwnSharesUnderSection60CompaniesAct1963" xlink:to="lbl_reference971451724" xlink:type="arc"/>
+      <link:reference id="id_eb1cac" xlink:label="lbl_reference15408300" xlink:role="http://xbrl.frc.org.uk/general/ref/roles/CompaniesAct" xlink:type="resource">
+         <ref:Name xmlns:ref="http://www.xbrl.org/2006/ref">CA</ref:Name>
+         <ref:Section xmlns:ref="http://www.xbrl.org/2006/ref">475</ref:Section>
+         <ref:Paragraph xmlns:ref="http://www.xbrl.org/2006/ref">3.b</ref:Paragraph>
+         <uk-ref:Year xmlns:uk-ref="http://xbrl.frc.org.uk/general/2014-09-01/ref">2006</uk-ref:Year>
+      </link:reference>
+      <link:loc xlink:href="ie-common-2016-12-01.xsd#ie-common_DirectorsDeclarationMaterialInterestInTransactions" xlink:label="lbl_DirectorsDeclarationMaterialInterestInTransactions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DirectorsDeclarationMaterialInterestInTransactions" xlink:to="lbl_reference15408300" xlink:type="arc"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DirectorsDeclarationMaterialInterestInTransactions" xlink:to="lbl_reference32619273" xlink:type="arc"/>
+   </link:referenceLink>
+</link:linkbase>
